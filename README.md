@@ -1,2 +1,1 @@
-# Ultimate Guide - Sorting in Java
-
+# Sorting Algorithms - Ultimate Guide
