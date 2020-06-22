@@ -41,6 +41,7 @@ public class SelectionSort implements SortAlgorithm {
       int minPos = i;
       int min = elements[minPos];
       counters.incReads();
+      counters.incLocalVariableAssignments();
 
       for (int j = i + 1; j < length; j++) {
         counters.incIterations();
@@ -52,6 +53,7 @@ public class SelectionSort implements SortAlgorithm {
         if (numAtJ < min) {
           minPos = j;
           min = numAtJ;
+          counters.incLocalVariableAssignments();
         }
       }
 

@@ -13,6 +13,7 @@ public class Counters {
   private long comparisons;
   private long reads;
   private long writes;
+  private long localVariableAssignments;
 
   public void incIterations() {
     iterations++;
@@ -56,15 +57,20 @@ public class Counters {
     writes += x;
   }
 
+  public void incLocalVariableAssignments() {
+    localVariableAssignments++;
+  }
+
   @Override
   public String toString() {
     return String.format(Locale.US,
           "iterations = %,11d, comparisons = %,11d, " +
-                "reads = %,11d, writes = %,11d",
+                "reads = %,11d, writes = %,11d, var.assignments = %,11d",
           iterations,
           comparisons,
           reads,
-          writes);
+          writes,
+          localVariableAssignments);
   }
 
 }
