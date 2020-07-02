@@ -17,7 +17,7 @@ public class UltimateTest {
   static final SortAlgorithm[] ALGORITHMS = {
         new InsertionSort(),
         new SelectionSort(),
-        new BubbleSort(),
+        new BubbleSortOpt1(),
         new Quicksort(Quicksort.PivotStrategy.MIDDLE),
         new QuicksortImproved(48, Quicksort.PivotStrategy.MIDDLE),
         new DualPivotQuicksort(DualPivotQuicksort.PivotStrategy.MIDDLES),

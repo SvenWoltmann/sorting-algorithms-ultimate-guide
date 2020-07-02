@@ -1,0 +1,50 @@
+--- BubbleSortOpt1 (order: random) ---
+BubbleSortOpt1 (order: random): size =           8  -->  iterations =            30, comparisons =            25, reads =             50, writes =            30, var.assignments =           0
+BubbleSortOpt1 (order: random): size =          16  -->  iterations =           126, comparisons =           114, reads =            228, writes =           134, var.assignments =           0
+BubbleSortOpt1 (order: random): size =          32  -->  iterations =           507, comparisons =           481, reads =            962, writes =           556, var.assignments =           0
+BubbleSortOpt1 (order: random): size =          64  -->  iterations =         2,052, comparisons =         1,995, reads =          3,990, writes =         2,062, var.assignments =           0
+BubbleSortOpt1 (order: random): size =         128  -->  iterations =         8,190, comparisons =         8,073, reads =         16,146, writes =         7,970, var.assignments =           0
+BubbleSortOpt1 (order: random): size =         256  -->  iterations =        32,301, comparisons =        32,079, reads =         64,158, writes =        32,836, var.assignments =           0
+BubbleSortOpt1 (order: random): size =         512  -->  iterations =       130,587, comparisons =       130,113, reads =        260,226, writes =       131,282, var.assignments =           0
+BubbleSortOpt1 (order: random): size =       1,024  -->  iterations =       524,629, comparisons =       523,623, reads =      1,047,246, writes =       518,216, var.assignments =           0
+BubbleSortOpt1 (order: random): size =       2,048  -->  iterations =     2,090,795, comparisons =     2,088,868, reads =      4,177,736, writes =     2,091,308, var.assignments =           0
+BubbleSortOpt1 (order: random): size =       4,096  -->  iterations =     8,383,635, comparisons =     8,379,657, reads =     16,759,314, writes =     8,350,986, var.assignments =           0
+BubbleSortOpt1 (order: random): size =       8,192  -->  iterations =    33,557,303, comparisons =    33,549,160, reads =     67,098,320, writes =    33,811,270, var.assignments =           0
+BubbleSortOpt1 (order: random): size =      16,384  -->  iterations =   134,178,949, comparisons =   134,162,871, reads =    268,325,742, writes =   134,745,054, var.assignments =           0
+BubbleSortOpt1 (order: random): size =      32,768  -->  iterations =   536,880,741, comparisons =   536,848,087, reads =  1,073,696,174, writes =   536,255,602, var.assignments =           0
+BubbleSortOpt1 (order: random): size =      65,536  -->  iterations = 2,147,403,841, comparisons = 2,147,338,779, reads =  4,294,677,558, writes = 2,147,844,850, var.assignments =           0
+BubbleSortOpt1 (order: random): size =     131,072  -->  iterations = 8,589,915,462, comparisons = 8,589,784,801, reads = 17,179,569,602, writes = 8,590,219,206, var.assignments =           0
+
+--- BubbleSortOpt1 (order: descending) ---
+BubbleSortOpt1 (order: descending): size =           8  -->  iterations =            35, comparisons =            28, reads =             56, writes =             56, var.assignments =           0
+BubbleSortOpt1 (order: descending): size =          16  -->  iterations =           135, comparisons =           120, reads =            240, writes =            240, var.assignments =           0
+BubbleSortOpt1 (order: descending): size =          32  -->  iterations =           527, comparisons =           496, reads =            992, writes =            992, var.assignments =           0
+BubbleSortOpt1 (order: descending): size =          64  -->  iterations =         2,079, comparisons =         2,016, reads =          4,032, writes =          4,032, var.assignments =           0
+BubbleSortOpt1 (order: descending): size =         128  -->  iterations =         8,255, comparisons =         8,128, reads =         16,256, writes =         16,256, var.assignments =           0
+BubbleSortOpt1 (order: descending): size =         256  -->  iterations =        32,895, comparisons =        32,640, reads =         65,280, writes =         65,280, var.assignments =           0
+BubbleSortOpt1 (order: descending): size =         512  -->  iterations =       131,327, comparisons =       130,816, reads =        261,632, writes =        261,632, var.assignments =           0
+BubbleSortOpt1 (order: descending): size =       1,024  -->  iterations =       524,799, comparisons =       523,776, reads =      1,047,552, writes =      1,047,552, var.assignments =           0
+BubbleSortOpt1 (order: descending): size =       2,048  -->  iterations =     2,098,175, comparisons =     2,096,128, reads =      4,192,256, writes =      4,192,256, var.assignments =           0
+BubbleSortOpt1 (order: descending): size =       4,096  -->  iterations =     8,390,655, comparisons =     8,386,560, reads =     16,773,120, writes =     16,773,120, var.assignments =           0
+BubbleSortOpt1 (order: descending): size =       8,192  -->  iterations =    33,558,527, comparisons =    33,550,336, reads =     67,100,672, writes =     67,100,672, var.assignments =           0
+BubbleSortOpt1 (order: descending): size =      16,384  -->  iterations =   134,225,919, comparisons =   134,209,536, reads =    268,419,072, writes =    268,419,072, var.assignments =           0
+BubbleSortOpt1 (order: descending): size =      32,768  -->  iterations =   536,887,295, comparisons =   536,854,528, reads =  1,073,709,056, writes =  1,073,709,056, var.assignments =           0
+BubbleSortOpt1 (order: descending): size =      65,536  -->  iterations = 2,147,516,415, comparisons = 2,147,450,880, reads =  4,294,901,760, writes =  4,294,901,760, var.assignments =           0
+BubbleSortOpt1 (order: descending): size =     131,072  -->  iterations = 8,590,000,127, comparisons = 8,589,869,056, reads = 17,179,738,112, writes = 17,179,738,112, var.assignments =           0
+
+--- BubbleSortOpt1 (order: ascending) ---
+BubbleSortOpt1 (order: ascending): size =           8  -->  iterations =           8, comparisons =           7, reads =          14, writes =           0, var.assignments =           0
+BubbleSortOpt1 (order: ascending): size =          16  -->  iterations =          16, comparisons =          15, reads =          30, writes =           0, var.assignments =           0
+BubbleSortOpt1 (order: ascending): size =          32  -->  iterations =          32, comparisons =          31, reads =          62, writes =           0, var.assignments =           0
+BubbleSortOpt1 (order: ascending): size =          64  -->  iterations =          64, comparisons =          63, reads =         126, writes =           0, var.assignments =           0
+BubbleSortOpt1 (order: ascending): size =         128  -->  iterations =         128, comparisons =         127, reads =         254, writes =           0, var.assignments =           0
+BubbleSortOpt1 (order: ascending): size =         256  -->  iterations =         256, comparisons =         255, reads =         510, writes =           0, var.assignments =           0
+BubbleSortOpt1 (order: ascending): size =         512  -->  iterations =         512, comparisons =         511, reads =       1,022, writes =           0, var.assignments =           0
+BubbleSortOpt1 (order: ascending): size =       1,024  -->  iterations =       1,024, comparisons =       1,023, reads =       2,046, writes =           0, var.assignments =           0
+BubbleSortOpt1 (order: ascending): size =       2,048  -->  iterations =       2,048, comparisons =       2,047, reads =       4,094, writes =           0, var.assignments =           0
+BubbleSortOpt1 (order: ascending): size =       4,096  -->  iterations =       4,096, comparisons =       4,095, reads =       8,190, writes =           0, var.assignments =           0
+BubbleSortOpt1 (order: ascending): size =       8,192  -->  iterations =       8,192, comparisons =       8,191, reads =      16,382, writes =           0, var.assignments =           0
+BubbleSortOpt1 (order: ascending): size =      16,384  -->  iterations =      16,384, comparisons =      16,383, reads =      32,766, writes =           0, var.assignments =           0
+BubbleSortOpt1 (order: ascending): size =      32,768  -->  iterations =      32,768, comparisons =      32,767, reads =      65,534, writes =           0, var.assignments =           0
+BubbleSortOpt1 (order: ascending): size =      65,536  -->  iterations =      65,536, comparisons =      65,535, reads =     131,070, writes =           0, var.assignments =           0
+BubbleSortOpt1 (order: ascending): size =     131,072  -->  iterations =     131,072, comparisons =     131,071, reads =     262,142, writes =           0, var.assignments =           0

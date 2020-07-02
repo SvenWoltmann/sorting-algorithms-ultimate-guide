@@ -1,41 +1,44 @@
 package eu.happycoders.sort.method;
 
+import java.util.Arrays;
+
 /**
  * Bubble Sort implementation for performance tests.
  *
  * <p>
- * Unoptimized variant.
+ * Optimized: in each iteration, more than one element can be placed in its
+ * final position; we assume all elements after the last swap to be sorted.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
-public class BubbleSort implements SortAlgorithm {
+public class BubbleSortOpt2 implements SortAlgorithm {
 
   @Override
   public void sort(int[] elements) {
-    int numElements = elements.length;
+    int max = elements.length - 1;
     for (; ; ) {
-      boolean swapped = false;
-      for (int i = 0; i < numElements - 1; i++) {
+      int lastSwapped = 0;
+      for (int i = 0; i < max; i++) {
         int left = elements[i];
         int right = elements[i + 1];
         if (left > right) {
           elements[i + 1] = left;
           elements[i] = right;
-          swapped = true;
+          lastSwapped = i;
         }
       }
-      if (!swapped) break;
+      if (lastSwapped == 0) break;
+      max = lastSwapped;
     }
   }
 
   @Override
   public void sort(int[] elements, Counters counters) {
-    int numElements = elements.length;
+    int max = elements.length - 1;
     for (; ; ) {
       counters.incIterations();
-
-      boolean swapped = false;
-      for (int i = 0; i < numElements - 1; i++) {
+      int lastSwapped = 0;
+      for (int i = 0; i < max; i++) {
         counters.incIterations();
 
         int left = elements[i];
@@ -46,10 +49,11 @@ public class BubbleSort implements SortAlgorithm {
           elements[i + 1] = left;
           elements[i] = right;
           counters.addWrites(2);
-          swapped = true;
+          lastSwapped = i;
         }
       }
-      if (!swapped) break;
+      if (lastSwapped == 0) break;
+      max = lastSwapped;
     }
   }
 

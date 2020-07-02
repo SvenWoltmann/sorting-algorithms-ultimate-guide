@@ -1,21 +1,23 @@
 package eu.happycoders.sort.method;
 
+import java.util.Arrays;
+
 /**
  * Bubble Sort implementation for performance tests.
  *
  * <p>
- * Unoptimized variant.
+ * Optimized: in the n-th iteration, the n-th largest element is put into
+ * place, so we can ignore the last n-1 elements.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
-public class BubbleSort implements SortAlgorithm {
+public class BubbleSortOpt1 implements SortAlgorithm {
 
   @Override
   public void sort(int[] elements) {
-    int numElements = elements.length;
-    for (; ; ) {
+    for (int max = elements.length - 1; max > 0; max--) {
       boolean swapped = false;
-      for (int i = 0; i < numElements - 1; i++) {
+      for (int i = 0; i < max; i++) {
         int left = elements[i];
         int right = elements[i + 1];
         if (left > right) {
@@ -30,12 +32,11 @@ public class BubbleSort implements SortAlgorithm {
 
   @Override
   public void sort(int[] elements, Counters counters) {
-    int numElements = elements.length;
-    for (; ; ) {
+    for (int max = elements.length - 1; max > 0; max--) {
       counters.incIterations();
 
       boolean swapped = false;
-      for (int i = 0; i < numElements - 1; i++) {
+      for (int i = 0; i < max; i++) {
         counters.incIterations();
 
         int left = elements[i];
