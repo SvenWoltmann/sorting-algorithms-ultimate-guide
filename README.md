@@ -7,7 +7,9 @@ The code belongs to this series of articles:
   * [Sorting Algorithms \[Ultimate Guide\]](https://www.happycoders.eu/algorithms/sorting-algorithms/)
   * [Insertion Sort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/insertion-sort/)
   * [Selection Sort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/selection-sort/)
+  * [Bubble Sort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/bubble-sort/)
 * German:
   * [Sortieralgorithmen \[Ultimate Guide\]](https://www.happycoders.eu/de/algorithmen/sortieralgorithmen/)
   * [Insertion Sort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/insertion-sort/)
   * [Selection Sort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/selection-sort/)
+  * [Bubble Sort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/bubble-sort/)
