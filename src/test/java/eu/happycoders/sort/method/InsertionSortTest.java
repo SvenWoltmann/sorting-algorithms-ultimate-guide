@@ -6,5 +6,5 @@ public class InsertionSortTest extends SortTest {
   protected SortAlgorithm getSortAlgorithm() {
     return new InsertionSort();
   }
-  
+
 }

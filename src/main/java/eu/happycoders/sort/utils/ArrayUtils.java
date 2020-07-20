@@ -62,8 +62,8 @@ public class ArrayUtils {
    * Swaps to elements inside an array.
    *
    * @param array the array
-   * @param i the index of the first element
-   * @param j the index of the second element
+   * @param i     the index of the first element
+   * @param j     the index of the second element
    */
   public static void swap(int[] array, int i, int j) {
     int help = array[i];

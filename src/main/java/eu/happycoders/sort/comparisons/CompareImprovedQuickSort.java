@@ -1,7 +1,8 @@
 package eu.happycoders.sort.comparisons;
 
-import eu.happycoders.sort.method.*;
-import eu.happycoders.sort.method.Quicksort.PivotStrategy;
+import eu.happycoders.sort.method.SortAlgorithm;
+import eu.happycoders.sort.method.quicksort.*;
+import eu.happycoders.sort.method.quicksort.Quicksort.PivotStrategy;
 
 import java.util.*;
 

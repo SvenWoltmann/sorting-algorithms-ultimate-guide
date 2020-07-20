@@ -12,7 +12,7 @@ public class InsertionSort implements SortAlgorithm {
     sort(elements, 0, elements.length);
   }
 
-  void sort(int[] elements, int fromIndex, int toIndex) {
+  public void sort(int[] elements, int fromIndex, int toIndex) {
     for (int i = fromIndex + 1; i < toIndex; i++) {
       int elementToSort = elements[i];
 
@@ -31,7 +31,8 @@ public class InsertionSort implements SortAlgorithm {
     sort(elements, 0, elements.length, counters);
   }
 
-  void sort(int[] elements, int fromIndex, int toIndex, Counters counters) {
+  public void sort(int[] elements, int fromIndex, int toIndex,
+                   Counters counters) {
     for (int i = fromIndex + 1; i < toIndex; i++) {
       counters.incIterations();
 

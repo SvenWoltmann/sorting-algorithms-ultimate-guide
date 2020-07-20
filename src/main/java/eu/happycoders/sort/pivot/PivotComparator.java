@@ -1,6 +1,7 @@
 package eu.happycoders.sort.pivot;
 
 import eu.happycoders.sort.method.*;
+import eu.happycoders.sort.method.quicksort.Quicksort;
 import eu.happycoders.sort.utils.*;
 
 import java.util.*;

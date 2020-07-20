@@ -1,6 +1,7 @@
 package eu.happycoders.sort.comparisons;
 
-import eu.happycoders.sort.method.*;
+import eu.happycoders.sort.method.SortAlgorithm;
+import eu.happycoders.sort.method.mergesort.*;
 
 /**
  * Compares the three merge sort algorithms.

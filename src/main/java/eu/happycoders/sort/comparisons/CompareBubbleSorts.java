@@ -1,6 +1,7 @@
 package eu.happycoders.sort.comparisons;
 
-import eu.happycoders.sort.method.*;
+import eu.happycoders.sort.method.SortAlgorithm;
+import eu.happycoders.sort.method.bubblesort.*;
 
 import java.util.List;
 

@@ -1,7 +1,10 @@
 package eu.happycoders.sort;
 
-import eu.happycoders.sort.method.DualPivotQuicksort;
 import eu.happycoders.sort.method.*;
+import eu.happycoders.sort.method.bubblesort.BubbleSortOpt1;
+import eu.happycoders.sort.method.mergesort.MergeSort;
+import eu.happycoders.sort.method.quicksort.DualPivotQuicksort;
+import eu.happycoders.sort.method.quicksort.*;
 import eu.happycoders.sort.utils.*;
 
 import java.util.*;

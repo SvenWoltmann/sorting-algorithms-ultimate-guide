@@ -14,26 +14,26 @@ public class HeapSortBuildAndHeapifyTest {
 
   static Stream<Arguments> arrayProvider() {
     return Stream.of(
-          Arguments.of((Object) new int[]{1}),
+          Arguments.of(new int[]{1}),
 
-          Arguments.of((Object) new int[]{1, 1}),
-          Arguments.of((Object) new int[]{1, 2}),
-          Arguments.of((Object) new int[]{2, 1}),
+          Arguments.of(new int[]{1, 1}),
+          Arguments.of(new int[]{1, 2}),
+          Arguments.of(new int[]{2, 1}),
 
-          Arguments.of((Object) new int[]{0, 0, 0}),
-          Arguments.of((Object) new int[]{0, 0, 1}),
-          Arguments.of((Object) new int[]{0, 1, 1}),
-          Arguments.of((Object) new int[]{0, 1, 2}),
-          Arguments.of((Object) new int[]{1, 1, 2}),
+          Arguments.of(new int[]{0, 0, 0}),
+          Arguments.of(new int[]{0, 0, 1}),
+          Arguments.of(new int[]{0, 1, 1}),
+          Arguments.of(new int[]{0, 1, 2}),
+          Arguments.of(new int[]{1, 1, 2}),
 
-          Arguments.of((Object) new int[]{0, 1, 0}),
-          Arguments.of((Object) new int[]{0, 2, 1}),
-          Arguments.of((Object) new int[]{1, 2, 1}),
+          Arguments.of(new int[]{0, 1, 0}),
+          Arguments.of(new int[]{0, 2, 1}),
+          Arguments.of(new int[]{1, 2, 1}),
 
-          Arguments.of((Object) new int[]{1, 0, 0}),
-          Arguments.of((Object) new int[]{1, 1, 0}),
-          Arguments.of((Object) new int[]{2, 1, 0}),
-          Arguments.of((Object) new int[]{2, 1, 1})
+          Arguments.of(new int[]{1, 0, 0}),
+          Arguments.of(new int[]{1, 1, 0}),
+          Arguments.of(new int[]{2, 1, 0}),
+          Arguments.of(new int[]{2, 1, 1})
     );
   }
 
