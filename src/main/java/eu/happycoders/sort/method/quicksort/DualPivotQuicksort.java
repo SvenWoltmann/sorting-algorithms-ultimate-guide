@@ -10,8 +10,6 @@ import eu.happycoders.sort.utils.ArrayUtils;
  */
 public class DualPivotQuicksort implements SortAlgorithm {
 
-  public enum PivotStrategy {LEFT_RIGHT, MIDDLES}
-
   private final PivotStrategy pivotStrategy;
 
   public DualPivotQuicksort(PivotStrategy pivotStrategy) {
@@ -24,10 +22,10 @@ public class DualPivotQuicksort implements SortAlgorithm {
   }
 
   @Override
-  public boolean isSuitableForSortedInput() {
+  public boolean isSuitableForSortedInput(int size) {
     // Don't run tests for sorted input with pivot strategy LEFT_RIGHT.
     // This will go (n - 2) x into recursion.
-    return pivotStrategy != PivotStrategy.LEFT_RIGHT;
+    return pivotStrategy != PivotStrategy.LEFT_RIGHT || size <= 2 << 14;
   }
 
   @Override
@@ -80,7 +78,7 @@ public class DualPivotQuicksort implements SortAlgorithm {
     leftPartitionEnd--;
     rightIndex++;
 
-    // bring pivots to their appropriate positions.
+    // move pivots to their final positions
     ArrayUtils.swap(elements, left, leftPartitionEnd);
     ArrayUtils.swap(elements, right, rightIndex);
 
@@ -154,7 +152,7 @@ public class DualPivotQuicksort implements SortAlgorithm {
     leftPartitionEnd--;
     rightIndex++;
 
-    // bring pivots to their appropriate positions.
+    // move pivots to their final positions
     ArrayUtils.swap(elements, left, leftPartitionEnd);
     ArrayUtils.swap(elements, right, rightIndex);
     counters.addReadsAndWrites(4);
@@ -171,43 +169,45 @@ public class DualPivotQuicksort implements SortAlgorithm {
         }
       }
 
-      case MIDDLES -> {
+      case THIRDS -> {
         int len = right - left + 1;
-        int leftPos = left + (len - 1) / 3;
-        int rightPos = right - (len - 2) / 3;
+        int firstPos = left + (len - 1) / 3;
+        int secondPos = right - (len - 2) / 3;
 
-        int eLeft = elements[leftPos];
-        int eRight = elements[rightPos];
+        int first = elements[firstPos];
+        int second = elements[secondPos];
 
-        if (eLeft > eRight) {
-          if (rightPos == right) {
-            if (leftPos == left) {
+        if (first > second) {
+          if (secondPos == right) {
+            if (firstPos == left) {
               ArrayUtils.swap(elements, left, right);
             } else {
               // 3-way swap
-              elements[right] = eLeft;
-              elements[leftPos] = elements[left];
-              elements[left] = eRight;
+              elements[right] = first;
+              elements[firstPos] = elements[left];
+              elements[left] = second;
             }
-          } else if (leftPos == left) {
+          } else if (firstPos == left) {
             // 3-way swap
-            elements[left] = eRight;
-            elements[rightPos] = elements[right];
-            elements[right] = eLeft;
+            elements[left] = second;
+            elements[secondPos] = elements[right];
+            elements[right] = first;
           } else {
-            ArrayUtils.swap(elements, leftPos, right);
-            ArrayUtils.swap(elements, rightPos, left);
+            ArrayUtils.swap(elements, firstPos, right);
+            ArrayUtils.swap(elements, secondPos, left);
           }
         } else {
-          if (rightPos != right)
-            ArrayUtils.swap(elements, rightPos, right);
-          if (leftPos != left)
-            ArrayUtils.swap(elements, leftPos, left);
+          if (secondPos != right)
+            ArrayUtils.swap(elements, secondPos, right);
+          if (firstPos != left)
+            ArrayUtils.swap(elements, firstPos, left);
         }
       }
 
       default -> throw new IllegalStateException("Unexpected value: " + pivotStrategy);
     }
   }
+
+  public enum PivotStrategy {LEFT_RIGHT, THIRDS}
 
 }

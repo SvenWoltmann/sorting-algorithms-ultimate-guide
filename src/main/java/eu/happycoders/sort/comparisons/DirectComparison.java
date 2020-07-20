@@ -12,7 +12,7 @@ import java.util.*;
  */
 public class DirectComparison {
 
-  private static final int WARM_UPS = 10;
+  private static final int WARM_UPS = 15;
   private static final int ITERATIONS = 100;
   private static final int PRINT_RESULTS_ALL_X_ITERATIONS = 10;
 
@@ -76,6 +76,12 @@ public class DirectComparison {
     System.out.printf(Locale.US,
           "  %-" + longestNameLength + "s -> time = %,10.3f ms",
           sortAlgorithm.getName(), (time / 1_000_000.0));
+
+    // Validate that's sorted (and make sure the sorting wasn't optimized away!)
+    if (!ArrayUtils.isSorted(elements)) {
+      throw new IllegalStateException("Array is not sorted.");
+    }
+
     return time;
   }
 

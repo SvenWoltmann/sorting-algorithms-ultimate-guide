@@ -1,7 +1,7 @@
 package eu.happycoders.sort.pivot;
 
 import eu.happycoders.sort.method.*;
-import eu.happycoders.sort.method.quicksort.Quicksort;
+import eu.happycoders.sort.method.quicksort.*;
 import eu.happycoders.sort.utils.*;
 
 import java.util.*;
@@ -25,10 +25,10 @@ public class PivotComparator {
 
   public static void main(String[] args) {
     PartitioningAlgorithm[] algorithms = new PartitioningAlgorithm[]{
-          new Quicksort(Quicksort.PivotStrategy.MIDDLE),
-          new Quicksort(Quicksort.PivotStrategy.RANDOM),
-          new Quicksort(Quicksort.PivotStrategy.RIGHT),
-          new Quicksort(Quicksort.PivotStrategy.MEDIAN3)
+          new QuicksortVariant1(PivotStrategy.MIDDLE),
+          new QuicksortVariant1(PivotStrategy.RANDOM),
+          new QuicksortVariant1(PivotStrategy.RIGHT),
+          new QuicksortVariant1(PivotStrategy.MEDIAN3)
     };
     runTest(algorithms);
   }

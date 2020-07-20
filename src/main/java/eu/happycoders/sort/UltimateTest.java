@@ -21,11 +21,16 @@ public class UltimateTest {
         new InsertionSort(),
         new SelectionSort(),
         new BubbleSortOpt1(),
-        new Quicksort(Quicksort.PivotStrategy.MIDDLE),
-        new QuicksortImproved(48, Quicksort.PivotStrategy.MIDDLE),
-        new DualPivotQuicksort(DualPivotQuicksort.PivotStrategy.MIDDLES),
-        new DualPivotQuicksortImproved(48,
-              DualPivotQuicksort.PivotStrategy.MIDDLES),
+
+        // Quicksort
+        new QuicksortVariant1(PivotStrategy.RIGHT),
+        new QuicksortVariant1(PivotStrategy.MIDDLE),
+        new QuicksortVariant1(PivotStrategy.MEDIAN3),
+        new QuicksortImproved(48, new QuicksortVariant1(PivotStrategy.MIDDLE)),
+        new DualPivotQuicksort(DualPivotQuicksort.PivotStrategy.THIRDS),
+        new DualPivotQuicksortImproved(64,
+              DualPivotQuicksort.PivotStrategy.THIRDS),
+
         new MergeSort(),
         new HeapSort(),
         new CountingSort(),
@@ -70,18 +75,19 @@ public class UltimateTest {
 
   private static void test(SortAlgorithm algorithm, boolean warmingUp) {
     // Test with a random, a sorted, and a reversed (= sorted descending) array
-    test(algorithm, "random", ArrayUtils::createRandomArray, warmingUp);
+    test(algorithm, InputOrder.RANDOM, ArrayUtils::createRandomArray,
+          warmingUp);
 
-    // Quicksort would go n x into recursion here...
-    if (TEST_SORTED_INPUT && algorithm.isSuitableForSortedInput()) {
-      test(algorithm, "ascending", ArrayUtils::createSortedArray, warmingUp);
-      test(algorithm, "descending", ArrayUtils::createReversedArray,
+    if (TEST_SORTED_INPUT) {
+      test(algorithm, InputOrder.ASCENDING, ArrayUtils::createSortedArray,
+            warmingUp);
+      test(algorithm, InputOrder.DESCENDING, ArrayUtils::createReversedArray,
             warmingUp);
     }
   }
 
   private static void test(SortAlgorithm algorithm,
-                           String inputOrder,
+                           InputOrder inputOrder,
                            Function<Integer, int[]> arraySupplier,
                            boolean warmingUp) {
     System.out.printf("%n--- %s (order: %s) ---%n",
@@ -90,11 +96,12 @@ public class UltimateTest {
     // Sort until sorting takes more than MAX_SORTING_TIME_SECS
     // Upper limit used by insertion sort on already sorted data
     for (int size = MIN_SORTING_SIZE;
-         size <= MAX_SORTING_SIZE && algorithm.isSuitableForInputSize(size);
+         size <= MAX_SORTING_SIZE && algorithm.isSuitableForInputSize(size)
+               && (!inputOrder.isSorted() || algorithm.isSuitableForSortedInput(size));
          size <<= 1) {
       long time = measureTime(algorithm, arraySupplier.apply(size));
       boolean newRecord = !warmingUp
-            && scorecard(algorithm, inputOrder, size, true).add(time);
+            && scorecard(algorithm, inputOrder.toString(), size, true).add(time);
 
       System.out.printf(Locale.US,
             "%s (order: %s): size = %,11d  -->  time = %,10.3f ms %s%n",
@@ -152,6 +159,27 @@ public class UltimateTest {
       if (scorecard != null) {
         scorecard.printResult(longestNameLength, "");
       }
+    }
+  }
+
+  private enum InputOrder {
+    RANDOM(false),
+    ASCENDING(true),
+    DESCENDING(true);
+
+    private final boolean sorted;
+
+    InputOrder(boolean sorted) {
+      this.sorted = sorted;
+    }
+
+    boolean isSorted() {
+      return sorted;
+    }
+
+    @Override
+    public String toString() {
+      return name().toLowerCase();
     }
   }
 

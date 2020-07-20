@@ -1,0 +1,1647 @@
+----- Warming up -----
+Iteration 1
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    511.833 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    525.823 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    422.961 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    440.829 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    407.833 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    400.610 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    470.098 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    407.757 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    425.899 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    447.857 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    407.159 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    412.750 ms
+Iteration 2
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    410.287 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    459.606 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    415.665 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    423.894 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    425.414 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    447.376 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    410.212 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    438.291 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    407.396 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    414.051 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    415.129 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    457.562 ms
+Iteration 3
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    406.906 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    457.029 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    420.204 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    442.509 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    459.711 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    408.373 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    458.822 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    410.346 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    415.374 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    425.003 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    410.539 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    424.134 ms
+Iteration 4
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    444.717 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    457.559 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    412.138 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    435.293 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    442.813 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    460.652 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    413.814 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    404.828 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    450.744 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    445.846 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    413.558 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    400.402 ms
+Iteration 5
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    406.821 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    430.139 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    424.307 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    430.141 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    409.351 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    472.191 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    420.874 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    477.785 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    490.174 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    438.834 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    460.752 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    424.893 ms
+Iteration 6
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    454.403 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    391.312 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    410.882 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    499.854 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    415.936 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    408.625 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    444.191 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    415.898 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    424.316 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    408.268 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    434.048 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    440.825 ms
+Iteration 7
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    468.426 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    481.262 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    468.494 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    452.140 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    452.180 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    479.573 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    448.073 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    444.918 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    431.452 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    431.890 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    463.696 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    466.451 ms
+Iteration 8
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    436.623 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    459.320 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    476.365 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    466.168 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    484.858 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    407.566 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    421.836 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    427.489 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    418.435 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    467.156 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    410.394 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    457.210 ms
+Iteration 9
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    403.009 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    419.007 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    451.324 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    411.868 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    454.140 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    407.111 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    443.430 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    402.836 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    412.842 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    394.265 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    435.020 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    435.391 ms
+Iteration 10
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    463.177 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    415.721 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    397.853 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    487.069 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    415.573 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    500.979 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    464.678 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    431.005 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    432.684 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    414.826 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    414.677 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    404.308 ms
+Iteration 11
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    439.481 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    448.136 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    431.453 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    424.287 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    429.048 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    407.987 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    409.625 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    415.850 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    410.462 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    432.017 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    454.513 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    407.057 ms
+Iteration 12
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    440.494 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    399.497 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    411.524 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    423.960 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    467.531 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    426.526 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    448.027 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    404.173 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    404.870 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    448.184 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    420.023 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    407.605 ms
+Iteration 13
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    401.512 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    411.407 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    405.862 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    422.027 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    400.950 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    446.321 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    409.670 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    417.164 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    474.929 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    428.963 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    454.655 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    421.668 ms
+Iteration 14
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    417.157 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    449.926 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    422.001 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    415.507 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    440.218 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    424.429 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    441.323 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    446.142 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    411.413 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    407.449 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    408.187 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    400.179 ms
+Iteration 15
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    426.878 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    481.224 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    417.421 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    425.889 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    448.932 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    411.638 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    449.077 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    439.351 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    444.957 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    439.021 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    401.891 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    409.059 ms
+
+----- Measuring -----
+Iteration 1
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    455.482 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    432.742 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    460.473 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    408.214 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    405.513 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    397.217 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    407.877 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    438.515 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    417.522 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    423.496 ms <<< NEW RECORD :-)
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    463.866 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    404.922 ms <<< NEW RECORD :-)
+Iteration 2
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    417.276 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    419.670 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    411.982 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    428.935 ms <<< NEW RECORD :-)
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    460.186 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    453.520 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    408.875 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    397.471 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    428.373 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    446.494 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    407.838 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    399.984 ms <<< NEW RECORD :-)
+Iteration 3
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    454.213 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    451.451 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    424.541 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    404.672 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    401.141 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    417.902 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    404.847 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    409.933 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    445.470 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    406.304 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    431.643 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    411.400 ms
+Iteration 4
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    424.271 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    398.331 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    429.999 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    398.092 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    408.938 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    409.736 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    404.615 ms <<< NEW RECORD :-)
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    455.018 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    440.545 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    418.998 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    395.688 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    446.388 ms
+Iteration 5
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    397.528 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    408.171 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    425.981 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    404.106 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    428.027 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    446.116 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    399.436 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    451.370 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    403.332 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    412.108 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    415.382 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    444.412 ms
+Iteration 6
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    421.792 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    398.906 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    396.137 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    405.830 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    394.912 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    400.472 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    431.168 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    401.013 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    413.451 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    428.062 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    454.686 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    443.622 ms <<< NEW RECORD :-)
+Iteration 7
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    406.032 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    398.638 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    402.452 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    414.992 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    401.454 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    406.236 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    457.241 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    423.912 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    409.190 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    440.644 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    431.584 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    447.698 ms
+Iteration 8
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    448.698 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    413.977 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    437.217 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    459.558 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    409.325 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    404.963 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    406.974 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    451.638 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    416.221 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    433.442 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    434.851 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    425.750 ms
+Iteration 9
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    410.680 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    404.767 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    434.467 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    417.160 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    416.774 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    408.319 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    424.674 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    416.055 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    443.912 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    439.545 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    396.741 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    447.454 ms <<< NEW RECORD :-)
+Iteration 10
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    396.617 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    398.228 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    442.470 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    406.712 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    426.662 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    447.147 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    397.572 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    407.458 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    446.986 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    400.497 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    422.946 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    425.171 ms
+
+----- Results after 10 iterations-----
+DualPivotQuicksort(pivot: THIRDS)                         -> fastest:    446.986 ms, median:    454.449 ms 
+DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> fastest:    443.622 ms, median:    446.767 ms 
+DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> fastest:    431.168 ms, median:    441.557 ms 
+DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> fastest:    421.792 ms, median:    430.791 ms 
+DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> fastest:    413.451 ms, median:    417.399 ms 
+DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> fastest:    403.332 ms, median:    408.408 ms 
+DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> fastest:    398.228 ms, median:    406.639 ms 
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> fastest:    397.217 ms, median:    398.772 ms <<< FASTEST MEDIAN :-)
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> fastest:    396.137 ms, median:    399.736 ms 
+DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> fastest:    394.912 ms, median:    401.474 ms 
+DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> fastest:    401.013 ms, median:    408.266 ms 
+DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> fastest:    422.946 ms, median:    424.607 ms 
+
+Iteration 11
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    435.354 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    450.991 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    443.459 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    401.465 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    407.410 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    448.655 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    421.356 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    410.292 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    410.042 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    435.038 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    410.518 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    439.174 ms
+Iteration 12
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    442.428 ms <<< NEW RECORD :-)
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    449.090 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    395.227 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    412.076 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    414.314 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    411.177 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    402.284 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    432.373 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    399.927 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    429.609 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    399.942 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    435.944 ms
+Iteration 13
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    407.582 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    404.027 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    400.397 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    410.757 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    399.502 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    439.517 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    445.261 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    420.264 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    425.363 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    453.561 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    429.624 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    400.685 ms
+Iteration 14
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    410.883 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    401.726 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    410.981 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    410.039 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    399.756 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    452.249 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    430.098 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    415.083 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    447.490 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    445.651 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    396.753 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    448.584 ms
+Iteration 15
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    482.615 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    412.078 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    404.458 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    441.070 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    422.132 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    399.572 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    427.656 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    401.383 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    428.196 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    436.672 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    436.807 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    407.715 ms
+Iteration 16
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    454.404 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    422.482 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    442.032 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    407.031 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    397.776 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    440.695 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    420.294 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    439.162 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    398.838 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    413.068 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    400.787 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    417.967 ms
+Iteration 17
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    404.231 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    439.929 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    430.294 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    402.450 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    446.221 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    394.033 ms <<< NEW RECORD :-)
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    450.093 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    390.464 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    421.709 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    392.451 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    408.787 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    434.199 ms
+Iteration 18
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    402.297 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    413.855 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    391.932 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    411.140 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    452.228 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    398.722 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    412.716 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    417.124 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    406.134 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    421.281 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    443.919 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    474.613 ms
+Iteration 19
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    404.458 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    448.346 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    463.896 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    423.777 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    480.551 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    462.136 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    419.059 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    409.102 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    421.799 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    437.853 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    421.676 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    433.478 ms
+Iteration 20
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    527.953 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    419.543 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    423.188 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    425.057 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    429.257 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    408.229 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    438.362 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    492.233 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    406.187 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    451.627 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    470.314 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    412.389 ms
+
+----- Results after 20 iterations-----
+DualPivotQuicksort(pivot: THIRDS)                         -> fastest:    446.986 ms, median:    452.905 ms 
+DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> fastest:    436.807 ms, median:    445.883 ms 
+DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> fastest:    431.168 ms, median:    443.936 ms 
+DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> fastest:    421.281 ms, median:    431.613 ms 
+DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> fastest:    412.716 ms, median:    418.450 ms 
+DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> fastest:    403.332 ms, median:    410.041 ms 
+DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> fastest:    398.228 ms, median:    406.246 ms 
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> fastest:    391.932 ms, median:    399.849 ms <<< FASTEST MEDIAN :-)
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> fastest:    392.451 ms, median:    400.162 ms 
+DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> fastest:    390.464 ms, median:    401.918 ms 
+DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> fastest:    401.013 ms, median:    408.274 ms 
+DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> fastest:    417.124 ms, median:    427.021 ms 
+
+Iteration 21
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    468.674 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    472.133 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    473.029 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    415.761 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    464.064 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    465.026 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    436.613 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    495.215 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    483.253 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    505.685 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    426.248 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    430.858 ms
+Iteration 22
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    451.242 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    436.356 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    434.903 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    416.788 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    449.235 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    431.079 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    472.119 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    462.284 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    419.708 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    425.804 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    485.297 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    419.652 ms
+Iteration 23
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    417.875 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    484.726 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    432.038 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    414.747 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    420.610 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    507.515 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    453.112 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    425.147 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    458.425 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    510.676 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    467.487 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    448.305 ms
+Iteration 24
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    455.747 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    447.821 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    465.718 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    419.883 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    432.936 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    469.470 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    435.280 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    420.699 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    425.853 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    420.328 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    418.753 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    456.148 ms
+Iteration 25
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    427.187 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    500.097 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    418.394 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    420.359 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    475.584 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    455.563 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    482.653 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    481.103 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    426.507 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    413.482 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    468.563 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    437.687 ms
+Iteration 26
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    448.288 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    435.578 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    479.509 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    477.077 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    485.465 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    475.021 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    485.267 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    460.835 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    478.837 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    438.691 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    490.197 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    520.519 ms
+Iteration 27
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    491.961 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    452.941 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    476.670 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    513.274 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    465.556 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    461.403 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    508.319 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    465.282 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    490.933 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    480.855 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    519.250 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    502.769 ms
+Iteration 28
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    438.868 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    486.220 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    446.242 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    519.201 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    505.304 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    455.621 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    490.052 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    550.990 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    470.483 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    505.847 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    463.974 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    481.720 ms
+Iteration 29
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    504.442 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    432.781 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    486.206 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    457.885 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    449.584 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    474.230 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    507.517 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    529.184 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    458.462 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    498.469 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    561.850 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    532.712 ms
+Iteration 30
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    533.591 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    468.441 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    491.272 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    466.464 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    531.127 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    484.662 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    508.590 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    545.640 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    497.763 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    526.702 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    624.967 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    526.534 ms
+
+----- Results after 30 iterations-----
+DualPivotQuicksort(pivot: THIRDS)                         -> fastest:    446.986 ms, median:    455.382 ms 
+DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> fastest:    436.807 ms, median:    451.087 ms 
+DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> fastest:    431.168 ms, median:    449.366 ms 
+DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> fastest:    421.281 ms, median:    434.333 ms 
+DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> fastest:    412.716 ms, median:    421.516 ms 
+DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> fastest:    403.332 ms, median:    413.122 ms 
+DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> fastest:    398.228 ms, median:    410.014 ms 
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> fastest:    391.932 ms, median:    407.776 ms 
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> fastest:    392.451 ms, median:    403.092 ms <<< FASTEST MEDIAN :-)
+DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> fastest:    390.464 ms, median:    409.275 ms 
+DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> fastest:    401.013 ms, median:    412.045 ms 
+DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> fastest:    417.124 ms, median:    429.959 ms 
+
+Iteration 31
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    520.295 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    537.071 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    530.127 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    487.890 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    507.262 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    480.476 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    505.871 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    546.806 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    623.367 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    493.990 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    504.821 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    584.416 ms
+Iteration 32
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    514.507 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    461.693 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    462.579 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    542.346 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    485.331 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    538.170 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    599.451 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    539.925 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    513.146 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    484.689 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    483.997 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    500.013 ms
+Iteration 33
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    589.993 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    499.880 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    520.667 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    570.594 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    508.003 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    547.271 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    596.615 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    602.101 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    612.022 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    566.261 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    464.864 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    588.688 ms
+Iteration 34
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    517.337 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    464.872 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    460.920 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    412.619 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    398.359 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    425.736 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    418.266 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    506.917 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    549.052 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    518.291 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    461.957 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    437.981 ms
+Iteration 35
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    450.001 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    410.010 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    425.214 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    498.882 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    503.496 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    437.483 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    469.526 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    466.423 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    425.045 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    453.649 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    461.413 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    483.510 ms
+Iteration 36
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    539.936 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    509.217 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    465.538 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    443.217 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    399.669 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    457.634 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    392.637 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    416.419 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    407.515 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    448.500 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    424.397 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    399.574 ms
+Iteration 37
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    412.012 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    415.012 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    412.253 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    402.600 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    425.625 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    407.250 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    403.858 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    451.855 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    447.831 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    439.547 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    466.402 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    443.418 ms
+Iteration 38
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    439.834 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    443.246 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    417.681 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    405.304 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    407.456 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    496.309 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    445.362 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    449.863 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    416.289 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    410.624 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    469.106 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    652.830 ms
+Iteration 39
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    578.751 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    484.180 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    422.366 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    397.499 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    464.136 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    430.950 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    414.135 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    402.482 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    461.620 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    415.880 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    417.349 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    414.917 ms
+Iteration 40
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    433.328 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    412.066 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    394.378 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    460.974 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    403.254 ms <<< NEW RECORD :-)
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    450.703 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    427.605 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    467.592 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    468.810 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    457.469 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    432.020 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    480.078 ms
+
+----- Results after 40 iterations-----
+DualPivotQuicksort(pivot: THIRDS)                         -> fastest:    443.246 ms, median:    456.494 ms 
+DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> fastest:    436.807 ms, median:    460.239 ms 
+DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> fastest:    431.168 ms, median:    451.545 ms 
+DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> fastest:    421.281 ms, median:    448.083 ms 
+DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> fastest:    412.716 ms, median:    425.860 ms 
+DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> fastest:    403.254 ms, median:    416.025 ms 
+DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> fastest:    398.228 ms, median:    411.079 ms 
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> fastest:    391.932 ms, median:    408.470 ms <<< FASTEST MEDIAN :-)
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> fastest:    392.451 ms, median:    410.789 ms 
+DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> fastest:    390.464 ms, median:    411.603 ms 
+DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> fastest:    401.013 ms, median:    416.320 ms 
+DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> fastest:    417.124 ms, median:    432.203 ms 
+
+Iteration 41
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    470.778 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    409.556 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    411.133 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    411.956 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    424.296 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    407.250 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    451.895 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    467.935 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    440.137 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    405.554 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    444.730 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    406.635 ms
+Iteration 42
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    401.279 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    429.868 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    425.130 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    417.725 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    432.800 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    454.501 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    464.045 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    593.866 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    549.222 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    636.976 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    710.408 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    555.374 ms
+Iteration 43
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    494.842 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    527.550 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    414.164 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    429.937 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    459.385 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    411.446 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    456.729 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    414.031 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    434.474 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    456.432 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    410.071 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    407.078 ms
+Iteration 44
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    423.059 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    441.159 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    450.584 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    452.649 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    423.547 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    404.440 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    434.432 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    422.471 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    459.126 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    477.455 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    454.418 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    408.035 ms
+Iteration 45
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    406.747 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    434.393 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    413.801 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    460.061 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    424.720 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    420.210 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    450.804 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    425.639 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    416.696 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    472.665 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    435.367 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    492.761 ms
+Iteration 46
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    414.330 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    451.369 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    453.052 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    434.465 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    473.556 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    431.390 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    413.938 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    420.491 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    435.573 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    416.103 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    453.267 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    416.360 ms
+Iteration 47
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    454.292 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    420.728 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    406.283 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    404.254 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    456.607 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    437.634 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    405.763 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    415.394 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    453.174 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    433.113 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    422.323 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    453.256 ms
+Iteration 48
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    432.658 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    424.555 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    413.598 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    409.924 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    404.436 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    401.711 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    442.534 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    452.412 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    428.735 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    416.465 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    489.805 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    416.734 ms
+Iteration 49
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    402.579 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    422.001 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    417.847 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    416.530 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    438.892 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    456.544 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    455.992 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    441.564 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    458.002 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    405.304 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    403.545 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    443.467 ms
+Iteration 50
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    411.647 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    442.831 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    453.021 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    415.721 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    419.718 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    415.431 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    441.313 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    410.189 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    452.980 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    413.878 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    426.230 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    441.174 ms
+
+----- Results after 50 iterations-----
+DualPivotQuicksort(pivot: THIRDS)                         -> fastest:    443.246 ms, median:    455.869 ms 
+DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> fastest:    436.807 ms, median:    457.033 ms 
+DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> fastest:    431.168 ms, median:    452.345 ms 
+DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> fastest:    421.281 ms, median:    444.567 ms 
+DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> fastest:    412.716 ms, median:    425.722 ms 
+DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> fastest:    403.254 ms, median:    416.410 ms 
+DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> fastest:    398.228 ms, median:    412.719 ms 
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> fastest:    391.932 ms, median:    407.776 ms <<< FASTEST MEDIAN :-)
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> fastest:    392.451 ms, median:    412.926 ms 
+DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> fastest:    390.464 ms, median:    411.603 ms 
+DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> fastest:    401.013 ms, median:    416.576 ms 
+DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> fastest:    417.124 ms, median:    435.983 ms 
+
+Iteration 51
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    473.489 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    451.130 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    398.682 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    418.407 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    420.792 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    452.287 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    435.794 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    419.784 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    449.904 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    413.152 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    403.982 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    425.996 ms
+Iteration 52
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    464.024 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    450.716 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    433.169 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    418.122 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    421.917 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    430.835 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    406.920 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    417.595 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    430.632 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    443.769 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    411.702 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    410.512 ms
+Iteration 53
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    463.388 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    446.425 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    431.162 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    424.230 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    397.133 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    409.865 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    401.260 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    399.812 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    426.457 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    406.934 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    459.647 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    412.566 ms
+Iteration 54
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    426.519 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    411.851 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    469.582 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    414.823 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    419.685 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    417.429 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    433.211 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    442.251 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    430.264 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    456.064 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    408.403 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    407.265 ms
+Iteration 55
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    416.856 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    398.798 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    407.444 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    433.139 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    400.377 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    412.321 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    437.008 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    411.520 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    438.794 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    436.185 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    396.683 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    460.575 ms
+Iteration 56
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    448.949 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    448.336 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    403.037 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    424.829 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    394.955 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    402.166 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    416.474 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    406.757 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    425.857 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    471.873 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    422.407 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    412.538 ms
+Iteration 57
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    410.648 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    452.544 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    403.354 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    410.495 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    409.845 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    437.265 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    417.640 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    457.891 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    426.094 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    451.150 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    414.114 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    432.533 ms
+Iteration 58
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    407.172 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    401.505 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    407.170 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    421.834 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    441.534 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    451.742 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    400.469 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    452.692 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    408.664 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    438.150 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    446.006 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    423.121 ms
+Iteration 59
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    455.742 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    416.627 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    413.533 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    396.601 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    420.476 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    402.175 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    439.083 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    454.909 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    449.884 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    434.100 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    416.638 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    410.983 ms
+Iteration 60
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    409.619 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    407.219 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    457.811 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    456.864 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    412.876 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    403.919 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    450.758 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    419.039 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    452.459 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    415.879 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    423.567 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    430.459 ms
+
+----- Results after 60 iterations-----
+DualPivotQuicksort(pivot: THIRDS)                         -> fastest:    443.246 ms, median:    456.360 ms 
+DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> fastest:    436.807 ms, median:    455.195 ms 
+DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> fastest:    431.168 ms, median:    451.346 ms 
+DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> fastest:    421.281 ms, median:    438.617 ms 
+DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> fastest:    412.716 ms, median:    424.393 ms 
+DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> fastest:    403.254 ms, median:    416.025 ms 
+DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> fastest:    397.133 ms, median:    411.412 ms 
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> fastest:    391.932 ms, median:    407.444 ms <<< FASTEST MEDIAN :-)
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> fastest:    392.451 ms, median:    409.595 ms 
+DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> fastest:    390.464 ms, median:    411.495 ms 
+DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> fastest:    401.013 ms, median:    416.162 ms 
+DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> fastest:    417.124 ms, median:    433.714 ms 
+
+Iteration 61
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    414.689 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    449.054 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    440.811 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    454.702 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    415.752 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    460.524 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    416.207 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    420.477 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    470.016 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    437.935 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    420.282 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    418.181 ms
+Iteration 62
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    428.890 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    414.398 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    439.879 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    406.462 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    461.477 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    435.036 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    456.164 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    443.906 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    410.459 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    412.692 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    406.268 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    400.618 ms
+Iteration 63
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    418.831 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    445.974 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    405.991 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    451.164 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    412.792 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    404.577 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    428.367 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    448.923 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    454.718 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    412.133 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    422.033 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    419.657 ms
+Iteration 64
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    449.821 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    447.043 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    434.356 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    402.662 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    424.043 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    411.830 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    445.724 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    423.592 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    411.635 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    399.834 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    405.201 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    400.771 ms
+Iteration 65
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    408.587 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    440.500 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    410.919 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    400.327 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    397.116 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    425.402 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    423.308 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    444.294 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    402.733 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    409.403 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    451.507 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    402.303 ms
+Iteration 66
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    428.508 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    401.352 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    411.327 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    439.740 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    455.849 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    408.225 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    411.717 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    452.657 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    455.986 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    414.223 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    424.111 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    424.089 ms
+Iteration 67
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    458.326 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    450.422 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    429.032 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    402.270 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    411.101 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    433.374 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    431.726 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    462.197 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    458.571 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    422.495 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    448.771 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    454.523 ms
+Iteration 68
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    484.443 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    430.241 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    432.164 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    416.142 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    472.574 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    428.632 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    408.769 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    400.706 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    398.082 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    449.865 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    400.191 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    440.069 ms
+Iteration 69
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    417.324 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    466.662 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    489.593 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    452.873 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    405.121 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    455.204 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    408.075 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    397.358 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    421.623 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    475.506 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    453.353 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    407.471 ms
+Iteration 70
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    439.099 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    427.984 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    402.996 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    420.437 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    395.629 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    453.013 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    444.344 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    490.857 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    465.551 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    432.722 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    467.076 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    672.504 ms
+
+----- Results after 70 iterations-----
+DualPivotQuicksort(pivot: THIRDS)                         -> fastest:    443.246 ms, median:    455.744 ms 
+DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> fastest:    436.807 ms, median:    454.609 ms 
+DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> fastest:    431.168 ms, median:    450.977 ms 
+DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> fastest:    421.281 ms, median:    439.481 ms 
+DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> fastest:    410.919 ms, median:    423.851 ms 
+DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> fastest:    402.733 ms, median:    415.951 ms 
+DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> fastest:    397.133 ms, median:    411.252 ms 
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> fastest:    391.932 ms, median:    406.276 ms <<< FASTEST MEDIAN :-)
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> fastest:    392.451 ms, median:    408.748 ms 
+DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> fastest:    390.464 ms, median:    411.495 ms 
+DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> fastest:    401.013 ms, median:    415.991 ms 
+DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> fastest:    417.124 ms, median:    433.737 ms 
+
+Iteration 71
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    448.315 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    464.817 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    456.412 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    400.382 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    412.974 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    426.079 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    515.160 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    510.008 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    546.363 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    511.925 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    470.317 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    442.368 ms
+Iteration 72
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    421.706 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    423.786 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    446.511 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    403.215 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    420.458 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    489.967 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    561.641 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    577.478 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    443.284 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    459.173 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    578.369 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    592.506 ms
+Iteration 73
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    495.305 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    483.441 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    425.874 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    444.858 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    461.188 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    480.572 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    517.823 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    524.760 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    428.686 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    427.226 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    450.581 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    543.349 ms
+Iteration 74
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    503.708 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    504.094 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    454.352 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    449.500 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    421.505 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    478.570 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    487.033 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    433.460 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    476.728 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    453.967 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    410.409 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    412.789 ms
+Iteration 75
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    417.617 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    405.586 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    478.536 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    440.988 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    443.761 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    429.567 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    458.911 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    407.648 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    403.515 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    423.446 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    452.639 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    431.713 ms
+Iteration 76
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    412.430 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    455.873 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    458.683 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    447.632 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    419.633 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    436.825 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    462.544 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    455.143 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    416.706 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    416.196 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    473.976 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    415.730 ms
+Iteration 77
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    413.540 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    453.110 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    410.021 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    455.731 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    405.490 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    420.777 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    402.913 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    427.975 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    401.040 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    408.594 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    445.143 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    432.013 ms
+Iteration 78
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    409.713 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    410.960 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    444.797 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    406.491 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    413.718 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    432.463 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    437.889 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    449.440 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    422.130 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    400.004 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    449.223 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    409.127 ms
+Iteration 79
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    432.237 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    441.550 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    408.398 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    425.174 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    403.178 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    412.947 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    404.159 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    412.228 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    417.570 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    425.764 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    458.993 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    464.712 ms
+Iteration 80
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    410.566 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    412.067 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    435.009 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    475.212 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    416.037 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    419.419 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    536.210 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    454.038 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    430.711 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    403.277 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    454.537 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    409.727 ms
+
+----- Results after 80 iterations-----
+DualPivotQuicksort(pivot: THIRDS)                         -> fastest:    443.246 ms, median:    455.798 ms 
+DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> fastest:    436.807 ms, median:    454.813 ms 
+DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> fastest:    431.168 ms, median:    451.545 ms 
+DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> fastest:    421.281 ms, median:    438.617 ms 
+DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> fastest:    410.919 ms, median:    424.393 ms 
+DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> fastest:    402.733 ms, median:    416.089 ms 
+DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> fastest:    397.133 ms, median:    411.487 ms 
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> fastest:    391.932 ms, median:    407.444 ms <<< FASTEST MEDIAN :-)
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> fastest:    392.451 ms, median:    408.959 ms 
+DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> fastest:    390.464 ms, median:    411.958 ms 
+DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> fastest:    401.013 ms, median:    416.162 ms 
+DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> fastest:    417.124 ms, median:    434.228 ms 
+
+Iteration 81
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    397.964 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    430.733 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    423.729 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    397.598 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    405.204 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    394.390 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    444.204 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    451.261 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    436.051 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    407.109 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    439.331 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    404.852 ms
+Iteration 82
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    394.851 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    411.505 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    458.582 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    437.610 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    490.278 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    441.954 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    475.860 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    431.569 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    407.650 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    424.973 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    452.160 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    416.070 ms
+Iteration 83
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    442.236 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    397.246 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    411.702 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    457.593 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    448.407 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    403.032 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    439.720 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    425.136 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    518.783 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    512.769 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    516.726 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    556.820 ms
+Iteration 84
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    529.851 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    476.253 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    521.804 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    547.819 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    496.529 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    504.243 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    470.884 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    493.093 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    448.742 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    451.798 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    484.665 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    478.501 ms
+Iteration 85
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    464.889 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    509.937 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    502.693 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    461.670 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    483.131 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    494.620 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    494.916 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    513.153 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    521.417 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    470.381 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    491.440 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    477.804 ms
+Iteration 86
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    451.513 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    502.808 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    456.566 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    507.628 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    417.395 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    412.579 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    397.381 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    405.760 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    454.286 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    431.950 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    425.963 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    434.976 ms
+Iteration 87
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    399.030 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    402.654 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    441.997 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    455.627 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    498.072 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    472.483 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    429.176 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    418.893 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    494.422 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    504.567 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    457.690 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    454.310 ms
+Iteration 88
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    445.029 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    460.080 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    462.567 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    470.545 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    452.895 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    516.969 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    490.294 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    489.662 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    455.656 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    496.403 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    545.148 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    507.452 ms
+Iteration 89
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    423.035 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    415.180 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    399.683 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    436.229 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    405.367 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    412.441 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    482.954 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    501.483 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    480.612 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    415.387 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    428.565 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    404.982 ms
+Iteration 90
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    402.070 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    429.294 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    399.816 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    482.165 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    403.828 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    462.121 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    412.216 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    408.948 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    453.430 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    399.194 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    427.810 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    409.553 ms <<< NEW RECORD :-)
+
+----- Results after 90 iterations-----
+DualPivotQuicksort(pivot: THIRDS)                         -> fastest:    443.246 ms, median:    455.921 ms 
+DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> fastest:    436.807 ms, median:    456.298 ms 
+DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> fastest:    431.168 ms, median:    453.350 ms 
+DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> fastest:    421.281 ms, median:    439.605 ms 
+DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> fastest:    409.553 ms, median:    425.054 ms 
+DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> fastest:    402.733 ms, median:    416.106 ms 
+DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> fastest:    397.133 ms, median:    411.829 ms 
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> fastest:    391.932 ms, median:    407.411 ms <<< FASTEST MEDIAN :-)
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> fastest:    392.451 ms, median:    408.382 ms 
+DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> fastest:    390.464 ms, median:    414.046 ms 
+DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> fastest:    401.013 ms, median:    416.320 ms 
+DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> fastest:    417.124 ms, median:    434.603 ms 
+
+Iteration 91
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    450.220 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    393.955 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    407.409 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    396.310 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    424.691 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    446.218 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    422.923 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    412.509 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    394.980 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    414.438 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    445.394 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    399.792 ms
+Iteration 92
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    441.030 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    400.311 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    409.089 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    397.145 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    403.268 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    415.862 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    439.098 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    411.902 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    445.603 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    428.938 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    438.985 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    402.888 ms
+Iteration 93
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    428.225 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    407.546 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    425.167 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    396.434 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    409.945 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    420.011 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    408.281 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    402.453 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    407.466 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    456.141 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    439.940 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    449.417 ms
+Iteration 94
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    396.134 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    440.008 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    409.285 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    424.227 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    421.601 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    402.632 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    447.984 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    443.125 ms <<< NEW RECORD :-)
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    405.379 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    426.441 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    397.469 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    416.892 ms
+Iteration 95
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    401.576 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    414.585 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    442.542 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    398.160 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    396.778 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    401.278 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    425.343 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    426.616 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    403.807 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    440.926 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    448.814 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    406.074 ms
+Iteration 96
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    429.107 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    393.581 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    434.610 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    416.185 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    403.095 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    408.455 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    409.923 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    450.400 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    405.141 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    412.256 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    447.296 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    445.216 ms
+Iteration 97
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    447.433 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    416.132 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    404.333 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    415.398 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    402.867 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    442.631 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    447.060 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    422.682 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    418.182 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    436.311 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    437.141 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    416.175 ms
+Iteration 98
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    408.133 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    406.160 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    419.315 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    439.574 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    453.414 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    461.693 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    410.327 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    413.818 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    452.003 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    455.678 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    447.832 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    417.108 ms
+Iteration 99
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    423.541 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    409.200 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    421.629 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    469.664 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    402.762 ms
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    458.570 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    418.637 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    414.091 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    428.044 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    445.826 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    432.824 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    404.975 ms
+Iteration 100
+  DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> time =    460.657 ms
+  DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> time =    409.218 ms
+  DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> time =    418.475 ms
+  DualPivotQuicksort(pivot: THIRDS)                         -> time =    447.786 ms
+  DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> time =    406.607 ms
+  DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> time =    407.445 ms
+  DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> time =    434.995 ms
+  DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> time =    404.553 ms
+  DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> time =    415.127 ms
+  DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> time =    441.920 ms
+  DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> time =    449.388 ms
+  DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> time =    410.561 ms
+
+----- Results after 100 iterations-----
+DualPivotQuicksort(pivot: THIRDS)                         -> fastest:    443.125 ms, median:    455.744 ms 
+DualPivotQuicksortImproved(threshold: 2, pivot: THIRDS)   -> fastest:    436.807 ms, median:    455.195 ms 
+DualPivotQuicksortImproved(threshold: 4, pivot: THIRDS)   -> fastest:    431.168 ms, median:    451.346 ms 
+DualPivotQuicksortImproved(threshold: 8, pivot: THIRDS)   -> fastest:    421.281 ms, median:    437.707 ms 
+DualPivotQuicksortImproved(threshold: 16, pivot: THIRDS)  -> fastest:    409.553 ms, median:    423.579 ms 
+DualPivotQuicksortImproved(threshold: 24, pivot: THIRDS)  -> fastest:    402.733 ms, median:    415.899 ms 
+DualPivotQuicksortImproved(threshold: 32, pivot: THIRDS)  -> fastest:    397.133 ms, median:    411.252 ms 
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)  -> fastest:    391.932 ms, median:    406.276 ms 
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)  -> fastest:    392.451 ms, median:    405.570 ms <<< FASTEST MEDIAN :-)
+DualPivotQuicksortImproved(threshold: 96, pivot: THIRDS)  -> fastest:    390.464 ms, median:    411.958 ms 
+DualPivotQuicksortImproved(threshold: 128, pivot: THIRDS) -> fastest:    401.013 ms, median:    415.800 ms 
+DualPivotQuicksortImproved(threshold: 192, pivot: THIRDS) -> fastest:    417.124 ms, median:    434.228 ms 

@@ -1,19 +1,13 @@
 package eu.happycoders.sort.method.mergesort;
 
-import eu.happycoders.sort.method.*;
+import eu.happycoders.sort.method.SortAlgorithm;
+import eu.happycoders.sort.method.SortTestLargeArray;
 
-import java.util.concurrent.ThreadLocalRandom;
-
-public class MergeSortTest extends SortTest {
+public class MergeSortTest extends SortTestLargeArray {
 
   @Override
   protected SortAlgorithm getSortAlgorithm() {
     return new MergeSort();
-  }
-
-  @Override
-  protected int randomSize() {
-    return ThreadLocalRandom.current().nextInt(2, 10_000);
   }
 
 }

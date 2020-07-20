@@ -1,7 +1,6 @@
 package eu.happycoders.sort.method.quicksort;
 
 import eu.happycoders.sort.method.*;
-import eu.happycoders.sort.method.quicksort.Quicksort.PivotStrategy;
 
 /**
  * Quicksort combined with Insertion Sort for small arrays.
@@ -11,28 +10,26 @@ import eu.happycoders.sort.method.quicksort.Quicksort.PivotStrategy;
 public class QuicksortImproved implements SortAlgorithm {
 
   private final int threshold;
-  private final PivotStrategy pivotStrategy; // just for the getName() method
-  private final Quicksort standardQuicksort;
+  private final PartitioningAlgorithm quicksort;
   private final InsertionSort insertionSort;
 
   /**
    * Constructs the Quicksort instance.
    *
-   * @param threshold     when the array to be sorted is not longer than this
-   *                      threshold, the algorithm switches to Insertion Sort
-   * @param pivotStrategy the pivot strategy to use
+   * @param threshold when the array to be sorted is not longer than this
+   *                  threshold, the algorithm switches to Insertion Sort
+   * @param quicksort the quicksort algorithm to use
    */
-  public QuicksortImproved(int threshold, PivotStrategy pivotStrategy) {
+  public QuicksortImproved(int threshold, PartitioningAlgorithm quicksort) {
     this.threshold = threshold;
-    this.pivotStrategy = pivotStrategy;
-    this.standardQuicksort = new Quicksort(pivotStrategy);
+    this.quicksort = quicksort;
     this.insertionSort = new InsertionSort();
   }
 
   @Override
   public String getName() {
     return this.getClass().getSimpleName() + "(threshold: " + threshold +
-          ", pivot: " + pivotStrategy + ")";
+          ", partitioning: " + quicksort.getName() + ")";
   }
 
   @Override
@@ -41,8 +38,8 @@ public class QuicksortImproved implements SortAlgorithm {
   }
 
   private void quicksort(int[] elements, int left, int right) {
-    // Nothing to sort?
-    if (left == right) return;
+    // End of recursion reached?
+    if (left >= right) return;
 
     // Threshold for insertion sort reached?
     if (right - left < threshold) {
@@ -50,7 +47,7 @@ public class QuicksortImproved implements SortAlgorithm {
       return;
     }
 
-    int pivotPos = standardQuicksort.partition(elements, left, right);
+    int pivotPos = quicksort.partition(elements, left, right);
     quicksort(elements, left, pivotPos - 1);
     quicksort(elements, pivotPos + 1, right);
   }
@@ -71,19 +68,19 @@ public class QuicksortImproved implements SortAlgorithm {
       return;
     }
 
-    int pivotPos = standardQuicksort.partition(elements, left, right, counters);
+    int pivotPos = quicksort.partition(elements, left, right, counters);
     quicksort(elements, left, pivotPos - 1, counters);
     quicksort(elements, pivotPos + 1, right, counters);
   }
 
   @Override
   public boolean isSuitableForInputSize(int size) {
-    return standardQuicksort.isSuitableForInputSize(size);
+    return quicksort.isSuitableForInputSize(size);
   }
 
   @Override
-  public boolean isSuitableForSortedInput() {
-    return standardQuicksort.isSuitableForSortedInput();
+  public boolean isSuitableForSortedInput(int size) {
+    return quicksort.isSuitableForSortedInput(size);
   }
 
 }

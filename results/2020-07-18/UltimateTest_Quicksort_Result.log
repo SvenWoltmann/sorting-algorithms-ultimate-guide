@@ -1,0 +1,164 @@
+===== Results for iteration 60 =====
+
+--- Results for iteration 60 for: QuicksortVariant1(pivot: RIGHT) (order: random) ---
+QuicksortVariant1(pivot: RIGHT)/random/1024      -> fastest:      0.048 ms, median:      0.051 ms 
+QuicksortVariant1(pivot: RIGHT)/random/2048      -> fastest:      0.096 ms, median:      0.100 ms 
+QuicksortVariant1(pivot: RIGHT)/random/4096      -> fastest:      0.200 ms, median:      0.208 ms 
+QuicksortVariant1(pivot: RIGHT)/random/8192      -> fastest:      0.417 ms, median:      0.436 ms 
+QuicksortVariant1(pivot: RIGHT)/random/16384     -> fastest:      0.885 ms, median:      0.920 ms 
+QuicksortVariant1(pivot: RIGHT)/random/32768     -> fastest:      1.855 ms, median:      1.941 ms 
+QuicksortVariant1(pivot: RIGHT)/random/65536     -> fastest:      3.943 ms, median:      4.095 ms 
+QuicksortVariant1(pivot: RIGHT)/random/131072    -> fastest:      8.353 ms, median:      8.618 ms 
+QuicksortVariant1(pivot: RIGHT)/random/262144    -> fastest:     17.646 ms, median:     18.106 ms 
+QuicksortVariant1(pivot: RIGHT)/random/524288    -> fastest:     37.058 ms, median:     37.869 ms 
+QuicksortVariant1(pivot: RIGHT)/random/1048576   -> fastest:     77.698 ms, median:     81.074 ms 
+QuicksortVariant1(pivot: RIGHT)/random/2097152   -> fastest:    161.349 ms, median:    167.979 ms 
+QuicksortVariant1(pivot: RIGHT)/random/4194304   -> fastest:    336.049 ms, median:    347.119 ms 
+QuicksortVariant1(pivot: RIGHT)/random/8388608   -> fastest:    709.455 ms, median:    719.462 ms 
+QuicksortVariant1(pivot: RIGHT)/random/16777216  -> fastest:  1,470.518 ms, median:  1,495.962 ms 
+QuicksortVariant1(pivot: RIGHT)/random/33554432  -> fastest:  3,072.701 ms, median:  3,099.994 ms 
+QuicksortVariant1(pivot: RIGHT)/random/67108864  -> fastest:  6,339.695 ms, median:  6,421.172 ms 
+QuicksortVariant1(pivot: RIGHT)/random/134217728 -> fastest: 13,158.103 ms, median: 13,305.377 ms 
+QuicksortVariant1(pivot: RIGHT)/random/268435456 -> fastest: 27,295.913 ms, median: 27,493.636 ms 
+
+--- Results for iteration 60 for: QuicksortVariant1(pivot: RIGHT) (order: ascending) ---
+QuicksortVariant1(pivot: RIGHT)/ascending/1024 -> fastest:      0.148 ms, median:      0.155 ms 
+QuicksortVariant1(pivot: RIGHT)/ascending/2048 -> fastest:      0.561 ms, median:      0.578 ms 
+QuicksortVariant1(pivot: RIGHT)/ascending/4096 -> fastest:      2.188 ms, median:      2.247 ms 
+QuicksortVariant1(pivot: RIGHT)/ascending/8192 -> fastest:      8.647 ms, median:      8.906 ms 
+
+--- Results for iteration 60 for: QuicksortVariant1(pivot: RIGHT) (order: descending) ---
+QuicksortVariant1(pivot: RIGHT)/descending/1024 -> fastest:      0.154 ms, median:      0.158 ms 
+QuicksortVariant1(pivot: RIGHT)/descending/2048 -> fastest:      0.581 ms, median:      0.597 ms 
+QuicksortVariant1(pivot: RIGHT)/descending/4096 -> fastest:      2.259 ms, median:      2.322 ms 
+QuicksortVariant1(pivot: RIGHT)/descending/8192 -> fastest:      8.748 ms, median:      9.127 ms 
+
+--- Results for iteration 60 for: QuicksortVariant1(pivot: MIDDLE) (order: random) ---
+QuicksortVariant1(pivot: MIDDLE)/random/1024      -> fastest:      0.047 ms, median:      0.050 ms 
+QuicksortVariant1(pivot: MIDDLE)/random/2048      -> fastest:      0.098 ms, median:      0.103 ms 
+QuicksortVariant1(pivot: MIDDLE)/random/4096      -> fastest:      0.202 ms, median:      0.212 ms 
+QuicksortVariant1(pivot: MIDDLE)/random/8192      -> fastest:      0.426 ms, median:      0.443 ms 
+QuicksortVariant1(pivot: MIDDLE)/random/16384     -> fastest:      0.883 ms, median:      0.937 ms 
+QuicksortVariant1(pivot: MIDDLE)/random/32768     -> fastest:      1.894 ms, median:      1.963 ms 
+QuicksortVariant1(pivot: MIDDLE)/random/65536     -> fastest:      4.003 ms, median:      4.158 ms 
+QuicksortVariant1(pivot: MIDDLE)/random/131072    -> fastest:      8.412 ms, median:      8.781 ms 
+QuicksortVariant1(pivot: MIDDLE)/random/262144    -> fastest:     17.849 ms, median:     18.390 ms 
+QuicksortVariant1(pivot: MIDDLE)/random/524288    -> fastest:     37.258 ms, median:     38.096 ms 
+QuicksortVariant1(pivot: MIDDLE)/random/1048576   -> fastest:     77.144 ms, median:     80.175 ms 
+QuicksortVariant1(pivot: MIDDLE)/random/2097152   -> fastest:    162.988 ms, median:    169.250 ms 
+QuicksortVariant1(pivot: MIDDLE)/random/4194304   -> fastest:    343.093 ms, median:    349.598 ms 
+QuicksortVariant1(pivot: MIDDLE)/random/8388608   -> fastest:    711.449 ms, median:    726.343 ms 
+QuicksortVariant1(pivot: MIDDLE)/random/16777216  -> fastest:  1,490.789 ms, median:  1,508.117 ms 
+QuicksortVariant1(pivot: MIDDLE)/random/33554432  -> fastest:  3,096.900 ms, median:  3,127.439 ms 
+QuicksortVariant1(pivot: MIDDLE)/random/67108864  -> fastest:  6,408.727 ms, median:  6,485.944 ms 
+QuicksortVariant1(pivot: MIDDLE)/random/134217728 -> fastest: 13,261.937 ms, median: 13,409.391 ms 
+QuicksortVariant1(pivot: MIDDLE)/random/268435456 -> fastest: 27,400.790 ms, median: 27,740.359 ms 
+
+--- Results for iteration 60 for: QuicksortVariant1(pivot: MIDDLE) (order: ascending) ---
+QuicksortVariant1(pivot: MIDDLE)/ascending/1024      -> fastest:      0.012 ms, median:      0.013 ms 
+QuicksortVariant1(pivot: MIDDLE)/ascending/2048      -> fastest:      0.020 ms, median:      0.021 ms 
+QuicksortVariant1(pivot: MIDDLE)/ascending/4096      -> fastest:      0.037 ms, median:      0.038 ms 
+QuicksortVariant1(pivot: MIDDLE)/ascending/8192      -> fastest:      0.077 ms, median:      0.079 ms 
+QuicksortVariant1(pivot: MIDDLE)/ascending/16384     -> fastest:      0.131 ms, median:      0.151 ms 
+QuicksortVariant1(pivot: MIDDLE)/ascending/32768     -> fastest:      0.296 ms, median:      0.324 ms 
+QuicksortVariant1(pivot: MIDDLE)/ascending/65536     -> fastest:      0.559 ms, median:      0.633 ms 
+QuicksortVariant1(pivot: MIDDLE)/ascending/131072    -> fastest:      1.193 ms, median:      1.353 ms 
+QuicksortVariant1(pivot: MIDDLE)/ascending/262144    -> fastest:      2.368 ms, median:      2.477 ms 
+QuicksortVariant1(pivot: MIDDLE)/ascending/524288    -> fastest:      5.138 ms, median:      5.303 ms 
+QuicksortVariant1(pivot: MIDDLE)/ascending/1048576   -> fastest:     10.089 ms, median:     10.545 ms 
+QuicksortVariant1(pivot: MIDDLE)/ascending/2097152   -> fastest:     22.546 ms, median:     23.361 ms 
+QuicksortVariant1(pivot: MIDDLE)/ascending/4194304   -> fastest:     43.394 ms, median:     45.515 ms 
+QuicksortVariant1(pivot: MIDDLE)/ascending/8388608   -> fastest:     94.013 ms, median:     97.022 ms 
+QuicksortVariant1(pivot: MIDDLE)/ascending/16777216  -> fastest:    182.791 ms, median:    191.304 ms 
+QuicksortVariant1(pivot: MIDDLE)/ascending/33554432  -> fastest:    400.822 ms, median:    409.502 ms 
+QuicksortVariant1(pivot: MIDDLE)/ascending/67108864  -> fastest:    792.037 ms, median:    806.412 ms 
+QuicksortVariant1(pivot: MIDDLE)/ascending/134217728 -> fastest:  1,701.481 ms, median:  1,727.181 ms 
+QuicksortVariant1(pivot: MIDDLE)/ascending/268435456 -> fastest:  3,375.235 ms, median:  3,405.216 ms 
+QuicksortVariant1(pivot: MIDDLE)/ascending/536870912 -> fastest:  7,224.581 ms, median:  7,272.931 ms 
+
+--- Results for iteration 60 for: QuicksortVariant1(pivot: MIDDLE) (order: descending) ---
+QuicksortVariant1(pivot: MIDDLE)/descending/1024      -> fastest:      0.015 ms, median:      0.017 ms 
+QuicksortVariant1(pivot: MIDDLE)/descending/2048      -> fastest:      0.024 ms, median:      0.028 ms 
+QuicksortVariant1(pivot: MIDDLE)/descending/4096      -> fastest:      0.049 ms, median:      0.050 ms 
+QuicksortVariant1(pivot: MIDDLE)/descending/8192      -> fastest:      0.101 ms, median:      0.104 ms 
+QuicksortVariant1(pivot: MIDDLE)/descending/16384     -> fastest:      0.174 ms, median:      0.201 ms 
+QuicksortVariant1(pivot: MIDDLE)/descending/32768     -> fastest:      0.397 ms, median:      0.419 ms 
+QuicksortVariant1(pivot: MIDDLE)/descending/65536     -> fastest:      0.695 ms, median:      0.832 ms 
+QuicksortVariant1(pivot: MIDDLE)/descending/131072    -> fastest:      1.406 ms, median:      1.697 ms 
+QuicksortVariant1(pivot: MIDDLE)/descending/262144    -> fastest:      2.881 ms, median:      3.162 ms 
+QuicksortVariant1(pivot: MIDDLE)/descending/524288    -> fastest:      5.928 ms, median:      6.346 ms 
+QuicksortVariant1(pivot: MIDDLE)/descending/1048576   -> fastest:     12.028 ms, median:     12.702 ms 
+QuicksortVariant1(pivot: MIDDLE)/descending/2097152   -> fastest:     25.566 ms, median:     26.518 ms 
+QuicksortVariant1(pivot: MIDDLE)/descending/4194304   -> fastest:     50.841 ms, median:     54.751 ms 
+QuicksortVariant1(pivot: MIDDLE)/descending/8388608   -> fastest:    107.391 ms, median:    111.831 ms 
+QuicksortVariant1(pivot: MIDDLE)/descending/16777216  -> fastest:    215.632 ms, median:    227.000 ms 
+QuicksortVariant1(pivot: MIDDLE)/descending/33554432  -> fastest:    455.964 ms, median:    464.738 ms 
+QuicksortVariant1(pivot: MIDDLE)/descending/67108864  -> fastest:    930.527 ms, median:    942.949 ms 
+QuicksortVariant1(pivot: MIDDLE)/descending/134217728 -> fastest:  1,929.250 ms, median:  1,945.812 ms 
+QuicksortVariant1(pivot: MIDDLE)/descending/268435456 -> fastest:  3,928.078 ms, median:  3,959.154 ms 
+QuicksortVariant1(pivot: MIDDLE)/descending/536870912 -> fastest:  8,137.577 ms, median:  8,178.957 ms 
+
+--- Results for iteration 60 for: QuicksortVariant1(pivot: MEDIAN3) (order: random) ---
+QuicksortVariant1(pivot: MEDIAN3)/random/1024      -> fastest:      0.053 ms, median:      0.056 ms 
+QuicksortVariant1(pivot: MEDIAN3)/random/2048      -> fastest:      0.104 ms, median:      0.109 ms 
+QuicksortVariant1(pivot: MEDIAN3)/random/4096      -> fastest:      0.215 ms, median:      0.225 ms 
+QuicksortVariant1(pivot: MEDIAN3)/random/8192      -> fastest:      0.456 ms, median:      0.473 ms 
+QuicksortVariant1(pivot: MEDIAN3)/random/16384     -> fastest:      0.961 ms, median:      0.997 ms 
+QuicksortVariant1(pivot: MEDIAN3)/random/32768     -> fastest:      2.031 ms, median:      2.095 ms 
+QuicksortVariant1(pivot: MEDIAN3)/random/65536     -> fastest:      4.254 ms, median:      4.399 ms 
+QuicksortVariant1(pivot: MEDIAN3)/random/131072    -> fastest:      8.998 ms, median:      9.235 ms 
+QuicksortVariant1(pivot: MEDIAN3)/random/262144    -> fastest:     18.819 ms, median:     19.435 ms 
+QuicksortVariant1(pivot: MEDIAN3)/random/524288    -> fastest:     38.960 ms, median:     40.531 ms 
+QuicksortVariant1(pivot: MEDIAN3)/random/1048576   -> fastest:     82.666 ms, median:     85.038 ms 
+QuicksortVariant1(pivot: MEDIAN3)/random/2097152   -> fastest:    172.942 ms, median:    179.641 ms 
+QuicksortVariant1(pivot: MEDIAN3)/random/4194304   -> fastest:    357.757 ms, median:    368.694 ms 
+QuicksortVariant1(pivot: MEDIAN3)/random/8388608   -> fastest:    753.443 ms, median:    766.578 ms 
+QuicksortVariant1(pivot: MEDIAN3)/random/16777216  -> fastest:  1,572.304 ms, median:  1,589.625 ms 
+QuicksortVariant1(pivot: MEDIAN3)/random/33554432  -> fastest:  3,255.363 ms, median:  3,291.365 ms 
+QuicksortVariant1(pivot: MEDIAN3)/random/67108864  -> fastest:  6,737.601 ms, median:  6,806.766 ms 
+QuicksortVariant1(pivot: MEDIAN3)/random/134217728 -> fastest: 13,965.180 ms, median: 14,066.216 ms 
+QuicksortVariant1(pivot: MEDIAN3)/random/268435456 -> fastest: 28,787.957 ms, median: 29,040.854 ms 
+
+--- Results for iteration 60 for: QuicksortVariant1(pivot: MEDIAN3) (order: ascending) ---
+QuicksortVariant1(pivot: MEDIAN3)/ascending/1024      -> fastest:      0.013 ms, median:      0.015 ms 
+QuicksortVariant1(pivot: MEDIAN3)/ascending/2048      -> fastest:      0.022 ms, median:      0.027 ms 
+QuicksortVariant1(pivot: MEDIAN3)/ascending/4096      -> fastest:      0.038 ms, median:      0.047 ms 
+QuicksortVariant1(pivot: MEDIAN3)/ascending/8192      -> fastest:      0.083 ms, median:      0.097 ms 
+QuicksortVariant1(pivot: MEDIAN3)/ascending/16384     -> fastest:      0.155 ms, median:      0.189 ms 
+QuicksortVariant1(pivot: MEDIAN3)/ascending/32768     -> fastest:      0.333 ms, median:      0.396 ms 
+QuicksortVariant1(pivot: MEDIAN3)/ascending/65536     -> fastest:      0.670 ms, median:      0.779 ms 
+QuicksortVariant1(pivot: MEDIAN3)/ascending/131072    -> fastest:      1.435 ms, median:      1.648 ms 
+QuicksortVariant1(pivot: MEDIAN3)/ascending/262144    -> fastest:      2.851 ms, median:      3.033 ms 
+QuicksortVariant1(pivot: MEDIAN3)/ascending/524288    -> fastest:      6.052 ms, median:      6.314 ms 
+QuicksortVariant1(pivot: MEDIAN3)/ascending/1048576   -> fastest:     12.025 ms, median:     12.607 ms 
+QuicksortVariant1(pivot: MEDIAN3)/ascending/2097152   -> fastest:     26.407 ms, median:     27.452 ms 
+QuicksortVariant1(pivot: MEDIAN3)/ascending/4194304   -> fastest:     51.319 ms, median:     53.381 ms 
+QuicksortVariant1(pivot: MEDIAN3)/ascending/8388608   -> fastest:    110.285 ms, median:    113.383 ms 
+QuicksortVariant1(pivot: MEDIAN3)/ascending/16777216  -> fastest:    214.422 ms, median:    222.603 ms 
+QuicksortVariant1(pivot: MEDIAN3)/ascending/33554432  -> fastest:    462.451 ms, median:    473.153 ms 
+QuicksortVariant1(pivot: MEDIAN3)/ascending/67108864  -> fastest:    920.601 ms, median:    934.617 ms 
+QuicksortVariant1(pivot: MEDIAN3)/ascending/134217728 -> fastest:  1,958.195 ms, median:  1,980.527 ms 
+QuicksortVariant1(pivot: MEDIAN3)/ascending/268435456 -> fastest:  3,872.230 ms, median:  3,907.550 ms 
+QuicksortVariant1(pivot: MEDIAN3)/ascending/536870912 -> fastest:  8,231.975 ms, median:  8,302.461 ms 
+
+--- Results for iteration 60 for: QuicksortVariant1(pivot: MEDIAN3) (order: descending) ---
+QuicksortVariant1(pivot: MEDIAN3)/descending/1024      -> fastest:      0.019 ms, median:      0.020 ms 
+QuicksortVariant1(pivot: MEDIAN3)/descending/2048      -> fastest:      0.025 ms, median:      0.032 ms 
+QuicksortVariant1(pivot: MEDIAN3)/descending/4096      -> fastest:      0.048 ms, median:      0.059 ms 
+QuicksortVariant1(pivot: MEDIAN3)/descending/8192      -> fastest:      0.097 ms, median:      0.119 ms 
+QuicksortVariant1(pivot: MEDIAN3)/descending/16384     -> fastest:      0.203 ms, median:      0.234 ms 
+QuicksortVariant1(pivot: MEDIAN3)/descending/32768     -> fastest:      0.397 ms, median:      0.481 ms 
+QuicksortVariant1(pivot: MEDIAN3)/descending/65536     -> fastest:      0.766 ms, median:      0.959 ms 
+QuicksortVariant1(pivot: MEDIAN3)/descending/131072    -> fastest:      1.605 ms, median:      1.947 ms 
+QuicksortVariant1(pivot: MEDIAN3)/descending/262144    -> fastest:      3.229 ms, median:      3.514 ms 
+QuicksortVariant1(pivot: MEDIAN3)/descending/524288    -> fastest:      6.751 ms, median:      7.148 ms 
+QuicksortVariant1(pivot: MEDIAN3)/descending/1048576   -> fastest:     13.630 ms, median:     14.292 ms 
+QuicksortVariant1(pivot: MEDIAN3)/descending/2097152   -> fastest:     28.126 ms, median:     29.454 ms 
+QuicksortVariant1(pivot: MEDIAN3)/descending/4194304   -> fastest:     58.017 ms, median:     61.183 ms 
+QuicksortVariant1(pivot: MEDIAN3)/descending/8388608   -> fastest:    119.357 ms, median:    126.427 ms 
+QuicksortVariant1(pivot: MEDIAN3)/descending/16777216  -> fastest:    240.581 ms, median:    248.994 ms 
+QuicksortVariant1(pivot: MEDIAN3)/descending/33554432  -> fastest:    503.040 ms, median:    514.418 ms 
+QuicksortVariant1(pivot: MEDIAN3)/descending/67108864  -> fastest:  1,023.968 ms, median:  1,039.064 ms 
+QuicksortVariant1(pivot: MEDIAN3)/descending/134217728 -> fastest:  2,128.436 ms, median:  2,142.782 ms 
+QuicksortVariant1(pivot: MEDIAN3)/descending/268435456 -> fastest:  4,313.087 ms, median:  4,349.206 ms 
+QuicksortVariant1(pivot: MEDIAN3)/descending/536870912 -> fastest:  8,899.641 ms, median:  8,973.781 ms 

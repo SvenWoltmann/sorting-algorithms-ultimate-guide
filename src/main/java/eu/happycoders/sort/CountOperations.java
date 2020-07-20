@@ -29,16 +29,13 @@ public class CountOperations {
 
   private static void countOps(SortAlgorithm algorithm) {
     // Test with a random, a sorted, and a reversed (= sorted descending) array
-    countOps(algorithm, "random", ArrayUtils::createRandomArray);
-
-    // Quicksort with right pivot element would go n x into recursion here...
-    if (algorithm.isSuitableForSortedInput()) {
-      countOps(algorithm, "ascending", ArrayUtils::createSortedArray);
-      countOps(algorithm, "descending", ArrayUtils::createReversedArray);
-    }
+    countOps(algorithm, false, "random", ArrayUtils::createRandomArray);
+    countOps(algorithm, true, "ascending", ArrayUtils::createSortedArray);
+    countOps(algorithm, true, "descending", ArrayUtils::createReversedArray);
   }
 
   private static void countOps(SortAlgorithm algorithm,
+                               boolean sorted,
                                String inputOrder,
                                Function<Integer, int[]> arraySupplier) {
     System.out.printf("%n--- %s (order: %s) ---%n",
@@ -47,7 +44,8 @@ public class CountOperations {
     // Sort until sorting takes more than MAX_SORTING_TIME_SECS
     // Upper limit used by insertion sort on already sorted data
     for (int size = MIN_SORTING_SIZE;
-         size <= MAX_SORTING_SIZE && algorithm.isSuitableForInputSize(size);
+         size <= MAX_SORTING_SIZE && algorithm.isSuitableForInputSize(size)
+               && (!sorted || algorithm.isSuitableForSortedInput(size));
          size <<= 1) {
       long time = System.currentTimeMillis();
       Counters counters = countOps(algorithm, arraySupplier.apply(size));

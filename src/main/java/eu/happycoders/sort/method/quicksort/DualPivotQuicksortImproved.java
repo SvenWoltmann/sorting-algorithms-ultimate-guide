@@ -90,8 +90,8 @@ public class DualPivotQuicksortImproved implements SortAlgorithm {
   }
 
   @Override
-  public boolean isSuitableForSortedInput() {
-    return standardQuicksort.isSuitableForSortedInput();
+  public boolean isSuitableForSortedInput(int size) {
+    return standardQuicksort.isSuitableForSortedInput(size);
   }
 
 }

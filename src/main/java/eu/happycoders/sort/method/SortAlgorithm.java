@@ -33,9 +33,10 @@ public interface SortAlgorithm {
    * right-most element as pivot element, as the recursion would be too deep
    * and we would get a StackOverflowException.
    *
+   * @param size the number of elements
    * @return whether this test is suitable for pre-sorted input
    */
-  default boolean isSuitableForSortedInput() {
+  default boolean isSuitableForSortedInput(int size) {
     return true;
   }
 
@@ -45,6 +46,7 @@ public interface SortAlgorithm {
    * <p>
    * CountingSort, for example,  should be limited to a specific size.
    *
+   * @param size the number of elements
    * @return whether this test is suitable for pre-sorted input
    */
   default boolean isSuitableForInputSize(int size) {

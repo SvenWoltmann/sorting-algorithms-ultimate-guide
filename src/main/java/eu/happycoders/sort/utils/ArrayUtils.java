@@ -102,4 +102,11 @@ public class ArrayUtils {
     }
   }
 
+  public static boolean isSorted(int[] elements) {
+    for (int i = 0; i < elements.length - 1; i++) {
+      if (elements[i] > elements[i + 1]) return false;
+    }
+    return true;
+  }
+
 }
