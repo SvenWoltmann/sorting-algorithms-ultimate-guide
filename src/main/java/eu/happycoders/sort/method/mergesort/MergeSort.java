@@ -1,6 +1,7 @@
 package eu.happycoders.sort.method.mergesort;
 
-import eu.happycoders.sort.method.*;
+import eu.happycoders.sort.method.Counters;
+import eu.happycoders.sort.method.SortAlgorithm;
 
 /**
  * Merge sort implementation for performance tests.
@@ -47,12 +48,12 @@ public class MergeSort implements SortAlgorithm {
     int leftPos = 0;
     int rightPos = 0;
 
-    // As long as both lists contain elements...
+    // As long as both arrays contain elements...
     while (leftPos < leftLen && rightPos < rightLen) {
       // Which one is smaller?
       int leftValue = leftArray[leftPos];
       int rightValue = rightArray[rightPos];
-      if (leftValue < rightValue) {
+      if (leftValue <= rightValue) {
         target[targetPos++] = leftValue;
         leftPos++;
       } else {
@@ -60,7 +61,7 @@ public class MergeSort implements SortAlgorithm {
         rightPos++;
       }
     }
-    // Copying the rest
+    // Copy the rest
     while (leftPos < leftLen) {
       target[targetPos++] = leftArray[leftPos++];
     }
@@ -99,7 +100,8 @@ public class MergeSort implements SortAlgorithm {
     int rightPos = 0;
 
     // As long as both lists contain elements...
-    while (leftPos < leftLen && rightPos < rightLen) {
+    while (isLessThan(leftPos, leftLen, counters)
+          && isLessThan(rightPos, rightLen, counters)) {
       counters.incIterations();
 
       // Which one is smaller?
@@ -109,7 +111,7 @@ public class MergeSort implements SortAlgorithm {
 
       counters.incComparisons();
       counters.incWrites();
-      if (leftValue < rightValue) {
+      if (leftValue <= rightValue) {
         target[targetPos++] = leftValue;
         leftPos++;
       } else {
@@ -118,18 +120,23 @@ public class MergeSort implements SortAlgorithm {
       }
     }
 
-    // Copying the rest
-    while (leftPos < leftLen) {
+    // Copy the rest
+    while (isLessThan(leftPos, leftLen, counters)) {
       counters.incIterations();
       target[targetPos++] = leftArray[leftPos++];
       counters.incReadsAndWrites();
     }
-    while (rightPos < rightLen) {
+    while (isLessThan(rightPos, rightLen, counters)) {
       counters.incIterations();
       target[targetPos++] = rightArray[rightPos++];
       counters.incReadsAndWrites();
     }
     return target;
+  }
+
+  private boolean isLessThan(int a, int b, Counters counters) {
+    counters.incComparisons();
+    return a < b;
   }
 
   @Override

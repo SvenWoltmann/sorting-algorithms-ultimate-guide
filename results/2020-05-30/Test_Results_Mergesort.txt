@@ -1,0 +1,62 @@
+--- Results for iteration 50 for: MergeSort (order: random) ---
+MergeSort/random/1024      -> fastest:      0.067 ms, median:      0.069 ms 
+MergeSort/random/2048      -> fastest:      0.129 ms, median:      0.141 ms 
+MergeSort/random/4096      -> fastest:      0.275 ms, median:      0.297 ms 
+MergeSort/random/8192      -> fastest:      0.574 ms, median:      0.604 ms 
+MergeSort/random/16384     -> fastest:      1.246 ms, median:      1.292 ms 
+MergeSort/random/32768     -> fastest:      2.606 ms, median:      2.958 ms 
+MergeSort/random/65536     -> fastest:      6.965 ms, median:      7.971 ms 
+MergeSort/random/131072    -> fastest:     14.240 ms, median:     16.212 ms 
+MergeSort/random/262144    -> fastest:     33.309 ms, median:     37.098 ms 
+MergeSort/random/524288    -> fastest:     67.857 ms, median:     73.627 ms 
+MergeSort/random/1048576   -> fastest:    143.302 ms, median:    150.516 ms 
+MergeSort/random/2097152   -> fastest:    295.225 ms, median:    301.237 ms 
+MergeSort/random/4194304   -> fastest:    557.976 ms, median:    570.553 ms 
+MergeSort/random/8388608   -> fastest:  1,109.083 ms, median:  1,198.070 ms 
+MergeSort/random/16777216  -> fastest:  2,313.953 ms, median:  2,474.083 ms 
+MergeSort/random/33554432  -> fastest:  4,686.149 ms, median:  4,860.187 ms 
+MergeSort/random/67108864  -> fastest:  9,540.229 ms, median:  9,623.202 ms 
+MergeSort/random/134217728 -> fastest: 19,506.554 ms, median: 19,700.284 ms 
+MergeSort/random/268435456 -> fastest: 40,454.466 ms, median: 40,852.375 ms 
+
+--- Results for iteration 50 for: MergeSort (order: ascending) ---
+MergeSort/ascending/1024      -> fastest:      0.031 ms, median:      0.032 ms 
+MergeSort/ascending/2048      -> fastest:      0.052 ms, median:      0.053 ms 
+MergeSort/ascending/4096      -> fastest:      0.106 ms, median:      0.109 ms 
+MergeSort/ascending/8192      -> fastest:      0.202 ms, median:      0.213 ms 
+MergeSort/ascending/16384     -> fastest:      0.450 ms, median:      0.465 ms 
+MergeSort/ascending/32768     -> fastest:      0.896 ms, median:      1.067 ms 
+MergeSort/ascending/65536     -> fastest:      2.891 ms, median:      3.701 ms 
+MergeSort/ascending/131072    -> fastest:      6.231 ms, median:      8.292 ms 
+MergeSort/ascending/262144    -> fastest:     15.246 ms, median:     23.832 ms 
+MergeSort/ascending/524288    -> fastest:     30.658 ms, median:     36.770 ms 
+MergeSort/ascending/1048576   -> fastest:     61.603 ms, median:     72.798 ms 
+MergeSort/ascending/2097152   -> fastest:    124.601 ms, median:    145.212 ms 
+MergeSort/ascending/4194304   -> fastest:    231.656 ms, median:    251.661 ms 
+MergeSort/ascending/8388608   -> fastest:    477.520 ms, median:    510.604 ms 
+MergeSort/ascending/16777216  -> fastest:    963.812 ms, median:  1,051.910 ms 
+MergeSort/ascending/33554432  -> fastest:  1,885.132 ms, median:  1,954.700 ms 
+MergeSort/ascending/67108864  -> fastest:  3,516.040 ms, median:  3,622.828 ms 
+MergeSort/ascending/134217728 -> fastest:  6,365.431 ms, median:  6,542.107 ms 
+MergeSort/ascending/268435456 -> fastest: 13,447.879 ms, median: 13,773.505 ms 
+
+--- Results for iteration 50 for: MergeSort (order: descending) ---
+MergeSort/descending/1024      -> fastest:      0.032 ms, median:      0.033 ms 
+MergeSort/descending/2048      -> fastest:      0.054 ms, median:      0.056 ms 
+MergeSort/descending/4096      -> fastest:      0.113 ms, median:      0.116 ms 
+MergeSort/descending/8192      -> fastest:      0.216 ms, median:      0.228 ms 
+MergeSort/descending/16384     -> fastest:      0.479 ms, median:      0.496 ms 
+MergeSort/descending/32768     -> fastest:      0.952 ms, median:      1.405 ms 
+MergeSort/descending/65536     -> fastest:      3.059 ms, median:      3.798 ms 
+MergeSort/descending/131072    -> fastest:      6.191 ms, median:      7.676 ms 
+MergeSort/descending/262144    -> fastest:     17.490 ms, median:     24.512 ms 
+MergeSort/descending/524288    -> fastest:     34.117 ms, median:     39.323 ms 
+MergeSort/descending/1048576   -> fastest:     66.865 ms, median:     75.508 ms 
+MergeSort/descending/2097152   -> fastest:    129.025 ms, median:    152.871 ms 
+MergeSort/descending/4194304   -> fastest:    254.665 ms, median:    269.438 ms 
+MergeSort/descending/8388608   -> fastest:    504.307 ms, median:    555.769 ms 
+MergeSort/descending/16777216  -> fastest:  1,059.967 ms, median:  1,100.016 ms 
+MergeSort/descending/33554432  -> fastest:  1,985.159 ms, median:  2,040.175 ms 
+MergeSort/descending/67108864  -> fastest:  3,667.241 ms, median:  3,815.660 ms 
+MergeSort/descending/134217728 -> fastest:  6,798.129 ms, median:  6,973.004 ms 
+MergeSort/descending/268435456 -> fastest: 14,365.746 ms, median: 14,708.173 ms 

@@ -10,7 +10,7 @@ import eu.happycoders.sort.method.mergesort.*;
  */
 public class CompareMergeSorts extends DirectComparison {
 
-  private static final int SIZE = 5_555_555; // ~840 ms for Merge Sort
+  private static final int SIZE = 4_444_444; // ~600 ms for Merge Sort
 
   public static void main(String[] args) {
     SortAlgorithm[] algorithms = new SortAlgorithm[]{

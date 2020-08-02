@@ -1,0 +1,44 @@
+--- MergeSort (order: random) ---
+MergeSort (order: random): size =           8  -->  iterations =          24, comparisons =          78, reads =          46, writes =          32, var.assignments =           0
+MergeSort (order: random): size =          16  -->  iterations =          64, comparisons =         205, reads =         124, writes =          80, var.assignments =           0
+MergeSort (order: random): size =          32  -->  iterations =         160, comparisons =         519, reads =         318, writes =         192, var.assignments =           0
+MergeSort (order: random): size =          64  -->  iterations =         384, comparisons =       1,227, reads =         756, writes =         448, var.assignments =           0
+MergeSort (order: random): size =         128  -->  iterations =         896, comparisons =       2,819, reads =       1,767, writes =       1,024, var.assignments =           0
+MergeSort (order: random): size =         256  -->  iterations =       2,048, comparisons =       6,451, reads =       4,052, writes =       2,304, var.assignments =           0
+MergeSort (order: random): size =         512  -->  iterations =       4,608, comparisons =      14,324, reads =       9,082, writes =       5,120, var.assignments =           0
+MergeSort (order: random): size =       1,024  -->  iterations =      10,240, comparisons =      31,719, reads =      20,210, writes =      11,264, var.assignments =           0
+MergeSort (order: random): size =       2,048  -->  iterations =      22,528, comparisons =      69,520, reads =      44,488, writes =      24,576, var.assignments =           0
+MergeSort (order: random): size =       4,096  -->  iterations =      49,152, comparisons =     151,515, reads =      97,241, writes =      53,248, var.assignments =           0
+MergeSort (order: random): size =       8,192  -->  iterations =     106,496, comparisons =     327,517, reads =     210,851, writes =     114,688, var.assignments =           0
+MergeSort (order: random): size =      16,384  -->  iterations =     229,376, comparisons =     703,896, reads =     454,389, writes =     245,760, var.assignments =           0
+MergeSort (order: random): size =      32,768  -->  iterations =     491,520, comparisons =   1,506,080, reads =     974,261, writes =     524,288, var.assignments =           0
+
+--- MergeSort (order: ascending) ---
+MergeSort (order: ascending): size =           8  -->  iterations =          24, comparisons =          69, reads =          44, writes =          32, var.assignments =           0
+MergeSort (order: ascending): size =          16  -->  iterations =          64, comparisons =         173, reads =         112, writes =          80, var.assignments =           0
+MergeSort (order: ascending): size =          32  -->  iterations =         160, comparisons =         413, reads =         272, writes =         192, var.assignments =           0
+MergeSort (order: ascending): size =          64  -->  iterations =         384, comparisons =         957, reads =         640, writes =         448, var.assignments =           0
+MergeSort (order: ascending): size =         128  -->  iterations =         896, comparisons =       2,173, reads =       1,472, writes =       1,024, var.assignments =           0
+MergeSort (order: ascending): size =         256  -->  iterations =       2,048, comparisons =       4,861, reads =       3,328, writes =       2,304, var.assignments =           0
+MergeSort (order: ascending): size =         512  -->  iterations =       4,608, comparisons =      10,749, reads =       7,424, writes =       5,120, var.assignments =           0
+MergeSort (order: ascending): size =       1,024  -->  iterations =      10,240, comparisons =      23,549, reads =      16,384, writes =      11,264, var.assignments =           0
+MergeSort (order: ascending): size =       2,048  -->  iterations =      22,528, comparisons =      51,197, reads =      35,840, writes =      24,576, var.assignments =           0
+MergeSort (order: ascending): size =       4,096  -->  iterations =      49,152, comparisons =     110,589, reads =      77,824, writes =      53,248, var.assignments =           0
+MergeSort (order: ascending): size =       8,192  -->  iterations =     106,496, comparisons =     237,565, reads =     167,936, writes =     114,688, var.assignments =           0
+MergeSort (order: ascending): size =      16,384  -->  iterations =     229,376, comparisons =     507,901, reads =     360,448, writes =     245,760, var.assignments =           0
+MergeSort (order: ascending): size =      32,768  -->  iterations =     491,520, comparisons =   1,081,341, reads =     770,048, writes =     524,288, var.assignments =           0
+
+--- MergeSort (order: descending) ---
+MergeSort (order: descending): size =           8  -->  iterations =          24, comparisons =          76, reads =          44, writes =          32, var.assignments =           0
+MergeSort (order: descending): size =          16  -->  iterations =          64, comparisons =         188, reads =         112, writes =          80, var.assignments =           0
+MergeSort (order: descending): size =          32  -->  iterations =         160, comparisons =         444, reads =         272, writes =         192, var.assignments =           0
+MergeSort (order: descending): size =          64  -->  iterations =         384, comparisons =       1,020, reads =         640, writes =         448, var.assignments =           0
+MergeSort (order: descending): size =         128  -->  iterations =         896, comparisons =       2,300, reads =       1,472, writes =       1,024, var.assignments =           0
+MergeSort (order: descending): size =         256  -->  iterations =       2,048, comparisons =       5,116, reads =       3,328, writes =       2,304, var.assignments =           0
+MergeSort (order: descending): size =         512  -->  iterations =       4,608, comparisons =      11,260, reads =       7,424, writes =       5,120, var.assignments =           0
+MergeSort (order: descending): size =       1,024  -->  iterations =      10,240, comparisons =      24,572, reads =      16,384, writes =      11,264, var.assignments =           0
+MergeSort (order: descending): size =       2,048  -->  iterations =      22,528, comparisons =      53,244, reads =      35,840, writes =      24,576, var.assignments =           0
+MergeSort (order: descending): size =       4,096  -->  iterations =      49,152, comparisons =     114,684, reads =      77,824, writes =      53,248, var.assignments =           0
+MergeSort (order: descending): size =       8,192  -->  iterations =     106,496, comparisons =     245,756, reads =     167,936, writes =     114,688, var.assignments =           0
+MergeSort (order: descending): size =      16,384  -->  iterations =     229,376, comparisons =     524,284, reads =     360,448, writes =     245,760, var.assignments =           0
+MergeSort (order: descending): size =      32,768  -->  iterations =     491,520, comparisons =   1,114,108, reads =     770,048, writes =     524,288, var.assignments =           0

@@ -53,7 +53,7 @@ public class MergeSort3 implements SortAlgorithm {
       // Which one is smaller?
       int leftValue = leftArray[leftPos];
       int rightValue = rightArray[rightPos];
-      if (leftValue < rightValue) {
+      if (leftValue <= rightValue) {
         target[targetPos++] = leftValue;
         leftPos++;
       } else {
@@ -113,7 +113,7 @@ public class MergeSort3 implements SortAlgorithm {
 
       counters.incComparisons();
       counters.incWrites();
-      if (leftValue < rightValue) {
+      if (leftValue <= rightValue) {
         target[targetPos++] = leftValue;
         leftPos++;
       } else {

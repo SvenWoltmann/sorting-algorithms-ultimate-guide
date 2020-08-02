@@ -48,7 +48,7 @@ public class MergeSort2 implements SortAlgorithm {
       // Which one is smaller?
       int leftValue = elements[leftPos];
       int rightValue = elements[rightPos];
-      if (leftValue < rightValue) {
+      if (leftValue <= rightValue) {
         target[targetPos++] = leftValue;
         leftPos++;
       } else {
@@ -103,7 +103,7 @@ public class MergeSort2 implements SortAlgorithm {
 
       counters.incComparisons();
       counters.incWrites();
-      if (leftValue < rightValue) {
+      if (leftValue <= rightValue) {
         target[targetPos++] = leftValue;
         leftPos++;
       } else {
