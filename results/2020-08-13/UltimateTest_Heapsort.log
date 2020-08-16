@@ -1,0 +1,163 @@
+===== Results for iteration 50 =====
+
+--- Results for iteration 50 for: Heapsort (order: random) ---
+Heapsort/random/1024     -> fastest:      0.076 ms, median:      0.078 ms 
+Heapsort/random/2048     -> fastest:      0.161 ms, median:      0.163 ms 
+Heapsort/random/4096     -> fastest:      0.346 ms, median:      0.349 ms 
+Heapsort/random/8192     -> fastest:      0.739 ms, median:      0.746 ms 
+Heapsort/random/16384    -> fastest:      1.600 ms, median:      1.607 ms 
+Heapsort/random/32768    -> fastest:      3.437 ms, median:      3.453 ms 
+Heapsort/random/65536    -> fastest:      7.220 ms, median:      7.445 ms 
+Heapsort/random/131072   -> fastest:     16.088 ms, median:     16.271 ms 
+Heapsort/random/262144   -> fastest:     35.065 ms, median:     35.375 ms 
+Heapsort/random/524288   -> fastest:     75.861 ms, median:     76.683 ms 
+Heapsort/random/1048576  -> fastest:    166.937 ms, median:    170.967 ms 
+Heapsort/random/2097152  -> fastest:    360.381 ms, median:    369.473 ms 
+Heapsort/random/4194304  -> fastest:    861.326 ms, median:    870.169 ms 
+Heapsort/random/8388608  -> fastest:  2,033.340 ms, median:  2,052.394 ms 
+Heapsort/random/16777216 -> fastest:  4,662.281 ms, median:  4,686.894 ms 
+Heapsort/random/33554432 -> fastest: 10,439.468 ms, median: 10,508.215 ms 
+Heapsort/random/67108864 -> fastest: 23,357.405 ms, median: 23,459.893 ms 
+
+--- Results for iteration 50 for: Heapsort (order: ascending) ---
+Heapsort/ascending/1024      -> fastest:      0.061 ms, median:      0.062 ms 
+Heapsort/ascending/2048      -> fastest:      0.121 ms, median:      0.125 ms 
+Heapsort/ascending/4096      -> fastest:      0.257 ms, median:      0.259 ms 
+Heapsort/ascending/8192      -> fastest:      0.537 ms, median:      0.542 ms 
+Heapsort/ascending/16384     -> fastest:      1.114 ms, median:      1.128 ms 
+Heapsort/ascending/32768     -> fastest:      2.311 ms, median:      2.362 ms 
+Heapsort/ascending/65536     -> fastest:      4.830 ms, median:      4.984 ms 
+Heapsort/ascending/131072    -> fastest:     10.256 ms, median:     10.389 ms 
+Heapsort/ascending/262144    -> fastest:     21.453 ms, median:     21.761 ms 
+Heapsort/ascending/524288    -> fastest:     44.957 ms, median:     45.351 ms 
+Heapsort/ascending/1048576   -> fastest:     93.468 ms, median:     94.651 ms 
+Heapsort/ascending/2097152   -> fastest:    195.674 ms, median:    198.819 ms 
+Heapsort/ascending/4194304   -> fastest:    406.291 ms, median:    410.424 ms 
+Heapsort/ascending/8388608   -> fastest:    842.815 ms, median:    848.915 ms 
+Heapsort/ascending/16777216  -> fastest:  1,744.107 ms, median:  1,752.590 ms 
+Heapsort/ascending/33554432  -> fastest:  3,610.267 ms, median:  3,623.491 ms 
+Heapsort/ascending/67108864  -> fastest:  7,466.380 ms, median:  7,492.359 ms 
+Heapsort/ascending/134217728 -> fastest: 15,391.721 ms, median: 15,437.962 ms 
+Heapsort/ascending/268435456 -> fastest: 31,598.374 ms, median: 31,693.587 ms 
+
+--- Results for iteration 50 for: Heapsort (order: descending) ---
+Heapsort/descending/1024      -> fastest:      0.061 ms, median:      0.063 ms 
+Heapsort/descending/2048      -> fastest:      0.125 ms, median:      0.126 ms 
+Heapsort/descending/4096      -> fastest:      0.260 ms, median:      0.264 ms 
+Heapsort/descending/8192      -> fastest:      0.540 ms, median:      0.546 ms 
+Heapsort/descending/16384     -> fastest:      1.139 ms, median:      1.147 ms 
+Heapsort/descending/32768     -> fastest:      2.371 ms, median:      2.384 ms 
+Heapsort/descending/65536     -> fastest:      4.944 ms, median:      5.028 ms 
+Heapsort/descending/131072    -> fastest:     10.261 ms, median:     10.440 ms 
+Heapsort/descending/262144    -> fastest:     21.689 ms, median:     22.114 ms 
+Heapsort/descending/524288    -> fastest:     45.793 ms, median:     46.607 ms 
+Heapsort/descending/1048576   -> fastest:     95.112 ms, median:     97.033 ms 
+Heapsort/descending/2097152   -> fastest:    196.822 ms, median:    198.788 ms 
+Heapsort/descending/4194304   -> fastest:    408.618 ms, median:    412.729 ms 
+Heapsort/descending/8388608   -> fastest:    847.510 ms, median:    852.905 ms 
+Heapsort/descending/16777216  -> fastest:  1,763.380 ms, median:  1,775.297 ms 
+Heapsort/descending/33554432  -> fastest:  3,656.068 ms, median:  3,668.728 ms 
+Heapsort/descending/67108864  -> fastest:  7,585.274 ms, median:  7,605.484 ms 
+Heapsort/descending/134217728 -> fastest: 15,692.908 ms, median: 15,747.384 ms 
+Heapsort/descending/268435456 -> fastest: 32,469.244 ms, median: 32,574.083 ms 
+
+--- Results for iteration 50 for: BottomUpHeapsort (order: random) ---
+BottomUpHeapsort/random/1024     -> fastest:      0.046 ms, median:      0.048 ms 
+BottomUpHeapsort/random/2048     -> fastest:      0.097 ms, median:      0.098 ms 
+BottomUpHeapsort/random/4096     -> fastest:      0.210 ms, median:      0.211 ms 
+BottomUpHeapsort/random/8192     -> fastest:      0.456 ms, median:      0.460 ms 
+BottomUpHeapsort/random/16384    -> fastest:      0.992 ms, median:      1.056 ms 
+BottomUpHeapsort/random/32768    -> fastest:      2.204 ms, median:      2.424 ms 
+BottomUpHeapsort/random/65536    -> fastest:      4.882 ms, median:      5.277 ms 
+BottomUpHeapsort/random/131072   -> fastest:     11.405 ms, median:     11.931 ms 
+BottomUpHeapsort/random/262144   -> fastest:     26.973 ms, median:     27.905 ms 
+BottomUpHeapsort/random/524288   -> fastest:     63.626 ms, median:     66.254 ms 
+BottomUpHeapsort/random/1048576  -> fastest:    148.387 ms, median:    152.791 ms 
+BottomUpHeapsort/random/2097152  -> fastest:    355.862 ms, median:    367.760 ms 
+BottomUpHeapsort/random/4194304  -> fastest:    974.293 ms, median:  1,001.420 ms 
+BottomUpHeapsort/random/8388608  -> fastest:  2,705.545 ms, median:  2,762.888 ms 
+BottomUpHeapsort/random/16777216 -> fastest:  7,260.928 ms, median:  7,326.354 ms 
+BottomUpHeapsort/random/33554432 -> fastest: 18,528.474 ms, median: 18,744.524 ms 
+BottomUpHeapsort/random/67108864 -> fastest: 45,050.470 ms, median: 46,521.200 ms 
+
+--- Results for iteration 50 for: BottomUpHeapsort (order: ascending) ---
+BottomUpHeapsort/ascending/1024      -> fastest:      0.043 ms, median:      0.044 ms 
+BottomUpHeapsort/ascending/2048      -> fastest:      0.091 ms, median:      0.092 ms 
+BottomUpHeapsort/ascending/4096      -> fastest:      0.190 ms, median:      0.194 ms 
+BottomUpHeapsort/ascending/8192      -> fastest:      0.417 ms, median:      0.429 ms 
+BottomUpHeapsort/ascending/16384     -> fastest:      0.892 ms, median:      0.968 ms 
+BottomUpHeapsort/ascending/32768     -> fastest:      1.990 ms, median:      2.147 ms 
+BottomUpHeapsort/ascending/65536     -> fastest:      4.149 ms, median:      4.518 ms 
+BottomUpHeapsort/ascending/131072    -> fastest:      8.795 ms, median:      9.327 ms 
+BottomUpHeapsort/ascending/262144    -> fastest:     18.880 ms, median:     19.394 ms 
+BottomUpHeapsort/ascending/524288    -> fastest:     40.147 ms, median:     41.016 ms 
+BottomUpHeapsort/ascending/1048576   -> fastest:     84.220 ms, median:     85.541 ms 
+BottomUpHeapsort/ascending/2097152   -> fastest:    178.138 ms, median:    181.320 ms 
+BottomUpHeapsort/ascending/4194304   -> fastest:    374.666 ms, median:    378.264 ms 
+BottomUpHeapsort/ascending/8388608   -> fastest:    788.542 ms, median:    792.472 ms 
+BottomUpHeapsort/ascending/16777216  -> fastest:  1,645.866 ms, median:  1,652.903 ms 
+BottomUpHeapsort/ascending/33554432  -> fastest:  3,430.629 ms, median:  3,440.973 ms 
+BottomUpHeapsort/ascending/67108864  -> fastest:  7,144.700 ms, median:  7,176.334 ms 
+BottomUpHeapsort/ascending/134217728 -> fastest: 14,982.293 ms, median: 15,018.742 ms 
+BottomUpHeapsort/ascending/268435456 -> fastest: 31,032.918 ms, median: 31,126.945 ms 
+
+--- Results for iteration 50 for: BottomUpHeapsort (order: descending) ---
+BottomUpHeapsort/descending/1024      -> fastest:      0.042 ms, median:      0.044 ms 
+BottomUpHeapsort/descending/2048      -> fastest:      0.088 ms, median:      0.088 ms 
+BottomUpHeapsort/descending/4096      -> fastest:      0.190 ms, median:      0.191 ms 
+BottomUpHeapsort/descending/8192      -> fastest:      0.415 ms, median:      0.428 ms 
+BottomUpHeapsort/descending/16384     -> fastest:      0.913 ms, median:      0.963 ms 
+BottomUpHeapsort/descending/32768     -> fastest:      1.986 ms, median:      2.131 ms 
+BottomUpHeapsort/descending/65536     -> fastest:      4.139 ms, median:      4.486 ms 
+BottomUpHeapsort/descending/131072    -> fastest:      8.885 ms, median:      9.307 ms 
+BottomUpHeapsort/descending/262144    -> fastest:     18.983 ms, median:     19.707 ms 
+BottomUpHeapsort/descending/524288    -> fastest:     40.347 ms, median:     41.346 ms 
+BottomUpHeapsort/descending/1048576   -> fastest:     86.688 ms, median:     87.834 ms 
+BottomUpHeapsort/descending/2097152   -> fastest:    182.887 ms, median:    185.575 ms 
+BottomUpHeapsort/descending/4194304   -> fastest:    392.086 ms, median:    395.427 ms 
+BottomUpHeapsort/descending/8388608   -> fastest:    829.262 ms, median:    833.792 ms 
+BottomUpHeapsort/descending/16777216  -> fastest:  1,761.397 ms, median:  1,770.307 ms 
+BottomUpHeapsort/descending/33554432  -> fastest:  3,723.626 ms, median:  3,739.427 ms 
+BottomUpHeapsort/descending/67108864  -> fastest:  7,850.197 ms, median:  7,881.156 ms 
+BottomUpHeapsort/descending/134217728 -> fastest: 16,411.828 ms, median: 16,485.490 ms 
+BottomUpHeapsort/descending/268435456 -> fastest: 34,514.050 ms, median: 34,672.310 ms 
+
+--- Results for iteration 50 for: HeapsortSlowComparisons (order: random) ---
+HeapsortSlowComparisons/random/1024    -> fastest:      1.730 ms, median:      1.740 ms 
+HeapsortSlowComparisons/random/2048    -> fastest:      3.875 ms, median:      3.898 ms 
+HeapsortSlowComparisons/random/4096    -> fastest:      8.572 ms, median:      8.634 ms 
+HeapsortSlowComparisons/random/8192    -> fastest:     18.802 ms, median:     18.943 ms 
+HeapsortSlowComparisons/random/16384   -> fastest:     40.967 ms, median:     41.814 ms 
+HeapsortSlowComparisons/random/32768   -> fastest:     88.614 ms, median:     90.023 ms 
+HeapsortSlowComparisons/random/65536   -> fastest:    190.772 ms, median:    192.237 ms 
+HeapsortSlowComparisons/random/131072  -> fastest:    410.193 ms, median:    412.379 ms 
+HeapsortSlowComparisons/random/262144  -> fastest:    873.801 ms, median:    877.350 ms 
+HeapsortSlowComparisons/random/524288  -> fastest:  1,856.317 ms, median:  1,862.314 ms 
+HeapsortSlowComparisons/random/1048576 -> fastest:  3,934.306 ms, median:  3,945.996 ms 
+HeapsortSlowComparisons/random/2097152 -> fastest:  8,334.933 ms, median:  8,360.914 ms 
+HeapsortSlowComparisons/random/4194304 -> fastest: 17,716.074 ms, median: 17,753.331 ms 
+HeapsortSlowComparisons/random/8388608 -> fastest: 37,667.761 ms, median: 37,752.727 ms 
+
+--- Results for iteration 50 for: HeapsortSlowComparisons (order: ascending) ---
+
+--- Results for iteration 50 for: HeapsortSlowComparisons (order: descending) ---
+
+--- Results for iteration 50 for: BottomUpHeapsortSlowComparisons (order: random) ---
+BottomUpHeapsortSlowComparisons/random/1024    -> fastest:      1.059 ms, median:      1.065 ms 
+BottomUpHeapsortSlowComparisons/random/2048    -> fastest:      2.325 ms, median:      2.333 ms 
+BottomUpHeapsortSlowComparisons/random/4096    -> fastest:      5.064 ms, median:      5.078 ms 
+BottomUpHeapsortSlowComparisons/random/8192    -> fastest:     10.950 ms, median:     11.024 ms 
+BottomUpHeapsortSlowComparisons/random/16384   -> fastest:     23.604 ms, median:     23.722 ms 
+BottomUpHeapsortSlowComparisons/random/32768   -> fastest:     50.503 ms, median:     50.870 ms 
+BottomUpHeapsortSlowComparisons/random/65536   -> fastest:    108.460 ms, median:    108.976 ms 
+BottomUpHeapsortSlowComparisons/random/131072  -> fastest:    230.582 ms, median:    232.725 ms 
+BottomUpHeapsortSlowComparisons/random/262144  -> fastest:    487.061 ms, median:    489.387 ms 
+BottomUpHeapsortSlowComparisons/random/524288  -> fastest:  1,030.261 ms, median:  1,035.706 ms 
+BottomUpHeapsortSlowComparisons/random/1048576 -> fastest:  2,183.789 ms, median:  2,190.790 ms 
+BottomUpHeapsortSlowComparisons/random/2097152 -> fastest:  4,642.581 ms, median:  4,660.445 ms 
+BottomUpHeapsortSlowComparisons/random/4194304 -> fastest:  9,961.986 ms, median:  9,993.418 ms 
+BottomUpHeapsortSlowComparisons/random/8388608 -> fastest: 21,436.345 ms, median: 21,524.081 ms 
+
+--- Results for iteration 50 for: BottomUpHeapsortSlowComparisons (order: ascending) ---
+
+--- Results for iteration 50 for: BottomUpHeapsortSlowComparisons (order: descending) ---

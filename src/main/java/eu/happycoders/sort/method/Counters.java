@@ -15,6 +15,8 @@ public class Counters {
   private long writes;
   private long localVariableAssignments;
 
+  private Counters phase2;
+
   public void incIterations() {
     iterations++;
   }
@@ -61,9 +63,25 @@ public class Counters {
     localVariableAssignments++;
   }
 
+  /**
+   * Returns a second set of counters (used by Heapsort to count operations
+   * of phase 2). Create the second set if it doesn't exist yet.
+   *
+   * <p>
+   * Not thread-safe!
+   *
+   * @return
+   */
+  public Counters getPhase2() {
+    if (phase2 == null) {
+      phase2 = new Counters();
+    }
+    return phase2;
+  }
+
   @Override
   public String toString() {
-    return String.format(Locale.US,
+    String result = String.format(Locale.US,
           "iterations = %,11d, comparisons = %,11d, " +
                 "reads = %,11d, writes = %,11d, var.assignments = %,11d",
           iterations,
@@ -71,6 +89,10 @@ public class Counters {
           reads,
           writes,
           localVariableAssignments);
+    if (phase2 != null) {
+      result += "; Phase2: " + phase2.toString();
+    }
+    return result;
   }
 
 }

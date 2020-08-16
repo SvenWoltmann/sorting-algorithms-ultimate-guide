@@ -14,7 +14,7 @@ import java.util.function.Function;
 public class CountOperations {
 
   private static final int MIN_SORTING_SIZE = 1 << 3;
-  private static final int MAX_SORTING_SIZE = 1 << 15;
+  private static final int MAX_SORTING_SIZE = 1 << 26;
 
   // Stop when counting takes longer than 20 seconds
   private static final int MAX_COUNTING_TIME_SECS = 20;

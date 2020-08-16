@@ -2,12 +2,18 @@ package eu.happycoders.sort;
 
 import eu.happycoders.sort.method.*;
 import eu.happycoders.sort.method.bubblesort.BubbleSortOpt1;
+import eu.happycoders.sort.method.heapsort.BottomUpHeapsort;
+import eu.happycoders.sort.method.heapsort.BottomUpHeapsortSlowComparisons;
+import eu.happycoders.sort.method.heapsort.Heapsort;
+import eu.happycoders.sort.method.heapsort.HeapsortSlowComparisons;
 import eu.happycoders.sort.method.mergesort.MergeSort;
-import eu.happycoders.sort.method.quicksort.DualPivotQuicksort;
 import eu.happycoders.sort.method.quicksort.*;
-import eu.happycoders.sort.utils.*;
+import eu.happycoders.sort.utils.ArrayUtils;
+import eu.happycoders.sort.utils.Scorecard;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Locale;
+import java.util.Map;
 import java.util.function.Function;
 
 /**
@@ -17,7 +23,7 @@ import java.util.function.Function;
  */
 public class UltimateTest {
 
-  static final SortAlgorithm[] ALGORITHMS = {
+  static final SortAlgorithm[] ALGORITHMS = new SortAlgorithm[]{
         new InsertionSort(),
         new SelectionSort(),
         new BubbleSortOpt1(),
@@ -32,7 +38,13 @@ public class UltimateTest {
               DualPivotQuicksort.PivotStrategy.THIRDS),
 
         new MergeSort(),
-        new HeapSort(),
+
+        // Heapsort
+        new Heapsort(),
+        new BottomUpHeapsort(),
+        new HeapsortSlowComparisons(),
+        new BottomUpHeapsortSlowComparisons(),
+
         new CountingSort(),
         new JavaArraysSort()
   };

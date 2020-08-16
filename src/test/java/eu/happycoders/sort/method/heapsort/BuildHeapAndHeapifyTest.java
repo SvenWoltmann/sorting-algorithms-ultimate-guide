@@ -1,16 +1,17 @@
-package eu.happycoders.sort.method;
+package eu.happycoders.sort.method.heapsort;
 
 import eu.happycoders.sort.utils.ArrayUtils;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.*;
+import org.junit.jupiter.params.provider.Arguments;
+import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class HeapSortBuildAndHeapifyTest {
+public abstract class BuildHeapAndHeapifyTest {
 
   static Stream<Arguments> arrayProvider() {
     return Stream.of(
@@ -51,7 +52,7 @@ public class HeapSortBuildAndHeapifyTest {
   }
 
   private void testArray(int[] array) {
-    new HeapSort().buildHeap(array);
+    getSortAlgorithm().buildHeap(array);
     assertIsHeap(array);
   }
 
@@ -71,5 +72,7 @@ public class HeapSortBuildAndHeapifyTest {
       }
     }
   }
+
+  protected abstract Heapsort getSortAlgorithm();
 
 }
