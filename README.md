@@ -10,6 +10,7 @@ The code belongs to this series of articles:
   * [Bubble Sort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/bubble-sort/)
   * [Quicksort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/quicksort/)
   * [Merge Sort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/merge-sort/)
+  * [Heapsort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/heapsort/)
 * German:
   * [Sortieralgorithmen \[Ultimate Guide\]](https://www.happycoders.eu/de/algorithmen/sortieralgorithmen/)
   * [Insertion Sort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/insertion-sort/)
@@ -17,3 +18,4 @@ The code belongs to this series of articles:
   * [Bubble Sort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/bubble-sort/)
   * [Quicksort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/quicksort/)
   * [Mergesort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/mergesort/)
+  * [Heapsort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/heapsort/)
