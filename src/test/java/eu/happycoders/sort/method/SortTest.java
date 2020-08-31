@@ -3,10 +3,11 @@ package eu.happycoders.sort.method;
 import eu.happycoders.sort.utils.ArrayUtils;
 import org.junit.jupiter.api.RepeatedTest;
 
+import java.util.Arrays;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.function.Function;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public abstract class SortTest {
 
@@ -25,20 +26,19 @@ public abstract class SortTest {
     sortAndTestIfSorted(ArrayUtils::createReversedArray);
   }
 
-  private void sortAndTestIfSorted(Function<Integer, int[]> arraySupplier) {
+  protected void sortAndTestIfSorted(Function<Integer, int[]> arraySupplier) {
     int[] numbers = arraySupplier.apply(randomSize());
+
+    int[] numbersCopy = numbers.clone();
+    Arrays.sort(numbersCopy);
+
     getSortAlgorithm().sort(numbers);
-    assertIsSorted(numbers);
+
+    assertArrayEquals(numbersCopy, numbers);
   }
 
   protected int randomSize() {
     return ThreadLocalRandom.current().nextInt(2, 1_000);
-  }
-
-  static void assertIsSorted(int[] numbers) {
-    for (int i = 0; i < numbers.length - 1; i++) {
-      assertTrue(numbers[i] <= numbers[i + 1]);
-    }
   }
 
   protected abstract SortAlgorithm getSortAlgorithm();

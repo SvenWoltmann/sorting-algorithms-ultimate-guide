@@ -1,6 +1,7 @@
 package eu.happycoders.sort.utils;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
@@ -26,6 +27,22 @@ public class ArrayUtils {
   }
 
   /**
+   * Creates an array of the given size, containing the values
+   * <code>- size / 2</code> to <code>size - size / 2</code> in ascending order.
+   *
+   * @param size the size
+   * @return a sorted array of the given size
+   */
+  public static int[] createSortedArrayIncludingNegatives(int size) {
+    int[] elements = new int[size];
+    int half = size / 2;
+    for (int i = 0; i < size; i++) {
+      elements[i] = i - half;
+    }
+    return elements;
+  }
+
+  /**
    * Creates an array of the given size, containing the values <code>0</code>
    * to <code>size-1</code> in descending order.
    *
@@ -35,7 +52,23 @@ public class ArrayUtils {
   public static int[] createReversedArray(int size) {
     int[] elements = new int[size];
     for (int i = 0; i < size; i++) {
-      elements[size - 1 - i] = i;
+      elements[i] = size - 1 - i;
+    }
+    return elements;
+  }
+
+  /**
+   * Creates an array of the given size, containing the values
+   * <code>size / 2</code> to <code>size / 2 - size</code> in descending order.
+   *
+   * @param size the size
+   * @return a sorted array of the given size
+   */
+  public static int[] createReversedArrayIncludingNegatives(int size) {
+    int[] elements = new int[size];
+    int half = size / 2;
+    for (int i = 0; i < size; i++) {
+      elements[i] = half - i;
     }
     return elements;
   }
@@ -54,6 +87,25 @@ public class ArrayUtils {
       // Use size as upper bound,
       // so that we have a certain, but not high probability for duplicates
       elements[i] = rand.nextInt(size);
+    }
+    return elements;
+  }
+
+  /**
+   * Creates an array of the given size, containing random values from
+   * <code>- size / 2</code> to <code>size - size / 2</code>.
+   *
+   * @param size the size
+   * @return a sorted array of the given size
+   */
+  public static int[] createRandomArrayIncludingNegatives(int size) {
+    Random rand = ThreadLocalRandom.current();
+    int[] elements = new int[size];
+    int half = size / 2;
+    for (int i = 0; i < size; i++) {
+      // Use bounds,
+      // so that we have a certain, but not high probability for duplicates
+      elements[i] = rand.nextInt(size) - half;
     }
     return elements;
   }

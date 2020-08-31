@@ -1,0 +1,67 @@
+===== Results for iteration 50 =====
+
+--- Results for iteration 50 for: CountingSort (order: random) ---
+CountingSort/random/1024      -> fastest:      0.016 ms, median:      0.018 ms 
+CountingSort/random/2048      -> fastest:      0.022 ms, median:      0.023 ms 
+CountingSort/random/4096      -> fastest:      0.040 ms, median:      0.041 ms 
+CountingSort/random/8192      -> fastest:      0.074 ms, median:      0.076 ms 
+CountingSort/random/16384     -> fastest:      0.145 ms, median:      0.148 ms 
+CountingSort/random/32768     -> fastest:      0.289 ms, median:      0.294 ms 
+CountingSort/random/65536     -> fastest:      0.583 ms, median:      0.591 ms 
+CountingSort/random/131072    -> fastest:      1.198 ms, median:      1.210 ms 
+CountingSort/random/262144    -> fastest:      2.516 ms, median:      4.452 ms 
+CountingSort/random/524288    -> fastest:      5.427 ms, median:      8.271 ms 
+CountingSort/random/1048576   -> fastest:     11.196 ms, median:     13.027 ms 
+CountingSort/random/2097152   -> fastest:     28.911 ms, median:     30.671 ms 
+CountingSort/random/4194304   -> fastest:     70.976 ms, median:     88.508 ms 
+CountingSort/random/8388608   -> fastest:    180.203 ms, median:    188.410 ms 
+CountingSort/random/16777216  -> fastest:    382.580 ms, median:    503.690 ms 
+CountingSort/random/33554432  -> fastest:    863.397 ms, median:  1,275.979 ms 
+CountingSort/random/67108864  -> fastest:  1,871.139 ms, median:  2,856.994 ms 
+CountingSort/random/134217728 -> fastest:  4,838.179 ms, median:  6,087.396 ms 
+CountingSort/random/268435456 -> fastest:  8,410.866 ms, median: 12,683.820 ms 
+CountingSort/random/536870912 -> fastest: 18,774.275 ms, median: 27,249.131 ms 
+
+--- Results for iteration 50 for: CountingSort (order: ascending) ---
+CountingSort/ascending/1024      -> fastest:      0.011 ms, median:      0.012 ms 
+CountingSort/ascending/2048      -> fastest:      0.011 ms, median:      0.013 ms 
+CountingSort/ascending/4096      -> fastest:      0.019 ms, median:      0.020 ms 
+CountingSort/ascending/8192      -> fastest:      0.034 ms, median:      0.035 ms 
+CountingSort/ascending/16384     -> fastest:      0.063 ms, median:      0.065 ms 
+CountingSort/ascending/32768     -> fastest:      0.122 ms, median:      0.125 ms 
+CountingSort/ascending/65536     -> fastest:      0.240 ms, median:      0.247 ms 
+CountingSort/ascending/131072    -> fastest:      0.480 ms, median:      0.487 ms 
+CountingSort/ascending/262144    -> fastest:      1.813 ms, median:      2.230 ms 
+CountingSort/ascending/524288    -> fastest:      2.021 ms, median:      4.132 ms 
+CountingSort/ascending/1048576   -> fastest:      4.105 ms, median:      4.965 ms 
+CountingSort/ascending/2097152   -> fastest:     11.208 ms, median:     13.465 ms 
+CountingSort/ascending/4194304   -> fastest:     22.456 ms, median:     30.275 ms 
+CountingSort/ascending/8388608   -> fastest:     64.110 ms, median:     66.757 ms 
+CountingSort/ascending/16777216  -> fastest:     86.551 ms, median:     88.717 ms 
+CountingSort/ascending/33554432  -> fastest:    151.237 ms, median:    194.511 ms 
+CountingSort/ascending/67108864  -> fastest:    293.783 ms, median:    381.427 ms 
+CountingSort/ascending/134217728 -> fastest:    549.280 ms, median:    745.428 ms 
+CountingSort/ascending/268435456 -> fastest:  1,173.648 ms, median:  1,477.286 ms 
+CountingSort/ascending/536870912 -> fastest:  2,928.209 ms, median:  2,944.832 ms 
+
+--- Results for iteration 50 for: CountingSort (order: descending) ---
+CountingSort/descending/1024      -> fastest:      0.011 ms, median:      0.012 ms 
+CountingSort/descending/2048      -> fastest:      0.012 ms, median:      0.013 ms 
+CountingSort/descending/4096      -> fastest:      0.019 ms, median:      0.020 ms 
+CountingSort/descending/8192      -> fastest:      0.034 ms, median:      0.036 ms 
+CountingSort/descending/16384     -> fastest:      0.066 ms, median:      0.067 ms 
+CountingSort/descending/32768     -> fastest:      0.127 ms, median:      0.129 ms 
+CountingSort/descending/65536     -> fastest:      0.248 ms, median:      0.254 ms 
+CountingSort/descending/131072    -> fastest:      0.499 ms, median:      0.506 ms 
+CountingSort/descending/262144    -> fastest:      1.811 ms, median:      2.221 ms 
+CountingSort/descending/524288    -> fastest:      2.111 ms, median:      4.394 ms 
+CountingSort/descending/1048576   -> fastest:      4.213 ms, median:      5.162 ms 
+CountingSort/descending/2097152   -> fastest:     11.592 ms, median:     13.330 ms 
+CountingSort/descending/4194304   -> fastest:     22.959 ms, median:     32.200 ms 
+CountingSort/descending/8388608   -> fastest:     56.098 ms, median:     66.803 ms 
+CountingSort/descending/16777216  -> fastest:     87.133 ms, median:    103.891 ms 
+CountingSort/descending/33554432  -> fastest:    162.282 ms, median:    209.669 ms 
+CountingSort/descending/67108864  -> fastest:    309.465 ms, median:    388.180 ms 
+CountingSort/descending/134217728 -> fastest:    572.244 ms, median:    766.190 ms 
+CountingSort/descending/268435456 -> fastest:  1,510.624 ms, median:  1,528.505 ms 
+CountingSort/descending/536870912 -> fastest:  3,021.236 ms, median:  3,038.862 ms 

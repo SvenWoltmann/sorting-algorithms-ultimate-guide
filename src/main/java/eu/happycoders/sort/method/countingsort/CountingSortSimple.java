@@ -1,4 +1,7 @@
-package eu.happycoders.sort.method;
+package eu.happycoders.sort.method.countingsort;
+
+import eu.happycoders.sort.method.Counters;
+import eu.happycoders.sort.method.SortAlgorithm;
 
 /**
  * Counting Sort implementation for performance tests.
@@ -8,19 +11,19 @@ package eu.happycoders.sort.method;
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
-public class CountingSort implements SortAlgorithm {
+public class CountingSortSimple implements SortAlgorithm {
 
   @Override
   public void sort(int[] elements) {
     int maxValue = findMax(elements);
     int[] counts = new int[maxValue + 1];
 
-    // Count
+    // Phase 1: Count
     for (int i = 0; i < elements.length; i++) {
       counts[elements[i]]++;
     }
 
-    // Write results back
+    // Phase 2: Write results back
     int targetPos = 0;
     for (int i = 0; i < counts.length; i++) {
       for (int j = 0; j < counts[i]; j++) {
@@ -32,8 +35,13 @@ public class CountingSort implements SortAlgorithm {
   private int findMax(int[] elements) {
     int max = 0;
     for (int i = 0; i < elements.length; i++) {
-      if (elements[i] > max) {
-        max = elements[i];
+      int element = elements[i];
+      if (element < 0) {
+        throw new IllegalArgumentException(
+              "This implementation does not support negative values.");
+      }
+      if (element > max) {
+        max = element;
       }
     }
     return max;
@@ -50,7 +58,7 @@ public class CountingSort implements SortAlgorithm {
 
     int[] counts = new int[maxValue + 1];
 
-    // Count
+    // Phase 1: Count
     counters.addIterations(length);
     counters.addReads(length); // read elements[i]
     counters.addReadsAndWrites(length); // inc counts[...]
@@ -58,12 +66,13 @@ public class CountingSort implements SortAlgorithm {
       counts[elements[i]]++;
     }
 
-    // Write results back
+    // Phase 2: Write results back
+    Counters countersPhase2 = counters.getPhase2();
     int targetPos = 0;
-    counters.addIterations(counts.length); // outer
-    counters.addIterations(length); // all inner combined
-    counters.addReads(counts.length); // read counts[i]
-    counters.addWrites(length); // write elements[targetPos++]
+    countersPhase2.addIterations(counts.length); // outer
+    countersPhase2.addIterations(length); // all inner combined
+    countersPhase2.addReads(counts.length); // read counts[i]
+    countersPhase2.addWrites(length); // write elements[targetPos++]
     for (int i = 0; i < counts.length; i++) {
       for (int j = 0; j < counts[i]; j++) {
         elements[targetPos++] = i;
