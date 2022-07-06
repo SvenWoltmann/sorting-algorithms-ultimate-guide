@@ -19,6 +19,10 @@ public class CompareQuicksorts extends DirectComparison {
   private static final int SIZE = 5_555_555; // ~500 ms for Quicksort
 
   public static void main(String[] args) {
+    new CompareQuicksorts().run();
+  }
+
+  private void run() {
     List<SortAlgorithm> algorithms = new ArrayList<>();
 
     algorithms.add(new QuicksortSimple());

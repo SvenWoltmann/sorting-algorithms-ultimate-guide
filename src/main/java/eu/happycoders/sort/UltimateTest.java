@@ -64,9 +64,13 @@ public class UltimateTest {
 
   private static final boolean TEST_SORTED_INPUT = true;
 
-  private static final Map<String, Scorecard> scorecards = new HashMap<>();
+  private final Map<String, Scorecard> scorecards = new HashMap<>();
 
   public static void main(String[] args) {
+    new UltimateTest().run();
+  }
+
+  private void run() {
     for (int i = 1; i <= WARM_UPS; i++) {
       System.out.printf("%n===== Warm up %d of %d =====%n", i, WARM_UPS);
       for (SortAlgorithm algorithm : ALGORITHMS) {
@@ -90,7 +94,7 @@ public class UltimateTest {
     }
   }
 
-  private static void test(SortAlgorithm algorithm, boolean warmingUp) {
+  private void test(SortAlgorithm algorithm, boolean warmingUp) {
     // Test with a random, a sorted, and a reversed (= sorted descending) array
     test(algorithm, InputOrder.RANDOM, ArrayUtils::createRandomArray, warmingUp);
 
@@ -100,7 +104,7 @@ public class UltimateTest {
     }
   }
 
-  private static void test(
+  private void test(
       SortAlgorithm algorithm,
       InputOrder inputOrder,
       Function<Integer, int[]> arraySupplier,
@@ -134,20 +138,20 @@ public class UltimateTest {
     }
   }
 
-  private static long measureTime(SortAlgorithm algorithm, int[] elements) {
+  private long measureTime(SortAlgorithm algorithm, int[] elements) {
     System.gc();
     long time = System.nanoTime();
     algorithm.sort(elements);
     return System.nanoTime() - time;
   }
 
-  private static Scorecard scorecard(
+  private Scorecard scorecard(
       SortAlgorithm algorithm, String inputOrder, int size, boolean create) {
     String key = algorithm.getName() + "/" + inputOrder + "/" + size;
     return create ? scorecards.computeIfAbsent(key, Scorecard::new) : scorecards.get(key);
   }
 
-  private static void printResults(int iteration, SortAlgorithm algorithm, String inputOrder) {
+  private void printResults(int iteration, SortAlgorithm algorithm, String inputOrder) {
     System.out.printf(
         "%n--- Results for iteration %d for: %s (order: %s) ---%n",
         iteration, algorithm.getName(), inputOrder);

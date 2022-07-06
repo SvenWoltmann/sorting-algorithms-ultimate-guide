@@ -18,11 +18,11 @@ public class DirectComparison {
   private static final int ITERATIONS = 100;
   private static final int PRINT_RESULTS_ALL_X_ITERATIONS = 10;
 
-  private static final Map<String, Scorecard> scorecards = new HashMap<>();
+  private final Map<String, Scorecard> scorecards = new HashMap<>();
 
-  private static int longestNameLength;
+  private int longestNameLength;
 
-  public static void runTest(SortAlgorithm[] algorithms, int size) {
+  public void runTest(SortAlgorithm[] algorithms, int size) {
     longestNameLength = Scorecard.findLongestAlgorithmName(algorithms);
 
     int numAlgorithms = algorithms.length;
@@ -69,7 +69,7 @@ public class DirectComparison {
     return indices;
   }
 
-  private static long measure(SortAlgorithm sortAlgorithm, int[] elements) {
+  private long measure(SortAlgorithm sortAlgorithm, int[] elements) {
     System.gc();
 
     long time = System.nanoTime();
@@ -89,11 +89,11 @@ public class DirectComparison {
     return time;
   }
 
-  private static Scorecard scorecardForAlgorithm(SortAlgorithm algorithm) {
+  private Scorecard scorecardForAlgorithm(SortAlgorithm algorithm) {
     return scorecards.computeIfAbsent(algorithm.getName(), Scorecard::new);
   }
 
-  private static void printResults(SortAlgorithm[] algorithms, int iterations) {
+  private void printResults(SortAlgorithm[] algorithms, int iterations) {
     System.out.printf("%n----- Results after %d iterations-----%n", iterations);
 
     // 1. Find the fastest median

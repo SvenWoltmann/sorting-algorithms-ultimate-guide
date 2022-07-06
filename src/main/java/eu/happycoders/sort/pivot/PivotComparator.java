@@ -25,11 +25,15 @@ public class PivotComparator {
   private static final int MIN_SIZE = 500;
   private static final int MAX_SIZE = 1_000;
 
-  private static final Map<String, PivotScorecard> scorecards = new HashMap<>();
+  private final Map<String, PivotScorecard> scorecards = new HashMap<>();
 
-  private static int longestNameLength;
+  private int longestNameLength;
 
   public static void main(String[] args) {
+    new PivotComparator().run();
+  }
+
+  private void run() {
     PartitioningAlgorithm[] algorithms =
         new PartitioningAlgorithm[] {
           new QuicksortVariant1(PivotStrategy.MIDDLE),
@@ -37,10 +41,11 @@ public class PivotComparator {
           new QuicksortVariant1(PivotStrategy.RIGHT),
           new QuicksortVariant1(PivotStrategy.MEDIAN3)
         };
+
     runTest(algorithms);
   }
 
-  private static void runTest(PartitioningAlgorithm[] algorithms) {
+  private void runTest(PartitioningAlgorithm[] algorithms) {
     longestNameLength = Scorecard.findLongestAlgorithmName(algorithms);
 
     int numAlgorithms = algorithms.length;
@@ -78,7 +83,7 @@ public class PivotComparator {
    * @return the percentage of the larger partition; e.g., if we get 100 and 50 elements, the result
    *     is 66.7.
    */
-  private static double partition(PartitioningAlgorithm algorithm, int[] elements) {
+  private double partition(PartitioningAlgorithm algorithm, int[] elements) {
     int numElements = elements.length;
     int pivotPos = algorithm.partition(elements, 0, numElements - 1);
 
@@ -87,7 +92,7 @@ public class PivotComparator {
     return longerPartSize * 100.0 / (numElements - 1);
   }
 
-  private static PivotScorecard scorecardForAlgorithm(SortAlgorithm algorithm) {
+  private PivotScorecard scorecardForAlgorithm(SortAlgorithm algorithm) {
     return scorecards.computeIfAbsent(algorithm.getName(), PivotScorecard::new);
   }
 }

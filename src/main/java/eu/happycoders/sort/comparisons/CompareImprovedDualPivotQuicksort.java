@@ -17,6 +17,10 @@ public class CompareImprovedDualPivotQuicksort extends DirectComparison {
   private static final int SIZE = 5_555_555; // ~500 ms for Quicksort
 
   public static void main(String[] args) {
+    new CompareImprovedDualPivotQuicksort().run();
+  }
+
+  private void run() {
     List<SortAlgorithm> algorithms = new ArrayList<>();
     algorithms.add(new DualPivotQuicksort(DualPivotQuicksort.PivotStrategy.THIRDS));
     for (int threshold = 2; threshold < 1 << 8; threshold <<= 1) {
@@ -32,6 +36,7 @@ public class CompareImprovedDualPivotQuicksort extends DirectComparison {
                 threshold + threshold / 2, DualPivotQuicksort.PivotStrategy.THIRDS));
       }
     }
+
     runTest(algorithms.toArray(SortAlgorithm[]::new), SIZE);
   }
 }

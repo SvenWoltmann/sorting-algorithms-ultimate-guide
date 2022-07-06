@@ -11,16 +11,20 @@ import java.util.Locale;
 public class FindMinimumTest {
   private static final int NUM_SIZES = 29;
   private static final int NUM_TESTS = 100;
-  private static final int[] counts = new int[NUM_SIZES];
+  private final int[] counts = new int[NUM_SIZES];
 
   public static void main(String[] args) {
+    new FindMinimumTest().run();
+  }
+
+  private void run() {
     for (int i = 0; i < NUM_TESTS; i++) {
       test();
       printResults(i + 1);
     }
   }
 
-  private static void test() {
+  private void test() {
     for (int i = 0; i < NUM_SIZES; i++) {
       int size = 2 << i;
       int assignments = countAssignmentsForSize(size);
@@ -28,7 +32,7 @@ public class FindMinimumTest {
     }
   }
 
-  private static int countAssignmentsForSize(int size) {
+  private int countAssignmentsForSize(int size) {
     int[] array = ArrayUtils.createRandomArray(size);
     int min = Integer.MAX_VALUE;
     int assignments = 0;
@@ -42,7 +46,7 @@ public class FindMinimumTest {
     return assignments;
   }
 
-  private static void printResults(int iterations) {
+  private void printResults(int iterations) {
     System.out.printf(Locale.US, "Results after %d iterations:%n", iterations);
     for (int i = 0; i < NUM_SIZES; i++) {
       int size = 2 << i;

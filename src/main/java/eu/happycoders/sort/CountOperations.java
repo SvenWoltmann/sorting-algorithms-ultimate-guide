@@ -20,6 +20,10 @@ public class CountOperations {
   private static final int MAX_COUNTING_TIME_SECS = 20;
 
   public static void main(String[] args) {
+    new CountOperations().run();
+  }
+
+  private void run() {
     for (SortAlgorithm algorithm : UltimateTest.ALGORITHMS) {
       if (algorithm.supportsCounting()) {
         countOps(algorithm);
@@ -27,14 +31,14 @@ public class CountOperations {
     }
   }
 
-  private static void countOps(SortAlgorithm algorithm) {
+  private void countOps(SortAlgorithm algorithm) {
     // Test with a random, a sorted, and a reversed (= sorted descending) array
     countOps(algorithm, false, "random", ArrayUtils::createRandomArray);
     countOps(algorithm, true, "ascending", ArrayUtils::createSortedArray);
     countOps(algorithm, true, "descending", ArrayUtils::createReversedArray);
   }
 
-  private static void countOps(
+  private void countOps(
       SortAlgorithm algorithm,
       boolean sorted,
       String inputOrder,
@@ -67,7 +71,7 @@ public class CountOperations {
     }
   }
 
-  private static Counters countOps(SortAlgorithm algorithm, int[] elements) {
+  private Counters countOps(SortAlgorithm algorithm, int[] elements) {
     Counters counters = new Counters();
     algorithm.sort(elements, counters);
     return counters;

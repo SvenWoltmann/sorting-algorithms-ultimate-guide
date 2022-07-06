@@ -20,6 +20,10 @@ public class CompareImprovedQuicksort extends DirectComparison {
   private static final int SIZE = 5_555_555; // ~500 ms for Quicksort
 
   public static void main(String[] args) {
+    new CompareImprovedQuicksort().run();
+  }
+
+  private void run() {
     List<SortAlgorithm> algorithms = new ArrayList<>();
     algorithms.add(new QuicksortVariant1(PivotStrategy.MIDDLE));
     algorithms.add(new QuicksortVariant1(PivotStrategy.MEDIAN3));
@@ -42,7 +46,7 @@ public class CompareImprovedQuicksort extends DirectComparison {
     runTest(algorithms.toArray(SortAlgorithm[]::new), SIZE);
   }
 
-  private static void addAllVariantsForThreshold(List<SortAlgorithm> algorithms, int threshold) {
+  private void addAllVariantsForThreshold(List<SortAlgorithm> algorithms, int threshold) {
     // Variant 1
     algorithms.add(new QuicksortImproved(threshold, new QuicksortVariant1(PivotStrategy.MIDDLE)));
     algorithms.add(new QuicksortImproved(threshold, new QuicksortVariant1(PivotStrategy.MEDIAN3)));

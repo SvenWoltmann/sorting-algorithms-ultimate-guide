@@ -19,6 +19,10 @@ public class CompareBubbleSorts extends DirectComparison {
   private static final int SIZE = 40_000; // ~500 ms for Bubble Sort
 
   public static void main(String[] args) {
+    new CompareBubbleSorts().run();
+  }
+
+  private void run() {
     List<SortAlgorithm> algorithms =
         List.of(
             new BubbleSort(),
@@ -26,6 +30,7 @@ public class CompareBubbleSorts extends DirectComparison {
             new BubbleSortOpt2(),
             new BubbleSortParallelOddEven(),
             new BubbleSortParallelDivideAndConquer());
+
     runTest(algorithms.toArray(SortAlgorithm[]::new), SIZE);
   }
 }
