@@ -9,5 +9,4 @@ public class QuicksortVariant1RandomPivotTest extends SortTestLargeArray {
   protected SortAlgorithm getSortAlgorithm() {
     return new QuicksortVariant1(PivotStrategy.RANDOM);
   }
-
 }

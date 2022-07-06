@@ -1,7 +1,6 @@
 package eu.happycoders.sort.method.quicksort;
 
 import eu.happycoders.sort.method.*;
-
 import java.util.concurrent.ThreadLocalRandom;
 
 public class QuicksortVariant2Median3PivotTest extends SortTest {
@@ -15,5 +14,4 @@ public class QuicksortVariant2Median3PivotTest extends SortTest {
   protected int randomSize() {
     return ThreadLocalRandom.current().nextInt(2, 500_000);
   }
-
 }

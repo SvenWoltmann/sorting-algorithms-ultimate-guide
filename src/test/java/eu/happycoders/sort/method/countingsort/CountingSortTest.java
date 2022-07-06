@@ -2,7 +2,6 @@ package eu.happycoders.sort.method.countingsort;
 
 import eu.happycoders.sort.method.SortAlgorithm;
 import eu.happycoders.sort.method.SortTest;
-import eu.happycoders.sort.method.countingsort.CountingSort;
 import eu.happycoders.sort.utils.ArrayUtils;
 import org.junit.jupiter.api.RepeatedTest;
 
@@ -27,5 +26,4 @@ public class CountingSortTest extends SortTest {
   protected SortAlgorithm getSortAlgorithm() {
     return new CountingSort();
   }
-
 }

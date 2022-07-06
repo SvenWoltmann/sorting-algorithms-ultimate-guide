@@ -8,5 +8,4 @@ public abstract class SortTestLargeArray extends SortTest {
   protected int randomSize() {
     return ThreadLocalRandom.current().nextInt(2, 10_000);
   }
-
 }

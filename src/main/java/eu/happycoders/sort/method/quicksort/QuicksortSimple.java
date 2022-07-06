@@ -4,8 +4,7 @@ import eu.happycoders.sort.method.*;
 import eu.happycoders.sort.utils.ArrayUtils;
 
 /**
- * Simple Quicksort implementation (pivot element is always the rightmost
- * element).
+ * Simple Quicksort implementation (pivot element is always the rightmost element).
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -72,8 +71,7 @@ public class QuicksortSimple implements SortAlgorithm, PartitioningAlgorithm {
     quicksort(elements, 0, elements.length - 1, counters);
   }
 
-  private void quicksort(int[] elements, int left, int right,
-                         Counters counters) {
+  private void quicksort(int[] elements, int left, int right, Counters counters) {
     // End of recursion reached?
     if (left >= right) return;
 
@@ -134,5 +132,4 @@ public class QuicksortSimple implements SortAlgorithm, PartitioningAlgorithm {
     }
     return i;
   }
-
 }

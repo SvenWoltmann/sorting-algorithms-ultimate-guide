@@ -1,13 +1,12 @@
 package eu.happycoders.sort.method.quicksort;
 
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 import eu.happycoders.sort.method.quicksort.DualPivotQuicksort.PivotStrategy;
 import eu.happycoders.sort.utils.ArrayUtils;
-import org.junit.jupiter.api.*;
-
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.function.Function;
-
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.*;
 
 public class DualPivotQuicksortPartitionTest {
 
@@ -47,11 +46,11 @@ public class DualPivotQuicksortPartitionTest {
 
   // ---- private methods ----
 
-  private void testPartitioning(PivotStrategy pivotStrategy,
-                                Function<Integer, int[]> arraySupplier) {
+  private void testPartitioning(
+      PivotStrategy pivotStrategy, Function<Integer, int[]> arraySupplier) {
     int[] elements = arraySupplier.apply(randomSize());
-    int[] pivotPos = new DualPivotQuicksort(pivotStrategy)
-          .partition(elements, 0, elements.length - 1);
+    int[] pivotPos =
+        new DualPivotQuicksort(pivotStrategy).partition(elements, 0, elements.length - 1);
     int pivotPos0 = pivotPos[0];
     int pivotPos1 = pivotPos[1];
 
@@ -79,5 +78,4 @@ public class DualPivotQuicksortPartitionTest {
   private int randomSize() {
     return ThreadLocalRandom.current().nextInt(2, 10_000);
   }
-
 }

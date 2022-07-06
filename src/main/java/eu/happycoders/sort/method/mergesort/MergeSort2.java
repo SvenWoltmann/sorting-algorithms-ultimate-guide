@@ -5,13 +5,10 @@ import eu.happycoders.sort.method.*;
 /**
  * Merge sort implementation for performance tests.
  *
- * <p>
- * This implementation divides directly on the input array and creates new
- * arrays only in the merge phase, copying them immediately back into the
- * input array after merging.
+ * <p>This implementation divides directly on the input array and creates new arrays only in the
+ * merge phase, copying them immediately back into the input array after merging.
  *
- * <p>
- * Additional space complexity is <strong>O(n)</strong>.
+ * <p>Additional space complexity is <strong>O(n)</strong>.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -72,8 +69,7 @@ public class MergeSort2 implements SortAlgorithm {
     mergeSort(elements, 0, elements.length - 1, counters);
   }
 
-  private void mergeSort(int[] elements, int left, int right,
-                         Counters counters) {
+  private void mergeSort(int[] elements, int left, int right, Counters counters) {
     // End of recursion reached?
     if (left == right) return;
 
@@ -83,8 +79,7 @@ public class MergeSort2 implements SortAlgorithm {
     merge(elements, left, middle, right, counters);
   }
 
-  void merge(int[] elements, int leftStart, int leftEnd, int rightEnd,
-             Counters counters) {
+  void merge(int[] elements, int leftStart, int leftEnd, int rightEnd, Counters counters) {
     int leftPos = leftStart;
     int rightPos = leftEnd + 1;
 
@@ -131,5 +126,4 @@ public class MergeSort2 implements SortAlgorithm {
   public boolean isSuitableForInputSize(int size) {
     return size <= MAX_INPUT_SIZE;
   }
-
 }

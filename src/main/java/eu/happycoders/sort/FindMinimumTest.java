@@ -1,12 +1,10 @@
 package eu.happycoders.sort;
 
 import eu.happycoders.sort.utils.ArrayUtils;
-
 import java.util.Locale;
 
 /**
- * Counts minPos/min assignments for finding the smallest element in an
- * unsorted array.
+ * Counts minPos/min assignments for finding the smallest element in an unsorted array.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -51,8 +49,7 @@ public class FindMinimumTest {
     for (int i = 0; i < NUM_SIZES; i++) {
       int size = 2 << i;
       double avg = (double) counts[i] / iterations;
-      System.out.printf(Locale.US,
-            "- size: %,11d --> avg. no of assignments: %5.2f%n", size, avg);
+      System.out.printf(Locale.US, "- size: %,11d --> avg. no of assignments: %5.2f%n", size, avg);
     }
     System.out.println();
   }

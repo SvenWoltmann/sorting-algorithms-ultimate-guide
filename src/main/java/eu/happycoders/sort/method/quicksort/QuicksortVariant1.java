@@ -3,11 +3,9 @@ package eu.happycoders.sort.method.quicksort;
 import eu.happycoders.sort.method.Counters;
 
 /**
- * Quicksort implementation for performance tests, supporting various pivot
- * strategies.
+ * Quicksort implementation for performance tests, supporting various pivot strategies.
  *
- * <p>
- * Variant 1: swaps pivot element with rightmost element first
+ * <p>Variant 1: swaps pivot element with rightmost element first
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -26,8 +24,8 @@ public class QuicksortVariant1 extends QuicksortSimple {
 
   @Override
   public boolean isSuitableForSortedInput(int size) {
-    return (pivotStrategy != PivotStrategy.LEFT
-          && pivotStrategy != PivotStrategy.RIGHT) || size <= 2 << 12;
+    return (pivotStrategy != PivotStrategy.LEFT && pivotStrategy != PivotStrategy.RIGHT)
+        || size <= 2 << 12;
   }
 
   @Override
@@ -40,5 +38,4 @@ public class QuicksortVariant1 extends QuicksortSimple {
     PivotHelper.findPivotAndMoveRight(elements, left, right, pivotStrategy);
     return super.partition(elements, left, right, counters);
   }
-
 }

@@ -39,9 +39,8 @@ public class Heapsort implements SortAlgorithm {
   /**
    * "Fixes" a max heap starting at the given parent position.
    *
-   * @param heap      the heap to be fixed
-   * @param length    the number of elements in the array that belong to the
-   *                  heap
+   * @param heap the heap to be fixed
+   * @param length the number of elements in the array that belong to the heap
    * @param parentPos the parent position
    */
   void heapify(int[] heap, int length, int parentPos) {
@@ -137,5 +136,4 @@ public class Heapsort implements SortAlgorithm {
       parentPos = largestPos;
     }
   }
-
 }

@@ -9,5 +9,4 @@ public class MergeSort2Test extends SortTestLargeArray {
   protected SortAlgorithm getSortAlgorithm() {
     return new MergeSort2();
   }
-
 }

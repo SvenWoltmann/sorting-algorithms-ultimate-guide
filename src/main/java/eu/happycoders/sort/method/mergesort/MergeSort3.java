@@ -1,15 +1,13 @@
 package eu.happycoders.sort.method.mergesort;
 
 import eu.happycoders.sort.method.*;
-
 import java.util.Arrays;
 
 /**
  * Merge sort implementation for performance tests.
  *
- * <p>
- * This implementation creates new arrays in the divide phase, so the
- * additional space complexity is <strong>O(n log n)</strong>.
+ * <p>This implementation creates new arrays in the divide phase, so the additional space complexity
+ * is <strong>O(n log n)</strong>.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -93,8 +91,7 @@ public class MergeSort3 implements SortAlgorithm {
     merge(elements, left, right, counters);
   }
 
-  void merge(int[] target, int[] leftArray, int[] rightArray,
-             Counters counters) {
+  void merge(int[] target, int[] leftArray, int[] rightArray, Counters counters) {
     int leftLen = leftArray.length;
     int rightLen = rightArray.length;
 
@@ -138,5 +135,4 @@ public class MergeSort3 implements SortAlgorithm {
   public boolean isSuitableForInputSize(int size) {
     return size <= MAX_INPUT_SIZE;
   }
-
 }

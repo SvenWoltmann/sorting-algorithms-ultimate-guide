@@ -9,5 +9,4 @@ public class HeapsortTest extends SortTest {
   protected SortAlgorithm getSortAlgorithm() {
     return new Heapsort();
   }
-
 }

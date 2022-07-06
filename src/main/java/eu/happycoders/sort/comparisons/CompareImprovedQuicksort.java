@@ -2,12 +2,11 @@ package eu.happycoders.sort.comparisons;
 
 import eu.happycoders.sort.method.SortAlgorithm;
 import eu.happycoders.sort.method.quicksort.*;
-
 import java.util.*;
 
 /**
- * Compares the regular Quicksort with the improved Quicksort for various
- * thresholds at which the algorithm switches from Quicksort to Insertion Sort.
+ * Compares the regular Quicksort with the improved Quicksort for various thresholds at which the
+ * algorithm switches from Quicksort to Insertion Sort.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -40,22 +39,15 @@ public class CompareImprovedQuicksort extends DirectComparison {
 
   private static void addAllVariantsForThreshold(List<SortAlgorithm> algorithms, int threshold) {
     // Variant 1
-    algorithms.add(new QuicksortImproved(threshold,
-          new QuicksortVariant1(PivotStrategy.MIDDLE)));
-    algorithms.add(new QuicksortImproved(threshold,
-          new QuicksortVariant1(PivotStrategy.MEDIAN3)));
+    algorithms.add(new QuicksortImproved(threshold, new QuicksortVariant1(PivotStrategy.MIDDLE)));
+    algorithms.add(new QuicksortImproved(threshold, new QuicksortVariant1(PivotStrategy.MEDIAN3)));
 
     // Variant 2
-    algorithms.add(new QuicksortImproved(threshold,
-          new QuicksortVariant2(PivotStrategy.MIDDLE)));
-    algorithms.add(new QuicksortImproved(threshold,
-          new QuicksortVariant2(PivotStrategy.MEDIAN3)));
+    algorithms.add(new QuicksortImproved(threshold, new QuicksortVariant2(PivotStrategy.MIDDLE)));
+    algorithms.add(new QuicksortImproved(threshold, new QuicksortVariant2(PivotStrategy.MEDIAN3)));
 
     // Variant 3
-    algorithms.add(new QuicksortImproved(threshold,
-          new QuicksortVariant3(PivotStrategy.MIDDLE)));
-    algorithms.add(new QuicksortImproved(threshold,
-          new QuicksortVariant3(PivotStrategy.MEDIAN3)));
+    algorithms.add(new QuicksortImproved(threshold, new QuicksortVariant3(PivotStrategy.MIDDLE)));
+    algorithms.add(new QuicksortImproved(threshold, new QuicksortVariant3(PivotStrategy.MEDIAN3)));
   }
-
 }

@@ -1,12 +1,11 @@
 package eu.happycoders.sort.utils;
 
 import eu.happycoders.sort.method.SortAlgorithm;
-
 import java.util.*;
 
 /**
- * A scorecard to print the fastest and median times measured for a specific
- * sort algorithm and array size.
+ * A scorecard to print the fastest and median times measured for a specific sort algorithm and
+ * array size.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -29,8 +28,7 @@ public class Scorecard {
    * Adds a time to the scorecard.
    *
    * @param time the time
-   * @return <code>true</code> if the time is a new record;
-   * <code>false</code> otherwise
+   * @return <code>true</code> if the time is a new record; <code>false</code> otherwise
    */
   public boolean add(long time) {
     times.add(time);
@@ -45,15 +43,16 @@ public class Scorecard {
    * Prints the fastest and median times; followed by an optional label.
    *
    * @param longestNameLength the length to which the name is padded
-   * @param label             the optional label
+   * @param label the optional label
    */
   public void printResult(int longestNameLength, String label) {
-    System.out.printf(Locale.US, "%-" + longestNameLength + "s -> " +
-                "fastest: %,10.3f ms, median: %,10.3f ms %s%n",
-          name,
-          fastest / 1_000_000.0,
-          getMedian() / 1_000_000.0,
-          label != null ? label : "");
+    System.out.printf(
+        Locale.US,
+        "%-" + longestNameLength + "s -> " + "fastest: %,10.3f ms, median: %,10.3f ms %s%n",
+        name,
+        fastest / 1_000_000.0,
+        getMedian() / 1_000_000.0,
+        label != null ? label : "");
   }
 
   /**
@@ -80,5 +79,4 @@ public class Scorecard {
     }
     return max;
   }
-
 }

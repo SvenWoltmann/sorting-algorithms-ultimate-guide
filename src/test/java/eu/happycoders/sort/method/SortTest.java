@@ -1,13 +1,12 @@
 package eu.happycoders.sort.method;
 
-import eu.happycoders.sort.utils.ArrayUtils;
-import org.junit.jupiter.api.RepeatedTest;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
+import eu.happycoders.sort.utils.ArrayUtils;
 import java.util.Arrays;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.function.Function;
-
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import org.junit.jupiter.api.RepeatedTest;
 
 public abstract class SortTest {
 
@@ -42,5 +41,4 @@ public abstract class SortTest {
   }
 
   protected abstract SortAlgorithm getSortAlgorithm();
-
 }

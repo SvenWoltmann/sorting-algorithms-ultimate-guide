@@ -31,8 +31,7 @@ public class InsertionSort implements SortAlgorithm {
     sort(elements, 0, elements.length, counters);
   }
 
-  public void sort(int[] elements, int fromIndex, int toIndex,
-                   Counters counters) {
+  public void sort(int[] elements, int fromIndex, int toIndex, Counters counters) {
     for (int i = fromIndex + 1; i < toIndex; i++) {
       counters.incIterations();
 
@@ -56,5 +55,4 @@ public class InsertionSort implements SortAlgorithm {
       counters.incWrites();
     }
   }
-
 }

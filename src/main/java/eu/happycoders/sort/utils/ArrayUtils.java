@@ -12,8 +12,8 @@ import java.util.concurrent.ThreadLocalRandom;
 public class ArrayUtils {
 
   /**
-   * Creates an array of the given size, containing the values <code>0</code>
-   * to <code>size-1</code> in ascending order.
+   * Creates an array of the given size, containing the values <code>0</code> to <code>size-1</code>
+   * in ascending order.
    *
    * @param size the size
    * @return a sorted array of the given size
@@ -27,8 +27,8 @@ public class ArrayUtils {
   }
 
   /**
-   * Creates an array of the given size, containing the values
-   * <code>- size / 2</code> to <code>size - size / 2</code> in ascending order.
+   * Creates an array of the given size, containing the values <code>- size / 2</code> to <code>
+   * size - size / 2</code> in ascending order.
    *
    * @param size the size
    * @return a sorted array of the given size
@@ -43,8 +43,8 @@ public class ArrayUtils {
   }
 
   /**
-   * Creates an array of the given size, containing the values <code>0</code>
-   * to <code>size-1</code> in descending order.
+   * Creates an array of the given size, containing the values <code>0</code> to <code>size-1</code>
+   * in descending order.
    *
    * @param size the size
    * @return a sorted array of the given size
@@ -58,8 +58,8 @@ public class ArrayUtils {
   }
 
   /**
-   * Creates an array of the given size, containing the values
-   * <code>size / 2</code> to <code>size / 2 - size</code> in descending order.
+   * Creates an array of the given size, containing the values <code>size / 2</code> to <code>
+   * size / 2 - size</code> in descending order.
    *
    * @param size the size
    * @return a sorted array of the given size
@@ -74,8 +74,8 @@ public class ArrayUtils {
   }
 
   /**
-   * Creates an array of the given size, containing random values from
-   * <code>0</code> to <code>size-1</code>.
+   * Creates an array of the given size, containing random values from <code>0</code> to <code>
+   * size-1</code>.
    *
    * @param size the size
    * @return a sorted array of the given size
@@ -92,8 +92,8 @@ public class ArrayUtils {
   }
 
   /**
-   * Creates an array of the given size, containing random values from
-   * <code>- size / 2</code> to <code>size - size / 2</code>.
+   * Creates an array of the given size, containing random values from <code>- size / 2</code> to
+   * <code>size - size / 2</code>.
    *
    * @param size the size
    * @return a sorted array of the given size
@@ -114,8 +114,8 @@ public class ArrayUtils {
    * Swaps to elements inside an array.
    *
    * @param array the array
-   * @param i     the index of the first element
-   * @param j     the index of the second element
+   * @param i the index of the first element
+   * @param j the index of the second element
    */
   public static void swap(int[] array, int i, int j) {
     int help = array[i];
@@ -133,10 +133,8 @@ public class ArrayUtils {
     Arrays.sort(values);
     int length = values.length;
     int middle = length / 2;
-    if (length % 2 == 0)
-      return (values[middle] + values[middle - 1]) / 2;
-    else
-      return values[middle];
+    if (length % 2 == 0) return (values[middle] + values[middle - 1]) / 2;
+    else return values[middle];
   }
 
   /**
@@ -160,5 +158,4 @@ public class ArrayUtils {
     }
     return true;
   }
-
 }

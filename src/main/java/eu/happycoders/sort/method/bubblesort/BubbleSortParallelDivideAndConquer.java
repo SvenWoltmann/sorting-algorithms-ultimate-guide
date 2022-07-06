@@ -12,13 +12,12 @@ public class BubbleSortParallelDivideAndConquer extends BubbleSortParallel {
    *
    * @param elements the elements
    * @param startPos the partition's start position
-   * @param endPos   the partition's end position
-   * @param even     whether it's the even or odd step of an iteration
+   * @param endPos the partition's end position
+   * @param even whether it's the even or odd step of an iteration
    * @return whether any elements were swapped
    */
   @Override
-  boolean sortPartition(int[] elements, int startPos, int endPos,
-                        boolean even) {
+  boolean sortPartition(int[] elements, int startPos, int endPos, boolean even) {
     boolean swapped = false;
 
     // Step 1, 3, 5, ...
@@ -49,5 +48,4 @@ public class BubbleSortParallelDivideAndConquer extends BubbleSortParallel {
 
     return swapped;
   }
-
 }

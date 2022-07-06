@@ -64,11 +64,10 @@ public class Counters {
   }
 
   /**
-   * Returns a second set of counters (used by Heapsort to count operations
-   * of phase 2). Create the second set if it doesn't exist yet.
+   * Returns a second set of counters (used by Heapsort to count operations of phase 2). Create the
+   * second set if it doesn't exist yet.
    *
-   * <p>
-   * Not thread-safe!
+   * <p>Not thread-safe!
    *
    * @return
    */
@@ -81,18 +80,19 @@ public class Counters {
 
   @Override
   public String toString() {
-    String result = String.format(Locale.US,
-          "iterations = %,11d, comparisons = %,11d, " +
-                "reads = %,11d, writes = %,11d, var.assignments = %,11d",
-          iterations,
-          comparisons,
-          reads,
-          writes,
-          localVariableAssignments);
+    String result =
+        String.format(
+            Locale.US,
+            "iterations = %,11d, comparisons = %,11d, "
+                + "reads = %,11d, writes = %,11d, var.assignments = %,11d",
+            iterations,
+            comparisons,
+            reads,
+            writes,
+            localVariableAssignments);
     if (phase2 != null) {
       result += "; Phase2: " + phase2.toString();
     }
     return result;
   }
-
 }

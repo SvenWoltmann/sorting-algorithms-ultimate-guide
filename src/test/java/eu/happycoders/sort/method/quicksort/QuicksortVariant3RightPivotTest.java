@@ -8,5 +8,4 @@ public class QuicksortVariant3RightPivotTest extends SortTest {
   protected SortAlgorithm getSortAlgorithm() {
     return new QuicksortVariant3(PivotStrategy.RIGHT);
   }
-
 }

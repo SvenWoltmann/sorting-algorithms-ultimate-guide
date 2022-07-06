@@ -1,20 +1,17 @@
 package eu.happycoders.sort.method.quicksort;
 
 import eu.happycoders.sort.utils.ArrayUtils;
-
 import java.util.concurrent.ThreadLocalRandom;
 
 public class PivotHelper {
 
-  static void findPivotAndMoveRight(int[] elements, int left, int right,
-                                    PivotStrategy pivotStrategy) {
+  static void findPivotAndMoveRight(
+      int[] elements, int left, int right, PivotStrategy pivotStrategy) {
     int pivotPos = findPivotPos(elements, left, right, pivotStrategy);
-    if (pivotPos != right)
-      ArrayUtils.swap(elements, pivotPos, right);
+    if (pivotPos != right) ArrayUtils.swap(elements, pivotPos, right);
   }
 
-  static int findPivotPos(int[] elements, int left, int right,
-                          PivotStrategy pivotStrategy) {
+  static int findPivotPos(int[] elements, int left, int right, PivotStrategy pivotStrategy) {
     return switch (pivotStrategy) {
       case RIGHT -> right;
       case RANDOM -> ThreadLocalRandom.current().nextInt(left, right + 1);
@@ -84,5 +81,4 @@ public class PivotHelper {
     }
     return middle;
   }
-
 }

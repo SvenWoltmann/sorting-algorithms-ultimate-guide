@@ -3,13 +3,12 @@ package eu.happycoders.sort.pivot;
 import eu.happycoders.sort.method.*;
 import eu.happycoders.sort.method.quicksort.*;
 import eu.happycoders.sort.utils.*;
-
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
- * Compares several pivot strategies: in how many samples will we have a
- * specific  distribution of elements (1.5:1, 2:1, 3:1) or better?
+ * Compares several pivot strategies: in how many samples will we have a specific distribution of
+ * elements (1.5:1, 2:1, 3:1) or better?
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -24,12 +23,13 @@ public class PivotComparator {
   private static int longestNameLength;
 
   public static void main(String[] args) {
-    PartitioningAlgorithm[] algorithms = new PartitioningAlgorithm[]{
+    PartitioningAlgorithm[] algorithms =
+        new PartitioningAlgorithm[] {
           new QuicksortVariant1(PivotStrategy.MIDDLE),
           new QuicksortVariant1(PivotStrategy.RANDOM),
           new QuicksortVariant1(PivotStrategy.RIGHT),
           new QuicksortVariant1(PivotStrategy.MEDIAN3)
-    };
+        };
     runTest(algorithms);
   }
 
@@ -45,8 +45,7 @@ public class PivotComparator {
       }
 
       // Check the same elements once with each algorithm
-      int[] elements = ArrayUtils.createRandomArray(
-            rand.nextInt(MIN_SIZE, MAX_SIZE));
+      int[] elements = ArrayUtils.createRandomArray(rand.nextInt(MIN_SIZE, MAX_SIZE));
 
       for (int j = 0; j < numAlgorithms; j++) {
         PartitioningAlgorithm algorithm = algorithms[j];
@@ -55,9 +54,8 @@ public class PivotComparator {
       }
     }
 
-    System.out.printf(Locale.US,
-          "%n---------- Results after %,d iterations ----------%n",
-          ITERATIONS);
+    System.out.printf(
+        Locale.US, "%n---------- Results after %,d iterations ----------%n", ITERATIONS);
     for (int j = 0; j < numAlgorithms; j++) {
       PivotScorecard scorecard = scorecardForAlgorithm(algorithms[j]);
       scorecard.printResult(longestNameLength);
@@ -65,21 +63,19 @@ public class PivotComparator {
   }
 
   /**
-   * Partitions the elements with the given sort algorithm and calculates
-   * the percentage of the larger partition.
+   * Partitions the elements with the given sort algorithm and calculates the percentage of the
+   * larger partition.
    *
    * @param algorithm the algorithm
-   * @param elements  the elements
-   * @return the percentage of the larger partition; e.g., if we get 100 and 50
-   * elements, the result is 66.7.
+   * @param elements the elements
+   * @return the percentage of the larger partition; e.g., if we get 100 and 50 elements, the result
+   *     is 66.7.
    */
-  private static double partition(PartitioningAlgorithm algorithm,
-                                  int[] elements) {
+  private static double partition(PartitioningAlgorithm algorithm, int[] elements) {
     int numElements = elements.length;
     int pivotPos = algorithm.partition(elements, 0, numElements - 1);
 
-    int longerPartSize = pivotPos >= numElements / 2 ? pivotPos :
-          numElements - 1 - pivotPos;
+    int longerPartSize = pivotPos >= numElements / 2 ? pivotPos : numElements - 1 - pivotPos;
 
     return longerPartSize * 100.0 / (numElements - 1);
   }
@@ -87,5 +83,4 @@ public class PivotComparator {
   private static PivotScorecard scorecardForAlgorithm(SortAlgorithm algorithm) {
     return scorecards.computeIfAbsent(algorithm.getName(), PivotScorecard::new);
   }
-
 }

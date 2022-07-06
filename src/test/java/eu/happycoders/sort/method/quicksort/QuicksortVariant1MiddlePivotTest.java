@@ -9,5 +9,4 @@ public class QuicksortVariant1MiddlePivotTest extends SortTestLargeArray {
   protected SortAlgorithm getSortAlgorithm() {
     return new QuicksortVariant1(PivotStrategy.MIDDLE);
   }
-
 }

@@ -2,7 +2,6 @@ package eu.happycoders.sort.method.quicksort;
 
 import eu.happycoders.sort.method.*;
 import eu.happycoders.sort.method.quicksort.DualPivotQuicksort.PivotStrategy;
-
 import java.util.concurrent.ThreadLocalRandom;
 
 public class DualPivotQuicksortLeftRightTest extends SortTest {
@@ -18,5 +17,4 @@ public class DualPivotQuicksortLeftRightTest extends SortTest {
     // will always partition at the left or right side.
     return ThreadLocalRandom.current().nextInt(2, 1_000);
   }
-
 }

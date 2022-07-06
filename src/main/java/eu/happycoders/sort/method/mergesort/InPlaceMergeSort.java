@@ -6,16 +6,15 @@ import eu.happycoders.sort.method.SortAlgorithm;
 /**
  * Trivial In-place Merge sort implementation for performance tests.
  *
- * <p>
- * This implementation has a space complexity of O(1), however its time
- * complexity is O(n² log n) due to the two nested loops in the merge() method.
+ * <p>This implementation has a space complexity of O(1), however its time complexity is O(n² log n)
+ * due to the two nested loops in the merge() method.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
 public class InPlaceMergeSort implements SortAlgorithm {
 
   // Otherwise we run out of heap
-//  private static final int MAX_INPUT_SIZE = 1 << 28;
+  //  private static final int MAX_INPUT_SIZE = 1 << 28;
 
   @Override
   public void sort(int[] elements) {
@@ -33,30 +32,30 @@ public class InPlaceMergeSort implements SortAlgorithm {
     merge(elements, left, middle + 1, right);
   }
 
-void merge(int[] elements, int leftPos, int rightPos, int rightEnd) {
-  int leftEnd = rightPos - 1;
+  void merge(int[] elements, int leftPos, int rightPos, int rightEnd) {
+    int leftEnd = rightPos - 1;
 
-  while (leftPos <= leftEnd && rightPos <= rightEnd) {
-    // Which one is smaller?
-    int leftValue = elements[leftPos];
-    int rightValue = elements[rightPos];
-    if (leftValue <= rightValue) {
-      leftPos++;
-    } else {
-      // Move all the elements from leftPos to excluding rightPos one field
-      // to the right
-      int movePos = rightPos;
-      while (movePos > leftPos) {
-        elements[movePos] = elements[movePos - 1];
-        movePos--;
+    while (leftPos <= leftEnd && rightPos <= rightEnd) {
+      // Which one is smaller?
+      int leftValue = elements[leftPos];
+      int rightValue = elements[rightPos];
+      if (leftValue <= rightValue) {
+        leftPos++;
+      } else {
+        // Move all the elements from leftPos to excluding rightPos one field
+        // to the right
+        int movePos = rightPos;
+        while (movePos > leftPos) {
+          elements[movePos] = elements[movePos - 1];
+          movePos--;
+        }
+        elements[leftPos] = rightValue;
+        leftPos++;
+        leftEnd++;
+        rightPos++;
       }
-      elements[leftPos] = rightValue;
-      leftPos++;
-      leftEnd++;
-      rightPos++;
     }
   }
-}
 
   @Override
   public void sort(int[] elements, Counters counters) {
@@ -64,8 +63,7 @@ void merge(int[] elements, int leftPos, int rightPos, int rightEnd) {
     mergeSort(elements, 0, length - 1, counters);
   }
 
-  private void mergeSort(int[] elements, int left, int right,
-                         Counters counters) {
+  private void mergeSort(int[] elements, int left, int right, Counters counters) {
     // End of recursion reached?
     if (left == right) return;
 
@@ -75,11 +73,11 @@ void merge(int[] elements, int leftPos, int rightPos, int rightEnd) {
     merge(elements, left, middle + 1, right, counters);
   }
 
-  private void merge(int[] elements, int leftPos, int rightPos, int rightEnd,
-                     Counters counters) {
+  private void merge(int[] elements, int leftPos, int rightPos, int rightEnd, Counters counters) {
     int leftEnd = rightPos - 1;
 
-    while (isLessThanOrEqual(leftPos, leftEnd, counters) && isLessThanOrEqual(rightPos, rightEnd, counters)) {
+    while (isLessThanOrEqual(leftPos, leftEnd, counters)
+        && isLessThanOrEqual(rightPos, rightEnd, counters)) {
       // Which one is smaller?
       int leftValue = elements[leftPos];
       int rightValue = elements[rightPos];
@@ -115,5 +113,4 @@ void merge(int[] elements, int leftPos, int rightPos, int rightEnd) {
     counters.incComparisons();
     return a > b;
   }
-
 }

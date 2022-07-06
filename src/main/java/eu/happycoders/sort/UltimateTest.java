@@ -11,7 +11,6 @@ import eu.happycoders.sort.method.mergesort.MergeSort;
 import eu.happycoders.sort.method.quicksort.*;
 import eu.happycoders.sort.utils.ArrayUtils;
 import eu.happycoders.sort.utils.Scorecard;
-
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
@@ -24,7 +23,8 @@ import java.util.function.Function;
  */
 public class UltimateTest {
 
-  static final SortAlgorithm[] ALGORITHMS = new SortAlgorithm[]{
+  static final SortAlgorithm[] ALGORITHMS =
+      new SortAlgorithm[] {
         new InsertionSort(),
         new SelectionSort(),
         new BubbleSortOpt1(),
@@ -35,9 +35,7 @@ public class UltimateTest {
         new QuicksortVariant1(PivotStrategy.MEDIAN3),
         new QuicksortImproved(48, new QuicksortVariant1(PivotStrategy.MIDDLE)),
         new DualPivotQuicksort(DualPivotQuicksort.PivotStrategy.THIRDS),
-        new DualPivotQuicksortImproved(64,
-              DualPivotQuicksort.PivotStrategy.THIRDS),
-
+        new DualPivotQuicksortImproved(64, DualPivotQuicksort.PivotStrategy.THIRDS),
         new MergeSort(),
 
         // Heapsort
@@ -45,10 +43,9 @@ public class UltimateTest {
         new BottomUpHeapsort(),
         new HeapsortSlowComparisons(),
         new BottomUpHeapsortSlowComparisons(),
-
         new CountingSort(),
         new JavaArraysSort()
-  };
+      };
 
   private static final int WARM_UPS = 2;
 
@@ -88,41 +85,40 @@ public class UltimateTest {
 
   private static void test(SortAlgorithm algorithm, boolean warmingUp) {
     // Test with a random, a sorted, and a reversed (= sorted descending) array
-    test(algorithm, InputOrder.RANDOM, ArrayUtils::createRandomArray,
-          warmingUp);
+    test(algorithm, InputOrder.RANDOM, ArrayUtils::createRandomArray, warmingUp);
 
     if (TEST_SORTED_INPUT) {
-      test(algorithm, InputOrder.ASCENDING, ArrayUtils::createSortedArray,
-            warmingUp);
-      test(algorithm, InputOrder.DESCENDING, ArrayUtils::createReversedArray,
-            warmingUp);
+      test(algorithm, InputOrder.ASCENDING, ArrayUtils::createSortedArray, warmingUp);
+      test(algorithm, InputOrder.DESCENDING, ArrayUtils::createReversedArray, warmingUp);
     }
   }
 
-  private static void test(SortAlgorithm algorithm,
-                           InputOrder inputOrder,
-                           Function<Integer, int[]> arraySupplier,
-                           boolean warmingUp) {
-    System.out.printf("%n--- %s (order: %s) ---%n",
-          algorithm.getName(), inputOrder);
+  private static void test(
+      SortAlgorithm algorithm,
+      InputOrder inputOrder,
+      Function<Integer, int[]> arraySupplier,
+      boolean warmingUp) {
+    System.out.printf("%n--- %s (order: %s) ---%n", algorithm.getName(), inputOrder);
 
     // Sort until sorting takes more than MAX_SORTING_TIME_SECS
     // Upper limit used by insertion sort on already sorted data
     for (int size = MIN_SORTING_SIZE;
-         size <= MAX_SORTING_SIZE && algorithm.isSuitableForInputSize(size)
-               && (!inputOrder.isSorted() || algorithm.isSuitableForSortedInput(size));
-         size <<= 1) {
+        size <= MAX_SORTING_SIZE
+            && algorithm.isSuitableForInputSize(size)
+            && (!inputOrder.isSorted() || algorithm.isSuitableForSortedInput(size));
+        size <<= 1) {
       long time = measureTime(algorithm, arraySupplier.apply(size));
-      boolean newRecord = !warmingUp
-            && scorecard(algorithm, inputOrder.toString(), size, true).add(time);
+      boolean newRecord =
+          !warmingUp && scorecard(algorithm, inputOrder.toString(), size, true).add(time);
 
-      System.out.printf(Locale.US,
-            "%s (order: %s): size = %,11d  -->  time = %,10.3f ms %s%n",
-            algorithm.getName(),
-            inputOrder,
-            size,
-            time / 1_000_000.0,
-            newRecord ? "<<< NEW RECORD :-)" : "");
+      System.out.printf(
+          Locale.US,
+          "%s (order: %s): size = %,11d  -->  time = %,10.3f ms %s%n",
+          algorithm.getName(),
+          inputOrder,
+          size,
+          time / 1_000_000.0,
+          newRecord ? "<<< NEW RECORD :-)" : "");
 
       // Stop after specified time
       if (time > MAX_SORTING_TIME_SECS * 1_000_000_000L) {
@@ -138,24 +134,21 @@ public class UltimateTest {
     return System.nanoTime() - time;
   }
 
-  private static Scorecard scorecard(SortAlgorithm algorithm,
-                                     String inputOrder, int size,
-                                     boolean create) {
+  private static Scorecard scorecard(
+      SortAlgorithm algorithm, String inputOrder, int size, boolean create) {
     String key = algorithm.getName() + "/" + inputOrder + "/" + size;
-    return create
-          ? scorecards.computeIfAbsent(key, Scorecard::new)
-          : scorecards.get(key);
+    return create ? scorecards.computeIfAbsent(key, Scorecard::new) : scorecards.get(key);
   }
 
-  private static void printResults(int iteration, SortAlgorithm algorithm,
-                                   String inputOrder) {
-    System.out.printf("%n--- Results for iteration %d for: %s (order: %s) ---%n",
-          iteration, algorithm.getName(), inputOrder);
+  private static void printResults(int iteration, SortAlgorithm algorithm, String inputOrder) {
+    System.out.printf(
+        "%n--- Results for iteration %d for: %s (order: %s) ---%n",
+        iteration, algorithm.getName(), inputOrder);
 
     int longestNameLength = 0;
     for (int size = MIN_SORTING_SIZE;
-         size <= MAX_SORTING_SIZE && algorithm.isSuitableForInputSize(size);
-         size <<= 1) {
+        size <= MAX_SORTING_SIZE && algorithm.isSuitableForInputSize(size);
+        size <<= 1) {
       Scorecard scorecard = scorecard(algorithm, inputOrder, size, false);
       if (scorecard != null) {
         int nameLength = scorecard.getName().length();
@@ -166,8 +159,8 @@ public class UltimateTest {
     }
 
     for (int size = MIN_SORTING_SIZE;
-         size <= MAX_SORTING_SIZE && algorithm.isSuitableForInputSize(size);
-         size <<= 1) {
+        size <= MAX_SORTING_SIZE && algorithm.isSuitableForInputSize(size);
+        size <<= 1) {
       Scorecard scorecard = scorecard(algorithm, inputOrder, size, false);
       if (scorecard != null) {
         scorecard.printResult(longestNameLength, "");
@@ -195,5 +188,4 @@ public class UltimateTest {
       return name().toLowerCase();
     }
   }
-
 }

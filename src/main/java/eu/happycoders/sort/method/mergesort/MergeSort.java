@@ -6,14 +6,11 @@ import eu.happycoders.sort.method.SortAlgorithm;
 /**
  * Merge sort implementation for performance tests.
  *
- * <p>
- * This implementation divides directly on the input array and creates new
- * arrays only in the merge phase, passing the new arrays up the call chain
- * and merging them; finally copying the resulting array back to the input
- * array.
+ * <p>This implementation divides directly on the input array and creates new arrays only in the
+ * merge phase, passing the new arrays up the call chain and merging them; finally copying the
+ * resulting array back to the input array.
  *
- * <p>
- * Additional space complexity is <strong>O(n)</strong>.
+ * <p>Additional space complexity is <strong>O(n)</strong>.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -31,7 +28,7 @@ public class MergeSort implements SortAlgorithm {
 
   private int[] mergeSort(int[] elements, int left, int right) {
     // End of recursion reached?
-    if (left == right) return new int[]{elements[left]};
+    if (left == right) return new int[] {elements[left]};
 
     int middle = left + (right - left) / 2;
     int[] leftArray = mergeSort(elements, left, middle);
@@ -79,10 +76,9 @@ public class MergeSort implements SortAlgorithm {
     counters.addReadsAndWrites(length);
   }
 
-  private int[] mergeSort(int[] elements, int left, int right,
-                          Counters counters) {
+  private int[] mergeSort(int[] elements, int left, int right, Counters counters) {
     // End of recursion reached?
-    if (left == right) return new int[]{elements[left]};
+    if (left == right) return new int[] {elements[left]};
 
     int middle = left + (right - left) / 2;
     int[] leftArray = mergeSort(elements, left, middle, counters);
@@ -100,8 +96,7 @@ public class MergeSort implements SortAlgorithm {
     int rightPos = 0;
 
     // As long as both lists contain elements...
-    while (isLessThan(leftPos, leftLen, counters)
-          && isLessThan(rightPos, rightLen, counters)) {
+    while (isLessThan(leftPos, leftLen, counters) && isLessThan(rightPos, rightLen, counters)) {
       counters.incIterations();
 
       // Which one is smaller?
@@ -143,5 +138,4 @@ public class MergeSort implements SortAlgorithm {
   public boolean isSuitableForInputSize(int size) {
     return size <= MAX_INPUT_SIZE;
   }
-
 }

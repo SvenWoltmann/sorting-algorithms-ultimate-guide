@@ -6,5 +6,4 @@ public class SelectionSortTest extends SortTest {
   protected SortAlgorithm getSortAlgorithm() {
     return new SelectionSort();
   }
-
 }

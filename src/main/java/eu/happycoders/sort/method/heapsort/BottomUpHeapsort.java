@@ -7,9 +7,8 @@ public class BottomUpHeapsort extends Heapsort {
   /**
    * "Fixes" a max heap starting at the given parent position.
    *
-   * @param heap    the heap to be fixed
-   * @param length  the number of elements in the array that belong to the
-   *                heap
+   * @param heap the heap to be fixed
+   * @param length the number of elements in the array that belong to the heap
    * @param rootPos the parent position
    */
   @Override
@@ -117,24 +116,20 @@ public class BottomUpHeapsort extends Heapsort {
     return pos;
   }
 
-  private int findTargetNodeBottomUp(int[] heap, int rootPos, int leafPos,
-                                     Counters counters) {
+  private int findTargetNodeBottomUp(int[] heap, int rootPos, int leafPos, Counters counters) {
     counters.incReads();
     int parentValue = heap[rootPos];
     int nodePos = leafPos;
-    while (nodePos != rootPos && nodeSmallerThanParent(heap[nodePos],
-          parentValue, counters)) {
+    while (nodePos != rootPos && nodeSmallerThanParent(heap[nodePos], parentValue, counters)) {
       counters.incIterations();
       nodePos = getParentPos(nodePos);
     }
     return nodePos;
   }
 
-  private boolean nodeSmallerThanParent(int nodeValue, int parentValue,
-                                        Counters counters) {
+  private boolean nodeSmallerThanParent(int nodeValue, int parentValue, Counters counters) {
     counters.incReads();
     counters.incComparisons();
     return nodeValue < parentValue;
   }
-
 }

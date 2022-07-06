@@ -42,8 +42,7 @@ public class NaturalMergeSort implements SortAlgorithm {
       // Odd number of runs? Copy the last one
       if (runCount % 2 == 1) {
         int lastStart = starts[runCount - 1];
-        System.arraycopy(from, lastStart, to, lastStart,
-              numElements - lastStart);
+        System.arraycopy(from, lastStart, to, lastStart, numElements - lastStart);
         starts[newRunCount++] = lastStart;
       }
 
@@ -63,8 +62,7 @@ public class NaturalMergeSort implements SortAlgorithm {
     }
   }
 
-  private void merge(int[] source, int[] target, int startLeft,
-                     int startRight, int endRight) {
+  private void merge(int[] source, int[] target, int startLeft, int startRight, int endRight) {
     int leftPos = startLeft;
     int rightPos = startRight;
     int targetPos = startLeft;
@@ -95,5 +93,4 @@ public class NaturalMergeSort implements SortAlgorithm {
   public void sort(int[] elements, Counters counters) {
     // Not implemented
   }
-
 }

@@ -64,8 +64,7 @@ public class DualPivotQuicksort implements SortAlgorithm {
 
       // elements >= right pivot element?
       else if (elements[leftIndex] >= rightPivot) {
-        while (elements[rightIndex] > rightPivot && leftIndex < rightIndex)
-          rightIndex--;
+        while (elements[rightIndex] > rightPivot && leftIndex < rightIndex) rightIndex--;
         ArrayUtils.swap(elements, leftIndex, rightIndex);
         rightIndex--;
         if (elements[leftIndex] < leftPivot) {
@@ -82,7 +81,7 @@ public class DualPivotQuicksort implements SortAlgorithm {
     ArrayUtils.swap(elements, left, leftPartitionEnd);
     ArrayUtils.swap(elements, right, rightIndex);
 
-    return new int[]{leftPartitionEnd, rightIndex};
+    return new int[] {leftPartitionEnd, rightIndex};
   }
 
   @Override
@@ -90,8 +89,7 @@ public class DualPivotQuicksort implements SortAlgorithm {
     quicksort(elements, 0, elements.length - 1, counters);
   }
 
-  private void quicksort(int[] elements, int left, int right,
-                         Counters counters) {
+  private void quicksort(int[] elements, int left, int right, Counters counters) {
     // End of recursion reached?
     if (left >= right) return;
 
@@ -157,11 +155,10 @@ public class DualPivotQuicksort implements SortAlgorithm {
     ArrayUtils.swap(elements, right, rightIndex);
     counters.addReadsAndWrites(4);
 
-    return new int[]{leftPartitionEnd, rightIndex};
+    return new int[] {leftPartitionEnd, rightIndex};
   }
 
-  private void findPivotsAndMoveToLeftRight(int[] elements,
-                                            int left, int right) {
+  private void findPivotsAndMoveToLeftRight(int[] elements, int left, int right) {
     switch (pivotStrategy) {
       case LEFT_RIGHT -> {
         if (elements[left] > elements[right]) {
@@ -197,10 +194,8 @@ public class DualPivotQuicksort implements SortAlgorithm {
             ArrayUtils.swap(elements, secondPos, left);
           }
         } else {
-          if (secondPos != right)
-            ArrayUtils.swap(elements, secondPos, right);
-          if (firstPos != left)
-            ArrayUtils.swap(elements, firstPos, left);
+          if (secondPos != right) ArrayUtils.swap(elements, secondPos, right);
+          if (firstPos != left) ArrayUtils.swap(elements, firstPos, left);
         }
       }
 
@@ -208,6 +203,8 @@ public class DualPivotQuicksort implements SortAlgorithm {
     }
   }
 
-  public enum PivotStrategy {LEFT_RIGHT, THIRDS}
-
+  public enum PivotStrategy {
+    LEFT_RIGHT,
+    THIRDS
+  }
 }

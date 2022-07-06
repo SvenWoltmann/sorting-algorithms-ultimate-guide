@@ -6,5 +6,4 @@ public class HeapsortBuildHeapAndHeapifyTest extends BuildHeapAndHeapifyTest {
   protected Heapsort getSortAlgorithm() {
     return new Heapsort();
   }
-
 }

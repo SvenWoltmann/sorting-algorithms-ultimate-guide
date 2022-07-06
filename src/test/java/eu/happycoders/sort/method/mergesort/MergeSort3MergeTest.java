@@ -1,23 +1,22 @@
 package eu.happycoders.sort.method.mergesort;
 
-import eu.happycoders.sort.utils.ArrayUtils;
-import org.junit.jupiter.api.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
+import eu.happycoders.sort.utils.ArrayUtils;
 import java.util.Arrays;
 import java.util.concurrent.ThreadLocalRandom;
-
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import org.junit.jupiter.api.*;
 
 public class MergeSort3MergeTest {
 
   @Test
   public void merge_twoSortedElements_merged() {
-    testMerge(new int[]{8}, new int[]{15});
+    testMerge(new int[] {8}, new int[] {15});
   }
 
   @Test
   public void merge_twoUnsortedElements_merged() {
-    testMerge(new int[]{17}, new int[]{4});
+    testMerge(new int[] {17}, new int[] {4});
   }
 
   @RepeatedTest(100)
@@ -36,10 +35,8 @@ public class MergeSort3MergeTest {
 
     int[] expectedArray = new int[leftArray.length + rightArray.length];
     System.arraycopy(leftArray, 0, expectedArray, 0, leftArray.length);
-    System.arraycopy(rightArray, 0, expectedArray, leftArray.length,
-          rightArray.length);
+    System.arraycopy(rightArray, 0, expectedArray, leftArray.length, rightArray.length);
     Arrays.sort(expectedArray);
     assertArrayEquals(expectedArray, merged);
   }
-
 }

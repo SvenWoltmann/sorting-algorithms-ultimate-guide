@@ -8,5 +8,4 @@ public class BubbleSortParallelOddEvenTest extends SortTest {
   protected SortAlgorithm getSortAlgorithm() {
     return new BubbleSortParallelOddEven();
   }
-
 }

@@ -18,12 +18,11 @@ public class DualPivotQuicksortImproved implements SortAlgorithm {
   /**
    * Constructs the Dual-pivot Quicksort instance.
    *
-   * @param threshold     when the array to be sorted is not longer than this
-   *                      threshold, the algorithm switches to Insertion Sort
+   * @param threshold when the array to be sorted is not longer than this threshold, the algorithm
+   *     switches to Insertion Sort
    * @param pivotStrategy the pivot strategy to use
    */
-  public DualPivotQuicksortImproved(int threshold,
-                                    PivotStrategy pivotStrategy) {
+  public DualPivotQuicksortImproved(int threshold, PivotStrategy pivotStrategy) {
     this.threshold = threshold;
     this.pivotStrategy = pivotStrategy;
     this.standardQuicksort = new DualPivotQuicksort(pivotStrategy);
@@ -32,8 +31,12 @@ public class DualPivotQuicksortImproved implements SortAlgorithm {
 
   @Override
   public String getName() {
-    return this.getClass().getSimpleName() + "(threshold: " + threshold +
-          ", pivot: " + pivotStrategy + ")";
+    return this.getClass().getSimpleName()
+        + "(threshold: "
+        + threshold
+        + ", pivot: "
+        + pivotStrategy
+        + ")";
   }
 
   @Override
@@ -64,8 +67,7 @@ public class DualPivotQuicksortImproved implements SortAlgorithm {
     quicksort(elements, 0, elements.length - 1, counters);
   }
 
-  private void quicksort(int[] elements, int left, int right,
-                         Counters counters) {
+  private void quicksort(int[] elements, int left, int right, Counters counters) {
     // End of recursion reached?
     if (left >= right) return;
 
@@ -75,8 +77,7 @@ public class DualPivotQuicksortImproved implements SortAlgorithm {
       return;
     }
 
-    int[] pivotPos = standardQuicksort.partition(elements, left, right,
-          counters);
+    int[] pivotPos = standardQuicksort.partition(elements, left, right, counters);
     int p0 = pivotPos[0];
     int p1 = pivotPos[1];
     quicksort(elements, left, p0 - 1, counters);
@@ -93,5 +94,4 @@ public class DualPivotQuicksortImproved implements SortAlgorithm {
   public boolean isSuitableForSortedInput(int size) {
     return standardQuicksort.isSuitableForSortedInput(size);
   }
-
 }

@@ -8,5 +8,4 @@ public class QuicksortSimpleTest extends SortTest {
   protected SortAlgorithm getSortAlgorithm() {
     return new QuicksortSimple();
   }
-
 }

@@ -9,5 +9,4 @@ public class InPlaceMergeSortTest extends SortTestLargeArray {
   protected SortAlgorithm getSortAlgorithm() {
     return new InPlaceMergeSort();
   }
-
 }

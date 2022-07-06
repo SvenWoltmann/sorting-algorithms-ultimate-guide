@@ -6,5 +6,4 @@ public class BottomUpBuildHeapAndHeapifyTest extends BuildHeapAndHeapifyTest {
   protected Heapsort getSortAlgorithm() {
     return new BottomUpHeapsort();
   }
-
 }

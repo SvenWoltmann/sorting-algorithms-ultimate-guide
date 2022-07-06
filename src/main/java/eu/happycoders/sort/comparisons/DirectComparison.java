@@ -2,7 +2,6 @@ package eu.happycoders.sort.comparisons;
 
 import eu.happycoders.sort.method.SortAlgorithm;
 import eu.happycoders.sort.utils.*;
-
 import java.util.*;
 
 /**
@@ -73,9 +72,11 @@ public class DirectComparison {
     long time = System.nanoTime();
     sortAlgorithm.sort(elements);
     time = System.nanoTime() - time;
-    System.out.printf(Locale.US,
-          "  %-" + longestNameLength + "s -> time = %,10.3f ms",
-          sortAlgorithm.getName(), (time / 1_000_000.0));
+    System.out.printf(
+        Locale.US,
+        "  %-" + longestNameLength + "s -> time = %,10.3f ms",
+        sortAlgorithm.getName(),
+        (time / 1_000_000.0));
 
     // Validate that's sorted (and make sure the sorting wasn't optimized away!)
     if (!ArrayUtils.isSorted(elements)) {
@@ -105,9 +106,9 @@ public class DirectComparison {
 
     // 2. Print them, showing which one has the fastest median
     for (int i = 0; i < algorithms.length; i++) {
-      scorecardForAlgorithm(algorithms[i]).printResult(longestNameLength,
-            i == fastestAlgorithmIndex ? "<<< FASTEST MEDIAN :-)" : null);
+      scorecardForAlgorithm(algorithms[i])
+          .printResult(
+              longestNameLength, i == fastestAlgorithmIndex ? "<<< FASTEST MEDIAN :-)" : null);
     }
   }
-
 }

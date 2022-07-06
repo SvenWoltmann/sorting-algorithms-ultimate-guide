@@ -5,8 +5,7 @@ import eu.happycoders.sort.method.*;
 /**
  * Bubble Sort implementation for performance tests.
  *
- * <p>
- * Unoptimized variant.
+ * <p>Unoptimized variant.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -54,5 +53,4 @@ public class BubbleSort implements SortAlgorithm {
       if (!swapped) break;
     }
   }
-
 }

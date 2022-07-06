@@ -10,5 +10,4 @@ public class DualPivotQuicksortThirdsTest extends SortTestLargeArray {
   protected SortAlgorithm getSortAlgorithm() {
     return new DualPivotQuicksort(PivotStrategy.THIRDS);
   }
-
 }

@@ -1,12 +1,11 @@
 package eu.happycoders.sort.method.quicksort;
 
-import eu.happycoders.sort.utils.ArrayUtils;
-import org.junit.jupiter.api.*;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import eu.happycoders.sort.utils.ArrayUtils;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.function.Function;
-
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.*;
 
 public class QuicksortVariant1PartitionTest {
 
@@ -99,11 +98,9 @@ public class QuicksortVariant1PartitionTest {
 
   // ---- private methods ----
 
-  private void testPartitioning(PivotStrategy pivotMode,
-                                Function<Integer, int[]> arraySupplier) {
+  private void testPartitioning(PivotStrategy pivotMode, Function<Integer, int[]> arraySupplier) {
     int[] elements = arraySupplier.apply(randomSize());
-    int pivotPos = new QuicksortVariant1(pivotMode).partition(elements, 0,
-          elements.length - 1);
+    int pivotPos = new QuicksortVariant1(pivotMode).partition(elements, 0, elements.length - 1);
 
     assertTrue(pivotPos >= 0);
     assertTrue(pivotPos < elements.length);
@@ -122,5 +119,4 @@ public class QuicksortVariant1PartitionTest {
   private int randomSize() {
     return ThreadLocalRandom.current().nextInt(2, 10_000);
   }
-
 }

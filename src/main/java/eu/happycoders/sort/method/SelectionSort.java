@@ -67,5 +67,4 @@ public class SelectionSort implements SortAlgorithm {
       }
     }
   }
-
 }

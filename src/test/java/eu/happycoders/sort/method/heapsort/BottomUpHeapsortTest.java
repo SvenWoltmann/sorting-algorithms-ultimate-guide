@@ -9,5 +9,4 @@ public class BottomUpHeapsortTest extends SortTest {
   protected SortAlgorithm getSortAlgorithm() {
     return new BottomUpHeapsort();
   }
-
 }

@@ -16,8 +16,8 @@ public class QuicksortImproved implements SortAlgorithm {
   /**
    * Constructs the Quicksort instance.
    *
-   * @param threshold when the array to be sorted is not longer than this
-   *                  threshold, the algorithm switches to Insertion Sort
+   * @param threshold when the array to be sorted is not longer than this threshold, the algorithm
+   *     switches to Insertion Sort
    * @param quicksort the quicksort algorithm to use
    */
   public QuicksortImproved(int threshold, PartitioningAlgorithm quicksort) {
@@ -28,8 +28,12 @@ public class QuicksortImproved implements SortAlgorithm {
 
   @Override
   public String getName() {
-    return this.getClass().getSimpleName() + "(threshold: " + threshold +
-          ", partitioning: " + quicksort.getName() + ")";
+    return this.getClass().getSimpleName()
+        + "(threshold: "
+        + threshold
+        + ", partitioning: "
+        + quicksort.getName()
+        + ")";
   }
 
   @Override
@@ -57,8 +61,7 @@ public class QuicksortImproved implements SortAlgorithm {
     quicksort(elements, 0, elements.length - 1, counters);
   }
 
-  private void quicksort(int[] elements, int left, int right,
-                         Counters counters) {
+  private void quicksort(int[] elements, int left, int right, Counters counters) {
     // Nothing to sort?
     if (left == right) return;
 
@@ -82,5 +85,4 @@ public class QuicksortImproved implements SortAlgorithm {
   public boolean isSuitableForSortedInput(int size) {
     return quicksort.isSuitableForSortedInput(size);
   }
-
 }

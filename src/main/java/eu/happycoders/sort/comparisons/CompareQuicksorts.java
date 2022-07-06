@@ -2,7 +2,6 @@ package eu.happycoders.sort.comparisons;
 
 import eu.happycoders.sort.method.SortAlgorithm;
 import eu.happycoders.sort.method.quicksort.*;
-
 import java.util.*;
 
 /**
@@ -36,5 +35,4 @@ public class CompareQuicksorts extends DirectComparison {
 
     runTest(algorithms.toArray(SortAlgorithm[]::new), SIZE);
   }
-
 }

@@ -8,5 +8,4 @@ public class BubbleSortOpt2Test extends SortTest {
   protected SortAlgorithm getSortAlgorithm() {
     return new BubbleSortOpt2();
   }
-
 }

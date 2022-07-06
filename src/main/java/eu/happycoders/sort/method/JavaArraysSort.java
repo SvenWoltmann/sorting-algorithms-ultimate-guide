@@ -23,5 +23,4 @@ public class JavaArraysSort implements SortAlgorithm {
   public boolean supportsCounting() {
     return false;
   }
-
 }

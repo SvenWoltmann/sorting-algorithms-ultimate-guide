@@ -5,9 +5,8 @@ import eu.happycoders.sort.method.*;
 /**
  * Bubble Sort implementation for performance tests.
  *
- * <p>
- * Optimized: in the n-th iteration, the n-th largest element is put into
- * place, so we can ignore the last n-1 elements.
+ * <p>Optimized: in the n-th iteration, the n-th largest element is put into place, so we can ignore
+ * the last n-1 elements.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -53,5 +52,4 @@ public class BubbleSortOpt1 implements SortAlgorithm {
       if (!swapped) break;
     }
   }
-
 }

@@ -5,9 +5,8 @@ import eu.happycoders.sort.method.*;
 /**
  * Bubble Sort implementation for performance tests.
  *
- * <p>
- * Optimized: in each iteration, more than one element can be placed in its
- * final position; we assume all elements after the last swap to be sorted.
+ * <p>Optimized: in each iteration, more than one element can be placed in its final position; we
+ * assume all elements after the last swap to be sorted.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -56,5 +55,4 @@ public class BubbleSortOpt2 implements SortAlgorithm {
       max = lastSwapped;
     }
   }
-
 }

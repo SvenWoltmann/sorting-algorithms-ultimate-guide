@@ -6,8 +6,7 @@ import eu.happycoders.sort.method.SortAlgorithm;
 /**
  * General Counting Sort implementation.
  *
- * <p>
- * For simplicity, this implementation allows only elements >= 0.
+ * <p>For simplicity, this implementation allows only elements >= 0.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -44,8 +43,7 @@ public class CountingSortGeneral implements SortAlgorithm {
     for (int i = 0; i < elements.length; i++) {
       int element = elements[i];
       if (element < 0) {
-        throw new IllegalArgumentException(
-              "This implementation does not support negative values.");
+        throw new IllegalArgumentException("This implementation does not support negative values.");
       }
       if (element > max) {
         max = element;
@@ -58,5 +56,4 @@ public class CountingSortGeneral implements SortAlgorithm {
   public void sort(int[] elements, Counters counters) {
     throw new IllegalStateException("Not implemented");
   }
-
 }

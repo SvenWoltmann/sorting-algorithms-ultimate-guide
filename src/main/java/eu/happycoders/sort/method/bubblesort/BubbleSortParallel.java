@@ -1,13 +1,11 @@
 package eu.happycoders.sort.method.bubblesort;
 
 import eu.happycoders.sort.method.*;
-
 import java.util.concurrent.Phaser;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Abstract base class for parallel Bubble Sort implementations using
- * partitions.
+ * Abstract base class for parallel Bubble Sort implementations using partitions.
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
@@ -24,25 +22,27 @@ public abstract class BubbleSortParallel implements SortAlgorithm {
     Thread[] threads = new Thread[numThreads];
     for (int i = 0; i < numThreads; i++) {
       final int threadNo = i;
-      threads[threadNo] = new Thread(() -> {
-        int startPos = startPositions[threadNo];
-        int endPos = startPositions[threadNo + 1];
+      threads[threadNo] =
+          new Thread(
+              () -> {
+                int startPos = startPositions[threadNo];
+                int endPos = startPositions[threadNo + 1];
 
-        for (int round = 1; ; round++) {
-          phaser.arriveAndAwaitAdvance();
+                for (int round = 1; ; round++) {
+                  phaser.arriveAndAwaitAdvance();
 
-          boolean swapped = sortPartition(elements, startPos, endPos, false);
+                  boolean swapped = sortPartition(elements, startPos, endPos, false);
 
-          phaser.arriveAndAwaitAdvance();
+                  phaser.arriveAndAwaitAdvance();
 
-          swapped |= sortPartition(elements, startPos, endPos, true);
-          if (swapped) lastSwappedInRound.set(round);
+                  swapped |= sortPartition(elements, startPos, endPos, true);
+                  if (swapped) lastSwappedInRound.set(round);
 
-          phaser.arriveAndAwaitAdvance();
+                  phaser.arriveAndAwaitAdvance();
 
-          if (lastSwappedInRound.get() < round) break;
-        }
-      });
+                  if (lastSwappedInRound.get() < round) break;
+                }
+              });
     }
 
     for (int i = 0; i < numThreads; i++) {
@@ -62,13 +62,11 @@ public abstract class BubbleSortParallel implements SortAlgorithm {
    * Partitions the elements.
    *
    * @param elements the elements
-   * @return an array of start positions; the array's length is one more than
-   * the number of partitions; the last element contains the length of the
-   * array.
+   * @return an array of start positions; the array's length is one more than the number of
+   *     partitions; the last element contains the length of the array.
    */
   private int[] partition(int[] elements) {
-    int numPartitions = Math.min(Runtime.getRuntime().availableProcessors(),
-          elements.length / 2);
+    int numPartitions = Math.min(Runtime.getRuntime().availableProcessors(), elements.length / 2);
     int remainingElements = elements.length;
     int remainingPartitions = numPartitions;
     int[] startPositions = new int[numPartitions + 1];
@@ -90,16 +88,14 @@ public abstract class BubbleSortParallel implements SortAlgorithm {
    *
    * @param elements the elements
    * @param startPos the partition's start position within the elements
-   * @param endPos   the partition's end position within the elements
-   * @param even     whether it's the even or odd step of an iteration
+   * @param endPos the partition's end position within the elements
+   * @param even whether it's the even or odd step of an iteration
    * @return whether any elements were swapped
    */
-  abstract boolean sortPartition(int[] elements, int startPos, int endPos,
-                                 boolean even);
+  abstract boolean sortPartition(int[] elements, int startPos, int endPos, boolean even);
 
   @Override
   public void sort(int[] elements, Counters counters) {
     // Not implemented
   }
-
 }

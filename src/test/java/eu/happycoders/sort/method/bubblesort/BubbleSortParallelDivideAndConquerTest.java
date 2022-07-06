@@ -8,5 +8,4 @@ public class BubbleSortParallelDivideAndConquerTest extends SortTest {
   protected SortAlgorithm getSortAlgorithm() {
     return new BubbleSortParallelDivideAndConquer();
   }
-
 }

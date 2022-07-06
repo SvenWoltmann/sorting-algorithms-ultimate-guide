@@ -9,5 +9,4 @@ public class CountingSortSimpleTest extends SortTest {
   protected SortAlgorithm getSortAlgorithm() {
     return new CountingSortSimple();
   }
-
 }

@@ -8,9 +8,8 @@ public class HeapsortSlowComparisons extends Heapsort {
   /**
    * "Fixes" a max heap starting at the given parent position.
    *
-   * @param heap      the heap to be fixed
-   * @param length    the number of elements in the array that belong to the
-   *                  heap
+   * @param heap the heap to be fixed
+   * @param length the number of elements in the array that belong to the heap
    * @param parentPos the parent position
    */
   void heapify(int[] heap, int length, int parentPos) {
@@ -55,8 +54,7 @@ public class HeapsortSlowComparisons extends Heapsort {
   private void slowDown() {
     // Thread.sleep(0, 1) takes too long
     long nanos = System.nanoTime();
-    while (nanos == System.nanoTime()) {
-    }
+    while (nanos == System.nanoTime()) {}
   }
 
   @Override

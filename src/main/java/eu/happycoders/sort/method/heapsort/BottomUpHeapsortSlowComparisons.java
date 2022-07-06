@@ -47,8 +47,7 @@ public class BottomUpHeapsortSlowComparisons extends BottomUpHeapsort {
   private void slowDown() {
     // Thread.sleep(0, 1) takes too long
     long nanos = System.nanoTime();
-    while (nanos == System.nanoTime()) {
-    }
+    while (nanos == System.nanoTime()) {}
   }
 
   @Override
