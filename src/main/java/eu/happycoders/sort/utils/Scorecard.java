@@ -46,6 +46,7 @@ public class Scorecard {
    * @param longestNameLength the length to which the name is padded
    * @param label the optional label
    */
+  @SuppressWarnings({"PMD.SystemPrintln", "java:S106"})
   public void printResult(int longestNameLength, String label) {
     System.out.printf(
         Locale.US,

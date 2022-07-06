@@ -52,6 +52,7 @@ public class PivotScorecard {
    *
    * @param longestNameLength the length to which the name is padded
    */
+  @SuppressWarnings({"PMD.SystemPrintln", "java:S106"})
   public void printResult(int longestNameLength) {
     System.out.printf(
         Locale.US,

@@ -38,6 +38,7 @@ public class CountOperations {
     countOps(algorithm, true, "descending", ArrayUtils::createReversedArray);
   }
 
+  @SuppressWarnings({"PMD.SystemPrintln", "java:S106"})
   private void countOps(
       SortAlgorithm algorithm,
       boolean sorted,

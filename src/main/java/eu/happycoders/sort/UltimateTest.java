@@ -28,6 +28,7 @@ import java.util.function.Function;
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
+@SuppressWarnings({"PMD.SystemPrintln", "java:S106"})
 public class UltimateTest {
 
   static final SortAlgorithm[] ALGORITHMS =
@@ -138,6 +139,8 @@ public class UltimateTest {
     }
   }
 
+  // In production code, we should never try to be smarter than the JVM; here we do try ;-)
+  @SuppressWarnings({"PMD.DoNotCallGarbageCollectionExplicitly", "java:S1215"})
   private long measureTime(SortAlgorithm algorithm, int[] elements) {
     System.gc();
     long time = System.nanoTime();

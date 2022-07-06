@@ -46,6 +46,7 @@ public class FindMinimumTest {
     return assignments;
   }
 
+  @SuppressWarnings({"PMD.SystemPrintln", "java:S106"})
   private void printResults(int iterations) {
     System.out.printf(Locale.US, "Results after %d iterations:%n", iterations);
     for (int i = 0; i < NUM_SIZES; i++) {

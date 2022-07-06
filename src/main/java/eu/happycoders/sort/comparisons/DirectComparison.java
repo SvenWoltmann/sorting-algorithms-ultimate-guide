@@ -12,6 +12,7 @@ import java.util.Map;
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
+@SuppressWarnings({"PMD.SystemPrintln", "java:S106"})
 public class DirectComparison {
 
   private static final int WARM_UPS = 15;
@@ -69,6 +70,8 @@ public class DirectComparison {
     return indices;
   }
 
+  // In production code, we should never try to be smarter than the JVM; here we do try ;-)
+  @SuppressWarnings({"PMD.DoNotCallGarbageCollectionExplicitly", "java:S1215"})
   private long measure(SortAlgorithm sortAlgorithm, int[] elements) {
     System.gc();
 

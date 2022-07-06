@@ -45,6 +45,7 @@ public class PivotComparator {
     runTest(algorithms);
   }
 
+  @SuppressWarnings({"PMD.SystemPrintln", "java:S106"})
   private void runTest(PartitioningAlgorithm[] algorithms) {
     longestNameLength = Scorecard.findLongestAlgorithmName(algorithms);
 
