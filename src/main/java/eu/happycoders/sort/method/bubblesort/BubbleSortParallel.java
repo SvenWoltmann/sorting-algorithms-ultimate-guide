@@ -23,28 +23,9 @@ public abstract class BubbleSortParallel implements SortAlgorithm {
     Phaser phaser = new Phaser(numThreads);
     Thread[] threads = new Thread[numThreads];
     for (int i = 0; i < numThreads; i++) {
-      final int threadNo = i;
-      threads[threadNo] =
-          new Thread(
-              () -> {
-                int startPos = startPositions[threadNo];
-                int endPos = startPositions[threadNo + 1];
-
-                for (int round = 1; ; round++) {
-                  phaser.arriveAndAwaitAdvance();
-
-                  boolean swapped = sortPartition(elements, startPos, endPos, false);
-
-                  phaser.arriveAndAwaitAdvance();
-
-                  swapped |= sortPartition(elements, startPos, endPos, true);
-                  if (swapped) lastSwappedInRound.set(round);
-
-                  phaser.arriveAndAwaitAdvance();
-
-                  if (lastSwappedInRound.get() < round) break;
-                }
-              });
+      int startPos = startPositions[i];
+      int endPos = startPositions[i + 1];
+      threads[i] = createThread(elements, startPos, endPos, lastSwappedInRound, phaser);
     }
 
     for (int i = 0; i < numThreads; i++) {
@@ -83,6 +64,27 @@ public abstract class BubbleSortParallel implements SortAlgorithm {
       startPositions[i + 1] = startPositions[i] + partitionSize;
     }
     return startPositions;
+  }
+
+  private Thread createThread(
+      int[] elements, int startPos, int endPos, AtomicInteger lastSwappedInRound, Phaser phaser) {
+    return new Thread(
+        () -> {
+          for (int round = 1; ; round++) {
+            phaser.arriveAndAwaitAdvance();
+
+            boolean swapped = sortPartition(elements, startPos, endPos, false);
+
+            phaser.arriveAndAwaitAdvance();
+
+            swapped |= sortPartition(elements, startPos, endPos, true);
+            if (swapped) lastSwappedInRound.set(round);
+
+            phaser.arriveAndAwaitAdvance();
+
+            if (lastSwappedInRound.get() < round) break;
+          }
+        });
   }
 
   /**
