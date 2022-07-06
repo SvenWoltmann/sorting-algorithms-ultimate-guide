@@ -2,6 +2,7 @@ package eu.happycoders.sort.method.bubblesort;
 
 import eu.happycoders.sort.method.Counters;
 import eu.happycoders.sort.method.SortAlgorithm;
+import eu.happycoders.sort.utils.NotImplementedException;
 import java.util.concurrent.Phaser;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -97,6 +98,6 @@ public abstract class BubbleSortParallel implements SortAlgorithm {
 
   @Override
   public void sort(int[] elements, Counters counters) {
-    // Not implemented
+    throw new NotImplementedException();
   }
 }

@@ -1,6 +1,7 @@
 package eu.happycoders.sort.method.heapsort;
 
 import eu.happycoders.sort.method.Counters;
+import eu.happycoders.sort.utils.NotImplementedException;
 
 public class BottomUpHeapsortSlowComparisons extends BottomUpHeapsort {
 
@@ -41,7 +42,7 @@ public class BottomUpHeapsortSlowComparisons extends BottomUpHeapsort {
 
   @Override
   public void sort(int[] elements, Counters counters) {
-    throw new Error("Not implemented");
+    throw new NotImplementedException();
   }
 
   private void slowDown() {

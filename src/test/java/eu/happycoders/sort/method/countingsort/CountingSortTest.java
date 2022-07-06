@@ -5,6 +5,7 @@ import eu.happycoders.sort.method.SortTest;
 import eu.happycoders.sort.utils.ArrayUtils;
 import org.junit.jupiter.api.RepeatedTest;
 
+@SuppressWarnings("java:S2699") // The assertions are in the sortAndTestIfSorted() method
 public class CountingSortTest extends SortTest {
 
   @RepeatedTest(100)
