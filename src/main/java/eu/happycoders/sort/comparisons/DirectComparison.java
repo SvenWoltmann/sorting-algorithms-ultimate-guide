@@ -1,8 +1,11 @@
 package eu.happycoders.sort.comparisons;
 
 import eu.happycoders.sort.method.SortAlgorithm;
-import eu.happycoders.sort.utils.*;
-import java.util.*;
+import eu.happycoders.sort.utils.ArrayUtils;
+import eu.happycoders.sort.utils.Scorecard;
+import java.util.HashMap;
+import java.util.Locale;
+import java.util.Map;
 
 /**
  * Base class to directly compare two or more sort algorithms.

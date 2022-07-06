@@ -1,6 +1,7 @@
 package eu.happycoders.sort.method.bubblesort;
 
-import eu.happycoders.sort.method.*;
+import eu.happycoders.sort.method.Counters;
+import eu.happycoders.sort.method.SortAlgorithm;
 
 /**
  * Bubble Sort implementation for performance tests.

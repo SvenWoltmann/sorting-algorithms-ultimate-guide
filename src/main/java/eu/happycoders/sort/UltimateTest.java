@@ -1,6 +1,9 @@
 package eu.happycoders.sort;
 
-import eu.happycoders.sort.method.*;
+import eu.happycoders.sort.method.InsertionSort;
+import eu.happycoders.sort.method.JavaArraysSort;
+import eu.happycoders.sort.method.SelectionSort;
+import eu.happycoders.sort.method.SortAlgorithm;
 import eu.happycoders.sort.method.bubblesort.BubbleSortOpt1;
 import eu.happycoders.sort.method.countingsort.CountingSort;
 import eu.happycoders.sort.method.heapsort.BottomUpHeapsort;
@@ -8,7 +11,11 @@ import eu.happycoders.sort.method.heapsort.BottomUpHeapsortSlowComparisons;
 import eu.happycoders.sort.method.heapsort.Heapsort;
 import eu.happycoders.sort.method.heapsort.HeapsortSlowComparisons;
 import eu.happycoders.sort.method.mergesort.MergeSort;
-import eu.happycoders.sort.method.quicksort.*;
+import eu.happycoders.sort.method.quicksort.DualPivotQuicksort;
+import eu.happycoders.sort.method.quicksort.DualPivotQuicksortImproved;
+import eu.happycoders.sort.method.quicksort.PivotStrategy;
+import eu.happycoders.sort.method.quicksort.QuicksortImproved;
+import eu.happycoders.sort.method.quicksort.QuicksortVariant1;
 import eu.happycoders.sort.utils.ArrayUtils;
 import eu.happycoders.sort.utils.Scorecard;
 import java.util.HashMap;

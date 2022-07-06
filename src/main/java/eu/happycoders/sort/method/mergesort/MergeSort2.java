@@ -1,6 +1,7 @@
 package eu.happycoders.sort.method.mergesort;
 
-import eu.happycoders.sort.method.*;
+import eu.happycoders.sort.method.Counters;
+import eu.happycoders.sort.method.SortAlgorithm;
 
 /**
  * Merge sort implementation for performance tests.

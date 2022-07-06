@@ -1,6 +1,7 @@
 package eu.happycoders.sort;
 
-import eu.happycoders.sort.method.*;
+import eu.happycoders.sort.method.Counters;
+import eu.happycoders.sort.method.SortAlgorithm;
 import eu.happycoders.sort.utils.ArrayUtils;
 import java.util.Locale;
 import java.util.function.Function;

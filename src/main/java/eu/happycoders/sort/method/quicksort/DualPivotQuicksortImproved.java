@@ -1,6 +1,8 @@
 package eu.happycoders.sort.method.quicksort;
 
-import eu.happycoders.sort.method.*;
+import eu.happycoders.sort.method.Counters;
+import eu.happycoders.sort.method.InsertionSort;
+import eu.happycoders.sort.method.SortAlgorithm;
 import eu.happycoders.sort.method.quicksort.DualPivotQuicksort.PivotStrategy;
 
 /**

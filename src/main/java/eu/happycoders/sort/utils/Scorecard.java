@@ -1,7 +1,8 @@
 package eu.happycoders.sort.utils;
 
 import eu.happycoders.sort.method.SortAlgorithm;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Locale;
 
 /**
  * A scorecard to print the fastest and median times measured for a specific sort algorithm and

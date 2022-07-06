@@ -1,7 +1,11 @@
 package eu.happycoders.sort.comparisons;
 
 import eu.happycoders.sort.method.SortAlgorithm;
-import eu.happycoders.sort.method.bubblesort.*;
+import eu.happycoders.sort.method.bubblesort.BubbleSort;
+import eu.happycoders.sort.method.bubblesort.BubbleSortOpt1;
+import eu.happycoders.sort.method.bubblesort.BubbleSortOpt2;
+import eu.happycoders.sort.method.bubblesort.BubbleSortParallelDivideAndConquer;
+import eu.happycoders.sort.method.bubblesort.BubbleSortParallelOddEven;
 import java.util.List;
 
 /**

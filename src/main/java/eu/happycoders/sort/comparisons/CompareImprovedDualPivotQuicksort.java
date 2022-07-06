@@ -1,9 +1,10 @@
 package eu.happycoders.sort.comparisons;
 
 import eu.happycoders.sort.method.SortAlgorithm;
-import eu.happycoders.sort.method.quicksort.*;
 import eu.happycoders.sort.method.quicksort.DualPivotQuicksort;
-import java.util.*;
+import eu.happycoders.sort.method.quicksort.DualPivotQuicksortImproved;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Compares Dual-Pivot Quicksort with the improved version for various thresholds at which the

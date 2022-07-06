@@ -1,8 +1,13 @@
 package eu.happycoders.sort.comparisons;
 
 import eu.happycoders.sort.method.SortAlgorithm;
-import eu.happycoders.sort.method.quicksort.*;
-import java.util.*;
+import eu.happycoders.sort.method.quicksort.PivotStrategy;
+import eu.happycoders.sort.method.quicksort.QuicksortImproved;
+import eu.happycoders.sort.method.quicksort.QuicksortVariant1;
+import eu.happycoders.sort.method.quicksort.QuicksortVariant2;
+import eu.happycoders.sort.method.quicksort.QuicksortVariant3;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Compares the regular Quicksort with the improved Quicksort for various thresholds at which the

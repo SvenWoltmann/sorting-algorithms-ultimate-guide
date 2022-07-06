@@ -1,6 +1,9 @@
 package eu.happycoders.sort.method.quicksort;
 
-import eu.happycoders.sort.method.*;
+import eu.happycoders.sort.method.Counters;
+import eu.happycoders.sort.method.InsertionSort;
+import eu.happycoders.sort.method.PartitioningAlgorithm;
+import eu.happycoders.sort.method.SortAlgorithm;
 
 /**
  * Quicksort combined with Insertion Sort for small arrays.
