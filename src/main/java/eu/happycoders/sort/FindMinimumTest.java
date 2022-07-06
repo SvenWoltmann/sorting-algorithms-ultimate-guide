@@ -12,21 +12,19 @@ public class FindMinimumTest {
   private static final int NUM_SIZES = 29;
   private static final int NUM_TESTS = 100;
   private static final int[] counts = new int[NUM_SIZES];
-  private static final int[][] countsM = new int[NUM_SIZES][NUM_TESTS];
 
   public static void main(String[] args) {
     for (int i = 0; i < NUM_TESTS; i++) {
-      test(i);
+      test();
       printResults(i + 1);
     }
   }
 
-  private static void test(int iteration) {
+  private static void test() {
     for (int i = 0; i < NUM_SIZES; i++) {
       int size = 2 << i;
       int assignments = countAssignmentsForSize(size);
       counts[i] += assignments;
-      countsM[i][iteration] = assignments;
     }
   }
 
@@ -52,14 +50,5 @@ public class FindMinimumTest {
       System.out.printf(Locale.US, "- size: %,11d --> avg. no of assignments: %5.2f%n", size, avg);
     }
     System.out.println();
-  }
-
-  private static double median(int[] count, int iterations) {
-    long[] longs = new long[iterations];
-    for (int i = 0; i < iterations; i++) {
-      longs[i] = count[i] * 10;
-    }
-    long median = ArrayUtils.median(longs);
-    return median / 10.0;
   }
 }
