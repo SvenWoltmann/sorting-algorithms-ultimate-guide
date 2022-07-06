@@ -53,7 +53,7 @@ public abstract class BubbleSortParallel implements SortAlgorithm {
       try {
         threads[i].join();
       } catch (InterruptedException e) {
-        throw new Error(e);
+        Thread.currentThread().interrupt();
       }
     }
   }
