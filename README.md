@@ -1,5 +1,11 @@
 # Sorting Algorithms - Ultimate Guide
 
+[![Build](https://github.com/SvenWoltmann/sorting-algorithms-ultimate-guide/actions/workflows/build.yml/badge.svg)](https://github.com/SvenWoltmann/sorting-algorithms-ultimate-guide/actions/workflows/build.yml)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=SvenWoltmann_sorting-algorithms-ultimate-guide&metric=coverage)](https://sonarcloud.io/dashboard?id=SvenWoltmann_sorting-algorithms-ultimate-guide)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=SvenWoltmann_sorting-algorithms-ultimate-guide&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=SvenWoltmann_sorting-algorithms-ultimate-guide)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=SvenWoltmann_sorting-algorithms-ultimate-guide&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=SvenWoltmann_sorting-algorithms-ultimate-guide)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=SvenWoltmann_sorting-algorithms-ultimate-guide&metric=security_rating)](https://sonarcloud.io/dashboard?id=SvenWoltmann_sorting-algorithms-ultimate-guide)
+
 Sorting algorithm source codes + ultimate test to compare the performance of all algorithms.
 
 The code belongs to this series of articles:
