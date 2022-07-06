@@ -9,6 +9,8 @@ import java.util.concurrent.ThreadLocalRandom;
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
+// Ignore "weak cryptography" warning - we're just sorting random numbers :-)
+@SuppressWarnings("java:S2245")
 public class ArrayUtils {
 
   /**

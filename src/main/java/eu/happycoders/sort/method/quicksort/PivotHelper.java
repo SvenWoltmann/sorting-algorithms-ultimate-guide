@@ -3,6 +3,8 @@ package eu.happycoders.sort.method.quicksort;
 import eu.happycoders.sort.utils.ArrayUtils;
 import java.util.concurrent.ThreadLocalRandom;
 
+// Ignore "weak cryptography" warning - we're just sorting random numbers :-)
+@SuppressWarnings("java:S2245")
 public class PivotHelper {
 
   static void findPivotAndMoveRight(
