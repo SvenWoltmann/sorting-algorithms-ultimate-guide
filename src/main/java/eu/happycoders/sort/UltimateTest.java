@@ -2,6 +2,7 @@ package eu.happycoders.sort;
 
 import eu.happycoders.sort.method.*;
 import eu.happycoders.sort.method.bubblesort.BubbleSortOpt1;
+import eu.happycoders.sort.method.countingsort.CountingSort;
 import eu.happycoders.sort.method.heapsort.BottomUpHeapsort;
 import eu.happycoders.sort.method.heapsort.BottomUpHeapsortSlowComparisons;
 import eu.happycoders.sort.method.heapsort.Heapsort;
