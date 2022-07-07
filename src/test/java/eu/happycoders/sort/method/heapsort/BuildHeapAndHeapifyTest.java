@@ -34,12 +34,12 @@ public abstract class BuildHeapAndHeapifyTest {
 
   @ParameterizedTest
   @MethodSource("arrayProvider")
-  public void build_givenArray_isMaxHeap(int[] array) {
+  void build_givenArray_isMaxHeap(int[] array) {
     testArray(array);
   }
 
   @RepeatedTest(100)
-  public void build_randomArray_isMaxHeap() {
+  void build_randomArray_isMaxHeap() {
     int size = ThreadLocalRandom.current().nextInt(4, 100);
     int[] array = ArrayUtils.createRandomArray(size);
     testArray(array);

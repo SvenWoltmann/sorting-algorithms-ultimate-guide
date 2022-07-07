@@ -3,14 +3,21 @@ package eu.happycoders.sort.method.quicksort;
 import eu.happycoders.sort.utils.ArrayUtils;
 import java.util.concurrent.ThreadLocalRandom;
 
-// Ignore "weak cryptography" warning - we're just sorting random numbers :-)
-@SuppressWarnings("java:S2245")
-public class PivotHelper {
+/**
+ * Helper methods for calculating the pivot position.
+ *
+ * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
+ */
+public final class PivotHelper {
+
+  private PivotHelper() {}
 
   static void findPivotAndMoveRight(
       int[] elements, int left, int right, PivotStrategy pivotStrategy) {
     int pivotPos = findPivotPos(elements, left, right, pivotStrategy);
-    if (pivotPos != right) ArrayUtils.swap(elements, pivotPos, right);
+    if (pivotPos != right) {
+      ArrayUtils.swap(elements, pivotPos, right);
+    }
   }
 
   static int findPivotPos(int[] elements, int left, int right, PivotStrategy pivotStrategy) {

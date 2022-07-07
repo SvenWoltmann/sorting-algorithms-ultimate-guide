@@ -4,6 +4,11 @@ import eu.happycoders.sort.method.Counters;
 import eu.happycoders.sort.method.SortAlgorithm;
 import eu.happycoders.sort.utils.ArrayUtils;
 
+/**
+ * Heapsort implementation.
+ *
+ * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
+ */
 public class Heapsort implements SortAlgorithm {
 
   @Override
@@ -72,9 +77,9 @@ public class Heapsort implements SortAlgorithm {
   }
 
   @Override
-  public void sort(int[] elements, Counters counters) {
+  public void sortWithCounters(int[] elements, Counters counters) {
     // Phase 1
-    buildHeap(elements, counters);
+    buildHeapWithCounters(elements, counters);
 
     // Phase 2
     Counters countersPhase2 = counters.getPhase2();
@@ -84,22 +89,22 @@ public class Heapsort implements SortAlgorithm {
       countersPhase2.addReadsAndWrites(2);
 
       // Fix remaining heap
-      heapify(elements, swapToPos, 0, countersPhase2);
+      heapifyWithCounters(elements, swapToPos, 0, countersPhase2);
     }
   }
 
-  void buildHeap(int[] elements, Counters counters) {
+  void buildHeapWithCounters(int[] elements, Counters counters) {
     // "Find" the last parent node
     int lastParentNode = elements.length / 2 - 1;
 
     // Now fix it from here on backwards
     for (int i = lastParentNode; i >= 0; i--) {
       counters.incIterations();
-      heapify(elements, elements.length, i, counters);
+      heapifyWithCounters(elements, elements.length, i, counters);
     }
   }
 
-  void heapify(int[] heap, int length, int parentPos, Counters counters) {
+  void heapifyWithCounters(int[] heap, int length, int parentPos, Counters counters) {
     while (true) {
       counters.incIterations();
       int leftChildPos = parentPos * 2 + 1;

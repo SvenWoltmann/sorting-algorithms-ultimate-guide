@@ -1,5 +1,6 @@
 package eu.happycoders.sort.method;
 
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
 import java.util.Locale;
 
 /**
@@ -7,6 +8,7 @@ import java.util.Locale;
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
+@SuppressWarnings("PMD.TooManyMethods") // That's OK for this simple counter class
 public class Counters {
 
   private long iterations;
@@ -21,32 +23,32 @@ public class Counters {
     iterations++;
   }
 
-  public void addIterations(int x) {
-    iterations += x;
+  public void addIterations(int increment) {
+    iterations += increment;
   }
 
   public void incComparisons() {
     comparisons++;
   }
 
-  public void addComparisons(int x) {
-    comparisons += x;
+  public void addComparisons(int increment) {
+    comparisons += increment;
   }
 
   public void incReads() {
     reads++;
   }
 
-  public void addReads(int x) {
-    reads += x;
+  public void addReads(int increment) {
+    reads += increment;
   }
 
   public void incWrites() {
     writes++;
   }
 
-  public void addWrites(int x) {
-    writes += x;
+  public void addWrites(int increment) {
+    writes += increment;
   }
 
   public void incReadsAndWrites() {
@@ -54,9 +56,9 @@ public class Counters {
     writes++;
   }
 
-  public void addReadsAndWrites(int x) {
-    reads += x;
-    writes += x;
+  public void addReadsAndWrites(int increment) {
+    reads += increment;
+    writes += increment;
   }
 
   public void incLocalVariableAssignments() {
@@ -69,8 +71,9 @@ public class Counters {
    *
    * <p>Not thread-safe!
    *
-   * @return
+   * @return the second set of counters
    */
+  @SuppressFBWarnings("EI_EXPOSE_REP") // We're intentionally exposing the "phase2" object
   public Counters getPhase2() {
     if (phase2 == null) {
       phase2 = new Counters();

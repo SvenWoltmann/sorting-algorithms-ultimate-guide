@@ -4,7 +4,7 @@ import eu.happycoders.sort.method.*;
 import eu.happycoders.sort.method.quicksort.DualPivotQuicksort.PivotStrategy;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class DualPivotQuicksortLeftRightTest extends SortTest {
+class DualPivotQuicksortLeftRightTest extends SortTest {
 
   @Override
   protected SortAlgorithm getSortAlgorithm() {

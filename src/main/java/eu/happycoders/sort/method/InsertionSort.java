@@ -5,6 +5,8 @@ package eu.happycoders.sort.method;
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
+// We don't want to use System.arraycopy - we want to demonstrate how the algorithm works
+@SuppressWarnings("PMD.AvoidArrayLoops")
 public class InsertionSort implements SortAlgorithm {
 
   @Override
@@ -27,11 +29,11 @@ public class InsertionSort implements SortAlgorithm {
   }
 
   @Override
-  public void sort(int[] elements, Counters counters) {
-    sort(elements, 0, elements.length, counters);
+  public void sortWithCounters(int[] elements, Counters counters) {
+    sortWithCounters(elements, 0, elements.length, counters);
   }
 
-  public void sort(int[] elements, int fromIndex, int toIndex, Counters counters) {
+  public void sortWithCounters(int[] elements, int fromIndex, int toIndex, Counters counters) {
     for (int i = fromIndex + 1; i < toIndex; i++) {
       counters.incIterations();
 
@@ -44,12 +46,14 @@ public class InsertionSort implements SortAlgorithm {
         counters.incIterations();
 
         counters.incComparisons();
-        if (!(number < elements[j - 1])) break;
-
-        elements[j] = elements[j - 1];
-        counters.incReads();
-        counters.incWrites();
-        j--;
+        if (number < elements[j - 1]) {
+          elements[j] = elements[j - 1];
+          counters.incReads();
+          counters.incWrites();
+          j--;
+        } else {
+          break;
+        }
       }
       elements[j] = number;
       counters.incWrites();

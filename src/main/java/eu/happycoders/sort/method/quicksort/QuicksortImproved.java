@@ -13,7 +13,7 @@ import eu.happycoders.sort.method.SortAlgorithm;
 public class QuicksortImproved implements SortAlgorithm {
 
   private final int threshold;
-  private final PartitioningAlgorithm quicksort;
+  private final PartitioningAlgorithm partitioningAlgorithm;
   private final InsertionSort insertionSort;
 
   /**
@@ -21,11 +21,11 @@ public class QuicksortImproved implements SortAlgorithm {
    *
    * @param threshold when the array to be sorted is not longer than this threshold, the algorithm
    *     switches to Insertion Sort
-   * @param quicksort the quicksort algorithm to use
+   * @param partitioningAlgorithm the quicksort algorithm to use
    */
-  public QuicksortImproved(int threshold, PartitioningAlgorithm quicksort) {
+  public QuicksortImproved(int threshold, PartitioningAlgorithm partitioningAlgorithm) {
     this.threshold = threshold;
-    this.quicksort = quicksort;
+    this.partitioningAlgorithm = partitioningAlgorithm;
     this.insertionSort = new InsertionSort();
   }
 
@@ -35,7 +35,7 @@ public class QuicksortImproved implements SortAlgorithm {
         + "(threshold: "
         + threshold
         + ", partitioning: "
-        + quicksort.getName()
+        + partitioningAlgorithm.getName()
         + ")";
   }
 
@@ -46,7 +46,9 @@ public class QuicksortImproved implements SortAlgorithm {
 
   private void quicksort(int[] elements, int left, int right) {
     // End of recursion reached?
-    if (left >= right) return;
+    if (left >= right) {
+      return;
+    }
 
     // Threshold for insertion sort reached?
     if (right - left < threshold) {
@@ -54,38 +56,40 @@ public class QuicksortImproved implements SortAlgorithm {
       return;
     }
 
-    int pivotPos = quicksort.partition(elements, left, right);
+    int pivotPos = partitioningAlgorithm.partition(elements, left, right);
     quicksort(elements, left, pivotPos - 1);
     quicksort(elements, pivotPos + 1, right);
   }
 
   @Override
-  public void sort(int[] elements, Counters counters) {
-    quicksort(elements, 0, elements.length - 1, counters);
+  public void sortWithCounters(int[] elements, Counters counters) {
+    quicksortWithCounters(elements, 0, elements.length - 1, counters);
   }
 
-  private void quicksort(int[] elements, int left, int right, Counters counters) {
+  private void quicksortWithCounters(int[] elements, int left, int right, Counters counters) {
     // Nothing to sort?
-    if (left == right) return;
-
-    // Threshold for insertion sort reached?
-    if (right - left < threshold) {
-      insertionSort.sort(elements, left, right + 1, counters);
+    if (left == right) {
       return;
     }
 
-    int pivotPos = quicksort.partition(elements, left, right, counters);
-    quicksort(elements, left, pivotPos - 1, counters);
-    quicksort(elements, pivotPos + 1, right, counters);
+    // Threshold for insertion sort reached?
+    if (right - left < threshold) {
+      insertionSort.sortWithCounters(elements, left, right + 1, counters);
+      return;
+    }
+
+    int pivotPos = partitioningAlgorithm.partitionWithCounters(elements, left, right, counters);
+    quicksortWithCounters(elements, left, pivotPos - 1, counters);
+    quicksortWithCounters(elements, pivotPos + 1, right, counters);
   }
 
   @Override
   public boolean isSuitableForInputSize(int size) {
-    return quicksort.isSuitableForInputSize(size);
+    return partitioningAlgorithm.isSuitableForInputSize(size);
   }
 
   @Override
   public boolean isSuitableForSortedInput(int size) {
-    return quicksort.isSuitableForSortedInput(size);
+    return partitioningAlgorithm.isSuitableForSortedInput(size);
   }
 }

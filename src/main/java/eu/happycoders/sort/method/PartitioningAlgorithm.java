@@ -28,5 +28,5 @@ public interface PartitioningAlgorithm extends SortAlgorithm {
    * @param right the right position in the index
    * @return the position of the pivot element
    */
-  int partition(int[] elements, int left, int right, Counters counters);
+  int partitionWithCounters(int[] elements, int left, int right, Counters counters);
 }

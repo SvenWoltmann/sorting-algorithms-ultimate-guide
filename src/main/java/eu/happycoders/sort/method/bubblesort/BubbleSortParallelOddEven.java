@@ -22,7 +22,9 @@ public class BubbleSortParallelOddEven extends BubbleSortParallel {
 
     // Odd steps 1, 3, 5, ... --> start at the first element
     // Even steps 2, 4, 6, ... --> start at the second element
-    if (even) startPos++;
+    if (even) {
+      startPos++;
+    }
 
     for (int i = startPos; i < endPos && i < elements.length - 1; i += 2) {
       int left = elements[i];

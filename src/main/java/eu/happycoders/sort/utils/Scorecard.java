@@ -2,6 +2,7 @@ package eu.happycoders.sort.utils;
 
 import eu.happycoders.sort.method.SortAlgorithm;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
 
 /**
@@ -13,7 +14,7 @@ import java.util.Locale;
 public class Scorecard {
 
   private final String name;
-  private final ArrayList<Long> times = new ArrayList<>();
+  private final List<Long> times = new ArrayList<>();
 
   private long fastest = Long.MAX_VALUE;
 
@@ -48,9 +49,11 @@ public class Scorecard {
    */
   @SuppressWarnings({"PMD.SystemPrintln", "java:S106"})
   public void printResult(int longestNameLength, String label) {
+    String format =
+        "%-" + longestNameLength + "s -> " + "fastest: %,10.3f ms, median: %,10.3f ms %s%n";
     System.out.printf(
         Locale.US,
-        "%-" + longestNameLength + "s -> " + "fastest: %,10.3f ms, median: %,10.3f ms %s%n",
+        format,
         name,
         fastest / 1_000_000.0,
         getMedian() / 1_000_000.0,

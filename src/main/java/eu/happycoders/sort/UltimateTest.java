@@ -21,7 +21,7 @@ import eu.happycoders.sort.utils.Scorecard;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
-import java.util.function.Function;
+import java.util.function.IntFunction;
 
 /**
  * Measures the performance of all sorting algorithms for various input sizes.
@@ -31,29 +31,28 @@ import java.util.function.Function;
 @SuppressWarnings({"PMD.SystemPrintln", "java:S106"})
 public class UltimateTest {
 
-  static final SortAlgorithm[] ALGORITHMS =
-      new SortAlgorithm[] {
-        new InsertionSort(),
-        new SelectionSort(),
-        new BubbleSortOpt1(),
+  static final SortAlgorithm[] ALGORITHMS = {
+    new InsertionSort(),
+    new SelectionSort(),
+    new BubbleSortOpt1(),
 
-        // Quicksort
-        new QuicksortVariant1(PivotStrategy.RIGHT),
-        new QuicksortVariant1(PivotStrategy.MIDDLE),
-        new QuicksortVariant1(PivotStrategy.MEDIAN3),
-        new QuicksortImproved(48, new QuicksortVariant1(PivotStrategy.MIDDLE)),
-        new DualPivotQuicksort(DualPivotQuicksort.PivotStrategy.THIRDS),
-        new DualPivotQuicksortImproved(64, DualPivotQuicksort.PivotStrategy.THIRDS),
-        new MergeSort(),
+    // Quicksort
+    new QuicksortVariant1(PivotStrategy.RIGHT),
+    new QuicksortVariant1(PivotStrategy.MIDDLE),
+    new QuicksortVariant1(PivotStrategy.MEDIAN3),
+    new QuicksortImproved(48, new QuicksortVariant1(PivotStrategy.MIDDLE)),
+    new DualPivotQuicksort(DualPivotQuicksort.PivotStrategy.THIRDS),
+    new DualPivotQuicksortImproved(64, DualPivotQuicksort.PivotStrategy.THIRDS),
+    new MergeSort(),
 
-        // Heapsort
-        new Heapsort(),
-        new BottomUpHeapsort(),
-        new HeapsortSlowComparisons(),
-        new BottomUpHeapsortSlowComparisons(),
-        new CountingSort(),
-        new JavaArraysSort()
-      };
+    // Heapsort
+    new Heapsort(),
+    new BottomUpHeapsort(),
+    new HeapsortSlowComparisons(),
+    new BottomUpHeapsortSlowComparisons(),
+    new CountingSort(),
+    new JavaArraysSort()
+  };
 
   private static final int WARM_UPS = 2;
 
@@ -65,6 +64,7 @@ public class UltimateTest {
 
   private static final boolean TEST_SORTED_INPUT = true;
 
+  @SuppressWarnings("PMD.UseConcurrentHashMap") // Not accessed concurrently
   private final Map<String, Scorecard> scorecards = new HashMap<>();
 
   public static void main(String[] args) {
@@ -108,7 +108,7 @@ public class UltimateTest {
   private void test(
       SortAlgorithm algorithm,
       InputOrder inputOrder,
-      Function<Integer, int[]> arraySupplier,
+      IntFunction<int[]> arraySupplier,
       boolean warmingUp) {
     System.out.printf("%n--- %s (order: %s) ---%n", algorithm.getName(), inputOrder);
 
@@ -199,7 +199,7 @@ public class UltimateTest {
 
     @Override
     public String toString() {
-      return name().toLowerCase();
+      return name().toLowerCase(Locale.US);
     }
   }
 }

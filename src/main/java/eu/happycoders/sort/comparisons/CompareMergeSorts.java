@@ -19,8 +19,7 @@ public class CompareMergeSorts extends DirectComparison {
   }
 
   private void run() {
-    SortAlgorithm[] algorithms =
-        new SortAlgorithm[] {new MergeSort(), new MergeSort2(), new MergeSort3()};
+    SortAlgorithm[] algorithms = {new MergeSort(), new MergeSort2(), new MergeSort3()};
 
     runTest(algorithms, SIZE);
   }

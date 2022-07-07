@@ -11,17 +11,17 @@ import org.junit.jupiter.api.RepeatedTest;
 public abstract class SortTest {
 
   @RepeatedTest(100)
-  public void sort_randomNumbers_sorted() {
+  void sort_randomNumbers_sorted() {
     sortAndTestIfSorted(ArrayUtils::createRandomArray);
   }
 
   @RepeatedTest(100)
-  public void sort_sortedNumbers_sorted() {
+  void sort_sortedNumbers_sorted() {
     sortAndTestIfSorted(ArrayUtils::createSortedArray);
   }
 
   @RepeatedTest(100)
-  public void sort_reverseNumbers_sorted() {
+  void sort_reverseNumbers_sorted() {
     sortAndTestIfSorted(ArrayUtils::createReversedArray);
   }
 

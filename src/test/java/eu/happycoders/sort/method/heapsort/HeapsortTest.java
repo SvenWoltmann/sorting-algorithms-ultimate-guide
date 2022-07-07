@@ -3,7 +3,7 @@ package eu.happycoders.sort.method.heapsort;
 import eu.happycoders.sort.method.SortAlgorithm;
 import eu.happycoders.sort.method.SortTest;
 
-public class HeapsortTest extends SortTest {
+class HeapsortTest extends SortTest {
 
   @Override
   protected SortAlgorithm getSortAlgorithm() {

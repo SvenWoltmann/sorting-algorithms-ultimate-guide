@@ -12,7 +12,7 @@ public interface SortAlgorithm {
 
   void sort(int[] elements);
 
-  void sort(int[] elements, Counters counters);
+  void sortWithCounters(int[] elements, Counters counters);
 
   /**
    * Returns the name, which is the class name by default, but can also be overridden, e.g., in

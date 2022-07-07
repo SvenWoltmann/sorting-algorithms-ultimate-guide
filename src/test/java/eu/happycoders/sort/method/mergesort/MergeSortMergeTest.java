@@ -7,20 +7,20 @@ import java.util.Arrays;
 import java.util.concurrent.ThreadLocalRandom;
 import org.junit.jupiter.api.*;
 
-public class MergeSortMergeTest {
+class MergeSortMergeTest {
 
   @Test
-  public void merge_twoSortedElements_merged() {
+  void merge_twoSortedElements_merged() {
     testMerge(new int[] {8}, new int[] {15});
   }
 
   @Test
-  public void merge_twoUnsortedElements_merged() {
+  void merge_twoUnsortedElements_merged() {
     testMerge(new int[] {17}, new int[] {4});
   }
 
   @RepeatedTest(100)
-  public void merge_twoRandomSectionsOnAList_merged() {
+  void merge_twoRandomSectionsOnAList_merged() {
     ThreadLocalRandom rand = ThreadLocalRandom.current();
     int[] leftArray = ArrayUtils.createRandomArray(rand.nextInt(1, 1000));
     Arrays.sort(leftArray);

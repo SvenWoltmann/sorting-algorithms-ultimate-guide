@@ -1,5 +1,6 @@
 package eu.happycoders.sort.method;
 
+import eu.happycoders.sort.utils.NotImplementedException;
 import java.util.Arrays;
 
 /**
@@ -15,8 +16,8 @@ public class JavaArraysSort implements SortAlgorithm {
   }
 
   @Override
-  public void sort(int[] elements, Counters counters) {
-    // Not implemented
+  public void sortWithCounters(int[] elements, Counters counters) {
+    throw new NotImplementedException();
   }
 
   @Override

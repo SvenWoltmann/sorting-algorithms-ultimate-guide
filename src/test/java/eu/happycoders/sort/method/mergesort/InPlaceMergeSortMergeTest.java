@@ -8,20 +8,20 @@ import java.util.concurrent.ThreadLocalRandom;
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 
-public class InPlaceMergeSortMergeTest {
+class InPlaceMergeSortMergeTest {
 
   @Test
-  public void merge_twoSortedElements_merged() {
+  void merge_twoSortedElements_merged() {
     testMerge(new int[] {8, 15});
   }
 
   @Test
-  public void merge_twoUnsortedElements_merged() {
+  void merge_twoUnsortedElements_merged() {
     testMerge(new int[] {17, 4});
   }
 
   @RepeatedTest(100)
-  public void merge_twoRandomSectionsOnAList_merged() {
+  void merge_twoRandomSectionsOnAList_merged() {
     int length = ThreadLocalRandom.current().nextInt(2, 20);
     int[] numbers = ArrayUtils.createRandomArray(length);
     testMerge(numbers);

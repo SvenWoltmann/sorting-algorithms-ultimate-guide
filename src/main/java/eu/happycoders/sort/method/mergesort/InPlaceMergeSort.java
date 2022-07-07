@@ -11,10 +11,9 @@ import eu.happycoders.sort.method.SortAlgorithm;
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
+// We don't want to use System.arraycopy - we want to demonstrate how the algorithm works
+@SuppressWarnings("PMD.AvoidArrayLoops")
 public class InPlaceMergeSort implements SortAlgorithm {
-
-  // Otherwise we run out of heap
-  //  private static final int MAX_INPUT_SIZE = 1 << 28;
 
   @Override
   public void sort(int[] elements) {
@@ -24,7 +23,9 @@ public class InPlaceMergeSort implements SortAlgorithm {
 
   private void mergeSort(int[] elements, int left, int right) {
     // End of recursion reached?
-    if (left == right) return;
+    if (left == right) {
+      return;
+    }
 
     int middle = left + (right - left) / 2;
     mergeSort(elements, left, middle);
@@ -58,22 +59,25 @@ public class InPlaceMergeSort implements SortAlgorithm {
   }
 
   @Override
-  public void sort(int[] elements, Counters counters) {
+  public void sortWithCounters(int[] elements, Counters counters) {
     int length = elements.length;
-    mergeSort(elements, 0, length - 1, counters);
+    mergeSortWithCounters(elements, 0, length - 1, counters);
   }
 
-  private void mergeSort(int[] elements, int left, int right, Counters counters) {
+  private void mergeSortWithCounters(int[] elements, int left, int right, Counters counters) {
     // End of recursion reached?
-    if (left == right) return;
+    if (left == right) {
+      return;
+    }
 
     int middle = left + (right - left) / 2;
-    mergeSort(elements, left, middle, counters);
-    mergeSort(elements, middle + 1, right, counters);
-    merge(elements, left, middle + 1, right, counters);
+    mergeSortWithCounters(elements, left, middle, counters);
+    mergeSortWithCounters(elements, middle + 1, right, counters);
+    mergeWithCounters(elements, left, middle + 1, right, counters);
   }
 
-  private void merge(int[] elements, int leftPos, int rightPos, int rightEnd, Counters counters) {
+  private void mergeWithCounters(
+      int[] elements, int leftPos, int rightPos, int rightEnd, Counters counters) {
     int leftEnd = rightPos - 1;
 
     while (isLessThanOrEqual(leftPos, leftEnd, counters)

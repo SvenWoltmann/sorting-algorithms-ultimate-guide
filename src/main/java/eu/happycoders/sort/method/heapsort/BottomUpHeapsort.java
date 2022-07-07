@@ -2,6 +2,11 @@ package eu.happycoders.sort.method.heapsort;
 
 import eu.happycoders.sort.method.Counters;
 
+/**
+ * Bottom-up heapsort implementation.
+ *
+ * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
+ */
 public class BottomUpHeapsort extends Heapsort {
 
   /**
@@ -16,7 +21,9 @@ public class BottomUpHeapsort extends Heapsort {
     int leafPos = findLeaf(heap, length, rootPos);
     int nodePos = findTargetNodeBottomUp(heap, rootPos, leafPos);
 
-    if (rootPos == nodePos) return;
+    if (rootPos == nodePos) {
+      return;
+    }
 
     // Move all elements starting at nodePos to parent, move root to nodePos
     int nodeValue = heap[nodePos];
@@ -68,11 +75,13 @@ public class BottomUpHeapsort extends Heapsort {
   }
 
   @Override
-  void heapify(int[] heap, int length, int rootPos, Counters counters) {
-    int leafPos = findLeaf(heap, length, rootPos, counters);
-    int nodePos = findTargetNodeBottomUp(heap, rootPos, leafPos, counters);
+  void heapifyWithCounters(int[] heap, int length, int rootPos, Counters counters) {
+    int leafPos = findLeafWithCounters(heap, length, rootPos, counters);
+    int nodePos = findTargetNodeBottomUpWithCounters(heap, rootPos, leafPos, counters);
 
-    if (rootPos == nodePos) return;
+    if (rootPos == nodePos) {
+      return;
+    }
 
     // Move all elements starting at nodePos to parent, move root to nodePos
     counters.incReads();
@@ -91,7 +100,7 @@ public class BottomUpHeapsort extends Heapsort {
     }
   }
 
-  private int findLeaf(int[] heap, int length, int rootPos, Counters counters) {
+  private int findLeafWithCounters(int[] heap, int length, int rootPos, Counters counters) {
     int pos = rootPos;
     int leftChildPos = pos * 2 + 1;
     int rightChildPos = pos * 2 + 2;
@@ -116,7 +125,8 @@ public class BottomUpHeapsort extends Heapsort {
     return pos;
   }
 
-  private int findTargetNodeBottomUp(int[] heap, int rootPos, int leafPos, Counters counters) {
+  private int findTargetNodeBottomUpWithCounters(
+      int[] heap, int rootPos, int leafPos, Counters counters) {
     counters.incReads();
     int parentValue = heap[rootPos];
     int nodePos = leafPos;

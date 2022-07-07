@@ -4,7 +4,7 @@ import eu.happycoders.sort.method.SortAlgorithm;
 import eu.happycoders.sort.method.SortTestLargeArray;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class QuicksortImprovedVariant1Median3PivotTest extends SortTestLargeArray {
+class QuicksortImprovedVariant1Median3PivotTest extends SortTestLargeArray {
 
   @Override
   protected SortAlgorithm getSortAlgorithm() {

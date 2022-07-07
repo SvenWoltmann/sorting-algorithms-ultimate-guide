@@ -4,7 +4,7 @@ import eu.happycoders.sort.method.Counters;
 import eu.happycoders.sort.method.SortAlgorithm;
 import eu.happycoders.sort.utils.ArrayUtils;
 import java.util.Locale;
-import java.util.function.Function;
+import java.util.function.IntFunction;
 
 /**
  * Measures the performance of all sorting algorithms for various input sizes.
@@ -43,7 +43,7 @@ public class CountOperations {
       SortAlgorithm algorithm,
       boolean sorted,
       String inputOrder,
-      Function<Integer, int[]> arraySupplier) {
+      IntFunction<int[]> arraySupplier) {
     System.out.printf("%n--- %s (order: %s) ---%n", algorithm.getName(), inputOrder);
 
     // Sort until sorting takes more than MAX_SORTING_TIME_SECS
@@ -74,7 +74,7 @@ public class CountOperations {
 
   private Counters countOps(SortAlgorithm algorithm, int[] elements) {
     Counters counters = new Counters();
-    algorithm.sort(elements, counters);
+    algorithm.sortWithCounters(elements, counters);
     return counters;
   }
 }

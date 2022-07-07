@@ -31,7 +31,7 @@ public class SelectionSort implements SortAlgorithm {
   }
 
   @Override
-  public void sort(int[] elements, Counters counters) {
+  public void sortWithCounters(int[] elements, Counters counters) {
     int length = elements.length;
 
     for (int i = 0; i < length - 1; i++) {

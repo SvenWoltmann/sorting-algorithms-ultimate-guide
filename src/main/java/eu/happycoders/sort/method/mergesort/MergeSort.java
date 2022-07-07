@@ -28,7 +28,9 @@ public class MergeSort implements SortAlgorithm {
 
   private int[] mergeSort(int[] elements, int left, int right) {
     // End of recursion reached?
-    if (left == right) return new int[] {elements[left]};
+    if (left == right) {
+      return new int[] {elements[left]};
+    }
 
     int middle = left + (right - left) / 2;
     int[] leftArray = mergeSort(elements, left, middle);
@@ -69,24 +71,26 @@ public class MergeSort implements SortAlgorithm {
   }
 
   @Override
-  public void sort(int[] elements, Counters counters) {
+  public void sortWithCounters(int[] elements, Counters counters) {
     int length = elements.length;
-    int[] sorted = mergeSort(elements, 0, length - 1, counters);
+    int[] sorted = mergeSortWithCounters(elements, 0, length - 1, counters);
     System.arraycopy(sorted, 0, elements, 0, length);
     counters.addReadsAndWrites(length);
   }
 
-  private int[] mergeSort(int[] elements, int left, int right, Counters counters) {
+  private int[] mergeSortWithCounters(int[] elements, int left, int right, Counters counters) {
     // End of recursion reached?
-    if (left == right) return new int[] {elements[left]};
+    if (left == right) {
+      return new int[] {elements[left]};
+    }
 
     int middle = left + (right - left) / 2;
-    int[] leftArray = mergeSort(elements, left, middle, counters);
-    int[] rightArray = mergeSort(elements, middle + 1, right, counters);
-    return merge(leftArray, rightArray, counters);
+    int[] leftArray = mergeSortWithCounters(elements, left, middle, counters);
+    int[] rightArray = mergeSortWithCounters(elements, middle + 1, right, counters);
+    return mergeWithCounters(leftArray, rightArray, counters);
   }
 
-  int[] merge(int[] leftArray, int[] rightArray, Counters counters) {
+  int[] mergeWithCounters(int[] leftArray, int[] rightArray, Counters counters) {
     int leftLen = leftArray.length;
     int rightLen = rightArray.length;
 
@@ -100,9 +104,9 @@ public class MergeSort implements SortAlgorithm {
       counters.incIterations();
 
       // Which one is smaller?
+      counters.addReads(2);
       int leftValue = leftArray[leftPos];
       int rightValue = rightArray[rightPos];
-      counters.addReads(2);
 
       counters.incComparisons();
       counters.incWrites();

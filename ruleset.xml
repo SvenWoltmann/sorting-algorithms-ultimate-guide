@@ -10,6 +10,7 @@
   <rule ref="category/java/bestpractices.xml">
     <exclude name="AvoidReassigningParameters"/>  <!-- In Java, this is OK, IMO -->
     <exclude name="SwitchStmtsShouldHaveDefault"/><!-- PMD doesn't recognize Java's new switch statements -->
+    <exclude name="UseVarargs"/>                  <!-- PMD would suggest varargs wherever we pass an array to be sorted -->
   </rule>
 
   <rule ref="category/java/codestyle.xml">
@@ -21,6 +22,8 @@
     <exclude name="OnlyOneReturn"/>               <!-- This rule might have made sense decades ago when methods where hundreds of lines long -->
     <exclude name="ShortClassName"/>              <!-- Wouldn't allow class names like "User" -->
     <exclude name="ShortMethodName"/>             <!-- Wouldn't allow method names like "of" -->
+    <exclude name="ShortVariable"/>               <!-- This is usually a valid check; however, in the search algorithms, we often use variables "i" and "j"Wouldn't allow method names like "of" -->
+    <exclude name="CallSuperInConstructor"/>      <!-- IMO, this would be noise -->
   </rule>
 
   <rule ref="category/java/codestyle.xml/ClassNamingConventions">
@@ -37,6 +40,9 @@
 
   <rule ref="category/java/design.xml">
     <exclude name="LawOfDemeter"/>                <!-- We don't want to apply this law -->
+    <exclude name="CognitiveComplexity"/>         <!-- This is usually a valid check; however, search algorithms *are* complex (we could make the code easier by extracting several methods, but I prefer to have it as close to the actual algorithm description as possible) -->
+    <exclude name="CyclomaticComplexity"/>        <!-- This is usually a valid check; however, search algorithms *are* complex (we could make the code easier by extracting several methods, but I prefer to have it as close to the actual algorithm description as possible) -->
+    <exclude name="NPathComplexity"/>             <!-- This is usually a valid check; however, search algorithms *are* complex (we could make the code easier by extracting several methods, but I prefer to have it as close to the actual algorithm description as possible) -->
   </rule>
 
   <rule ref="category/java/documentation.xml">
@@ -50,11 +56,13 @@
 
   <rule ref="category/java/errorprone.xml/AvoidLiteralsInIfCondition">
     <properties>
-      <property name="ignoreMagicNumbers" value="-1,0,1" /><!-- Default is only -1 and 0; add 1 -->
+      <property name="ignoreMagicNumbers" value="-1,0,1,2" /><!-- Default is only -1 and 0; add 1, 2 -->
     </properties>
   </rule>
 
-  <rule ref="category/java/multithreading.xml"/>
+  <rule ref="category/java/multithreading.xml">
+    <exclude name="DoNotUseThreads"/>             <!-- This warning is for Java EE applications -->
+  </rule>
 
   <rule ref="category/java/performance.xml"/>
 

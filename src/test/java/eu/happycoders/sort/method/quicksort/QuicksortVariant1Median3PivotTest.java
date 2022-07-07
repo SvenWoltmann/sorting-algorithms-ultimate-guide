@@ -3,7 +3,7 @@ package eu.happycoders.sort.method.quicksort;
 import eu.happycoders.sort.method.SortAlgorithm;
 import eu.happycoders.sort.method.SortTestLargeArray;
 
-public class QuicksortVariant1Median3PivotTest extends SortTestLargeArray {
+class QuicksortVariant1Median3PivotTest extends SortTestLargeArray {
 
   @Override
   protected SortAlgorithm getSortAlgorithm() {

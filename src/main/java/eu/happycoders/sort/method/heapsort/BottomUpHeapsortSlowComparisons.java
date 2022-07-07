@@ -3,6 +3,12 @@ package eu.happycoders.sort.method.heapsort;
 import eu.happycoders.sort.method.Counters;
 import eu.happycoders.sort.utils.NotImplementedException;
 
+/**
+ * Bottom-up heapsort implementation with slow comparisons (to show that bottom-up heapsort is
+ * faster than regular heapsort if comparisons are expensive).
+ *
+ * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
+ */
 public class BottomUpHeapsortSlowComparisons extends BottomUpHeapsort {
 
   @Override
@@ -34,21 +40,22 @@ public class BottomUpHeapsortSlowComparisons extends BottomUpHeapsort {
     int parent = heap[rootPos];
     while (leafPos != rootPos) {
       slowDown();
-      if (!(heap[leafPos] < parent)) break;
-      leafPos = getParentPos(leafPos);
+      if (heap[leafPos] < parent) {
+        leafPos = getParentPos(leafPos);
+      } else {
+        break;
+      }
     }
     return leafPos;
   }
 
   @Override
-  public void sort(int[] elements, Counters counters) {
+  public void sortWithCounters(int[] elements, Counters counters) {
     throw new NotImplementedException();
   }
 
   private void slowDown() {
-    // Thread.sleep(0, 1) takes too long
-    long nanos = System.nanoTime();
-    while (nanos == System.nanoTime()) {}
+    Thread.onSpinWait();
   }
 
   @Override

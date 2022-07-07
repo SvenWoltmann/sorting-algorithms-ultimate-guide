@@ -18,8 +18,8 @@ public class CountingSortGeneral implements SortAlgorithm {
     int[] counts = new int[maxValue + 1];
 
     // Phase 1: Count
-    for (int i = 0; i < elements.length; i++) {
-      counts[elements[i]]++;
+    for (int element : elements) {
+      counts[element]++;
     }
 
     // Phase 2: Aggregate
@@ -40,8 +40,7 @@ public class CountingSortGeneral implements SortAlgorithm {
 
   private int findMax(int[] elements) {
     int max = 0;
-    for (int i = 0; i < elements.length; i++) {
-      int element = elements[i];
+    for (int element : elements) {
       if (element < 0) {
         throw new IllegalArgumentException("This implementation does not support negative values.");
       }
@@ -53,7 +52,7 @@ public class CountingSortGeneral implements SortAlgorithm {
   }
 
   @Override
-  public void sort(int[] elements, Counters counters) {
+  public void sortWithCounters(int[] elements, Counters counters) {
     throw new IllegalStateException("Not implemented");
   }
 }

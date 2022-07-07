@@ -4,6 +4,12 @@ import eu.happycoders.sort.method.Counters;
 import eu.happycoders.sort.utils.ArrayUtils;
 import eu.happycoders.sort.utils.NotImplementedException;
 
+/**
+ * Heapsort implementation with slow comparisons (to show that bottom-up heapsort is faster than
+ * regular heapsort if comparisons are expensive).
+ *
+ * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
+ */
 public class HeapsortSlowComparisons extends Heapsort {
 
   /**
@@ -13,6 +19,7 @@ public class HeapsortSlowComparisons extends Heapsort {
    * @param length the number of elements in the array that belong to the heap
    * @param parentPos the parent position
    */
+  @Override
   void heapify(int[] heap, int length, int parentPos) {
     while (true) {
       int leftChildPos = parentPos * 2 + 1;
@@ -48,14 +55,12 @@ public class HeapsortSlowComparisons extends Heapsort {
   }
 
   @Override
-  public void sort(int[] elements, Counters counters) {
+  public void sortWithCounters(int[] elements, Counters counters) {
     throw new NotImplementedException();
   }
 
   private void slowDown() {
-    // Thread.sleep(0, 1) takes too long
-    long nanos = System.nanoTime();
-    while (nanos == System.nanoTime()) {}
+    Thread.onSpinWait();
   }
 
   @Override

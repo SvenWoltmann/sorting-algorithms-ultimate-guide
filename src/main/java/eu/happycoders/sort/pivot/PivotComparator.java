@@ -17,37 +17,33 @@ import java.util.concurrent.ThreadLocalRandom;
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
-// Ignore "weak cryptography" warning - we're just sorting random numbers :-)
-@SuppressWarnings("java:S2245")
 public class PivotComparator {
 
   private static final int ITERATIONS = 500_000;
   private static final int MIN_SIZE = 500;
   private static final int MAX_SIZE = 1_000;
 
+  @SuppressWarnings("PMD.UseConcurrentHashMap") // Not accessed concurrently
   private final Map<String, PivotScorecard> scorecards = new HashMap<>();
-
-  private int longestNameLength;
 
   public static void main(String[] args) {
     new PivotComparator().run();
   }
 
   private void run() {
-    PartitioningAlgorithm[] algorithms =
-        new PartitioningAlgorithm[] {
-          new QuicksortVariant1(PivotStrategy.MIDDLE),
-          new QuicksortVariant1(PivotStrategy.RANDOM),
-          new QuicksortVariant1(PivotStrategy.RIGHT),
-          new QuicksortVariant1(PivotStrategy.MEDIAN3)
-        };
+    PartitioningAlgorithm[] algorithms = {
+      new QuicksortVariant1(PivotStrategy.MIDDLE),
+      new QuicksortVariant1(PivotStrategy.RANDOM),
+      new QuicksortVariant1(PivotStrategy.RIGHT),
+      new QuicksortVariant1(PivotStrategy.MEDIAN3)
+    };
 
     runTest(algorithms);
   }
 
   @SuppressWarnings({"PMD.SystemPrintln", "java:S106"})
   private void runTest(PartitioningAlgorithm[] algorithms) {
-    longestNameLength = Scorecard.findLongestAlgorithmName(algorithms);
+    int longestNameLength = Scorecard.findLongestAlgorithmName(algorithms);
 
     int numAlgorithms = algorithms.length;
     ThreadLocalRandom rand = ThreadLocalRandom.current();

@@ -24,7 +24,7 @@ public class QuicksortVariant1 extends QuicksortSimple {
 
   @Override
   public boolean isSuitableForSortedInput(int size) {
-    return (pivotStrategy != PivotStrategy.LEFT && pivotStrategy != PivotStrategy.RIGHT)
+    return pivotStrategy != PivotStrategy.LEFT && pivotStrategy != PivotStrategy.RIGHT
         || size <= 2 << 12;
   }
 
@@ -34,8 +34,9 @@ public class QuicksortVariant1 extends QuicksortSimple {
     return super.partition(elements, left, right);
   }
 
-  public int partition(int[] elements, int left, int right, Counters counters) {
+  @Override
+  public int partitionWithCounters(int[] elements, int left, int right, Counters counters) {
     PivotHelper.findPivotAndMoveRight(elements, left, right, pivotStrategy);
-    return super.partition(elements, left, right, counters);
+    return super.partitionWithCounters(elements, left, right, counters);
   }
 }

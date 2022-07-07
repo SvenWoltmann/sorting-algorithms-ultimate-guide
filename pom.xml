@@ -21,6 +21,7 @@
         <google-java-format.version>1.15.0</google-java-format.version>
         <jacoco.version>0.8.8</jacoco.version>
         <spotbugs.version>4.7.1.0</spotbugs.version>
+        <spotbugs-annotations.version>4.7.1</spotbugs-annotations.version>
         <findsecbugs.version>1.12.0</findsecbugs.version>
         <pmd-plugin.version>3.17.0</pmd-plugin.version>
         <pmd.version>6.47.0</pmd.version>
@@ -37,16 +38,24 @@
         <sonar.java.checkstyle.reportPaths>./target/checkstyle-result.xml</sonar.java.checkstyle.reportPaths>
         <sonar.coverage.jacoco.xmlReportPaths>${project.reporting.outputDirectory}/jacoco-ut/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 
-        <!-- Exclude "Cognitive Complexity of methods should not be too high" from "method" package -->
-        <sonar.issue.ignore.multicriteria>e1</sonar.issue.ignore.multicriteria>
+        <sonar.issue.ignore.multicriteria>e1,e2</sonar.issue.ignore.multicriteria>
+        <!-- Ignore "Cognitive Complexity of methods should not be too high" warnings in "method" package -->
         <sonar.issue.ignore.multicriteria.e1.ruleKey>java:S3776</sonar.issue.ignore.multicriteria.e1.ruleKey>
         <sonar.issue.ignore.multicriteria.e1.resourceKey>**/eu/happycoders/sort/method/**/*.*</sonar.issue.ignore.multicriteria.e1.resourceKey>
+        <!-- Ignore "Weak Cryptography" warnings - we're just sorting random numbers -->
+        <sonar.issue.ignore.multicriteria.e2.ruleKey>java:S2245</sonar.issue.ignore.multicriteria.e2.ruleKey>
+        <sonar.issue.ignore.multicriteria.e2.resourceKey>**/*.*</sonar.issue.ignore.multicriteria.e2.resourceKey>
 
         <!-- Exclude "method" package from duplicate check -->
         <sonar.cpd.exclusions>**/eu/happycoders/sort/method/**/*.*</sonar.cpd.exclusions>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.github.spotbugs</groupId>
+            <artifactId>spotbugs-annotations</artifactId>
+            <version>${spotbugs-annotations.version}</version>
+        </dependency>
         <dependency>
             <scope>test</scope>
             <groupId>org.junit.jupiter</groupId>

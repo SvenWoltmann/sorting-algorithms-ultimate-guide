@@ -36,7 +36,9 @@ public class DualPivotQuicksort implements SortAlgorithm {
 
   private void quicksort(int[] elements, int left, int right) {
     // End of recursion reached?
-    if (left >= right) return;
+    if (left >= right) {
+      return;
+    }
 
     int[] pivotPos = partition(elements, left, right);
     int p0 = pivotPos[0];
@@ -65,7 +67,9 @@ public class DualPivotQuicksort implements SortAlgorithm {
 
       // elements >= right pivot element?
       else if (elements[leftIndex] >= rightPivot) {
-        while (elements[rightIndex] > rightPivot && leftIndex < rightIndex) rightIndex--;
+        while (elements[rightIndex] > rightPivot && leftIndex < rightIndex) {
+          rightIndex--;
+        }
         ArrayUtils.swap(elements, leftIndex, rightIndex);
         rightIndex--;
         if (elements[leftIndex] < leftPivot) {
@@ -86,23 +90,25 @@ public class DualPivotQuicksort implements SortAlgorithm {
   }
 
   @Override
-  public void sort(int[] elements, Counters counters) {
-    quicksort(elements, 0, elements.length - 1, counters);
+  public void sortWithCounters(int[] elements, Counters counters) {
+    quicksortWithCounters(elements, 0, elements.length - 1, counters);
   }
 
-  private void quicksort(int[] elements, int left, int right, Counters counters) {
+  private void quicksortWithCounters(int[] elements, int left, int right, Counters counters) {
     // End of recursion reached?
-    if (left >= right) return;
+    if (left >= right) {
+      return;
+    }
 
-    int[] pivotPos = partition(elements, left, right, counters);
+    int[] pivotPos = partitionWithCounters(elements, left, right, counters);
     int p0 = pivotPos[0];
     int p1 = pivotPos[1];
-    quicksort(elements, left, p0 - 1, counters);
-    quicksort(elements, p0 + 1, p1 - 1, counters);
-    quicksort(elements, p1 + 1, right, counters);
+    quicksortWithCounters(elements, left, p0 - 1, counters);
+    quicksortWithCounters(elements, p0 + 1, p1 - 1, counters);
+    quicksortWithCounters(elements, p1 + 1, right, counters);
   }
 
-  int[] partition(int[] elements, int left, int right, Counters counters) {
+  int[] partitionWithCounters(int[] elements, int left, int right, Counters counters) {
     findPivotsAndMoveToLeftRight(elements, left, right);
     int leftPivot = elements[left];
     int rightPivot = elements[right];
@@ -131,8 +137,11 @@ public class DualPivotQuicksort implements SortAlgorithm {
             counters.incIterations();
             counters.incReads();
             counters.incComparisons();
-            if (!(elements[rightIndex] > rightPivot)) break;
-            rightIndex--;
+            if (elements[rightIndex] > rightPivot) {
+              rightIndex--;
+            } else {
+              break;
+            }
           }
           ArrayUtils.swap(elements, leftIndex, rightIndex);
           counters.addReadsAndWrites(2);
@@ -195,8 +204,12 @@ public class DualPivotQuicksort implements SortAlgorithm {
             ArrayUtils.swap(elements, secondPos, left);
           }
         } else {
-          if (secondPos != right) ArrayUtils.swap(elements, secondPos, right);
-          if (firstPos != left) ArrayUtils.swap(elements, firstPos, left);
+          if (secondPos != right) {
+            ArrayUtils.swap(elements, secondPos, right);
+          }
+          if (firstPos != left) {
+            ArrayUtils.swap(elements, firstPos, left);
+          }
         }
       }
 
@@ -204,6 +217,7 @@ public class DualPivotQuicksort implements SortAlgorithm {
     }
   }
 
+  /** Strategy for calculating the pivot positions in Dual-Pivot Quicksort. */
   public enum PivotStrategy {
     LEFT_RIGHT,
     THIRDS

@@ -12,6 +12,7 @@ import eu.happycoders.sort.utils.ArrayUtils;
  */
 public class QuicksortSimple implements SortAlgorithm, PartitioningAlgorithm {
 
+  @Override
   public void sort(int[] elements) {
     quicksort(elements, 0, elements.length - 1);
   }
@@ -23,7 +24,9 @@ public class QuicksortSimple implements SortAlgorithm, PartitioningAlgorithm {
 
   private void quicksort(int[] elements, int left, int right) {
     // End of recursion reached?
-    if (left >= right) return;
+    if (left >= right) {
+      return;
+    }
 
     int pivotPos = partition(elements, left, right);
     quicksort(elements, left, pivotPos - 1);
@@ -69,20 +72,23 @@ public class QuicksortSimple implements SortAlgorithm, PartitioningAlgorithm {
   }
 
   @Override
-  public void sort(int[] elements, Counters counters) {
-    quicksort(elements, 0, elements.length - 1, counters);
+  public void sortWithCounters(int[] elements, Counters counters) {
+    quicksortWithCounters(elements, 0, elements.length - 1, counters);
   }
 
-  private void quicksort(int[] elements, int left, int right, Counters counters) {
+  private void quicksortWithCounters(int[] elements, int left, int right, Counters counters) {
     // End of recursion reached?
-    if (left >= right) return;
+    if (left >= right) {
+      return;
+    }
 
-    int pivotPos = partition(elements, left, right, counters);
-    quicksort(elements, left, pivotPos - 1, counters);
-    quicksort(elements, pivotPos + 1, right, counters);
+    int pivotPos = partitionWithCounters(elements, left, right, counters);
+    quicksortWithCounters(elements, left, pivotPos - 1, counters);
+    quicksortWithCounters(elements, pivotPos + 1, right, counters);
   }
 
-  public int partition(int[] elements, int left, int right, Counters counters) {
+  @Override
+  public int partitionWithCounters(int[] elements, int left, int right, Counters counters) {
     int pivot = elements[right];
 
     int i = left;
@@ -94,16 +100,22 @@ public class QuicksortSimple implements SortAlgorithm, PartitioningAlgorithm {
       while (true) {
         counters.incComparisons();
         counters.incReads();
-        if (!(elements[i] < pivot)) break;
-        i++;
+        if (elements[i] < pivot) {
+          i++;
+        } else {
+          break;
+        }
       }
 
       // Find the last element < pivot
       while (true) {
         counters.incComparisons();
         counters.incReads();
-        if (!(j > left && elements[j] >= pivot)) break;
-        j--;
+        if (j > left && elements[j] >= pivot) {
+          j--;
+        } else {
+          break;
+        }
       }
 
       // If the greater element is left of the lesser element, switch them

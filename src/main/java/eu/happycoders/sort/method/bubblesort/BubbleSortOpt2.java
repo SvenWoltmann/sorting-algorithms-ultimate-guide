@@ -27,13 +27,15 @@ public class BubbleSortOpt2 implements SortAlgorithm {
           lastSwapped = i;
         }
       }
-      if (lastSwapped == 0) break;
+      if (lastSwapped == 0) {
+        break;
+      }
       max = lastSwapped;
     }
   }
 
   @Override
-  public void sort(int[] elements, Counters counters) {
+  public void sortWithCounters(int[] elements, Counters counters) {
     int max = elements.length - 1;
     for (; ; ) {
       counters.incIterations();
@@ -52,7 +54,9 @@ public class BubbleSortOpt2 implements SortAlgorithm {
           lastSwapped = i;
         }
       }
-      if (lastSwapped == 0) break;
+      if (lastSwapped == 0) {
+        break;
+      }
       max = lastSwapped;
     }
   }

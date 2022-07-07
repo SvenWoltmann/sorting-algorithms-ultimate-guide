@@ -26,12 +26,14 @@ public class BubbleSort implements SortAlgorithm {
           swapped = true;
         }
       }
-      if (!swapped) break;
+      if (!swapped) {
+        break;
+      }
     }
   }
 
   @Override
-  public void sort(int[] elements, Counters counters) {
+  public void sortWithCounters(int[] elements, Counters counters) {
     int numElements = elements.length;
     for (; ; ) {
       counters.incIterations();
@@ -51,7 +53,9 @@ public class BubbleSort implements SortAlgorithm {
           swapped = true;
         }
       }
-      if (!swapped) break;
+      if (!swapped) {
+        break;
+      }
     }
   }
 }

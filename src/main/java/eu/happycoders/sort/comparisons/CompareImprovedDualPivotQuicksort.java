@@ -20,6 +20,7 @@ public class CompareImprovedDualPivotQuicksort extends DirectComparison {
     new CompareImprovedDualPivotQuicksort().run();
   }
 
+  @SuppressWarnings("PMD.AvoidLiteralsInIfCondition")
   private void run() {
     List<SortAlgorithm> algorithms = new ArrayList<>();
     algorithms.add(new DualPivotQuicksort(DualPivotQuicksort.PivotStrategy.THIRDS));

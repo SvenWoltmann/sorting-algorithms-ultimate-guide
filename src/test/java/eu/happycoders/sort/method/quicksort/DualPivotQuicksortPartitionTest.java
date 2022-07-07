@@ -8,39 +8,39 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.function.Function;
 import org.junit.jupiter.api.*;
 
-public class DualPivotQuicksortPartitionTest {
+class DualPivotQuicksortPartitionTest {
 
   // ---- PivotStrategy.LEFT_RIGHT ----
 
   @RepeatedTest(100)
-  public void partitionLEFT_RIGHT_randomArray_partitioned() {
+  void partitionLEFT_RIGHT_randomArray_partitioned() {
     testPartitioning(PivotStrategy.LEFT_RIGHT, ArrayUtils::createRandomArray);
   }
 
   @Test
-  public void partitionLEFT_RIGHT_sortedArray_partitioned() {
+  void partitionLEFT_RIGHT_sortedArray_partitioned() {
     testPartitioning(PivotStrategy.LEFT_RIGHT, ArrayUtils::createSortedArray);
   }
 
   @Test
-  public void partitionLEFT_RIGHT_reversedArray_partitioned() {
+  void partitionLEFT_RIGHT_reversedArray_partitioned() {
     testPartitioning(PivotStrategy.LEFT_RIGHT, ArrayUtils::createReversedArray);
   }
 
   // ---- PivotStrategy.MIDDLES ----
 
   @RepeatedTest(100)
-  public void partitionMIDDLES_randomArray_partitioned() {
+  void partitionMIDDLES_randomArray_partitioned() {
     testPartitioning(PivotStrategy.THIRDS, ArrayUtils::createRandomArray);
   }
 
   @Test
-  public void partitionMIDDLES_sortedArray_partitioned() {
+  void partitionMIDDLES_sortedArray_partitioned() {
     testPartitioning(PivotStrategy.THIRDS, ArrayUtils::createSortedArray);
   }
 
   @Test
-  public void partitionMIDDLES_reversedArray_partitioned() {
+  void partitionMIDDLES_reversedArray_partitioned() {
     testPartitioning(PivotStrategy.THIRDS, ArrayUtils::createReversedArray);
   }
 

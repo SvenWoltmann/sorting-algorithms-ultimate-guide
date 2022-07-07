@@ -31,6 +31,7 @@ public class PivotScorecard {
    * @param largerPartPercentage the percentage of the larger partition compared to the number of
    *     elements
    */
+  @SuppressWarnings("PMD.AvoidLiteralsInIfCondition")
   public void add(double largerPartPercentage) {
     if (largerPartPercentage < 50.0) {
       throw new IllegalArgumentException("The larger partition can not be less than 50%");
@@ -39,7 +40,7 @@ public class PivotScorecard {
     if (largerPartPercentage <= 60.0) {
       count60Percent++;
     }
-    if (largerPartPercentage <= 66.66666666666667) {
+    if (largerPartPercentage <= 66.667) {
       count67Percent++;
     }
     if (largerPartPercentage <= 75.0) {
@@ -54,13 +55,15 @@ public class PivotScorecard {
    */
   @SuppressWarnings({"PMD.SystemPrintln", "java:S106"})
   public void printResult(int longestNameLength) {
-    System.out.printf(
-        Locale.US,
+    String format =
         "%-"
             + longestNameLength
             + "s -> "
             + "1.5:1 or better: %5.2f %%; 2:1 or better: %5.2f %%; "
-            + "3:1 or better: %5.2f %%%n",
+            + "3:1 or better: %5.2f %%%n";
+    System.out.printf(
+        Locale.US,
+        format,
         name,
         count60Percent * 100.0 / count,
         count67Percent * 100.0 / count,

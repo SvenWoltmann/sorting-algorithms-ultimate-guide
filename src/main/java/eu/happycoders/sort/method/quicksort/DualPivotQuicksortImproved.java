@@ -48,7 +48,9 @@ public class DualPivotQuicksortImproved implements SortAlgorithm {
 
   private void quicksort(int[] elements, int left, int right) {
     // End of recursion reached?
-    if (left >= right) return;
+    if (left >= right) {
+      return;
+    }
 
     // Threshold for insertion sort reached?
     if (right - left < threshold) {
@@ -65,26 +67,28 @@ public class DualPivotQuicksortImproved implements SortAlgorithm {
   }
 
   @Override
-  public void sort(int[] elements, Counters counters) {
-    quicksort(elements, 0, elements.length - 1, counters);
+  public void sortWithCounters(int[] elements, Counters counters) {
+    quicksortWithCounters(elements, 0, elements.length - 1, counters);
   }
 
-  private void quicksort(int[] elements, int left, int right, Counters counters) {
+  private void quicksortWithCounters(int[] elements, int left, int right, Counters counters) {
     // End of recursion reached?
-    if (left >= right) return;
-
-    // Threshold for insertion sort reached?
-    if (right - left < threshold) {
-      insertionSort.sort(elements, left, right + 1, counters);
+    if (left >= right) {
       return;
     }
 
-    int[] pivotPos = standardQuicksort.partition(elements, left, right, counters);
+    // Threshold for insertion sort reached?
+    if (right - left < threshold) {
+      insertionSort.sortWithCounters(elements, left, right + 1, counters);
+      return;
+    }
+
+    int[] pivotPos = standardQuicksort.partitionWithCounters(elements, left, right, counters);
     int p0 = pivotPos[0];
     int p1 = pivotPos[1];
-    quicksort(elements, left, p0 - 1, counters);
-    quicksort(elements, p0 + 1, p1 - 1, counters);
-    quicksort(elements, p1 + 1, right, counters);
+    quicksortWithCounters(elements, left, p0 - 1, counters);
+    quicksortWithCounters(elements, p0 + 1, p1 - 1, counters);
+    quicksortWithCounters(elements, p1 + 1, right, counters);
   }
 
   @Override

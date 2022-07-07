@@ -55,7 +55,7 @@ public abstract class BubbleSortParallel implements SortAlgorithm {
     int[] startPositions = new int[numPartitions + 1];
     for (int i = 0; i < numPartitions; i++) {
       int partitionSize = remainingElements / remainingPartitions;
-      if (partitionSize % 2 == 1 && startPositions[i] + partitionSize < elements.length) {
+      if (isOdd(partitionSize) && startPositions[i] + partitionSize < elements.length) {
         partitionSize++;
       }
 
@@ -64,6 +64,10 @@ public abstract class BubbleSortParallel implements SortAlgorithm {
       startPositions[i + 1] = startPositions[i] + partitionSize;
     }
     return startPositions;
+  }
+
+  private boolean isOdd(int number) {
+    return number % 2 != 0;
   }
 
   private Thread createThread(
@@ -78,11 +82,15 @@ public abstract class BubbleSortParallel implements SortAlgorithm {
             phaser.arriveAndAwaitAdvance();
 
             swapped |= sortPartition(elements, startPos, endPos, true);
-            if (swapped) lastSwappedInRound.set(round);
+            if (swapped) {
+              lastSwappedInRound.set(round);
+            }
 
             phaser.arriveAndAwaitAdvance();
 
-            if (lastSwappedInRound.get() < round) break;
+            if (lastSwappedInRound.get() < round) {
+              break;
+            }
           }
         });
   }
@@ -99,7 +107,7 @@ public abstract class BubbleSortParallel implements SortAlgorithm {
   abstract boolean sortPartition(int[] elements, int startPos, int endPos, boolean even);
 
   @Override
-  public void sort(int[] elements, Counters counters) {
+  public void sortWithCounters(int[] elements, Counters counters) {
     throw new NotImplementedException();
   }
 }

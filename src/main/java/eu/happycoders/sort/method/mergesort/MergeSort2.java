@@ -25,7 +25,9 @@ public class MergeSort2 implements SortAlgorithm {
 
   private void mergeSort(int[] elements, int left, int right) {
     // End of recursion reached?
-    if (left == right) return;
+    if (left == right) {
+      return;
+    }
 
     int middle = left + (right - left) / 2;
     mergeSort(elements, left, middle);
@@ -66,21 +68,24 @@ public class MergeSort2 implements SortAlgorithm {
   }
 
   @Override
-  public void sort(int[] elements, Counters counters) {
-    mergeSort(elements, 0, elements.length - 1, counters);
+  public void sortWithCounters(int[] elements, Counters counters) {
+    mergeSortWithCounters(elements, 0, elements.length - 1, counters);
   }
 
-  private void mergeSort(int[] elements, int left, int right, Counters counters) {
+  private void mergeSortWithCounters(int[] elements, int left, int right, Counters counters) {
     // End of recursion reached?
-    if (left == right) return;
+    if (left == right) {
+      return;
+    }
 
     int middle = left + (right - left) / 2;
-    mergeSort(elements, left, middle, counters);
-    mergeSort(elements, middle + 1, right, counters);
-    merge(elements, left, middle, right, counters);
+    mergeSortWithCounters(elements, left, middle, counters);
+    mergeSortWithCounters(elements, middle + 1, right, counters);
+    mergeWithCounters(elements, left, middle, right, counters);
   }
 
-  void merge(int[] elements, int leftStart, int leftEnd, int rightEnd, Counters counters) {
+  void mergeWithCounters(
+      int[] elements, int leftStart, int leftEnd, int rightEnd, Counters counters) {
     int leftPos = leftStart;
     int rightPos = leftEnd + 1;
 
@@ -93,9 +98,9 @@ public class MergeSort2 implements SortAlgorithm {
       counters.incIterations();
 
       // Which one is smaller?
+      counters.addReads(2);
       int leftValue = elements[leftPos];
       int rightValue = elements[rightPos];
-      counters.addReads(2);
 
       counters.incComparisons();
       counters.incWrites();

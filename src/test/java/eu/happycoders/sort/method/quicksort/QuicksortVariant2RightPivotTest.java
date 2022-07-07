@@ -2,7 +2,7 @@ package eu.happycoders.sort.method.quicksort;
 
 import eu.happycoders.sort.method.*;
 
-public class QuicksortVariant2RightPivotTest extends SortTest {
+class QuicksortVariant2RightPivotTest extends SortTest {
 
   @Override
   protected SortAlgorithm getSortAlgorithm() {

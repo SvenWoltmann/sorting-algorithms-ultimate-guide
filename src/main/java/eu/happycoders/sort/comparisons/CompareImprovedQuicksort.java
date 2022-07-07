@@ -23,6 +23,7 @@ public class CompareImprovedQuicksort extends DirectComparison {
     new CompareImprovedQuicksort().run();
   }
 
+  @SuppressWarnings("PMD.AvoidLiteralsInIfCondition")
   private void run() {
     List<SortAlgorithm> algorithms = new ArrayList<>();
     algorithms.add(new QuicksortVariant1(PivotStrategy.MIDDLE));

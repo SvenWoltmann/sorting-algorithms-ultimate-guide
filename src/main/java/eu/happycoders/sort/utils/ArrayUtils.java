@@ -9,9 +9,9 @@ import java.util.concurrent.ThreadLocalRandom;
  *
  * @author <a href="sven@happycoders.eu">Sven Woltmann</a>
  */
-// Ignore "weak cryptography" warning - we're just sorting random numbers :-)
-@SuppressWarnings("java:S2245")
-public class ArrayUtils {
+public final class ArrayUtils {
+
+  private ArrayUtils() {}
 
   /**
    * Creates an array of the given size, containing the values <code>0</code> to <code>size-1</code>
@@ -135,8 +135,11 @@ public class ArrayUtils {
     Arrays.sort(values);
     int length = values.length;
     int middle = length / 2;
-    if (length % 2 == 0) return (values[middle] + values[middle - 1]) / 2;
-    else return values[middle];
+    if (length % 2 == 0) {
+      return (values[middle] + values[middle - 1]) / 2;
+    } else {
+      return values[middle];
+    }
   }
 
   /**
@@ -156,7 +159,9 @@ public class ArrayUtils {
 
   public static boolean isSorted(int[] elements) {
     for (int i = 0; i < elements.length - 1; i++) {
-      if (elements[i] > elements[i + 1]) return false;
+      if (elements[i] > elements[i + 1]) {
+        return false;
+      }
     }
     return true;
   }

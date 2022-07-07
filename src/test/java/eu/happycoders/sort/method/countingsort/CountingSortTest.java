@@ -6,20 +6,20 @@ import eu.happycoders.sort.utils.ArrayUtils;
 import org.junit.jupiter.api.RepeatedTest;
 
 @SuppressWarnings("java:S2699") // The assertions are in the sortAndTestIfSorted() method
-public class CountingSortTest extends SortTest {
+class CountingSortTest extends SortTest {
 
   @RepeatedTest(100)
-  public void sort_randomNumbers_sorted() {
+  void sort_randomNumbers_sorted() {
     sortAndTestIfSorted(ArrayUtils::createRandomArrayIncludingNegatives);
   }
 
   @RepeatedTest(100)
-  public void sort_sortedNumbers_sorted() {
+  void sort_sortedNumbers_sorted() {
     sortAndTestIfSorted(ArrayUtils::createSortedArrayIncludingNegatives);
   }
 
   @RepeatedTest(100)
-  public void sort_reverseNumbers_sorted() {
+  void sort_reverseNumbers_sorted() {
     sortAndTestIfSorted(ArrayUtils::createReversedArrayIncludingNegatives);
   }
 

@@ -19,11 +19,12 @@ public class DirectComparison {
   private static final int ITERATIONS = 100;
   private static final int PRINT_RESULTS_ALL_X_ITERATIONS = 10;
 
+  @SuppressWarnings("PMD.UseConcurrentHashMap") // Not accessed concurrently
   private final Map<String, Scorecard> scorecards = new HashMap<>();
 
   private int longestNameLength;
 
-  public void runTest(SortAlgorithm[] algorithms, int size) {
+  void runTest(SortAlgorithm[] algorithms, int size) {
     longestNameLength = Scorecard.findLongestAlgorithmName(algorithms);
 
     int numAlgorithms = algorithms.length;
@@ -78,11 +79,9 @@ public class DirectComparison {
     long time = System.nanoTime();
     sortAlgorithm.sort(elements);
     time = System.nanoTime() - time;
-    System.out.printf(
-        Locale.US,
-        "  %-" + longestNameLength + "s -> time = %,10.3f ms",
-        sortAlgorithm.getName(),
-        (time / 1_000_000.0));
+
+    String format = "  %-" + longestNameLength + "s -> time = %,10.3f ms";
+    System.out.printf(Locale.US, format, sortAlgorithm.getName(), time / 1_000_000.0);
 
     // Validate that's sorted (and make sure the sorting wasn't optimized away!)
     if (!ArrayUtils.isSorted(elements)) {

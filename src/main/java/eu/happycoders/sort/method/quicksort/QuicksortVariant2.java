@@ -28,7 +28,7 @@ public class QuicksortVariant2 implements SortAlgorithm, PartitioningAlgorithm {
 
   @Override
   public boolean isSuitableForSortedInput(int size) {
-    return (pivotStrategy != PivotStrategy.LEFT && pivotStrategy != PivotStrategy.RIGHT)
+    return pivotStrategy != PivotStrategy.LEFT && pivotStrategy != PivotStrategy.RIGHT
         || size <= 2 << 12;
   }
 
@@ -39,7 +39,9 @@ public class QuicksortVariant2 implements SortAlgorithm, PartitioningAlgorithm {
 
   private void quicksort(int[] elements, int left, int right) {
     // End of recursion reached?
-    if (left >= right) return;
+    if (left >= right) {
+      return;
+    }
 
     int pivotPos = partition(elements, left, right);
 
@@ -70,8 +72,11 @@ public class QuicksortVariant2 implements SortAlgorithm, PartitioningAlgorithm {
         ArrayUtils.swap(elements, i, j);
 
         // Remember new pivot pos
-        if (i == pivotPos) pivotPos = j;
-        else if (j == pivotPos) pivotPos = i;
+        if (i == pivotPos) {
+          pivotPos = j;
+        } else if (j == pivotPos) {
+          pivotPos = i;
+        }
 
         i++;
         j--;
@@ -92,20 +97,23 @@ public class QuicksortVariant2 implements SortAlgorithm, PartitioningAlgorithm {
   }
 
   @Override
-  public void sort(int[] elements, Counters counters) {
-    quicksort(elements, 0, elements.length - 1, counters);
+  public void sortWithCounters(int[] elements, Counters counters) {
+    quicksortWithCounters(elements, 0, elements.length - 1, counters);
   }
 
-  private void quicksort(int[] elements, int left, int right, Counters counters) {
+  private void quicksortWithCounters(int[] elements, int left, int right, Counters counters) {
     // End of recursion reached?
-    if (left >= right) return;
+    if (left >= right) {
+      return;
+    }
 
-    int pivotPos = partition(elements, left, right, counters);
-    quicksort(elements, left, pivotPos - 1, counters);
-    quicksort(elements, pivotPos + 1, right, counters);
+    int pivotPos = partitionWithCounters(elements, left, right, counters);
+    quicksortWithCounters(elements, left, pivotPos - 1, counters);
+    quicksortWithCounters(elements, pivotPos + 1, right, counters);
   }
 
-  public int partition(int[] elements, int left, int right, Counters counters) {
+  @Override
+  public int partitionWithCounters(int[] elements, int left, int right, Counters counters) {
     int pivotPos = PivotHelper.findPivotPos(elements, left, right, pivotStrategy);
     int pivot = elements[pivotPos];
 
@@ -118,16 +126,22 @@ public class QuicksortVariant2 implements SortAlgorithm, PartitioningAlgorithm {
       while (true) {
         counters.incComparisons();
         counters.incReads();
-        if (!(elements[i] < pivot)) break;
-        i++;
+        if (elements[i] < pivot) {
+          i++;
+        } else {
+          break;
+        }
       }
 
       // Find the last element < pivot
       while (true) {
         counters.incComparisons();
         counters.incReads();
-        if (!(j > left && elements[j] >= pivot)) break;
-        j--;
+        if (j > left && elements[j] >= pivot) {
+          j--;
+        } else {
+          break;
+        }
       }
 
       // If the greater element is left of the lesser element, switch them
@@ -136,8 +150,11 @@ public class QuicksortVariant2 implements SortAlgorithm, PartitioningAlgorithm {
         counters.addReadsAndWrites(2);
 
         // Remember new pivot pos
-        if (i == pivotPos) pivotPos = j;
-        else if (j == pivotPos) pivotPos = i;
+        if (i == pivotPos) {
+          pivotPos = j;
+        } else if (j == pivotPos) {
+          pivotPos = i;
+        }
 
         i++;
         j--;

@@ -2,6 +2,7 @@ package eu.happycoders.sort.method.mergesort;
 
 import eu.happycoders.sort.method.Counters;
 import eu.happycoders.sort.method.SortAlgorithm;
+import eu.happycoders.sort.utils.NotImplementedException;
 
 /**
  * Natural merge sort implementation for performance tests.
@@ -40,7 +41,7 @@ public class NaturalMergeSort implements SortAlgorithm {
       }
 
       // Odd number of runs? Copy the last one
-      if (runCount % 2 == 1) {
+      if (isOdd(runCount)) {
         int lastStart = starts[runCount - 1];
         System.arraycopy(from, lastStart, to, lastStart, numElements - lastStart);
         starts[newRunCount++] = lastStart;
@@ -57,7 +58,7 @@ public class NaturalMergeSort implements SortAlgorithm {
     }
 
     // If final run is not in "elements", copy it there
-    if (from != elements) {
+    if (isNotSameArray(from, elements)) {
       System.arraycopy(from, 0, elements, 0, numElements);
     }
   }
@@ -89,8 +90,17 @@ public class NaturalMergeSort implements SortAlgorithm {
     }
   }
 
+  private boolean isOdd(int number) {
+    return number % 2 != 0;
+  }
+
+  @SuppressWarnings("PMD.CompareObjectsWithEquals") // We want to know if it's the same instance!
+  private boolean isNotSameArray(int[] array1, int[] array2) {
+    return array1 != array2;
+  }
+
   @Override
-  public void sort(int[] elements, Counters counters) {
-    // Not implemented
+  public void sortWithCounters(int[] elements, Counters counters) {
+    throw new NotImplementedException();
   }
 }

@@ -25,7 +25,9 @@ public class MergeSort3 implements SortAlgorithm {
   private void mergeSort(int[] elements) {
     // End of recursion reached?
     int length = elements.length;
-    if (length == 1) return;
+    if (length == 1) {
+      return;
+    }
 
     int middle = length / 2;
 
@@ -70,14 +72,16 @@ public class MergeSort3 implements SortAlgorithm {
   }
 
   @Override
-  public void sort(int[] elements, Counters counters) {
-    mergeSort(elements, counters);
+  public void sortWithCounters(int[] elements, Counters counters) {
+    mergeSortWithCounters(elements, counters);
   }
 
-  private void mergeSort(int[] elements, Counters counters) {
+  private void mergeSortWithCounters(int[] elements, Counters counters) {
     // End of recursion reached?
     int length = elements.length;
-    if (length == 1) return;
+    if (length == 1) {
+      return;
+    }
 
     int middle = length / 2;
 
@@ -87,12 +91,12 @@ public class MergeSort3 implements SortAlgorithm {
     counters.addReadsAndWrites(length);
 
     // Merge sort them
-    mergeSort(left, counters);
-    mergeSort(right, counters);
-    merge(elements, left, right, counters);
+    mergeSortWithCounters(left, counters);
+    mergeSortWithCounters(right, counters);
+    mergeWithCounters(elements, left, right, counters);
   }
 
-  void merge(int[] target, int[] leftArray, int[] rightArray, Counters counters) {
+  void mergeWithCounters(int[] target, int[] leftArray, int[] rightArray, Counters counters) {
     int leftLen = leftArray.length;
     int rightLen = rightArray.length;
 
@@ -105,9 +109,9 @@ public class MergeSort3 implements SortAlgorithm {
       counters.incIterations();
 
       // Which one is smaller?
+      counters.addReads(2);
       int leftValue = leftArray[leftPos];
       int rightValue = rightArray[rightPos];
-      counters.addReads(2);
 
       counters.incComparisons();
       counters.incWrites();
