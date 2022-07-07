@@ -1,4 +1,4 @@
-package eu.happycoders.sort;
+package eu.happycoders.sort.demos;
 
 import eu.happycoders.sort.method.Counters;
 import eu.happycoders.sort.method.SortAlgorithm;

@@ -1,4 +1,4 @@
-package eu.happycoders.sort.comparisons;
+package eu.happycoders.sort.demos.comparisons;
 
 import eu.happycoders.sort.method.SortAlgorithm;
 import eu.happycoders.sort.method.quicksort.DualPivotQuicksort;

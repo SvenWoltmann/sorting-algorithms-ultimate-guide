@@ -1,11 +1,11 @@
-package eu.happycoders.sort.pivot;
+package eu.happycoders.sort.demos.pivot;
 
+import eu.happycoders.sort.demos.Scorecard;
 import eu.happycoders.sort.method.PartitioningAlgorithm;
 import eu.happycoders.sort.method.SortAlgorithm;
 import eu.happycoders.sort.method.quicksort.PivotStrategy;
 import eu.happycoders.sort.method.quicksort.QuicksortVariant1;
 import eu.happycoders.sort.utils.ArrayUtils;
-import eu.happycoders.sort.utils.Scorecard;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;

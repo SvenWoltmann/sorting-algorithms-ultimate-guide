@@ -1,8 +1,8 @@
-package eu.happycoders.sort.comparisons;
+package eu.happycoders.sort.demos.comparisons;
 
+import eu.happycoders.sort.demos.Scorecard;
 import eu.happycoders.sort.method.SortAlgorithm;
 import eu.happycoders.sort.utils.ArrayUtils;
-import eu.happycoders.sort.utils.Scorecard;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;

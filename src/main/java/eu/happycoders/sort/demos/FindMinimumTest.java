@@ -1,4 +1,4 @@
-package eu.happycoders.sort;
+package eu.happycoders.sort.demos;
 
 import eu.happycoders.sort.utils.ArrayUtils;
 import java.util.Locale;

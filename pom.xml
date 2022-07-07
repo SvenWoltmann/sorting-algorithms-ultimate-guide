@@ -37,6 +37,7 @@
         <sonar.java.pmd.reportPaths>./target/pmd.xml</sonar.java.pmd.reportPaths>
         <sonar.java.checkstyle.reportPaths>./target/checkstyle-result.xml</sonar.java.checkstyle.reportPaths>
         <sonar.coverage.jacoco.xmlReportPaths>${project.reporting.outputDirectory}/jacoco-ut/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+        <sonar.coverage.exclusions>**/demos/**/*.java</sonar.coverage.exclusions>
 
         <sonar.issue.ignore.multicriteria>e1,e2</sonar.issue.ignore.multicriteria>
         <!-- Ignore "Cognitive Complexity of methods should not be too high" warnings in "method" package -->

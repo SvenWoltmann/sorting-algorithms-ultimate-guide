@@ -1,4 +1,4 @@
-package eu.happycoders.sort;
+package eu.happycoders.sort.demos;
 
 import eu.happycoders.sort.method.InsertionSort;
 import eu.happycoders.sort.method.JavaArraysSort;
@@ -17,7 +17,6 @@ import eu.happycoders.sort.method.quicksort.PivotStrategy;
 import eu.happycoders.sort.method.quicksort.QuicksortImproved;
 import eu.happycoders.sort.method.quicksort.QuicksortVariant1;
 import eu.happycoders.sort.utils.ArrayUtils;
-import eu.happycoders.sort.utils.Scorecard;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package eu.happycoders.sort.pivot;
+package eu.happycoders.sort.demos.pivot;
 
 import java.util.Locale;
 
