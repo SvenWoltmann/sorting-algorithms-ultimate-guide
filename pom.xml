@@ -36,6 +36,14 @@
         <sonar.java.pmd.reportPaths>./target/pmd.xml</sonar.java.pmd.reportPaths>
         <sonar.java.checkstyle.reportPaths>./target/checkstyle-result.xml</sonar.java.checkstyle.reportPaths>
         <sonar.coverage.jacoco.xmlReportPaths>${project.reporting.outputDirectory}/jacoco-ut/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+
+        <!-- Exclude "Cognitive Complexity of methods should not be too high" from "method" package -->
+        <sonar.issue.ignore.multicriteria>e1</sonar.issue.ignore.multicriteria>
+        <sonar.issue.ignore.multicriteria.e1.ruleKey>java:S3776</sonar.issue.ignore.multicriteria.e1.ruleKey>
+        <sonar.issue.ignore.multicriteria.e1.resourceKey>**/eu/happycoders/sort/method/**/*.*</sonar.issue.ignore.multicriteria.e1.resourceKey>
+
+        <!-- Exclude "method" package from duplicate check -->
+        <sonar.cpd.exclusions>**/eu/happycoders/sort/method/**/*.*</sonar.cpd.exclusions>
     </properties>
 
     <dependencies>
