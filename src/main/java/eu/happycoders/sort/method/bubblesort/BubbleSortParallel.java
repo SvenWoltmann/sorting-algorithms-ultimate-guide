@@ -110,4 +110,9 @@ public abstract class BubbleSortParallel implements SortAlgorithm {
   public void sortWithCounters(int[] elements, Counters counters) {
     throw new NotImplementedException();
   }
+
+  @Override
+  public boolean supportsCounting() {
+    return false;
+  }
 }

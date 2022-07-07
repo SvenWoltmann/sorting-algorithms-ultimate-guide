@@ -62,4 +62,9 @@ public class BottomUpHeapsortSlowComparisons extends BottomUpHeapsort {
   public boolean isSuitableForSortedInput(int size) {
     return false;
   }
+
+  @Override
+  public boolean supportsCounting() {
+    return false;
+  }
 }

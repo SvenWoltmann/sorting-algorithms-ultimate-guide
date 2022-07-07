@@ -67,4 +67,9 @@ public class HeapsortSlowComparisons extends Heapsort {
   public boolean isSuitableForSortedInput(int size) {
     return false;
   }
+
+  @Override
+  public boolean supportsCounting() {
+    return false;
+  }
 }

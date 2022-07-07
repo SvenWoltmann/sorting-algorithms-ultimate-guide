@@ -31,7 +31,6 @@ public final class PivotHelper {
         yield rl < 2 ? right : left + rl / 2;
       }
       case MEDIAN3 -> getMedian3Pos(elements, left, right);
-      default -> throw new IllegalStateException("Unexpected value: " + pivotStrategy);
     };
   }
 

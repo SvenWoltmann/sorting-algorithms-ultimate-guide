@@ -2,6 +2,7 @@ package eu.happycoders.sort.method.countingsort;
 
 import eu.happycoders.sort.method.Counters;
 import eu.happycoders.sort.method.SortAlgorithm;
+import eu.happycoders.sort.utils.NotImplementedException;
 
 /**
  * General Counting Sort implementation.
@@ -53,6 +54,11 @@ public class CountingSortGeneral implements SortAlgorithm {
 
   @Override
   public void sortWithCounters(int[] elements, Counters counters) {
-    throw new IllegalStateException("Not implemented");
+    throw new NotImplementedException();
+  }
+
+  @Override
+  public boolean supportsCounting() {
+    return false;
   }
 }

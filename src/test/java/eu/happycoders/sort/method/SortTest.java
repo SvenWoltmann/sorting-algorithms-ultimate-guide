@@ -1,12 +1,15 @@
 package eu.happycoders.sort.method;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import eu.happycoders.sort.utils.ArrayUtils;
+import eu.happycoders.sort.utils.NotImplementedException;
 import java.util.Arrays;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.function.Function;
 import org.junit.jupiter.api.RepeatedTest;
+import org.junit.jupiter.api.Test;
 
 public abstract class SortTest {
 
@@ -34,6 +37,24 @@ public abstract class SortTest {
     getSortAlgorithm().sort(numbers);
 
     assertArrayEquals(numbersCopy, numbers);
+  }
+
+  @Test
+  void sortWithCounter_randomNumbers_eitherSortedOrNotImplementedException() {
+    int[] numbers = ArrayUtils.createRandomArray(randomSize());
+
+    int[] numbersCopy = numbers.clone();
+    Arrays.sort(numbersCopy);
+
+    SortAlgorithm sortAlgorithm = getSortAlgorithm();
+    Counters counters = new Counters();
+    if (sortAlgorithm.supportsCounting()) {
+      sortAlgorithm.sortWithCounters(numbers, counters);
+      assertArrayEquals(numbersCopy, numbers);
+    } else {
+      assertThrows(
+          NotImplementedException.class, () -> sortAlgorithm.sortWithCounters(numbers, counters));
+    }
   }
 
   protected int randomSize() {
