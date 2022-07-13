@@ -1,5 +1,10 @@
 package eu.happycoders.sort.method.radixsort;
 
+import static eu.happycoders.sort.method.radixsort.RadixSortHelper.calculateDivisor;
+import static eu.happycoders.sort.method.radixsort.RadixSortHelper.checkIfContainsNegatives;
+import static eu.happycoders.sort.method.radixsort.RadixSortHelper.getNumberOfDigits;
+import static eu.happycoders.sort.utils.ArrayUtils.getMaximum;
+
 import eu.happycoders.sort.method.Counters;
 import eu.happycoders.sort.method.SortAlgorithm;
 import eu.happycoders.sort.utils.NotImplementedException;
@@ -21,7 +26,7 @@ public class RadixSortWithCountingSortAndCustomBase implements SortAlgorithm {
   public void sort(int[] elements) {
     checkIfContainsNegatives(elements);
     int max = getMaximum(elements);
-    int numberOfDigits = getNumberOfDigits(max);
+    int numberOfDigits = getNumberOfDigits(max, base);
 
     // Remember input array
     int[] inputArray = elements;
@@ -34,33 +39,6 @@ public class RadixSortWithCountingSortAndCustomBase implements SortAlgorithm {
     System.arraycopy(elements, 0, inputArray, 0, elements.length);
   }
 
-  private void checkIfContainsNegatives(int[] elements) {
-    for (int element : elements) {
-      if (element < 0) {
-        throw new IllegalArgumentException("Negative elements are not allowed");
-      }
-    }
-  }
-
-  private int getMaximum(int[] elements) {
-    int max = 0;
-    for (int element : elements) {
-      if (element > max) {
-        max = element;
-      }
-    }
-    return max;
-  }
-
-  private int getNumberOfDigits(int number) {
-    int numberOfDigits = 1;
-    while (number >= base) {
-      number /= base;
-      numberOfDigits++;
-    }
-    return numberOfDigits;
-  }
-
   private int[] sortByDigit(int[] elements, int digitIndex) {
     int[] counts = countDigits(elements, digitIndex);
     int[] prefixSums = calculatePrefixSums(counts);
@@ -69,7 +47,7 @@ public class RadixSortWithCountingSortAndCustomBase implements SortAlgorithm {
 
   private int[] countDigits(int[] elements, int digitIndex) {
     int[] counts = new int[base];
-    int divisor = calculateDivisor(digitIndex);
+    int divisor = calculateDivisor(digitIndex, base);
     for (int element : elements) {
       int digit = element / divisor % base;
       counts[digit]++;
@@ -87,7 +65,7 @@ public class RadixSortWithCountingSortAndCustomBase implements SortAlgorithm {
   }
 
   private int[] collectElements(int[] elements, int digitIndex, int[] prefixSums) {
-    int divisor = calculateDivisor(digitIndex);
+    int divisor = calculateDivisor(digitIndex, base);
     int[] target = new int[elements.length];
     for (int i = elements.length - 1; i >= 0; i--) {
       int element = elements[i];
@@ -95,14 +73,6 @@ public class RadixSortWithCountingSortAndCustomBase implements SortAlgorithm {
       target[--prefixSums[digit]] = element;
     }
     return target;
-  }
-
-  private int calculateDivisor(int digitIndex) {
-    int divisor = 1;
-    for (int i = 0; i < digitIndex; i++) {
-      divisor *= base;
-    }
-    return divisor;
   }
 
   @Override

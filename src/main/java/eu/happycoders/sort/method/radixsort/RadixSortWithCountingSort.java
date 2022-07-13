@@ -1,5 +1,10 @@
 package eu.happycoders.sort.method.radixsort;
 
+import static eu.happycoders.sort.method.radixsort.RadixSortHelper.calculateDivisor;
+import static eu.happycoders.sort.method.radixsort.RadixSortHelper.checkIfContainsNegatives;
+import static eu.happycoders.sort.method.radixsort.RadixSortHelper.getNumberOfDigits;
+import static eu.happycoders.sort.utils.ArrayUtils.getMaximum;
+
 import eu.happycoders.sort.method.Counters;
 import eu.happycoders.sort.method.SortAlgorithm;
 import eu.happycoders.sort.utils.NotImplementedException;
@@ -26,33 +31,6 @@ public class RadixSortWithCountingSort implements SortAlgorithm {
 
     // Copy sorted elements back to input array
     System.arraycopy(elements, 0, inputArray, 0, elements.length);
-  }
-
-  private void checkIfContainsNegatives(int[] elements) {
-    for (int element : elements) {
-      if (element < 0) {
-        throw new IllegalArgumentException("Negative elements are not allowed");
-      }
-    }
-  }
-
-  private int getMaximum(int[] elements) {
-    int max = 0;
-    for (int element : elements) {
-      if (element > max) {
-        max = element;
-      }
-    }
-    return max;
-  }
-
-  private int getNumberOfDigits(int number) {
-    int numberOfDigits = 1;
-    while (number >= 10) {
-      number /= 10;
-      numberOfDigits++;
-    }
-    return numberOfDigits;
   }
 
   private int[] sortByDigit(int[] elements, int digitIndex) {
@@ -89,14 +67,6 @@ public class RadixSortWithCountingSort implements SortAlgorithm {
       target[--prefixSums[digit]] = element;
     }
     return target;
-  }
-
-  private int calculateDivisor(int digitIndex) {
-    int divisor = 1;
-    for (int i = 0; i < digitIndex; i++) {
-      divisor *= 10;
-    }
-    return divisor;
   }
 
   @Override
