@@ -165,4 +165,14 @@ public final class ArrayUtils {
     }
     return true;
   }
+
+  public static int getMaximum(int[] elements) {
+    int max = 0;
+    for (int element : elements) {
+      if (element > max) {
+        max = element;
+      }
+    }
+    return max;
+  }
 }

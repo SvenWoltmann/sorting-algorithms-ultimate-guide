@@ -1,5 +1,10 @@
 package eu.happycoders.sort.method.radixsort;
 
+import static eu.happycoders.sort.method.radixsort.RadixSortHelper.calculateDivisor;
+import static eu.happycoders.sort.method.radixsort.RadixSortHelper.checkIfContainsNegatives;
+import static eu.happycoders.sort.method.radixsort.RadixSortHelper.getNumberOfDigits;
+import static eu.happycoders.sort.utils.ArrayUtils.getMaximum;
+
 import eu.happycoders.sort.method.Counters;
 import eu.happycoders.sort.method.SortAlgorithm;
 import eu.happycoders.sort.utils.NotImplementedException;
@@ -23,38 +28,11 @@ public class RadixSortWithDynamicListsAndCustomBase implements SortAlgorithm {
   public void sort(int[] elements) {
     checkIfContainsNegatives(elements);
     int max = getMaximum(elements);
-    int numberOfDigits = getNumberOfDigits(max);
+    int numberOfDigits = getNumberOfDigits(max, base);
 
     for (int digitIndex = 0; digitIndex < numberOfDigits; digitIndex++) {
       sortByDigit(elements, digitIndex);
     }
-  }
-
-  private void checkIfContainsNegatives(int[] elements) {
-    for (int element : elements) {
-      if (element < 0) {
-        throw new IllegalArgumentException("Negative elements are not allowed");
-      }
-    }
-  }
-
-  private int getMaximum(int[] elements) {
-    int max = 0;
-    for (int element : elements) {
-      if (element > max) {
-        max = element;
-      }
-    }
-    return max;
-  }
-
-  private int getNumberOfDigits(int number) {
-    int numberOfDigits = 1;
-    while (number >= base) {
-      number /= base;
-      numberOfDigits++;
-    }
-    return numberOfDigits;
   }
 
   private void sortByDigit(int[] elements, int digitIndex) {
@@ -77,20 +55,12 @@ public class RadixSortWithDynamicListsAndCustomBase implements SortAlgorithm {
   }
 
   private void distributeToBuckets(int[] elements, int digitIndex, Bucket[] buckets) {
-    int divisor = calculateDivisor(digitIndex);
+    int divisor = calculateDivisor(digitIndex, base);
 
     for (int element : elements) {
       int digit = element / divisor % base;
       buckets[digit].add(element);
     }
-  }
-
-  private int calculateDivisor(int digitIndex) {
-    int divisor = 1;
-    for (int i = 0; i < digitIndex; i++) {
-      divisor *= base;
-    }
-    return divisor;
   }
 
   private void collect(Bucket[] buckets, int[] elements) {
