@@ -16,6 +16,10 @@ import eu.happycoders.sort.method.quicksort.DualPivotQuicksortImproved;
 import eu.happycoders.sort.method.quicksort.PivotStrategy;
 import eu.happycoders.sort.method.quicksort.QuicksortImproved;
 import eu.happycoders.sort.method.quicksort.QuicksortVariant1;
+import eu.happycoders.sort.method.radixsort.RadixSortWithArraysAndCustomBase;
+import eu.happycoders.sort.method.radixsort.RadixSortWithCountingSortAndCustomBase;
+import eu.happycoders.sort.method.radixsort.RadixSortWithDynamicListsAndCustomBase;
+import eu.happycoders.sort.method.radixsort.RecursiveMsdRadixSortWithArraysAndCustomBase;
 import eu.happycoders.sort.utils.ArrayUtils;
 import java.util.HashMap;
 import java.util.Locale;
@@ -34,6 +38,8 @@ public class UltimateTest {
     new InsertionSort(),
     new SelectionSort(),
     new BubbleSortOpt1(),
+    new CountingSort(),
+    new JavaArraysSort(),
 
     // Quicksort
     new QuicksortVariant1(PivotStrategy.RIGHT),
@@ -49,8 +55,16 @@ public class UltimateTest {
     new BottomUpHeapsort(),
     new HeapsortSlowComparisons(),
     new BottomUpHeapsortSlowComparisons(),
-    new CountingSort(),
-    new JavaArraysSort()
+
+    // Radix Sort
+    new RadixSortWithDynamicListsAndCustomBase(10),
+    new RadixSortWithDynamicListsAndCustomBase(100),
+    new RadixSortWithArraysAndCustomBase(10),
+    new RadixSortWithArraysAndCustomBase(100),
+    new RadixSortWithCountingSortAndCustomBase(10),
+    new RadixSortWithCountingSortAndCustomBase(100),
+    new RecursiveMsdRadixSortWithArraysAndCustomBase(10),
+    new RecursiveMsdRadixSortWithArraysAndCustomBase(100)
   };
 
   private static final int WARM_UPS = 2;
