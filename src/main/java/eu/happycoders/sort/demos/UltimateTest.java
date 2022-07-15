@@ -16,6 +16,8 @@ import eu.happycoders.sort.method.quicksort.DualPivotQuicksortImproved;
 import eu.happycoders.sort.method.quicksort.PivotStrategy;
 import eu.happycoders.sort.method.quicksort.QuicksortImproved;
 import eu.happycoders.sort.method.quicksort.QuicksortVariant1;
+import eu.happycoders.sort.method.radixsort.ParallelRadixSortWithArrays;
+import eu.happycoders.sort.method.radixsort.ParallelRecursiveMsdRadixSortWithArrays;
 import eu.happycoders.sort.method.radixsort.RadixSortWithArraysAndCustomBase;
 import eu.happycoders.sort.method.radixsort.RadixSortWithCountingSortAndCustomBase;
 import eu.happycoders.sort.method.radixsort.RadixSortWithDynamicListsAndCustomBase;
@@ -64,7 +66,9 @@ public class UltimateTest {
     new RadixSortWithCountingSortAndCustomBase(10),
     new RadixSortWithCountingSortAndCustomBase(100),
     new RecursiveMsdRadixSortWithArraysAndCustomBase(10),
-    new RecursiveMsdRadixSortWithArraysAndCustomBase(100)
+    new RecursiveMsdRadixSortWithArraysAndCustomBase(100),
+    new ParallelRadixSortWithArrays(),
+    new ParallelRecursiveMsdRadixSortWithArrays()
   };
 
   private static final int WARM_UPS = 2;
