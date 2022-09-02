@@ -19,7 +19,11 @@ The code belongs to this series of articles:
   * [Heapsort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/heapsort/)
   * [Counting Sort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/counting-sort/)
   * [Radix Sort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/radix-sort/)
-* German:
+* English YouTube Videos:
+  * [Selection Sort](https://www.youtube.com/watch?v=aeFnHjbVWQ4)
+  * [Insertion Sort](https://www.youtube.com/watch?v=rnEAv9hAfwA)
+  * [Quicksort](https://www.youtube.com/watch?v=Vs0kAQTUmE0)
+* Deutsch:
   * [Sortieralgorithmen \[Ultimate Guide\]](https://www.happycoders.eu/de/algorithmen/sortieralgorithmen/)
   * [Insertion Sort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/insertion-sort/)
   * [Selection Sort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/selection-sort/)
@@ -29,3 +33,7 @@ The code belongs to this series of articles:
   * [Heapsort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/heapsort/)
   * [Counting Sort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/counting-sort/)
   * [Radix Sort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/radix-sort/)
+* Deutsche YouTube Videos:
+  * [Selection Sort](https://www.youtube.com/watch?v=FbNIp2eTs30)
+  * [Insertion Sort](https://www.youtube.com/watch?v=0hiSJFeUhj4)
+  * [Quicksort](https://www.youtube.com/watch?v=ka24mbzv93w)
