@@ -9,7 +9,8 @@
 Sorting algorithm source codes + ultimate test to compare the performance of all algorithms.
 
 The code belongs to this series of articles:
-* English:
+
+## English
   * [Sorting Algorithms \[Ultimate Guide\]](https://www.happycoders.eu/algorithms/sorting-algorithms/)
   * [Insertion Sort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/insertion-sort/)
   * [Selection Sort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/selection-sort/)
@@ -19,11 +20,14 @@ The code belongs to this series of articles:
   * [Heapsort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/heapsort/)
   * [Counting Sort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/counting-sort/)
   * [Radix Sort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/radix-sort/)
-* English YouTube Videos:
-  * [Selection Sort](https://www.youtube.com/watch?v=aeFnHjbVWQ4)
+
+### English YouTube Videos
   * [Insertion Sort](https://www.youtube.com/watch?v=rnEAv9hAfwA)
+  * [Selection Sort](https://www.youtube.com/watch?v=aeFnHjbVWQ4)
   * [Quicksort](https://www.youtube.com/watch?v=Vs0kAQTUmE0)
-* Deutsch:
+  * [Merge Sort](https://www.youtube.com/watch?v=nfg4A-X6lLM)
+
+## Deutsch
   * [Sortieralgorithmen \[Ultimate Guide\]](https://www.happycoders.eu/de/algorithmen/sortieralgorithmen/)
   * [Insertion Sort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/insertion-sort/)
   * [Selection Sort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/selection-sort/)
@@ -33,7 +37,9 @@ The code belongs to this series of articles:
   * [Heapsort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/heapsort/)
   * [Counting Sort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/counting-sort/)
   * [Radix Sort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/radix-sort/)
-* Deutsche YouTube Videos:
-  * [Selection Sort](https://www.youtube.com/watch?v=FbNIp2eTs30)
+
+### Deutsche YouTube Videos:
   * [Insertion Sort](https://www.youtube.com/watch?v=0hiSJFeUhj4)
+  * [Selection Sort](https://www.youtube.com/watch?v=FbNIp2eTs30)
   * [Quicksort](https://www.youtube.com/watch?v=ka24mbzv93w)
+  * [Mergesort](https://www.youtube.com/watch?v=Ch49YYjkNv8)
