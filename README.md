@@ -24,6 +24,7 @@ The code belongs to this series of articles:
 ### English YouTube Videos
   * [Insertion Sort](https://www.youtube.com/watch?v=rnEAv9hAfwA)
   * [Selection Sort](https://www.youtube.com/watch?v=aeFnHjbVWQ4)
+  * [Bubble Sort](https://www.youtube.com/watch?v=J9Xws0uRB24)
   * [Quicksort](https://www.youtube.com/watch?v=Vs0kAQTUmE0)
   * [Merge Sort](https://www.youtube.com/watch?v=nfg4A-X6lLM)
 
@@ -41,5 +42,6 @@ The code belongs to this series of articles:
 ### Deutsche YouTube Videos:
   * [Insertion Sort](https://www.youtube.com/watch?v=0hiSJFeUhj4)
   * [Selection Sort](https://www.youtube.com/watch?v=FbNIp2eTs30)
+  * [Bubble Sort](https://www.youtube.com/watch?v=Mj-payJDsdw)
   * [Quicksort](https://www.youtube.com/watch?v=ka24mbzv93w)
   * [Mergesort](https://www.youtube.com/watch?v=Ch49YYjkNv8)
