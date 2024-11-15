@@ -10,7 +10,8 @@ Sorting algorithm source codes + ultimate test to compare the performance of all
 
 The code belongs to this series of articles:
 
-## English
+
+## <br>English
   * [Sorting Algorithms \[Ultimate Guide\]](https://www.happycoders.eu/algorithms/sorting-algorithms/)
   * [Insertion Sort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/insertion-sort/)
   * [Selection Sort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/selection-sort/)
@@ -28,7 +29,8 @@ The code belongs to this series of articles:
   * [Quicksort](https://www.youtube.com/watch?v=Vs0kAQTUmE0)
   * [Merge Sort](https://www.youtube.com/watch?v=nfg4A-X6lLM)
 
-## Deutsch
+
+## <br>Deutsch
   * [Sortieralgorithmen \[Ultimate Guide\]](https://www.happycoders.eu/de/algorithmen/sortieralgorithmen/)
   * [Insertion Sort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/insertion-sort/)
   * [Selection Sort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/selection-sort/)
@@ -39,27 +41,55 @@ The code belongs to this series of articles:
   * [Counting Sort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/counting-sort/)
   * [Radix Sort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/radix-sort/)
 
-### Deutsche YouTube Videos:
+### Deutsche YouTube-Videos:
   * [Insertion Sort](https://www.youtube.com/watch?v=0hiSJFeUhj4)
   * [Selection Sort](https://www.youtube.com/watch?v=FbNIp2eTs30)
   * [Bubble Sort](https://www.youtube.com/watch?v=Mj-payJDsdw)
   * [Quicksort](https://www.youtube.com/watch?v=ka24mbzv93w)
   * [Mergesort](https://www.youtube.com/watch?v=Ch49YYjkNv8)
 
-## The Big O Cheat Sheet
-👉 Use [this FREE 1-page PDF cheat sheet](https://www.happycoders.eu/big-o-cheat-sheet/) as a reference to quickly look up the 7 most important time complexity classes (with descriptions + examples).
 
-➤ [Hier geht's zur deutschen Version des PDFs](https://www.happycoders.eu/de/o-notation-cheat-sheet/)
+## <br>The Big O Cheat Sheet
 
-## Java Versions PDF Cheat Sheet
-👉 Save time and effort with this [compact overview of all new Java features](https://www.happycoders.eu/java-versions/) from the latest version back to Java 10.
+With this [1-page PDF cheat sheet](https://www.happycoders.eu/big-o-cheat-sheet/), you'll always have the **7 most important complexity classes** at a glance.
 
-In this practical and exclusive collection, you‘ll find the most important updates of each Java version summarized on one page each.
+[<img src="/img/big-o-cheat-sheet-pdf-en-transp_936.png" alt="Big O PDF Cheat Sheet Mockup" style="width: 468px; max-width: 100%;">](https://www.happycoders.eu/big-o-cheat-sheet/)
 
-➤ [Hier geht's zur deutschen Version des PDFs](https://www.happycoders.eu/de/java-versionen/)
+* **Always choose the most efficient data structures** and thus increase the performance of your applications.
+* **Be prepared for technical interviews** and confidently present your algorithm knowledge.
+* **Become a sought-after problem solver** and be known for systematically tackling complex problems.
 
-## HappyCoders Newsletter
+👉 [Download the Big O Cheat Sheet](https://www.happycoders.eu/big-o-cheat-sheet/)<br>
+
+_(Hier geht's zur deutschen Version &rarr; [O-Notation Cheat Sheet](https://www.happycoders.eu/de/o-notation-cheat-sheet/))_
+
+
+## <br>Java Versions PDF Cheat Sheet
+
+**Stay up-to-date** with the latest Java features with [this PDF Cheat Sheet](https://www.happycoders.eu/java-versions/)!
+
+[<img src="/img/Java_Versions_PDF_Cheat_Sheet_Mockup_936.png" alt="Java Versions PDF Cheat Sheet Mockup" style="width: 468px; max-width: 100%;">](https://www.happycoders.eu/java-versions/)
+
+* Avoid lengthy research with this **concise overview of all Java versions up to Java 23**.
+* **Discover the innovative features** of each new Java version, summarized on a single page.
+* **Impress your team** with your up-to-date knowledge of the latest Java version.
+
+👉 [Download the Java Versions PDF](https://www.happycoders.eu/java-versions/)<br>
+
+_(Hier geht's zur deutschen Version &rarr; [Java-Versionen PDF](https://www.happycoders.eu/de/java-versionen/))_
+
+
+## <br>HappyCoders Newsletter
 👉 Want to level up your Java skills?
 Sign up for the [HappyCoders newsletter](http://www.happycoders.eu/newsletter/) and get regular tips on programming, algorithms, and data structures!
 
-➤ [Hier geht's zum deutschen Newsletter](https://www.happycoders.eu/de/newsletter/)
+_(Hier geht's zur deutschen Version &rarr; [HappyCoders-Newsletter deutsch](https://www.happycoders.eu/de/newsletter/))_
+
+
+## <br>🇩🇪 An alle Java-Programmierer, die durch fundierte Kenntnisse über Datenstrukturen besseren Code schreiben wollen
+
+Trage dich jetzt auf die [Warteliste](https://www.happycoders.eu/de/mastering-data-structures-warteliste/) von „Mastering Data Structures in Java“ ein, und erhalte das beste Angebot!
+
+[<img src="/img/mastering-data-structures-product-mockup-cropped-1600.png" alt="Mastering Data Structures Mockup" style="width: 640px; max-width: 100%;">](https://www.happycoders.eu/de/mastering-data-structures-warteliste/)
+
+👉 [Zur Warteliste](https://www.happycoders.eu/de/mastering-data-structures-warteliste/)
