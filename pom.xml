@@ -21,7 +21,7 @@
         <google-java-format.version>1.15.0</google-java-format.version>
         <jacoco.version>0.8.12</jacoco.version>
         <spotbugs.version>4.8.6.6</spotbugs.version>
-        <spotbugs-annotations.version>4.9.0</spotbugs-annotations.version>
+        <spotbugs-annotations.version>4.9.1</spotbugs-annotations.version>
         <findsecbugs.version>1.13.0</findsecbugs.version>
         <pmd-plugin.version>3.26.0</pmd-plugin.version>
         <pmd.version>7.10.0</pmd.version>
