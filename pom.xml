@@ -22,7 +22,7 @@
         <jacoco.version>0.8.13</jacoco.version>
         <spotbugs.version>4.9.3.0</spotbugs.version>
         <spotbugs-annotations.version>4.9.3</spotbugs-annotations.version>
-        <findsecbugs.version>1.13.0</findsecbugs.version>
+        <findsecbugs.version>1.14.0</findsecbugs.version>
         <pmd-plugin.version>3.26.0</pmd-plugin.version>
         <pmd.version>7.12.0</pmd.version>
         <checkstyle-plugin.version>3.6.0</checkstyle-plugin.version>
