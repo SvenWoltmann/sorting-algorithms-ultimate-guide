@@ -1,0 +1,37 @@
+iterations=10 maxSize=268.435.456
+--- warm up 1 of 2 ---
+QuicksortVariant1(pivot: RIGHT) (ascending) size=32.768 -> StackOverflowError
+QuicksortVariant1(pivot: RIGHT) (descending) size=32.768 -> StackOverflowError
+--- warm up 2 of 2 ---
+QuicksortVariant1(pivot: RIGHT) (ascending) size=32.768 -> StackOverflowError
+QuicksortVariant1(pivot: RIGHT) (descending) size=32.768 -> StackOverflowError
+--- iteration 1 of 10 ---
+QuicksortVariant1(pivot: RIGHT) (ascending) size=32.768 -> StackOverflowError
+QuicksortVariant1(pivot: RIGHT) (descending) size=32.768 -> StackOverflowError
+--- iteration 2 of 10 ---
+QuicksortVariant1(pivot: RIGHT) (ascending) size=32.768 -> StackOverflowError
+QuicksortVariant1(pivot: RIGHT) (descending) size=32.768 -> StackOverflowError
+--- iteration 3 of 10 ---
+QuicksortVariant1(pivot: RIGHT) (ascending) size=32.768 -> StackOverflowError
+QuicksortVariant1(pivot: RIGHT) (descending) size=32.768 -> StackOverflowError
+--- iteration 4 of 10 ---
+QuicksortVariant1(pivot: RIGHT) (ascending) size=32.768 -> StackOverflowError
+QuicksortVariant1(pivot: RIGHT) (descending) size=32.768 -> StackOverflowError
+--- iteration 5 of 10 ---
+QuicksortVariant1(pivot: RIGHT) (ascending) size=32.768 -> StackOverflowError
+QuicksortVariant1(pivot: RIGHT) (descending) size=32.768 -> StackOverflowError
+--- iteration 6 of 10 ---
+QuicksortVariant1(pivot: RIGHT) (ascending) size=32.768 -> StackOverflowError
+QuicksortVariant1(pivot: RIGHT) (descending) size=32.768 -> StackOverflowError
+--- iteration 7 of 10 ---
+QuicksortVariant1(pivot: RIGHT) (ascending) size=32.768 -> StackOverflowError
+QuicksortVariant1(pivot: RIGHT) (descending) size=32.768 -> StackOverflowError
+--- iteration 8 of 10 ---
+QuicksortVariant1(pivot: RIGHT) (ascending) size=32.768 -> StackOverflowError
+QuicksortVariant1(pivot: RIGHT) (descending) size=32.768 -> StackOverflowError
+--- iteration 9 of 10 ---
+QuicksortVariant1(pivot: RIGHT) (ascending) size=32.768 -> StackOverflowError
+QuicksortVariant1(pivot: RIGHT) (descending) size=32.768 -> StackOverflowError
+--- iteration 10 of 10 ---
+QuicksortVariant1(pivot: RIGHT) (ascending) size=32.768 -> StackOverflowError
+QuicksortVariant1(pivot: RIGHT) (descending) size=32.768 -> StackOverflowError

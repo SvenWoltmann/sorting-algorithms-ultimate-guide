@@ -1,0 +1,16 @@
+# Quicksort benchmark series
+# date:    2026-09-02T10:50:56Z
+# machine: apple-m5-pro-arm64
+# java:    openjdk version "26.0.1" 2026-04-21
+# sorting-repo commit: f0746b4
+# iterations: Compare*=50, ladder=10 (max size 2^28)
+# follow-up runs (same machine, same JDK, later the same day):
+#   quicksort-ladder-tuned.tsv        ladder for QuicksortImproved(96) and
+#                                     DualPivotQuicksortImproved(128), the optima
+#                                     from the sweeps above (the first ladder used
+#                                     the 2020 values 48 and 64)
+#   compare-quicksorts-run2/3.log     two repeats of the variant comparison; the
+#                                     ranking of the algorithm variants is not
+#                                     reproducible across JVM runs (up to 9.8 %
+#                                     spread per algorithm), which is why the
+#                                     article no longer ranks them
