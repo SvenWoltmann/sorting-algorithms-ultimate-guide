@@ -1,6 +1,5 @@
 package eu.happycoders.sort.method;
 
-import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
 import java.util.Locale;
 
 /**
@@ -73,7 +72,7 @@ public class Counters {
    *
    * @return the second set of counters
    */
-  @SuppressFBWarnings("EI_EXPOSE_REP") // We're intentionally exposing the "phase2" object
+  // Intentionally exposes the mutable "phase2" object; callers count into it.
   public Counters getPhase2() {
     if (phase2 == null) {
       phase2 = new Counters();
