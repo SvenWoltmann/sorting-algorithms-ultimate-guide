@@ -1,6 +1,7 @@
 # Measurements of 26 September 2026
 
-Two re-runs on the same machine and JDK: Counting Sort and Insertion Sort.
+Three re-runs on the same machine and JDK: Counting Sort, Insertion Sort and
+Selection Sort.
 
 ## Counting Sort
 
@@ -57,3 +58,31 @@ descending input (2^22 for ascending input).
 | `insertion-sort-ladder.tsv` | one line per measurement: algorithm, input order, size, nanoseconds |
 | `insertion-sort-ladder.log` | the same run as printed while it ran (per size, in milliseconds) |
 | `insertion-sort-run-metadata.txt` | date, machine, JDK, commit of this repository, iteration counts |
+
+## Selection Sort
+
+The re-run behind the numbers in the Selection Sort article
+(https://www.happycoders.eu/algorithms/selection-sort/). It replaces the
+Selection Sort part of the 2020 series in `../2020-05-30/`; the article keeps
+the 2020 machine in its info box. The Selection-vs-Insertion comparison in that
+article uses the Insertion Sort run above, same day, same machine, same JDK.
+
+| | 2020-05-30 | 2026-09-26 |
+| --- | --- | --- |
+| Machine | Dell XPS 15 9570, Intel Core i7-8750H, 6 cores, x86 | Apple M5 Pro, 18 cores, arm64, macOS |
+| JDK | 14 | 27 (GA build of 2026-09-15) |
+| Program | `UltimateTest`, `SelectionSort` block of the run | size ladder for `SelectionSort` only |
+| Runs | 2 warmups + 50 iterations | 2 warmups + 10 iterations |
+
+Same ladder program as for Insertion Sort. All three input orders stop at
+2^19, the largest size the article prints: for Selection Sort the ascending
+order is quadratic too, and the 20-second rule would have let it climb one more
+doubling. Iterations 8 to 10 ran while other processes were busy (two more JVMs
+and `mediaanalysisd`, see the load samples in the website repository); the
+article prints medians, which those iterations do not move.
+
+| File | Content |
+| --- | --- |
+| `selection-sort-ladder.tsv` | one line per measurement: algorithm, input order, size, nanoseconds |
+| `selection-sort-ladder.log` | the same run as printed while it ran (per size, in milliseconds) |
+| `selection-sort-run-metadata.txt` | date, machine, JDK, commit of this repository, iteration counts |
