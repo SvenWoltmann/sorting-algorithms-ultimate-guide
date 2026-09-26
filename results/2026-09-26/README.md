@@ -9,7 +9,7 @@ property of the machine.
 | | 2020-08-30 | 2026-09-26 |
 | --- | --- | --- |
 | Machine | Dell XPS 15 9570, Intel Core i7-8750H, 6 cores, x86, Windows | Apple M5 Pro, 18 cores, arm64, macOS |
-| JDK | (of its time) | 26.0.1 |
+| JDK | (of its time) | 27 (GA build of 2026-09-15) |
 | Program | `UltimateTest`, `CountingSort` block of the run | size ladder for `CountingSort` only |
 | Runs | 2 warmups + 50 iterations | 2 warmups + 50 iterations, up to 2^29 elements |
 
