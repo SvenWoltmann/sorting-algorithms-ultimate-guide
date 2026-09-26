@@ -18,18 +18,18 @@ public class CountingSort implements SortAlgorithm {
   @Override
   public void sort(int[] elements) {
     Boundaries boundaries = findBoundaries(elements);
-    int[] counts = new int[boundaries.max - boundaries.min + 1];
+    int[] counts = new int[boundaries.max() - boundaries.min() + 1];
 
     // Phase 1: Count
     for (int element : elements) {
-      counts[element - boundaries.min]++;
+      counts[element - boundaries.min()]++;
     }
 
     // Phase 2: Write results back
     int targetPos = 0;
     for (int i = 0; i < counts.length; i++) {
       for (int j = 0; j < counts[i]; j++) {
-        elements[targetPos++] = i + boundaries.min;
+        elements[targetPos++] = i + boundaries.min();
       }
     }
   }
@@ -56,15 +56,7 @@ public class CountingSort implements SortAlgorithm {
     return new Boundaries(min, max);
   }
 
-  private static class Boundaries {
-    private final int min;
-    private final int max;
-
-    public Boundaries(int min, int max) {
-      this.min = min;
-      this.max = max;
-    }
-  }
+  private record Boundaries(int min, int max) {}
 
   @Override
   public void sortWithCounters(int[] elements, Counters counters) {
@@ -75,14 +67,14 @@ public class CountingSort implements SortAlgorithm {
     counters.addIterations(length);
     counters.addComparisons(length);
 
-    int[] counts = new int[boundaries.max - boundaries.min + 1];
+    int[] counts = new int[boundaries.max() - boundaries.min() + 1];
 
     // Phase 1: Count
     counters.addIterations(length);
     counters.addReads(length); // read elements[i]
     counters.addReadsAndWrites(length); // inc counts[...]
     for (int i = 0; i < length; i++) {
-      counts[elements[i] - boundaries.min]++;
+      counts[elements[i] - boundaries.min()]++;
     }
 
     // Phase 2: Write results back
@@ -93,7 +85,7 @@ public class CountingSort implements SortAlgorithm {
     counters.addWrites(length); // write elements[targetPos++]
     for (int i = 0; i < counts.length; i++) {
       for (int j = 0; j < counts[i]; j++) {
-        elements[targetPos++] = i + boundaries.min;
+        elements[targetPos++] = i + boundaries.min();
       }
     }
   }
