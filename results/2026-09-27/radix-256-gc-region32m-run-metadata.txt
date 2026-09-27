@@ -1,0 +1,11 @@
+# radix-256-gc-region32m
+# date:    2026-09-27T11:25:43Z
+# machine: apple-m5-pro-arm64
+# java:    openjdk version "27" 2026-09-15
+# sorting-repo commit: 838f3a1
+# program: SortLadder.java radix-256-gc 10
+# runs:    10 iterations, 2 warm-up passes up to 2^22
+# jvm:     -XX:G1HeapRegionSize=32m
+# gc log:  radix-256-gc-region32m-gc.log
+# power:   Now drawing from 'Battery Power'
+# finished: 2026-09-27T11:28:04Z

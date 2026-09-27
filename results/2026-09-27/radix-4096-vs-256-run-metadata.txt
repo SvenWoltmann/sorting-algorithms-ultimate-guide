@@ -1,0 +1,9 @@
+# radix-4096-vs-256
+# date:    2026-09-27T17:26:26Z
+# machine: apple-m5-pro-arm64
+# java:    openjdk version "27" 2026-09-15
+# sorting-repo commit: b7d6346
+# program: SortLadder.java radix-4096-vs-256 10
+# runs:    10 iterations, 2 warm-up passes up to 2^22
+# power:   Now drawing from 'AC Power'
+# finished: 2026-09-27T17:31:01Z

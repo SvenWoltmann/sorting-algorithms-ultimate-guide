@@ -140,3 +140,27 @@ evaluation scripts.
 | `heapsort*.tsv`, `mergesort-vs-quicksort-quiet.tsv` | one line per measurement: algorithm, input order, size, nanoseconds |
 | `heapsort*.log`, `mergesort-vs-quicksort-quiet.log` | the same run as printed while it ran (per sort, in milliseconds) |
 | `*-run-metadata.txt` | date, machine, JDK, commit of this repository, program, iteration counts, JVM options where set |
+
+### Evening runs: base 4096 and two control runs
+
+The article compares Quicksort with Radix Sort in base 4096, the sweet spot of
+`radix-bases-quiet`, and names two causes the morning runs alone do not show.
+These runs are the evidence: `radix-4096-vs-256` and `radix-dynamic-lists-gc`
+ran on AC power between 19:26 and 19:36, `radix-256-gc-region32m` at 13:25 on
+battery.
+
+| Run | Content |
+| --- | --- |
+| `radix-4096-vs-256` | Radix Sort with arrays, base 4096 and base 256, random input up to 2^29. Base 256 is the anchor to `radix-vs-quicksort-quiet`: it matches the morning within 0.0 to 3.9 % from 2^15 to 2^28, so the Quicksort and `Arrays.sort()` numbers of the morning stand beside base 4096 in one chart. |
+| `radix-256-gc-region32m` | Radix Sort with base 256 alone, run with `-XX:G1HeapRegionSize=32m` and a GC log. With the default 8 MiB regions, about half the buckets are G1 humongous objects from 2^28 on, and the sort takes 2.9 times as long as at 2^27; with 32 MiB regions, 2.2 times. |
+| `radix-dynamic-lists-gc` | Radix Sort with dynamic lists (base 10) alone, three input orders up to 2^26, with a GC log. GC pauses take 1.9 of the 4.4 seconds at 2^26 with random input; without them the runtime grows linearly. |
+
+XProtect remediation (macOS) used most of a core from 19:30:46 to 19:32:24,
+during iteration 10 of `radix-4096-vs-256` and iterations 1 to 3 of
+`radix-dynamic-lists-gc`; the medians are over all ten iterations. The GC log
+of the dynamic-lists run is compressed (`.log.gz`, 10.8 MB unpacked).
+
+Further diagnostics of the base-256 jump at 2^28 - phase timing, CPU counters,
+staggered bucket starts - stay in the website repository; they narrow the
+cause down to L1D load misses while writing into humongous buckets, but not
+further.
