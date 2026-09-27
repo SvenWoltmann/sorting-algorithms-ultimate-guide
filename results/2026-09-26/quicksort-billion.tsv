@@ -1,0 +1,6 @@
+# algorithm	order	size	timeNs
+QuicksortVariant1(pivot: RIGHT)	random	1000000000	70542639792
+QuicksortVariant1(pivot: RIGHT)	random	1000000000	70799136583
+QuicksortVariant1(pivot: RIGHT)	random	1000000000	72079256292
+QuicksortVariant1(pivot: RIGHT)	random	1000000000	71504362083
+QuicksortVariant1(pivot: RIGHT)	random	1000000000	72138275292

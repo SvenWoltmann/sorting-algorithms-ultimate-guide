@@ -1,7 +1,7 @@
 # Measurements of 26 September 2026
 
-Three re-runs on the same machine and JDK: Counting Sort, Insertion Sort and
-Selection Sort.
+Four runs on the same machine and JDK: Counting Sort, Insertion Sort,
+Selection Sort and one billion elements with Quicksort.
 
 ## Counting Sort
 
@@ -86,3 +86,29 @@ article prints medians, which those iterations do not move.
 | `selection-sort-ladder.tsv` | one line per measurement: algorithm, input order, size, nanoseconds |
 | `selection-sort-ladder.log` | the same run as printed while it ran (per size, in milliseconds) |
 | `selection-sort-run-metadata.txt` | date, machine, JDK, commit of this repository, iteration counts |
+
+## Quicksort with one billion elements
+
+The one Quicksort number of the sorting-algorithms overview
+(https://www.happycoders.eu/algorithms/sorting-algorithms/): how long
+`QuicksortVariant1` with the pivot element on the right takes for 10^9 random
+elements. The article compares it with the Insertion Sort run above,
+extrapolated from 2^19 to 10^9 elements. The 90 seconds that the 2020 version
+of the article gave for Quicksort appear in no surviving log.
+
+| | 2026-09-26 |
+| --- | --- |
+| Machine | Apple M5 Pro, 18 cores, arm64, macOS |
+| JDK | 27 (GA build of 2026-09-15) |
+| Program | `QuicksortBillion` with `-Xmx16g` |
+| Runs | 2 warmups of 2^22 elements + 5 sorts of 10^9 elements |
+
+`QuicksortBillion` measures like `UltimateTest` - a fresh random array for
+every sort, `System.gc()` before each sort - for this one algorithm and size.
+It lives in the website repository next to the ladder programs.
+
+| File | Content |
+| --- | --- |
+| `quicksort-billion.tsv` | one line per measurement: algorithm, input order, size, nanoseconds |
+| `quicksort-billion.log` | the same run as printed while it ran (per sort, in milliseconds) |
+| `quicksort-billion-run-metadata.txt` | date, machine, JDK, commit of this repository, iteration counts |

@@ -1,0 +1,8 @@
+algorithm=QuicksortVariant1(pivot: RIGHT) iterations=5 size=1.000.000.000
+--- warm up 1 of 2: size=4,194,304 -> 227.434 ms
+--- warm up 2 of 2: size=4,194,304 -> 222.697 ms
+--- iteration 1 of 5: size=1,000,000,000 -> 70542.640 ms
+--- iteration 2 of 5: size=1,000,000,000 -> 70799.137 ms
+--- iteration 3 of 5: size=1,000,000,000 -> 72079.256 ms
+--- iteration 4 of 5: size=1,000,000,000 -> 71504.362 ms
+--- iteration 5 of 5: size=1,000,000,000 -> 72138.275 ms
