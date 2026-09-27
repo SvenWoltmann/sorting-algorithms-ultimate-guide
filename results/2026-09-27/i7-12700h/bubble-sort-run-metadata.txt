@@ -1,0 +1,9 @@
+# bubble-sort size ladder
+# date:    2026-09-27T16:02:11Z
+# machine: 12th-gen-intel-core-i7-12700h-x64
+# java:    openjdk version "27" 2026-09-15
+# sorting-repo commit: 0f3ce5e
+# iterations: 10 (ascending up to 2^29, random and descending up to 2^17)
+# warm-up: 2 passes, ascending up to 2^22, random and descending up to 2^16
+# finished: 2026-09-27T16:08:59Z
+# compare-bubble-sorts.log finished: 2026-09-27T16:21:47Z

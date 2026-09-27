@@ -164,3 +164,40 @@ Further diagnostics of the base-256 jump at 2^28 - phase timing, CPU counters,
 staggered bucket starts - stay in the website repository; they narrow the
 cause down to L1D load misses while writing into humongous buckets, but not
 further.
+
+## Bubble Sort
+
+The i7-12700H half of the re-run behind the numbers in the Bubble Sort
+article (https://www.happycoders.eu/algorithms/bubble-sort/), and the probes
+on both machines that explain where it differs from the M5 Pro half in
+`../2026-09-26/`. All runs on JDK 27 (GA build of 2026-09-15); the
+i7-12700H is a Dell XPS 17 (6 performance and 8 efficiency cores, x86,
+WSL2).
+
+| Run | Content |
+| --- | --- |
+| `i7-12700h/bubble-sort-ladder` | the size ladder for `BubbleSortOpt1` as on the M5 Pro: 2 warmups + 10 iterations, random and descending input up to 2^17, ascending input up to 2^29; on a quiet machine at 18:02 local time |
+| `i7-12700h/compare-bubble-sorts.log` | `CompareBubbleSorts` as it is, right after the ladder |
+| `i7-12700h/bubble-sort-probes/compare-repeat-{1,2,3}` | three more runs of `CompareBubbleSorts` in the morning: odd-even 375 to 415 ms, divide-and-conquer 759 to 826 ms, Opt1 1,647 to 1,656 ms |
+| `bubble-sort-probes/bubble-sort-arithmetic`, `i7-12700h/bubble-sort-probes/bubble-sort-arithmetic` | Opt1 against the same loop with the swap done in arithmetic (sign mask, no data-dependent branch), random and descending input from 2^13 to 2^17, 2 warmups + 10 iterations |
+| `bubble-sort-probes/parallel-bubble-sort-cores`, `i7-12700h/bubble-sort-probes/parallel-bubble-sort-cores` | Opt1 and both parallel variants with 40,000 elements, one JVM per processor count set with `-XX:ActiveProcessorCount`, 5 warmups + 20 iterations each |
+
+The arithmetic loop settles why random input grows faster than n²: without
+the branch, each doubling costs 3.97 to 4.03 times the time on both
+machines, and random and descending input take the same time (2^17:
+9.03 s against 9.07 s on the i7-12700H, 10.60 s against 10.59 s on the
+M5 Pro). The processor sweep shows why the parallel variants lose on the
+M5 Pro: they get slower with every thread there (odd-even 398 ms with 2
+processors, 2,279 ms with 18), while on the i7-12700H odd-even is fastest
+with 6 processors, 6.7 times as fast as Opt1 - the 2020 laptop with 6 cores
+gave 6.6.
+
+The probe programs (`BubbleSortBranchless.java`, `ParallelBubbleSortCores.java`)
+live in the website repository next to the ladder program, as do the JIT
+logs of every run.
+
+| File | Content |
+| --- | --- |
+| `*.tsv` | one line per measurement: algorithm, input order or processor count, size or iteration, nanoseconds |
+| `*.log` | the same run as printed while it ran (per sort, in milliseconds) |
+| `*-run-metadata.txt` | date, machine, JDK, commit of this repository, iteration counts |

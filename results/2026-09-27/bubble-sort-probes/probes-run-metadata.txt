@@ -1,0 +1,17 @@
+# bubble-sort probes: branchless
+# date:    2026-09-27T02:48:50Z
+# machine: apple-m5-pro-arm64
+# java:    openjdk version "27" 2026-09-15
+# sorting-repo commit: 0f3ce5e
+# cores: 20 iterations after 5 warm-ups per processor count (2 4 6 8 12 16 18)
+# branchless: 10 iterations after 2 warm-ups; compare: CompareBubbleSorts as it is
+# branchless finished: 2026-09-27T02:57:36Z
+# bubble-sort probes: arithmetic cores
+# date:    2026-09-27T03:48:55Z
+# machine: apple-m5-pro-arm64
+# java:    openjdk version "27" 2026-09-15
+# sorting-repo commit: 0f3ce5e
+# cores: 20 iterations after 5 warm-ups per processor count (2 4 6 8 12 16 18)
+# branchless: 10 iterations after 2 warm-ups; compare: CompareBubbleSorts as it is
+# arithmetic finished: 2026-09-27T03:58:50Z
+# cores finished: 2026-09-27T04:10:52Z

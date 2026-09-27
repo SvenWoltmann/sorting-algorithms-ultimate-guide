@@ -1,7 +1,7 @@
 # Measurements of 26 September 2026
 
-Four runs on the same machine and JDK: Counting Sort, Insertion Sort,
-Selection Sort and one billion elements with Quicksort.
+Five runs on the same machine and JDK: Counting Sort, Insertion Sort,
+Selection Sort, Bubble Sort and one billion elements with Quicksort.
 
 ## Counting Sort
 
@@ -86,6 +86,34 @@ article prints medians, which those iterations do not move.
 | `selection-sort-ladder.tsv` | one line per measurement: algorithm, input order, size, nanoseconds |
 | `selection-sort-ladder.log` | the same run as printed while it ran (per size, in milliseconds) |
 | `selection-sort-run-metadata.txt` | date, machine, JDK, commit of this repository, iteration counts |
+
+## Bubble Sort
+
+The M5 Pro half of the re-run behind the numbers in the Bubble Sort article
+(https://www.happycoders.eu/algorithms/bubble-sort/). The article prints it
+beside a run on an Intel Core i7-12700H in `../2026-09-27/i7-12700h/`,
+because the two machines disagree where the 2020 text made claims: on the
+M5 Pro, descending input is slower than random input up to 2^16, and the
+parallel variants are slower than the sequential one. The probes that
+explain both are in `../2026-09-27/bubble-sort-probes/`. It replaces the
+Bubble Sort part of `../2020-05-30/` and `../2020-07-02/`.
+
+| | 2020-05-30 and 2020-07-02 | 2026-09-26 |
+| --- | --- | --- |
+| Machine | Dell XPS 15 9570, Intel Core i7-8750H, 6 cores, x86 | Apple M5 Pro, 18 cores, arm64, macOS |
+| JDK | 14 | 27 (GA build of 2026-09-15) |
+| Program | `UltimateTest`, `BubbleSort` block of the run; `CompareBubbleSorts` | size ladder for `BubbleSortOpt1` only; `CompareBubbleSorts` as it is |
+| Runs | ladder: 2 warmups + 50 iterations; compare: 50 iterations | ladder: 2 warmups + 10 iterations; compare: 15 warmups + 100 iterations |
+
+Same ladder program as for Insertion Sort; random and descending input stop
+at 2^17, the largest size the article prints, ascending input at 2^29.
+
+| File | Content |
+| --- | --- |
+| `bubble-sort-ladder.tsv` | one line per measurement: algorithm, input order, size, nanoseconds |
+| `bubble-sort-ladder.log` | the same run as printed while it ran (per size, in milliseconds) |
+| `bubble-sort-run-metadata.txt` | date, machine, JDK, commit of this repository, iteration counts |
+| `compare-bubble-sorts.log` | output of `CompareBubbleSorts`, run right after the ladder |
 
 ## Quicksort with one billion elements
 

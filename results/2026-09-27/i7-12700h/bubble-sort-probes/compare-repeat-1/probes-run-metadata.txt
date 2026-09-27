@@ -1,0 +1,8 @@
+# bubble-sort probes: compare
+# date:    2026-09-27T08:29:48Z
+# machine: 12th-gen-intel-core-i7-12700h-x64
+# java:    openjdk version "27" 2026-09-15
+# sorting-repo commit: 0f3ce5e
+# cores: 20 iterations after 5 warm-ups per processor count (2 4 6 8 12 16 20)
+# branchless: 10 iterations after 2 warm-ups; compare: CompareBubbleSorts as it is
+# compare finished: 2026-09-27T08:42:30Z

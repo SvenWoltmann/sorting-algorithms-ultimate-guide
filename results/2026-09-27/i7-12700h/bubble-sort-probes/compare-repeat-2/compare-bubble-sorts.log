@@ -1,0 +1,773 @@
+[0.020s] ----- Warming up -----
+[0.042s] Iteration 1
+[1.726s]   BubbleSortOpt2                     -> time =  1,671.838 ms
+[3.902s]   BubbleSort                         -> time =  2,171.178 ms
+[5.006s]   BubbleSortParallelDivideAndConquer -> time =  1,097.550 ms
+[5.484s]   BubbleSortParallelOddEven          -> time =    473.038 ms
+[7.125s]   BubbleSortOpt1                     -> time =  1,636.901 ms
+[7.125s] Iteration 2
+[8.755s]   BubbleSortOpt1                     -> time =  1,624.594 ms
+[9.593s]   BubbleSortParallelDivideAndConquer -> time =    834.079 ms
+[9.978s]   BubbleSortParallelOddEven          -> time =    379.565 ms
+[12.102s]   BubbleSort                         -> time =  2,120.108 ms
+[13.780s]   BubbleSortOpt2                     -> time =  1,674.025 ms
+[13.780s] Iteration 3
+[15.839s]   BubbleSort                         -> time =  2,054.656 ms
+[17.477s]   BubbleSortOpt2                     -> time =  1,632.392 ms
+[18.352s]   BubbleSortParallelDivideAndConquer -> time =    871.734 ms
+[20.028s]   BubbleSortOpt1                     -> time =  1,671.957 ms
+[20.582s]   BubbleSortParallelOddEven          -> time =    549.192 ms
+[20.582s] Iteration 4
+[22.275s]   BubbleSortOpt1                     -> time =  1,688.209 ms
+[23.885s]   BubbleSortOpt2                     -> time =  1,605.539 ms
+[24.319s]   BubbleSortParallelOddEven          -> time =    429.669 ms
+[25.159s]   BubbleSortParallelDivideAndConquer -> time =    836.081 ms
+[27.189s]   BubbleSort                         -> time =  2,025.700 ms
+[27.189s] Iteration 5
+[27.617s]   BubbleSortParallelOddEven          -> time =    423.150 ms
+[29.636s]   BubbleSort                         -> time =  2,014.898 ms
+[31.241s]   BubbleSortOpt2                     -> time =  1,599.673 ms
+[32.058s]   BubbleSortParallelDivideAndConquer -> time =    812.874 ms
+[33.777s]   BubbleSortOpt1                     -> time =  1,715.064 ms
+[33.777s] Iteration 6
+[34.707s]   BubbleSortParallelOddEven          -> time =    927.109 ms
+[36.308s]   BubbleSortOpt2                     -> time =  1,596.227 ms
+[37.976s]   BubbleSortOpt1                     -> time =  1,664.949 ms
+[38.763s]   BubbleSortParallelDivideAndConquer -> time =    782.871 ms
+[40.781s]   BubbleSort                         -> time =  2,014.043 ms
+[40.781s] Iteration 7
+[42.790s]   BubbleSort                         -> time =  2,004.900 ms
+[43.255s]   BubbleSortParallelOddEven          -> time =    461.306 ms
+[44.905s]   BubbleSortOpt1                     -> time =  1,644.847 ms
+[45.708s]   BubbleSortParallelDivideAndConquer -> time =    798.460 ms
+[47.305s]   BubbleSortOpt2                     -> time =  1,592.564 ms
+[47.305s] Iteration 8
+[48.908s]   BubbleSortOpt2                     -> time =  1,598.335 ms
+[50.907s]   BubbleSort                         -> time =  1,995.540 ms
+[51.672s]   BubbleSortParallelDivideAndConquer -> time =    760.595 ms
+[52.116s]   BubbleSortParallelOddEven          -> time =    440.146 ms
+[53.782s]   BubbleSortOpt1                     -> time =  1,662.128 ms
+[53.782s] Iteration 9
+[55.443s]   BubbleSortOpt1                     -> time =  1,656.799 ms
+[55.822s]   BubbleSortParallelOddEven          -> time =    375.574 ms
+[56.601s]   BubbleSortParallelDivideAndConquer -> time =    774.066 ms
+[58.195s]   BubbleSortOpt2                     -> time =  1,588.673 ms
+[60.206s]   BubbleSort                         -> time =  2,004.548 ms
+[60.206s] Iteration 10
+[62.222s]   BubbleSort                         -> time =  2,011.679 ms
+[63.825s]   BubbleSortOpt2                     -> time =  1,599.059 ms
+[65.587s]   BubbleSortOpt1                     -> time =  1,758.527 ms
+[66.243s]   BubbleSortParallelOddEven          -> time =    651.429 ms
+[67.143s]   BubbleSortParallelDivideAndConquer -> time =    895.954 ms
+[67.143s] Iteration 11
+[68.742s]   BubbleSortOpt2                     -> time =  1,594.987 ms
+[69.611s]   BubbleSortParallelDivideAndConquer -> time =    864.490 ms
+[70.052s]   BubbleSortParallelOddEven          -> time =    437.205 ms
+[71.714s]   BubbleSortOpt1                     -> time =  1,657.290 ms
+[73.728s]   BubbleSort                         -> time =  2,009.779 ms
+[73.728s] Iteration 12
+[75.324s]   BubbleSortOpt2                     -> time =  1,591.714 ms
+[77.004s]   BubbleSortOpt1                     -> time =  1,675.998 ms
+[79.010s]   BubbleSort                         -> time =  2,001.397 ms
+[79.819s]   BubbleSortParallelDivideAndConquer -> time =    804.911 ms
+[80.284s]   BubbleSortParallelOddEven          -> time =    461.405 ms
+[80.284s] Iteration 13
+[81.151s]   BubbleSortParallelDivideAndConquer -> time =    862.035 ms
+[83.147s]   BubbleSort                         -> time =  1,991.445 ms
+[84.724s]   BubbleSortOpt2                     -> time =  1,573.951 ms
+[85.156s]   BubbleSortParallelOddEven          -> time =    427.360 ms
+[86.852s]   BubbleSortOpt1                     -> time =  1,690.905 ms
+[86.852s] Iteration 14
+[87.314s]   BubbleSortParallelOddEven          -> time =    458.040 ms
+[89.316s]   BubbleSort                         -> time =  1,997.567 ms
+[90.408s]   BubbleSortParallelDivideAndConquer -> time =  1,088.694 ms
+[92.076s]   BubbleSortOpt1                     -> time =  1,663.629 ms
+[93.668s]   BubbleSortOpt2                     -> time =  1,586.681 ms
+[93.668s] Iteration 15
+[95.260s]   BubbleSortOpt2                     -> time =  1,588.070 ms
+[97.300s]   BubbleSort                         -> time =  2,036.236 ms
+[100.203s]   BubbleSortParallelDivideAndConquer -> time =  2,899.640 ms
+[100.593s]   BubbleSortParallelOddEven          -> time =    385.198 ms
+[102.249s]   BubbleSortOpt1                     -> time =  1,650.969 ms
+[102.249s] 
+[102.249s] ----- Measuring -----
+[102.249s] Iteration 1
+[103.900s]   BubbleSortOpt1                     -> time =  1,646.145 ms <<< NEW RECORD :-)
+[105.484s]   BubbleSortOpt2                     -> time =  1,579.751 ms <<< NEW RECORD :-)
+[106.588s]   BubbleSortParallelDivideAndConquer -> time =  1,100.000 ms <<< NEW RECORD :-)
+[108.592s]   BubbleSort                         -> time =  1,999.087 ms <<< NEW RECORD :-)
+[109.026s]   BubbleSortParallelOddEven          -> time =    430.257 ms <<< NEW RECORD :-)
+[109.026s] Iteration 2
+[109.408s]   BubbleSortParallelOddEven          -> time =    376.585 ms <<< NEW RECORD :-)
+[110.997s]   BubbleSortOpt2                     -> time =  1,585.086 ms
+[113.006s]   BubbleSort                         -> time =  2,002.614 ms
+[113.776s]   BubbleSortParallelDivideAndConquer -> time =    764.548 ms <<< NEW RECORD :-)
+[115.446s]   BubbleSortOpt1                     -> time =  1,665.582 ms
+[115.446s] Iteration 3
+[117.474s]   BubbleSort                         -> time =  2,022.744 ms
+[118.301s]   BubbleSortParallelDivideAndConquer -> time =    823.512 ms
+[119.896s]   BubbleSortOpt2                     -> time =  1,590.112 ms
+[121.555s]   BubbleSortOpt1                     -> time =  1,654.787 ms
+[121.958s]   BubbleSortParallelOddEven          -> time =    399.654 ms
+[121.958s] Iteration 4
+[123.947s]   BubbleSort                         -> time =  1,984.682 ms <<< NEW RECORD :-)
+[124.369s]   BubbleSortParallelOddEven          -> time =    417.738 ms
+[125.984s]   BubbleSortOpt2                     -> time =  1,610.652 ms
+[126.831s]   BubbleSortParallelDivideAndConquer -> time =    842.637 ms
+[128.510s]   BubbleSortOpt1                     -> time =  1,674.256 ms
+[128.510s] Iteration 5
+[130.558s]   BubbleSort                         -> time =  2,043.999 ms
+[131.514s]   BubbleSortParallelOddEven          -> time =    951.207 ms
+[133.181s]   BubbleSortOpt1                     -> time =  1,662.769 ms
+[134.004s]   BubbleSortParallelDivideAndConquer -> time =    818.509 ms
+[135.614s]   BubbleSortOpt2                     -> time =  1,605.222 ms
+[135.614s] Iteration 6
+[137.205s]   BubbleSortOpt2                     -> time =  1,587.112 ms
+[139.213s]   BubbleSort                         -> time =  2,003.645 ms
+[139.614s]   BubbleSortParallelOddEven          -> time =    396.830 ms
+[140.379s]   BubbleSortParallelDivideAndConquer -> time =    760.219 ms <<< NEW RECORD :-)
+[142.061s]   BubbleSortOpt1                     -> time =  1,678.376 ms
+[142.061s] Iteration 7
+[144.071s]   BubbleSort                         -> time =  2,005.455 ms
+[145.740s]   BubbleSortOpt1                     -> time =  1,665.004 ms
+[146.576s]   BubbleSortParallelDivideAndConquer -> time =    831.581 ms
+[146.980s]   BubbleSortParallelOddEven          -> time =    398.904 ms
+[148.577s]   BubbleSortOpt2                     -> time =  1,592.559 ms
+[148.577s] Iteration 8
+[150.229s]   BubbleSortOpt1                     -> time =  1,648.248 ms
+[152.226s]   BubbleSort                         -> time =  1,992.830 ms
+[153.052s]   BubbleSortParallelDivideAndConquer -> time =    821.997 ms
+[154.645s]   BubbleSortOpt2                     -> time =  1,587.985 ms
+[155.082s]   BubbleSortParallelOddEven          -> time =    433.123 ms
+[155.082s] Iteration 9
+[157.119s]   BubbleSort                         -> time =  2,032.130 ms
+[158.787s]   BubbleSortOpt1                     -> time =  1,664.567 ms
+[159.683s]   BubbleSortParallelDivideAndConquer -> time =    891.212 ms
+[160.090s]   BubbleSortParallelOddEven          -> time =    402.935 ms
+[161.687s]   BubbleSortOpt2                     -> time =  1,592.434 ms
+[161.687s] Iteration 10
+[163.182s]   BubbleSortParallelDivideAndConquer -> time =  1,490.234 ms
+[164.818s]   BubbleSortOpt2                     -> time =  1,631.283 ms
+[166.841s]   BubbleSort                         -> time =  2,018.827 ms
+[168.504s]   BubbleSortOpt1                     -> time =  1,658.021 ms
+[168.886s]   BubbleSortParallelOddEven          -> time =    378.081 ms
+[168.886s] 
+[168.886s] ----- Results after 10 iterations-----
+[168.889s] BubbleSort                         -> fastest:  1,984.682 ms, median:  2,004.550 ms 
+[168.889s] BubbleSortOpt1                     -> fastest:  1,646.145 ms, median:  1,663.668 ms 
+[168.889s] BubbleSortOpt2                     -> fastest:  1,579.751 ms, median:  1,591.273 ms 
+[168.889s] BubbleSortParallelOddEven          -> fastest:    376.585 ms, median:    401.294 ms <<< FASTEST MEDIAN :-)
+[168.889s] BubbleSortParallelDivideAndConquer -> fastest:    760.219 ms, median:    827.546 ms 
+[168.889s] 
+[168.889s] Iteration 11
+[170.888s]   BubbleSort                         -> time =  1,993.816 ms
+[172.463s]   BubbleSortOpt2                     -> time =  1,570.222 ms <<< NEW RECORD :-)
+[174.126s]   BubbleSortOpt1                     -> time =  1,657.696 ms
+[175.016s]   BubbleSortParallelDivideAndConquer -> time =    885.508 ms
+[175.356s]   BubbleSortParallelOddEven          -> time =    335.929 ms <<< NEW RECORD :-)
+[175.356s] Iteration 12
+[177.349s]   BubbleSort                         -> time =  1,988.408 ms
+[179.009s]   BubbleSortOpt1                     -> time =  1,655.926 ms
+[180.595s]   BubbleSortOpt2                     -> time =  1,581.850 ms
+[181.042s]   BubbleSortParallelOddEven          -> time =    442.951 ms
+[181.771s]   BubbleSortParallelDivideAndConquer -> time =    723.578 ms <<< NEW RECORD :-)
+[181.771s] Iteration 13
+[183.425s]   BubbleSortOpt1                     -> time =  1,649.830 ms
+[183.837s]   BubbleSortParallelOddEven          -> time =    406.759 ms
+[185.822s]   BubbleSort                         -> time =  1,979.353 ms <<< NEW RECORD :-)
+[187.112s]   BubbleSortParallelDivideAndConquer -> time =  1,285.039 ms
+[188.697s]   BubbleSortOpt2                     -> time =  1,580.646 ms
+[188.697s] Iteration 14
+[189.547s]   BubbleSortParallelDivideAndConquer -> time =    845.406 ms
+[191.219s]   BubbleSortOpt1                     -> time =  1,667.520 ms
+[192.813s]   BubbleSortOpt2                     -> time =  1,589.808 ms
+[194.845s]   BubbleSort                         -> time =  2,027.948 ms
+[195.675s]   BubbleSortParallelOddEven          -> time =    825.205 ms
+[195.675s] Iteration 15
+[197.688s]   BubbleSort                         -> time =  2,008.131 ms
+[199.275s]   BubbleSortOpt2                     -> time =  1,583.496 ms
+[200.078s]   BubbleSortParallelDivideAndConquer -> time =    798.877 ms
+[200.440s]   BubbleSortParallelOddEven          -> time =    357.423 ms
+[202.097s]   BubbleSortOpt1                     -> time =  1,651.794 ms
+[202.097s] Iteration 16
+[202.509s]   BubbleSortParallelOddEven          -> time =    406.647 ms
+[204.159s]   BubbleSortOpt1                     -> time =  1,645.813 ms <<< NEW RECORD :-)
+[206.156s]   BubbleSort                         -> time =  1,992.138 ms
+[207.739s]   BubbleSortOpt2                     -> time =  1,579.240 ms
+[208.560s]   BubbleSortParallelDivideAndConquer -> time =    816.485 ms
+[208.560s] Iteration 17
+[210.215s]   BubbleSortOpt1                     -> time =  1,650.615 ms
+[212.216s]   BubbleSort                         -> time =  1,996.253 ms
+[213.038s]   BubbleSortParallelDivideAndConquer -> time =    817.267 ms
+[214.619s]   BubbleSortOpt2                     -> time =  1,575.797 ms
+[215.052s]   BubbleSortParallelOddEven          -> time =    428.436 ms
+[215.052s] Iteration 18
+[216.700s]   BubbleSortOpt1                     -> time =  1,643.626 ms <<< NEW RECORD :-)
+[217.314s]   BubbleSortParallelOddEven          -> time =    609.608 ms
+[218.910s]   BubbleSortOpt2                     -> time =  1,591.092 ms
+[219.751s]   BubbleSortParallelDivideAndConquer -> time =    836.719 ms
+[221.735s]   BubbleSort                         -> time =  1,979.681 ms
+[221.737s] Iteration 19
+[223.725s]   BubbleSort                         -> time =  1,985.526 ms
+[225.308s]   BubbleSortOpt2                     -> time =  1,578.074 ms
+[226.322s]   BubbleSortParallelDivideAndConquer -> time =  1,009.171 ms
+[226.842s]   BubbleSortParallelOddEven          -> time =    515.445 ms
+[228.524s]   BubbleSortOpt1                     -> time =  1,677.429 ms
+[228.524s] Iteration 20
+[230.117s]   BubbleSortOpt2                     -> time =  1,589.287 ms
+[230.879s]   BubbleSortParallelDivideAndConquer -> time =    757.094 ms
+[232.860s]   BubbleSort                         -> time =  1,976.602 ms <<< NEW RECORD :-)
+[234.506s]   BubbleSortOpt1                     -> time =  1,642.380 ms <<< NEW RECORD :-)
+[234.930s]   BubbleSortParallelOddEven          -> time =    419.853 ms
+[234.930s] 
+[234.930s] ----- Results after 20 iterations-----
+[234.931s] BubbleSort                         -> fastest:  1,976.602 ms, median:  1,997.670 ms 
+[234.931s] BubbleSortOpt1                     -> fastest:  1,642.380 ms, median:  1,656.811 ms 
+[234.931s] BubbleSortOpt2                     -> fastest:  1,570.222 ms, median:  1,587.548 ms 
+[234.931s] BubbleSortParallelOddEven          -> fastest:    335.929 ms, median:    412.248 ms <<< FASTEST MEDIAN :-)
+[234.931s] BubbleSortParallelDivideAndConquer -> fastest:    723.578 ms, median:    827.546 ms 
+[234.931s] 
+[234.931s] Iteration 21
+[236.940s]   BubbleSort                         -> time =  2,004.656 ms
+[238.532s]   BubbleSortOpt2                     -> time =  1,586.896 ms
+[238.921s]   BubbleSortParallelOddEven          -> time =    384.625 ms
+[240.587s]   BubbleSortOpt1                     -> time =  1,662.350 ms
+[241.496s]   BubbleSortParallelDivideAndConquer -> time =    903.936 ms
+[241.496s] Iteration 22
+[243.107s]   BubbleSortOpt2                     -> time =  1,606.963 ms
+[244.771s]   BubbleSortOpt1                     -> time =  1,660.099 ms
+[245.194s]   BubbleSortParallelOddEven          -> time =    417.904 ms
+[245.920s]   BubbleSortParallelDivideAndConquer -> time =    721.410 ms <<< NEW RECORD :-)
+[247.948s]   BubbleSort                         -> time =  2,022.861 ms
+[247.948s] Iteration 23
+[249.561s]   BubbleSortOpt2                     -> time =  1,607.408 ms
+[251.211s]   BubbleSortOpt1                     -> time =  1,646.148 ms
+[251.603s]   BubbleSortParallelOddEven          -> time =    387.747 ms
+[252.399s]   BubbleSortParallelDivideAndConquer -> time =    790.764 ms
+[254.432s]   BubbleSort                         -> time =  2,028.145 ms
+[254.432s] Iteration 24
+[256.222s]   BubbleSortOpt1                     -> time =  1,786.450 ms
+[257.887s]   BubbleSortOpt2                     -> time =  1,660.649 ms
+[261.294s]   BubbleSortParallelDivideAndConquer -> time =  3,401.591 ms
+[261.775s]   BubbleSortParallelOddEven          -> time =    476.998 ms
+[263.777s]   BubbleSort                         -> time =  1,996.293 ms
+[263.777s] Iteration 25
+[265.362s]   BubbleSortOpt2                     -> time =  1,581.560 ms
+[266.224s]   BubbleSortParallelDivideAndConquer -> time =    857.150 ms
+[267.868s]   BubbleSortOpt1                     -> time =  1,639.166 ms <<< NEW RECORD :-)
+[268.291s]   BubbleSortParallelOddEven          -> time =    418.849 ms
+[270.278s]   BubbleSort                         -> time =  1,982.406 ms
+[270.278s] Iteration 26
+[271.924s]   BubbleSortOpt1                     -> time =  1,641.443 ms
+[273.935s]   BubbleSort                         -> time =  2,006.986 ms
+[274.397s]   BubbleSortParallelOddEven          -> time =    457.327 ms
+[275.231s]   BubbleSortParallelDivideAndConquer -> time =    829.593 ms
+[276.821s]   BubbleSortOpt2                     -> time =  1,584.906 ms
+[276.821s] Iteration 27
+[277.271s]   BubbleSortParallelOddEven          -> time =    445.544 ms
+[278.970s]   BubbleSortOpt1                     -> time =  1,694.846 ms
+[279.779s]   BubbleSortParallelDivideAndConquer -> time =    803.049 ms
+[281.367s]   BubbleSortOpt2                     -> time =  1,583.845 ms
+[283.365s]   BubbleSort                         -> time =  1,993.038 ms
+[283.365s] Iteration 28
+[283.739s]   BubbleSortParallelOddEven          -> time =    369.585 ms
+[285.340s]   BubbleSortOpt2                     -> time =  1,596.278 ms
+[287.350s]   BubbleSort                         -> time =  2,005.905 ms
+[289.015s]   BubbleSortOpt1                     -> time =  1,660.506 ms
+[289.817s]   BubbleSortParallelDivideAndConquer -> time =    797.440 ms
+[289.817s] Iteration 29
+[291.479s]   BubbleSortOpt1                     -> time =  1,657.862 ms
+[293.146s]   BubbleSortOpt2                     -> time =  1,662.546 ms
+[293.700s]   BubbleSortParallelOddEven          -> time =    549.425 ms
+[294.535s]   BubbleSortParallelDivideAndConquer -> time =    830.206 ms
+[296.536s]   BubbleSort                         -> time =  1,995.942 ms
+[296.536s] Iteration 30
+[298.192s]   BubbleSortOpt1                     -> time =  1,650.878 ms
+[299.788s]   BubbleSortOpt2                     -> time =  1,591.962 ms
+[301.782s]   BubbleSort                         -> time =  1,989.457 ms
+[302.590s]   BubbleSortParallelDivideAndConquer -> time =    804.104 ms
+[302.957s]   BubbleSortParallelOddEven          -> time =    361.933 ms
+[302.957s] 
+[302.957s] ----- Results after 30 iterations-----
+[302.957s] BubbleSort                         -> fastest:  1,976.602 ms, median:  1,997.690 ms 
+[302.957s] BubbleSortOpt1                     -> fastest:  1,639.166 ms, median:  1,657.779 ms 
+[302.958s] BubbleSortOpt2                     -> fastest:  1,570.222 ms, median:  1,588.636 ms 
+[302.958s] BubbleSortParallelOddEven          -> fastest:    335.929 ms, median:    417.821 ms <<< FASTEST MEDIAN :-)
+[302.958s] BubbleSortParallelDivideAndConquer -> fastest:    721.410 ms, median:    826.552 ms 
+[302.958s] 
+[302.958s] Iteration 31
+[304.632s]   BubbleSortOpt1                     -> time =  1,669.350 ms
+[305.092s]   BubbleSortParallelOddEven          -> time =    455.404 ms
+[307.085s]   BubbleSort                         -> time =  1,988.672 ms
+[308.665s]   BubbleSortOpt2                     -> time =  1,575.587 ms
+[309.885s]   BubbleSortParallelDivideAndConquer -> time =  1,215.443 ms
+[309.885s] Iteration 32
+[310.656s]   BubbleSortParallelDivideAndConquer -> time =    766.686 ms
+[312.254s]   BubbleSortOpt2                     -> time =  1,593.032 ms
+[313.915s]   BubbleSortOpt1                     -> time =  1,656.326 ms
+[314.345s]   BubbleSortParallelOddEven          -> time =    426.056 ms
+[316.351s]   BubbleSort                         -> time =  2,000.886 ms
+[316.351s] Iteration 33
+[317.949s]   BubbleSortOpt2                     -> time =  1,593.854 ms
+[318.370s]   BubbleSortParallelOddEven          -> time =    417.365 ms
+[320.362s]   BubbleSort                         -> time =  1,987.615 ms
+[321.189s]   BubbleSortParallelDivideAndConquer -> time =    822.544 ms
+[322.828s]   BubbleSortOpt1                     -> time =  1,634.254 ms <<< NEW RECORD :-)
+[322.828s] Iteration 34
+[324.888s]   BubbleSort                         -> time =  2,055.850 ms
+[326.477s]   BubbleSortOpt2                     -> time =  1,584.371 ms
+[327.333s]   BubbleSortParallelDivideAndConquer -> time =    851.640 ms
+[327.688s]   BubbleSortParallelOddEven          -> time =    350.050 ms
+[329.345s]   BubbleSortOpt1                     -> time =  1,652.434 ms
+[329.345s] Iteration 35
+[330.985s]   BubbleSortOpt1                     -> time =  1,635.999 ms
+[332.968s]   BubbleSort                         -> time =  1,978.189 ms
+[333.861s]   BubbleSortParallelDivideAndConquer -> time =    889.346 ms
+[334.274s]   BubbleSortParallelOddEven          -> time =    408.646 ms
+[335.855s]   BubbleSortOpt2                     -> time =  1,576.427 ms
+[335.855s] Iteration 36
+[337.501s]   BubbleSortOpt1                     -> time =  1,642.333 ms
+[338.318s]   BubbleSortParallelDivideAndConquer -> time =    812.817 ms
+[338.674s]   BubbleSortParallelOddEven          -> time =    351.390 ms
+[340.727s]   BubbleSort                         -> time =  2,047.698 ms
+[342.313s]   BubbleSortOpt2                     -> time =  1,582.501 ms
+[342.313s] Iteration 37
+[342.704s]   BubbleSortParallelOddEven          -> time =    386.278 ms
+[344.686s]   BubbleSort                         -> time =  1,977.240 ms
+[346.267s]   BubbleSortOpt2                     -> time =  1,576.557 ms
+[347.083s]   BubbleSortParallelDivideAndConquer -> time =    811.694 ms
+[348.722s]   BubbleSortOpt1                     -> time =  1,633.714 ms <<< NEW RECORD :-)
+[348.722s] Iteration 38
+[350.718s]   BubbleSort                         -> time =  1,992.040 ms
+[352.326s]   BubbleSortOpt2                     -> time =  1,603.432 ms
+[353.996s]   BubbleSortOpt1                     -> time =  1,665.246 ms
+[354.809s]   BubbleSortParallelDivideAndConquer -> time =    809.478 ms
+[355.224s]   BubbleSortParallelOddEven          -> time =    410.424 ms
+[355.224s] Iteration 39
+[356.920s]   BubbleSortOpt1                     -> time =  1,690.773 ms
+[358.568s]   BubbleSortOpt2                     -> time =  1,644.033 ms
+[360.582s]   BubbleSort                         -> time =  2,009.668 ms
+[361.475s]   BubbleSortParallelDivideAndConquer -> time =    888.828 ms
+[361.815s]   BubbleSortParallelOddEven          -> time =    334.928 ms <<< NEW RECORD :-)
+[361.815s] Iteration 40
+[363.476s]   BubbleSortOpt1                     -> time =  1,656.583 ms
+[363.917s]   BubbleSortParallelOddEven          -> time =    436.058 ms
+[365.915s]   BubbleSort                         -> time =  1,992.995 ms
+[367.503s]   BubbleSortOpt2                     -> time =  1,583.976 ms
+[368.395s]   BubbleSortParallelDivideAndConquer -> time =    887.041 ms
+[368.395s] 
+[368.395s] ----- Results after 40 iterations-----
+[368.395s] BubbleSort                         -> fastest:  1,976.602 ms, median:  1,996.273 ms 
+[368.395s] BubbleSortOpt1                     -> fastest:  1,633.714 ms, median:  1,656.455 ms 
+[368.395s] BubbleSortOpt2                     -> fastest:  1,570.222 ms, median:  1,587.548 ms 
+[368.395s] BubbleSortParallelOddEven          -> fastest:    334.928 ms, median:    413.894 ms <<< FASTEST MEDIAN :-)
+[368.395s] BubbleSortParallelDivideAndConquer -> fastest:    721.410 ms, median:    826.552 ms 
+[368.395s] 
+[368.395s] Iteration 41
+[370.445s]   BubbleSort                         -> time =  2,044.848 ms
+[371.298s]   BubbleSortParallelDivideAndConquer -> time =    849.022 ms
+[372.878s]   BubbleSortOpt2                     -> time =  1,575.724 ms
+[374.542s]   BubbleSortOpt1                     -> time =  1,658.988 ms
+[374.940s]   BubbleSortParallelOddEven          -> time =    393.117 ms
+[374.940s] Iteration 42
+[376.526s]   BubbleSortOpt2                     -> time =  1,581.018 ms
+[376.916s]   BubbleSortParallelOddEven          -> time =    382.405 ms
+[378.574s]   BubbleSortOpt1                     -> time =  1,653.728 ms
+[380.591s]   BubbleSort                         -> time =  2,008.587 ms
+[381.432s]   BubbleSortParallelDivideAndConquer -> time =    837.207 ms
+[381.432s] Iteration 43
+[383.015s]   BubbleSortOpt2                     -> time =  1,577.716 ms
+[385.027s]   BubbleSort                         -> time =  2,007.637 ms
+[385.437s]   BubbleSortParallelOddEven          -> time =    405.492 ms
+[387.105s]   BubbleSortOpt1                     -> time =  1,663.002 ms
+[387.873s]   BubbleSortParallelDivideAndConquer -> time =    764.143 ms
+[387.873s] Iteration 44
+[389.934s]   BubbleSort                         -> time =  2,055.852 ms
+[391.530s]   BubbleSortOpt2                     -> time =  1,591.154 ms
+[392.361s]   BubbleSortParallelDivideAndConquer -> time =    826.433 ms
+[394.021s]   BubbleSortOpt1                     -> time =  1,655.357 ms
+[394.444s]   BubbleSortParallelOddEven          -> time =    419.316 ms
+[394.445s] Iteration 45
+[394.813s]   BubbleSortParallelOddEven          -> time =    363.959 ms
+[396.401s]   BubbleSortOpt2                     -> time =  1,583.247 ms
+[398.402s]   BubbleSort                         -> time =  1,996.867 ms
+[400.074s]   BubbleSortOpt1                     -> time =  1,666.927 ms
+[401.465s]   BubbleSortParallelDivideAndConquer -> time =  1,387.336 ms
+[401.465s] Iteration 46
+[401.811s]   BubbleSortParallelOddEven          -> time =    340.377 ms
+[402.614s]   BubbleSortParallelDivideAndConquer -> time =    798.341 ms
+[404.272s]   BubbleSortOpt1                     -> time =  1,653.450 ms
+[405.873s]   BubbleSortOpt2                     -> time =  1,594.826 ms
+[407.880s]   BubbleSort                         -> time =  2,003.192 ms
+[407.880s] Iteration 47
+[408.299s]   BubbleSortParallelOddEven          -> time =    414.386 ms
+[409.119s]   BubbleSortParallelDivideAndConquer -> time =    815.645 ms
+[411.131s]   BubbleSort                         -> time =  2,006.964 ms
+[412.794s]   BubbleSortOpt1                     -> time =  1,658.741 ms
+[414.375s]   BubbleSortOpt2                     -> time =  1,576.305 ms
+[414.375s] Iteration 48
+[414.803s]   BubbleSortParallelOddEven          -> time =    421.533 ms
+[416.802s]   BubbleSort                         -> time =  1,994.876 ms
+[417.574s]   BubbleSortParallelDivideAndConquer -> time =    767.057 ms
+[419.168s]   BubbleSortOpt2                     -> time =  1,589.245 ms
+[420.835s]   BubbleSortOpt1                     -> time =  1,662.940 ms
+[420.835s] Iteration 49
+[422.864s]   BubbleSort                         -> time =  2,024.125 ms
+[423.686s]   BubbleSortParallelDivideAndConquer -> time =    818.057 ms
+[425.348s]   BubbleSortOpt1                     -> time =  1,656.414 ms
+[425.733s]   BubbleSortParallelOddEven          -> time =    380.904 ms
+[427.338s]   BubbleSortOpt2                     -> time =  1,600.864 ms
+[427.338s] Iteration 50
+[428.936s]   BubbleSortOpt2                     -> time =  1,593.599 ms
+[429.761s]   BubbleSortParallelDivideAndConquer -> time =    820.057 ms
+[431.434s]   BubbleSortOpt1                     -> time =  1,668.816 ms
+[433.453s]   BubbleSort                         -> time =  2,013.721 ms
+[433.830s]   BubbleSortParallelOddEven          -> time =    372.283 ms
+[433.830s] 
+[433.830s] ----- Results after 50 iterations-----
+[433.832s] BubbleSort                         -> fastest:  1,976.602 ms, median:  2,001.750 ms 
+[433.832s] BubbleSortOpt1                     -> fastest:  1,633.714 ms, median:  1,657.140 ms 
+[433.832s] BubbleSortOpt2                     -> fastest:  1,570.222 ms, median:  1,587.548 ms 
+[433.832s] BubbleSortParallelOddEven          -> fastest:    334.928 ms, median:    407.703 ms <<< FASTEST MEDIAN :-)
+[433.832s] BubbleSortParallelDivideAndConquer -> fastest:    721.410 ms, median:    823.028 ms 
+[433.832s] 
+[433.832s] Iteration 51
+[434.694s]   BubbleSortParallelDivideAndConquer -> time =    857.015 ms
+[436.730s]   BubbleSort                         -> time =  2,031.282 ms
+[438.333s]   BubbleSortOpt2                     -> time =  1,598.249 ms
+[438.718s]   BubbleSortParallelOddEven          -> time =    380.555 ms
+[440.370s]   BubbleSortOpt1                     -> time =  1,647.426 ms
+[440.370s] Iteration 52
+[441.182s]   BubbleSortParallelDivideAndConquer -> time =    807.003 ms
+[441.530s]   BubbleSortParallelOddEven          -> time =    343.279 ms
+[443.173s]   BubbleSortOpt1                     -> time =  1,638.971 ms
+[444.760s]   BubbleSortOpt2                     -> time =  1,582.033 ms
+[446.745s]   BubbleSort                         -> time =  1,980.119 ms
+[446.745s] Iteration 53
+[448.737s]   BubbleSort                         -> time =  1,988.388 ms
+[450.386s]   BubbleSortOpt1                     -> time =  1,643.920 ms
+[451.975s]   BubbleSortOpt2                     -> time =  1,585.197 ms
+[453.353s]   BubbleSortParallelDivideAndConquer -> time =  1,373.850 ms
+[454.233s]   BubbleSortParallelOddEven          -> time =    874.421 ms
+[454.233s] Iteration 54
+[455.828s]   BubbleSortOpt2                     -> time =  1,590.632 ms
+[456.644s]   BubbleSortParallelDivideAndConquer -> time =    811.824 ms
+[457.003s]   BubbleSortParallelOddEven          -> time =    354.655 ms
+[458.990s]   BubbleSort                         -> time =  1,980.928 ms
+[460.625s]   BubbleSortOpt1                     -> time =  1,630.996 ms <<< NEW RECORD :-)
+[460.625s] Iteration 55
+[461.816s]   BubbleSortParallelOddEven          -> time =  1,186.445 ms
+[463.458s]   BubbleSortOpt1                     -> time =  1,636.446 ms
+[465.450s]   BubbleSort                         -> time =  1,988.562 ms
+[467.027s]   BubbleSortOpt2                     -> time =  1,572.549 ms
+[467.795s]   BubbleSortParallelDivideAndConquer -> time =    762.625 ms
+[467.795s] Iteration 56
+[468.219s]   BubbleSortParallelOddEven          -> time =    419.435 ms
+[469.794s]   BubbleSortOpt2                     -> time =  1,570.825 ms
+[470.629s]   BubbleSortParallelDivideAndConquer -> time =    830.322 ms
+[472.286s]   BubbleSortOpt1                     -> time =  1,652.020 ms
+[474.293s]   BubbleSort                         -> time =  2,003.200 ms
+[474.293s] Iteration 57
+[475.900s]   BubbleSortOpt2                     -> time =  1,601.889 ms
+[476.323s]   BubbleSortParallelOddEven          -> time =    419.287 ms
+[477.983s]   BubbleSortOpt1                     -> time =  1,654.910 ms
+[479.964s]   BubbleSort                         -> time =  1,977.194 ms
+[480.768s]   BubbleSortParallelDivideAndConquer -> time =    799.608 ms
+[480.768s] Iteration 58
+[482.772s]   BubbleSort                         -> time =  1,999.183 ms
+[483.202s]   BubbleSortParallelOddEven          -> time =    425.992 ms
+[484.939s]   BubbleSortOpt1                     -> time =  1,731.595 ms
+[486.582s]   BubbleSortOpt2                     -> time =  1,638.378 ms
+[487.612s]   BubbleSortParallelDivideAndConquer -> time =  1,026.323 ms
+[487.612s] Iteration 59
+[489.622s]   BubbleSort                         -> time =  2,004.983 ms
+[490.411s]   BubbleSortParallelDivideAndConquer -> time =    784.515 ms
+[490.771s]   BubbleSortParallelOddEven          -> time =    354.790 ms
+[492.474s]   BubbleSortOpt1                     -> time =  1,698.779 ms
+[494.057s]   BubbleSortOpt2                     -> time =  1,574.924 ms
+[494.057s] Iteration 60
+[494.454s]   BubbleSortParallelOddEven          -> time =    392.586 ms
+[495.352s]   BubbleSortParallelDivideAndConquer -> time =    894.057 ms
+[496.945s]   BubbleSortOpt2                     -> time =  1,587.555 ms
+[498.583s]   BubbleSortOpt1                     -> time =  1,633.804 ms
+[500.568s]   BubbleSort                         -> time =  1,980.849 ms
+[500.568s] 
+[500.568s] ----- Results after 60 iterations-----
+[500.568s] BubbleSort                         -> fastest:  1,976.602 ms, median:  1,999.135 ms 
+[500.570s] BubbleSortOpt1                     -> fastest:  1,630.996 ms, median:  1,656.126 ms 
+[500.570s] BubbleSortOpt2                     -> fastest:  1,570.222 ms, median:  1,587.334 ms 
+[500.570s] BubbleSortParallelOddEven          -> fastest:    334.928 ms, median:    407.703 ms <<< FASTEST MEDIAN :-)
+[500.570s] BubbleSortParallelDivideAndConquer -> fastest:    721.410 ms, median:    823.028 ms 
+[500.570s] 
+[500.570s] Iteration 61
+[502.569s]   BubbleSort                         -> time =  1,997.019 ms
+[504.154s]   BubbleSortOpt2                     -> time =  1,580.717 ms
+[505.020s]   BubbleSortParallelDivideAndConquer -> time =    861.597 ms
+[506.683s]   BubbleSortOpt1                     -> time =  1,658.454 ms
+[507.151s]   BubbleSortParallelOddEven          -> time =    462.936 ms
+[507.151s] Iteration 62
+[508.733s]   BubbleSortOpt2                     -> time =  1,577.729 ms
+[509.179s]   BubbleSortParallelOddEven          -> time =    441.514 ms
+[511.190s]   BubbleSort                         -> time =  2,006.689 ms
+[512.834s]   BubbleSortOpt1                     -> time =  1,639.184 ms
+[513.673s]   BubbleSortParallelDivideAndConquer -> time =    835.385 ms
+[513.674s] Iteration 63
+[514.113s]   BubbleSortParallelOddEven          -> time =    434.789 ms
+[515.704s]   BubbleSortOpt2                     -> time =  1,586.303 ms
+[516.561s]   BubbleSortParallelDivideAndConquer -> time =    852.259 ms
+[518.617s]   BubbleSort                         -> time =  2,050.891 ms
+[520.282s]   BubbleSortOpt1                     -> time =  1,660.461 ms
+[520.282s] Iteration 64
+[522.288s]   BubbleSort                         -> time =  2,001.542 ms
+[523.897s]   BubbleSortOpt2                     -> time =  1,604.787 ms
+[525.563s]   BubbleSortOpt1                     -> time =  1,661.275 ms
+[525.949s]   BubbleSortParallelOddEven          -> time =    381.574 ms
+[526.792s]   BubbleSortParallelDivideAndConquer -> time =    838.658 ms
+[526.792s] Iteration 65
+[528.443s]   BubbleSortOpt1                     -> time =  1,645.641 ms
+[529.228s]   BubbleSortParallelDivideAndConquer -> time =    780.546 ms
+[531.231s]   BubbleSort                         -> time =  1,998.745 ms
+[531.646s]   BubbleSortParallelOddEven          -> time =    410.872 ms
+[533.241s]   BubbleSortOpt2                     -> time =  1,590.474 ms
+[533.241s] Iteration 66
+[534.835s]   BubbleSortOpt2                     -> time =  1,589.778 ms
+[536.841s]   BubbleSort                         -> time =  2,001.872 ms
+[538.483s]   BubbleSortOpt1                     -> time =  1,637.218 ms
+[539.324s]   BubbleSortParallelDivideAndConquer -> time =    836.432 ms
+[539.688s]   BubbleSortParallelOddEven          -> time =    360.070 ms
+[539.689s] Iteration 67
+[541.356s]   BubbleSortOpt1                     -> time =  1,662.506 ms
+[543.354s]   BubbleSort                         -> time =  1,993.955 ms
+[544.196s]   BubbleSortParallelDivideAndConquer -> time =    837.940 ms
+[545.834s]   BubbleSortOpt2                     -> time =  1,633.359 ms
+[546.304s]   BubbleSortParallelOddEven          -> time =    465.652 ms
+[546.304s] Iteration 68
+[546.657s]   BubbleSortParallelOddEven          -> time =    347.534 ms
+[547.557s]   BubbleSortParallelDivideAndConquer -> time =    895.396 ms
+[549.592s]   BubbleSort                         -> time =  2,030.983 ms
+[551.292s]   BubbleSortOpt1                     -> time =  1,695.174 ms
+[552.897s]   BubbleSortOpt2                     -> time =  1,600.220 ms
+[552.897s] Iteration 69
+[554.949s]   BubbleSort                         -> time =  2,046.537 ms
+[556.627s]   BubbleSortOpt1                     -> time =  1,673.445 ms
+[557.442s]   BubbleSortParallelDivideAndConquer -> time =    811.048 ms
+[559.025s]   BubbleSortOpt2                     -> time =  1,578.698 ms
+[559.437s]   BubbleSortParallelOddEven          -> time =    406.829 ms
+[559.437s] Iteration 70
+[561.023s]   BubbleSortOpt2                     -> time =  1,581.811 ms
+[561.449s]   BubbleSortParallelOddEven          -> time =    421.137 ms
+[563.089s]   BubbleSortOpt1                     -> time =  1,635.358 ms
+[563.850s]   BubbleSortParallelDivideAndConquer -> time =    756.924 ms
+[565.830s]   BubbleSort                         -> time =  1,975.002 ms <<< NEW RECORD :-)
+[565.830s] 
+[565.830s] ----- Results after 70 iterations-----
+[565.830s] BubbleSort                         -> fastest:  1,975.002 ms, median:  2,000.035 ms 
+[565.830s] BubbleSortOpt1                     -> fastest:  1,630.996 ms, median:  1,656.370 ms 
+[565.831s] BubbleSortOpt2                     -> fastest:  1,570.222 ms, median:  1,587.334 ms 
+[565.831s] BubbleSortParallelOddEven          -> fastest:    334.928 ms, median:    409.535 ms <<< FASTEST MEDIAN :-)
+[565.831s] BubbleSortParallelDivideAndConquer -> fastest:    721.410 ms, median:    828.013 ms 
+[565.831s] 
+[565.831s] Iteration 71
+[567.421s]   BubbleSortOpt2                     -> time =  1,586.284 ms
+[569.061s]   BubbleSortOpt1                     -> time =  1,635.015 ms
+[569.813s]   BubbleSortParallelDivideAndConquer -> time =    748.329 ms
+[571.801s]   BubbleSort                         -> time =  1,983.415 ms
+[572.240s]   BubbleSortParallelOddEven          -> time =    434.590 ms
+[572.240s] Iteration 72
+[573.010s]   BubbleSortParallelDivideAndConquer -> time =    765.316 ms
+[574.651s]   BubbleSortOpt1                     -> time =  1,636.239 ms
+[576.229s]   BubbleSortOpt2                     -> time =  1,573.473 ms
+[578.216s]   BubbleSort                         -> time =  1,983.043 ms
+[578.638s]   BubbleSortParallelOddEven          -> time =    417.950 ms
+[578.638s] Iteration 73
+[580.218s]   BubbleSortOpt2                     -> time =  1,575.065 ms
+[581.051s]   BubbleSortParallelDivideAndConquer -> time =    828.995 ms
+[582.739s]   BubbleSortOpt1                     -> time =  1,683.441 ms
+[584.001s]   BubbleSortParallelOddEven          -> time =  1,258.085 ms
+[585.978s]   BubbleSort                         -> time =  1,972.473 ms <<< NEW RECORD :-)
+[585.979s] Iteration 74
+[587.546s]   BubbleSortOpt2                     -> time =  1,562.371 ms <<< NEW RECORD :-)
+[588.384s]   BubbleSortParallelDivideAndConquer -> time =    833.849 ms
+[590.038s]   BubbleSortOpt1                     -> time =  1,649.362 ms
+[590.442s]   BubbleSortParallelOddEven          -> time =    400.258 ms
+[592.446s]   BubbleSort                         -> time =  1,998.945 ms
+[592.446s] Iteration 75
+[592.831s]   BubbleSortParallelOddEven          -> time =    379.906 ms
+[594.847s]   BubbleSort                         -> time =  2,011.702 ms
+[596.452s]   BubbleSortOpt2                     -> time =  1,600.815 ms
+[598.119s]   BubbleSortOpt1                     -> time =  1,662.980 ms
+[598.898s]   BubbleSortParallelDivideAndConquer -> time =    774.197 ms
+[598.898s] Iteration 76
+[599.689s]   BubbleSortParallelDivideAndConquer -> time =    786.547 ms
+[600.044s]   BubbleSortParallelOddEven          -> time =    350.007 ms
+[601.698s]   BubbleSortOpt1                     -> time =  1,648.983 ms
+[603.702s]   BubbleSort                         -> time =  2,000.359 ms
+[605.291s]   BubbleSortOpt2                     -> time =  1,584.828 ms
+[605.292s] Iteration 77
+[606.208s]   BubbleSortParallelDivideAndConquer -> time =    910.905 ms
+[607.850s]   BubbleSortOpt1                     -> time =  1,637.717 ms
+[609.426s]   BubbleSortOpt2                     -> time =  1,571.750 ms
+[609.821s]   BubbleSortParallelOddEven          -> time =    390.752 ms
+[611.829s]   BubbleSort                         -> time =  2,003.331 ms
+[611.830s] Iteration 78
+[613.862s]   BubbleSort                         -> time =  2,028.171 ms
+[615.738s]   BubbleSortParallelDivideAndConquer -> time =  1,871.365 ms
+[617.408s]   BubbleSortOpt1                     -> time =  1,665.288 ms
+[618.991s]   BubbleSortOpt2                     -> time =  1,577.724 ms
+[619.427s]   BubbleSortParallelOddEven          -> time =    431.212 ms
+[619.427s] Iteration 79
+[621.074s]   BubbleSortOpt1                     -> time =  1,642.184 ms
+[623.066s]   BubbleSort                         -> time =  1,988.050 ms
+[624.649s]   BubbleSortOpt2                     -> time =  1,578.034 ms
+[625.092s]   BubbleSortParallelOddEven          -> time =    439.472 ms
+[625.853s]   BubbleSortParallelDivideAndConquer -> time =    755.263 ms
+[625.853s] Iteration 80
+[627.856s]   BubbleSort                         -> time =  1,999.029 ms
+[628.297s]   BubbleSortParallelOddEven          -> time =    434.309 ms
+[629.042s]   BubbleSortParallelDivideAndConquer -> time =    741.007 ms
+[630.690s]   BubbleSortOpt1                     -> time =  1,643.369 ms
+[632.284s]   BubbleSortOpt2                     -> time =  1,589.356 ms
+[632.285s] 
+[632.285s] ----- Results after 80 iterations-----
+[632.285s] BubbleSort                         -> fastest:  1,972.473 ms, median:  1,999.135 ms 
+[632.285s] BubbleSortOpt1                     -> fastest:  1,630.996 ms, median:  1,655.642 ms 
+[632.285s] BubbleSortOpt2                     -> fastest:  1,562.371 ms, median:  1,586.294 ms 
+[632.285s] BubbleSortParallelOddEven          -> fastest:    334.928 ms, median:    410.648 ms <<< FASTEST MEDIAN :-)
+[632.285s] BubbleSortParallelDivideAndConquer -> fastest:    721.410 ms, median:    824.973 ms 
+[632.285s] 
+[632.285s] Iteration 81
+[633.867s]   BubbleSortOpt2                     -> time =  1,578.438 ms
+[635.534s]   BubbleSortOpt1                     -> time =  1,662.241 ms
+[635.984s]   BubbleSortParallelOddEven          -> time =    446.107 ms
+[636.880s]   BubbleSortParallelDivideAndConquer -> time =    891.911 ms
+[638.879s]   BubbleSort                         -> time =  1,994.021 ms
+[638.879s] Iteration 82
+[640.550s]   BubbleSortOpt1                     -> time =  1,665.790 ms
+[642.556s]   BubbleSort                         -> time =  2,001.661 ms
+[644.166s]   BubbleSortOpt2                     -> time =  1,605.385 ms
+[645.019s]   BubbleSortParallelOddEven          -> time =    848.081 ms
+[645.855s]   BubbleSortParallelDivideAndConquer -> time =    831.752 ms
+[645.855s] Iteration 83
+[647.149s]   BubbleSortParallelDivideAndConquer -> time =  1,288.551 ms
+[649.189s]   BubbleSort                         -> time =  2,036.100 ms
+[650.778s]   BubbleSortOpt2                     -> time =  1,584.266 ms
+[651.198s]   BubbleSortParallelOddEven          -> time =    415.765 ms
+[652.861s]   BubbleSortOpt1                     -> time =  1,658.695 ms
+[652.861s] Iteration 84
+[654.508s]   BubbleSortOpt1                     -> time =  1,642.711 ms
+[656.088s]   BubbleSortOpt2                     -> time =  1,575.299 ms
+[656.582s]   BubbleSortParallelOddEven          -> time =    490.229 ms
+[658.576s]   BubbleSort                         -> time =  1,988.543 ms
+[659.408s]   BubbleSortParallelDivideAndConquer -> time =    827.848 ms
+[659.408s] Iteration 85
+[661.050s]   BubbleSortOpt1                     -> time =  1,636.596 ms
+[661.501s]   BubbleSortParallelOddEven          -> time =    446.763 ms
+[663.484s]   BubbleSort                         -> time =  1,978.782 ms
+[665.079s]   BubbleSortOpt2                     -> time =  1,590.997 ms
+[667.433s]   BubbleSortParallelDivideAndConquer -> time =  2,349.644 ms
+[667.433s] Iteration 86
+[669.010s]   BubbleSortOpt2                     -> time =  1,571.392 ms
+[669.843s]   BubbleSortParallelDivideAndConquer -> time =    828.311 ms
+[671.831s]   BubbleSort                         -> time =  1,983.806 ms
+[673.483s]   BubbleSortOpt1                     -> time =  1,647.295 ms
+[673.877s]   BubbleSortParallelOddEven          -> time =    389.883 ms
+[673.877s] Iteration 87
+[675.497s]   BubbleSortParallelDivideAndConquer -> time =  1,614.720 ms
+[677.529s]   BubbleSort                         -> time =  2,028.099 ms
+[677.923s]   BubbleSortParallelOddEven          -> time =    388.962 ms
+[679.539s]   BubbleSortOpt2                     -> time =  1,612.126 ms
+[681.225s]   BubbleSortOpt1                     -> time =  1,681.430 ms
+[681.225s] Iteration 88
+[682.870s]   BubbleSortOpt1                     -> time =  1,640.735 ms
+[683.666s]   BubbleSortParallelDivideAndConquer -> time =    791.324 ms
+[685.652s]   BubbleSort                         -> time =  1,981.409 ms
+[686.094s]   BubbleSortParallelOddEven          -> time =    437.792 ms
+[687.678s]   BubbleSortOpt2                     -> time =  1,579.631 ms
+[687.678s] Iteration 89
+[689.311s]   BubbleSortOpt1                     -> time =  1,628.287 ms <<< NEW RECORD :-)
+[689.722s]   BubbleSortParallelOddEven          -> time =    406.369 ms
+[691.708s]   BubbleSort                         -> time =  1,981.394 ms
+[692.514s]   BubbleSortParallelDivideAndConquer -> time =    802.127 ms
+[694.089s]   BubbleSortOpt2                     -> time =  1,569.574 ms
+[694.089s] Iteration 90
+[695.681s]   BubbleSortOpt2                     -> time =  1,587.175 ms
+[697.694s]   BubbleSort                         -> time =  2,008.475 ms
+[698.130s]   BubbleSortParallelOddEven          -> time =    432.199 ms
+[699.781s]   BubbleSortOpt1                     -> time =  1,645.948 ms
+[700.595s]   BubbleSortParallelDivideAndConquer -> time =    809.644 ms
+[700.595s] 
+[700.595s] ----- Results after 90 iterations-----
+[700.595s] BubbleSort                         -> fastest:  1,972.473 ms, median:  1,999.058 ms 
+[700.595s] BubbleSortOpt1                     -> fastest:  1,628.287 ms, median:  1,655.134 ms 
+[700.595s] BubbleSortOpt2                     -> fastest:  1,562.371 ms, median:  1,585.741 ms 
+[700.595s] BubbleSortParallelOddEven          -> fastest:    334.928 ms, median:    415.075 ms <<< FASTEST MEDIAN :-)
+[700.596s] BubbleSortParallelDivideAndConquer -> fastest:    721.410 ms, median:    828.079 ms 
+[700.596s] 
+[700.596s] Iteration 91
+[701.426s]   BubbleSortParallelDivideAndConquer -> time =    825.391 ms
+[703.066s]   BubbleSortOpt1                     -> time =  1,635.584 ms
+[705.042s]   BubbleSort                         -> time =  1,970.993 ms <<< NEW RECORD :-)
+[705.786s]   BubbleSortParallelOddEven          -> time =    740.393 ms
+[707.379s]   BubbleSortOpt2                     -> time =  1,587.939 ms
+[707.379s] Iteration 92
+[709.357s]   BubbleSort                         -> time =  1,972.921 ms
+[710.157s]   BubbleSortParallelDivideAndConquer -> time =    796.006 ms
+[711.792s]   BubbleSortOpt2                     -> time =  1,629.877 ms
+[712.423s]   BubbleSortParallelOddEven          -> time =    626.454 ms
+[714.094s]   BubbleSortOpt1                     -> time =  1,666.060 ms
+[714.094s] Iteration 93
+[716.112s]   BubbleSort                         -> time =  2,013.677 ms
+[716.515s]   BubbleSortParallelOddEven          -> time =    399.124 ms
+[717.351s]   BubbleSortParallelDivideAndConquer -> time =    830.698 ms
+[718.997s]   BubbleSortOpt1                     -> time =  1,641.782 ms
+[720.581s]   BubbleSortOpt2                     -> time =  1,579.665 ms
+[720.581s] Iteration 94
+[722.239s]   BubbleSortOpt1                     -> time =  1,653.840 ms
+[723.828s]   BubbleSortOpt2                     -> time =  1,585.248 ms
+[724.635s]   BubbleSortParallelDivideAndConquer -> time =    802.869 ms
+[724.983s]   BubbleSortParallelOddEven          -> time =    342.574 ms
+[726.998s]   BubbleSort                         -> time =  2,010.333 ms
+[726.998s] Iteration 95
+[727.833s]   BubbleSortParallelDivideAndConquer -> time =    830.942 ms
+[729.509s]   BubbleSortOpt1                     -> time =  1,671.485 ms
+[731.101s]   BubbleSortOpt2                     -> time =  1,587.283 ms
+[731.488s]   BubbleSortParallelOddEven          -> time =    383.170 ms
+[733.495s]   BubbleSort                         -> time =  2,002.128 ms
+[733.495s] Iteration 96
+[734.321s]   BubbleSortParallelDivideAndConquer -> time =    820.803 ms
+[735.938s]   BubbleSortOpt2                     -> time =  1,612.156 ms
+[737.985s]   BubbleSort                         -> time =  2,043.348 ms
+[738.399s]   BubbleSortParallelOddEven          -> time =    409.620 ms
+[740.068s]   BubbleSortOpt1                     -> time =  1,663.719 ms
+[740.068s] Iteration 97
+[740.476s]   BubbleSortParallelOddEven          -> time =    404.305 ms
+[742.067s]   BubbleSortOpt2                     -> time =  1,585.874 ms
+[742.898s]   BubbleSortParallelDivideAndConquer -> time =    827.351 ms
+[744.616s]   BubbleSortOpt1                     -> time =  1,712.264 ms
+[746.625s]   BubbleSort                         -> time =  2,005.597 ms
+[746.625s] Iteration 98
+[748.297s]   BubbleSortOpt1                     -> time =  1,667.377 ms
+[749.105s]   BubbleSortParallelDivideAndConquer -> time =    803.669 ms
+[750.702s]   BubbleSortOpt2                     -> time =  1,592.062 ms
+[751.142s]   BubbleSortParallelOddEven          -> time =    436.438 ms
+[753.133s]   BubbleSort                         -> time =  1,986.053 ms
+[753.133s] Iteration 99
+[754.801s]   BubbleSortOpt1                     -> time =  1,662.922 ms
+[755.248s]   BubbleSortParallelOddEven          -> time =    441.866 ms
+[756.033s]   BubbleSortParallelDivideAndConquer -> time =    780.956 ms
+[757.642s]   BubbleSortOpt2                     -> time =  1,604.219 ms
+[759.663s]   BubbleSort                         -> time =  2,016.877 ms
+[759.663s] Iteration 100
+[761.310s]   BubbleSortOpt1                     -> time =  1,642.386 ms
+[762.896s]   BubbleSortOpt2                     -> time =  1,581.703 ms
+[764.904s]   BubbleSort                         -> time =  2,004.351 ms
+[765.710s]   BubbleSortParallelDivideAndConquer -> time =    801.635 ms
+[766.820s]   BubbleSortParallelOddEven          -> time =  1,105.337 ms
+[766.820s] 
+[766.820s] ----- Results after 100 iterations-----
+[766.821s] BubbleSort                         -> fastest:  1,970.993 ms, median:  1,999.771 ms 
+[766.822s] BubbleSortOpt1                     -> fastest:  1,628.287 ms, median:  1,655.642 ms 
+[766.822s] BubbleSortOpt2                     -> fastest:  1,562.371 ms, median:  1,586.294 ms 
+[766.822s] BubbleSortParallelOddEven          -> fastest:    334.928 ms, median:    415.075 ms <<< FASTEST MEDIAN :-)
+[766.822s] BubbleSortParallelDivideAndConquer -> fastest:    721.410 ms, median:    825.912 ms 
+[766.822s] 
