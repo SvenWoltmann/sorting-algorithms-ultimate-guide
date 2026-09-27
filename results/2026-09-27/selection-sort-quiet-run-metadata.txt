@@ -1,0 +1,8 @@
+# selection-sort-quiet size ladder
+# date:    2026-09-27T04:13:28Z
+# machine: apple-m5-pro-arm64
+# java:    openjdk version "27" 2026-09-15
+# sorting-repo commit: 0f3ce5e
+# iterations: 10 (all three orders up to 2^19)
+# warm-up: 2 passes, all three orders up to 2^16
+# finished: 2026-09-27T04:28:17Z

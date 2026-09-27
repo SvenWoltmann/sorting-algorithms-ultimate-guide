@@ -61,11 +61,11 @@ descending input (2^22 for ascending input).
 
 ## Selection Sort
 
-The re-run behind the numbers in the Selection Sort article
-(https://www.happycoders.eu/algorithms/selection-sort/). It replaces the
-Selection Sort part of the 2020 series in `../2020-05-30/`; the article keeps
-the 2020 machine in its info box. The Selection-vs-Insertion comparison in that
-article uses the Insertion Sort run above, same day, same machine, same JDK.
+Superseded by `../2026-09-27/`: this run was disturbed from its eighth
+iteration on by other processes on the machine (two more JVMs,
+`mediaanalysisd`). It stays as the record it was; the article prints the
+quiet run of the next day. The Selection-vs-Insertion comparison in the
+article uses the Insertion Sort run above, same machine, same JDK.
 
 | | 2020-05-30 | 2026-09-26 |
 | --- | --- | --- |
