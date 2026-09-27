@@ -1,0 +1,8 @@
+# radix-parallel-quiet
+# date:    2026-09-27T04:11:57Z
+# machine: apple-m5-pro-arm64
+# java:    openjdk version "27" 2026-09-15
+# sorting-repo commit: 0f3ce5e
+# program: SortLadder.java radix-parallel 10
+# runs:    10 iterations, 2 warm-up passes up to 2^22
+# finished: 2026-09-27T04:13:27Z

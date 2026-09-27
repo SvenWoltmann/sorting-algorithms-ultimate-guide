@@ -1,0 +1,581 @@
+# algorithm	order	size	timeNs
+JavaArraysSort	random	1024	26458
+JavaArraysSort	random	2048	50250
+JavaArraysSort	random	4096	110000
+JavaArraysSort	random	8192	229583
+JavaArraysSort	random	16384	453917
+JavaArraysSort	random	32768	925250
+JavaArraysSort	random	65536	1968500
+JavaArraysSort	random	131072	4194375
+JavaArraysSort	random	262144	8730000
+JavaArraysSort	random	524288	19453334
+JavaArraysSort	random	1048576	40551417
+JavaArraysSort	random	2097152	90913000
+JavaArraysSort	random	4194304	181792375
+JavaArraysSort	random	8388608	372782250
+JavaArraysSort	random	16777216	782170875
+JavaArraysSort	random	33554432	1628979625
+JavaArraysSort	random	67108864	3432253209
+JavaArraysSort	random	134217728	6965385083
+JavaArraysSort	random	268435456	14506303458
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1024	25292
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2048	52000
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4096	106875
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8192	229084
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16384	510542
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	32768	1076167
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	65536	2242792
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	131072	4810666
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	262144	10166375
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	524288	21572959
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1048576	45232042
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2097152	93825083
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4194304	205088375
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8388608	411972333
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16777216	869336458
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	33554432	1817756959
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	67108864	3776289875
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	134217728	7734135708
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	268435456	16236694541
+RadixSortWithArraysAndCustomBase(256)	random	1024	27041
+RadixSortWithArraysAndCustomBase(256)	random	2048	41333
+RadixSortWithArraysAndCustomBase(256)	random	4096	44916
+RadixSortWithArraysAndCustomBase(256)	random	8192	68000
+RadixSortWithArraysAndCustomBase(256)	random	16384	97875
+RadixSortWithArraysAndCustomBase(256)	random	32768	172875
+RadixSortWithArraysAndCustomBase(256)	random	65536	314250
+RadixSortWithArraysAndCustomBase(256)	random	131072	971958
+RadixSortWithArraysAndCustomBase(256)	random	262144	1723959
+RadixSortWithArraysAndCustomBase(256)	random	524288	3334000
+RadixSortWithArraysAndCustomBase(256)	random	1048576	6996208
+RadixSortWithArraysAndCustomBase(256)	random	2097152	13882667
+RadixSortWithArraysAndCustomBase(256)	random	4194304	27202875
+RadixSortWithArraysAndCustomBase(256)	random	8388608	53182875
+RadixSortWithArraysAndCustomBase(256)	random	16777216	106292375
+RadixSortWithArraysAndCustomBase(256)	random	33554432	329308583
+RadixSortWithArraysAndCustomBase(256)	random	67108864	692323083
+RadixSortWithArraysAndCustomBase(256)	random	134217728	1538300209
+RadixSortWithArraysAndCustomBase(256)	random	268435456	4274191958
+RadixSortWithArraysAndCustomBase(256)	random	536870912	8216429667
+JavaArraysSort	random	1024	179667
+JavaArraysSort	random	2048	318125
+JavaArraysSort	random	4096	675000
+JavaArraysSort	random	8192	1120834
+JavaArraysSort	random	16384	1687375
+JavaArraysSort	random	32768	3470916
+JavaArraysSort	random	65536	6143875
+JavaArraysSort	random	131072	4388291
+JavaArraysSort	random	262144	9424292
+JavaArraysSort	random	524288	19286083
+JavaArraysSort	random	1048576	40619167
+JavaArraysSort	random	2097152	84791958
+JavaArraysSort	random	4194304	178870625
+JavaArraysSort	random	8388608	374517458
+JavaArraysSort	random	16777216	770604750
+JavaArraysSort	random	33554432	1609057000
+JavaArraysSort	random	67108864	3396759334
+JavaArraysSort	random	134217728	7021198000
+JavaArraysSort	random	268435456	14681651708
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1024	201833
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2048	359000
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4096	765042
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8192	1646834
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16384	3577958
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	32768	4963917
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	65536	2307417
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	131072	4684167
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	262144	10127709
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	524288	21660708
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1048576	44185084
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2097152	95043458
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4194304	196317792
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8388608	413743000
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16777216	876637708
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	33554432	1814414375
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	67108864	3800597791
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	134217728	7865088875
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	268435456	16342130667
+RadixSortWithArraysAndCustomBase(256)	random	1024	22334
+RadixSortWithArraysAndCustomBase(256)	random	2048	32792
+RadixSortWithArraysAndCustomBase(256)	random	4096	44083
+RadixSortWithArraysAndCustomBase(256)	random	8192	62083
+RadixSortWithArraysAndCustomBase(256)	random	16384	104666
+RadixSortWithArraysAndCustomBase(256)	random	32768	173250
+RadixSortWithArraysAndCustomBase(256)	random	65536	320000
+RadixSortWithArraysAndCustomBase(256)	random	131072	964875
+RadixSortWithArraysAndCustomBase(256)	random	262144	1697500
+RadixSortWithArraysAndCustomBase(256)	random	524288	3398417
+RadixSortWithArraysAndCustomBase(256)	random	1048576	6849709
+RadixSortWithArraysAndCustomBase(256)	random	2097152	13955959
+RadixSortWithArraysAndCustomBase(256)	random	4194304	27739959
+RadixSortWithArraysAndCustomBase(256)	random	8388608	53941375
+RadixSortWithArraysAndCustomBase(256)	random	16777216	108995458
+RadixSortWithArraysAndCustomBase(256)	random	33554432	329332375
+RadixSortWithArraysAndCustomBase(256)	random	67108864	703300834
+RadixSortWithArraysAndCustomBase(256)	random	134217728	1531433583
+RadixSortWithArraysAndCustomBase(256)	random	268435456	4166771541
+RadixSortWithArraysAndCustomBase(256)	random	536870912	8209507791
+JavaArraysSort	random	1024	29375
+JavaArraysSort	random	2048	62042
+JavaArraysSort	random	4096	106375
+JavaArraysSort	random	8192	235250
+JavaArraysSort	random	16384	459875
+JavaArraysSort	random	32768	940167
+JavaArraysSort	random	65536	2036458
+JavaArraysSort	random	131072	4337209
+JavaArraysSort	random	262144	9016167
+JavaArraysSort	random	524288	18954834
+JavaArraysSort	random	1048576	40264666
+JavaArraysSort	random	2097152	85094666
+JavaArraysSort	random	4194304	183508792
+JavaArraysSort	random	8388608	372536083
+JavaArraysSort	random	16777216	785255667
+JavaArraysSort	random	33554432	1632162541
+JavaArraysSort	random	67108864	3377118667
+JavaArraysSort	random	134217728	7074518750
+JavaArraysSort	random	268435456	14441701500
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1024	33208
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2048	59500
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4096	112250
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8192	242417
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16384	491416
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	32768	1047334
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	65536	2304375
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	131072	4744000
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	262144	10189625
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	524288	21098041
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1048576	44503250
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2097152	93946041
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4194304	200002458
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8388608	408616541
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16777216	863942917
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	33554432	1818030333
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	67108864	3717020583
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	134217728	7972585667
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	268435456	16089120792
+RadixSortWithArraysAndCustomBase(256)	random	1024	23792
+RadixSortWithArraysAndCustomBase(256)	random	2048	38417
+RadixSortWithArraysAndCustomBase(256)	random	4096	42000
+RadixSortWithArraysAndCustomBase(256)	random	8192	59167
+RadixSortWithArraysAndCustomBase(256)	random	16384	99375
+RadixSortWithArraysAndCustomBase(256)	random	32768	175916
+RadixSortWithArraysAndCustomBase(256)	random	65536	308916
+RadixSortWithArraysAndCustomBase(256)	random	131072	974833
+RadixSortWithArraysAndCustomBase(256)	random	262144	1798375
+RadixSortWithArraysAndCustomBase(256)	random	524288	3516208
+RadixSortWithArraysAndCustomBase(256)	random	1048576	6782083
+RadixSortWithArraysAndCustomBase(256)	random	2097152	13679834
+RadixSortWithArraysAndCustomBase(256)	random	4194304	27073792
+RadixSortWithArraysAndCustomBase(256)	random	8388608	52957833
+RadixSortWithArraysAndCustomBase(256)	random	16777216	106509959
+RadixSortWithArraysAndCustomBase(256)	random	33554432	329574708
+RadixSortWithArraysAndCustomBase(256)	random	67108864	694505583
+RadixSortWithArraysAndCustomBase(256)	random	134217728	1491850541
+RadixSortWithArraysAndCustomBase(256)	random	268435456	4452042541
+RadixSortWithArraysAndCustomBase(256)	random	536870912	8238734792
+JavaArraysSort	random	1024	26958
+JavaArraysSort	random	2048	62208
+JavaArraysSort	random	4096	125000
+JavaArraysSort	random	8192	235291
+JavaArraysSort	random	16384	480667
+JavaArraysSort	random	32768	939417
+JavaArraysSort	random	65536	2065000
+JavaArraysSort	random	131072	4261583
+JavaArraysSort	random	262144	9160208
+JavaArraysSort	random	524288	19124500
+JavaArraysSort	random	1048576	39822708
+JavaArraysSort	random	2097152	86666250
+JavaArraysSort	random	4194304	178439458
+JavaArraysSort	random	8388608	374555125
+JavaArraysSort	random	16777216	784056500
+JavaArraysSort	random	33554432	1631914583
+JavaArraysSort	random	67108864	3373809375
+JavaArraysSort	random	134217728	7050356792
+JavaArraysSort	random	268435456	14915322875
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1024	40834
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2048	61375
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4096	120083
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8192	253209
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16384	521500
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	32768	1113125
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	65536	2267667
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	131072	5043042
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	262144	10812666
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	524288	22576750
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1048576	47755542
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2097152	97859125
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4194304	196217583
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8388608	412685458
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16777216	887056166
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	33554432	1810737750
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	67108864	3779263708
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	134217728	7781926167
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	268435456	16130768708
+RadixSortWithArraysAndCustomBase(256)	random	1024	29250
+RadixSortWithArraysAndCustomBase(256)	random	2048	30000
+RadixSortWithArraysAndCustomBase(256)	random	4096	42833
+RadixSortWithArraysAndCustomBase(256)	random	8192	63375
+RadixSortWithArraysAndCustomBase(256)	random	16384	105083
+RadixSortWithArraysAndCustomBase(256)	random	32768	171000
+RadixSortWithArraysAndCustomBase(256)	random	65536	319667
+RadixSortWithArraysAndCustomBase(256)	random	131072	982792
+RadixSortWithArraysAndCustomBase(256)	random	262144	1779875
+RadixSortWithArraysAndCustomBase(256)	random	524288	3495291
+RadixSortWithArraysAndCustomBase(256)	random	1048576	6784750
+RadixSortWithArraysAndCustomBase(256)	random	2097152	13667458
+RadixSortWithArraysAndCustomBase(256)	random	4194304	27433417
+RadixSortWithArraysAndCustomBase(256)	random	8388608	52795875
+RadixSortWithArraysAndCustomBase(256)	random	16777216	106080125
+RadixSortWithArraysAndCustomBase(256)	random	33554432	324921334
+RadixSortWithArraysAndCustomBase(256)	random	67108864	701148042
+RadixSortWithArraysAndCustomBase(256)	random	134217728	1504761666
+RadixSortWithArraysAndCustomBase(256)	random	268435456	4442450500
+RadixSortWithArraysAndCustomBase(256)	random	536870912	8217940333
+JavaArraysSort	random	1024	34042
+JavaArraysSort	random	2048	63167
+JavaArraysSort	random	4096	109959
+JavaArraysSort	random	8192	223542
+JavaArraysSort	random	16384	477750
+JavaArraysSort	random	32768	941083
+JavaArraysSort	random	65536	2011625
+JavaArraysSort	random	131072	4193917
+JavaArraysSort	random	262144	9282209
+JavaArraysSort	random	524288	18850875
+JavaArraysSort	random	1048576	39942417
+JavaArraysSort	random	2097152	84065125
+JavaArraysSort	random	4194304	175309375
+JavaArraysSort	random	8388608	377716041
+JavaArraysSort	random	16777216	782881416
+JavaArraysSort	random	33554432	1639231333
+JavaArraysSort	random	67108864	3322895000
+JavaArraysSort	random	134217728	6987061583
+JavaArraysSort	random	268435456	14644143500
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1024	25125
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2048	58250
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4096	110625
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8192	232083
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16384	497959
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	32768	1048041
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	65536	2286958
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	131072	4701709
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	262144	9898250
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	524288	21436208
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1048576	44091000
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2097152	94467709
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4194304	200075167
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8388608	415715500
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16777216	850334417
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	33554432	1813506834
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	67108864	3759822084
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	134217728	7919803417
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	268435456	16475695500
+RadixSortWithArraysAndCustomBase(256)	random	1024	22917
+RadixSortWithArraysAndCustomBase(256)	random	2048	27709
+RadixSortWithArraysAndCustomBase(256)	random	4096	41125
+RadixSortWithArraysAndCustomBase(256)	random	8192	65542
+RadixSortWithArraysAndCustomBase(256)	random	16384	97958
+RadixSortWithArraysAndCustomBase(256)	random	32768	168500
+RadixSortWithArraysAndCustomBase(256)	random	65536	323167
+RadixSortWithArraysAndCustomBase(256)	random	131072	960750
+RadixSortWithArraysAndCustomBase(256)	random	262144	1683666
+RadixSortWithArraysAndCustomBase(256)	random	524288	3335708
+RadixSortWithArraysAndCustomBase(256)	random	1048576	6703792
+RadixSortWithArraysAndCustomBase(256)	random	2097152	13688708
+RadixSortWithArraysAndCustomBase(256)	random	4194304	27312334
+RadixSortWithArraysAndCustomBase(256)	random	8388608	53166458
+RadixSortWithArraysAndCustomBase(256)	random	16777216	106840917
+RadixSortWithArraysAndCustomBase(256)	random	33554432	324295791
+RadixSortWithArraysAndCustomBase(256)	random	67108864	691132208
+RadixSortWithArraysAndCustomBase(256)	random	134217728	1508347792
+RadixSortWithArraysAndCustomBase(256)	random	268435456	4432464000
+RadixSortWithArraysAndCustomBase(256)	random	536870912	8215292833
+JavaArraysSort	random	1024	33083
+JavaArraysSort	random	2048	58042
+JavaArraysSort	random	4096	105834
+JavaArraysSort	random	8192	220959
+JavaArraysSort	random	16384	462834
+JavaArraysSort	random	32768	925666
+JavaArraysSort	random	65536	2004208
+JavaArraysSort	random	131072	4183042
+JavaArraysSort	random	262144	9152709
+JavaArraysSort	random	524288	18967250
+JavaArraysSort	random	1048576	41335417
+JavaArraysSort	random	2097152	85261041
+JavaArraysSort	random	4194304	180103583
+JavaArraysSort	random	8388608	368528000
+JavaArraysSort	random	16777216	780268042
+JavaArraysSort	random	33554432	1629977583
+JavaArraysSort	random	67108864	3440278750
+JavaArraysSort	random	134217728	7023182583
+JavaArraysSort	random	268435456	14663399500
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1024	32958
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2048	57084
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4096	116625
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8192	239333
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16384	492542
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	32768	1084792
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	65536	2317959
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	131072	4844167
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	262144	10211291
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	524288	21457250
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1048576	44027375
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2097152	94613625
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4194304	196978875
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8388608	412769875
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16777216	867110458
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	33554432	1793303917
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	67108864	3759543583
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	134217728	7766731125
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	268435456	16389413958
+RadixSortWithArraysAndCustomBase(256)	random	1024	21500
+RadixSortWithArraysAndCustomBase(256)	random	2048	33042
+RadixSortWithArraysAndCustomBase(256)	random	4096	46416
+RadixSortWithArraysAndCustomBase(256)	random	8192	66542
+RadixSortWithArraysAndCustomBase(256)	random	16384	99709
+RadixSortWithArraysAndCustomBase(256)	random	32768	170125
+RadixSortWithArraysAndCustomBase(256)	random	65536	314292
+RadixSortWithArraysAndCustomBase(256)	random	131072	957958
+RadixSortWithArraysAndCustomBase(256)	random	262144	1714583
+RadixSortWithArraysAndCustomBase(256)	random	524288	3322792
+RadixSortWithArraysAndCustomBase(256)	random	1048576	6732458
+RadixSortWithArraysAndCustomBase(256)	random	2097152	13551167
+RadixSortWithArraysAndCustomBase(256)	random	4194304	27252417
+RadixSortWithArraysAndCustomBase(256)	random	8388608	52841458
+RadixSortWithArraysAndCustomBase(256)	random	16777216	105865042
+RadixSortWithArraysAndCustomBase(256)	random	33554432	326650125
+RadixSortWithArraysAndCustomBase(256)	random	67108864	690102083
+RadixSortWithArraysAndCustomBase(256)	random	134217728	1494172375
+RadixSortWithArraysAndCustomBase(256)	random	268435456	4431339916
+RadixSortWithArraysAndCustomBase(256)	random	536870912	8215084667
+JavaArraysSort	random	1024	32833
+JavaArraysSort	random	2048	57958
+JavaArraysSort	random	4096	113666
+JavaArraysSort	random	8192	237417
+JavaArraysSort	random	16384	457375
+JavaArraysSort	random	32768	944042
+JavaArraysSort	random	65536	1983292
+JavaArraysSort	random	131072	4210125
+JavaArraysSort	random	262144	9006958
+JavaArraysSort	random	524288	19519667
+JavaArraysSort	random	1048576	40323667
+JavaArraysSort	random	2097152	86657333
+JavaArraysSort	random	4194304	176489791
+JavaArraysSort	random	8388608	377239209
+JavaArraysSort	random	16777216	780123792
+JavaArraysSort	random	33554432	1625009417
+JavaArraysSort	random	67108864	3412679084
+JavaArraysSort	random	134217728	7178931000
+JavaArraysSort	random	268435456	14764174959
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1024	28000
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2048	59000
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4096	109875
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8192	241458
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16384	511625
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	32768	1059875
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	65536	2189333
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	131072	4817625
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	262144	9934375
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	524288	21658417
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1048576	44461834
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2097152	94601875
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4194304	199346500
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8388608	419506125
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16777216	875472416
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	33554432	1817492500
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	67108864	3784814375
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	134217728	7871440125
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	268435456	16190149667
+RadixSortWithArraysAndCustomBase(256)	random	1024	20083
+RadixSortWithArraysAndCustomBase(256)	random	2048	31834
+RadixSortWithArraysAndCustomBase(256)	random	4096	39709
+RadixSortWithArraysAndCustomBase(256)	random	8192	67541
+RadixSortWithArraysAndCustomBase(256)	random	16384	92166
+RadixSortWithArraysAndCustomBase(256)	random	32768	175959
+RadixSortWithArraysAndCustomBase(256)	random	65536	322958
+RadixSortWithArraysAndCustomBase(256)	random	131072	977500
+RadixSortWithArraysAndCustomBase(256)	random	262144	1686000
+RadixSortWithArraysAndCustomBase(256)	random	524288	3313875
+RadixSortWithArraysAndCustomBase(256)	random	1048576	6760667
+RadixSortWithArraysAndCustomBase(256)	random	2097152	13607208
+RadixSortWithArraysAndCustomBase(256)	random	4194304	27229417
+RadixSortWithArraysAndCustomBase(256)	random	8388608	52920458
+RadixSortWithArraysAndCustomBase(256)	random	16777216	107012292
+RadixSortWithArraysAndCustomBase(256)	random	33554432	325982333
+RadixSortWithArraysAndCustomBase(256)	random	67108864	690556083
+RadixSortWithArraysAndCustomBase(256)	random	134217728	1486524375
+RadixSortWithArraysAndCustomBase(256)	random	268435456	4418344375
+RadixSortWithArraysAndCustomBase(256)	random	536870912	8220387750
+JavaArraysSort	random	1024	27417
+JavaArraysSort	random	2048	56250
+JavaArraysSort	random	4096	110167
+JavaArraysSort	random	8192	222708
+JavaArraysSort	random	16384	450375
+JavaArraysSort	random	32768	954250
+JavaArraysSort	random	65536	1990167
+JavaArraysSort	random	131072	4266834
+JavaArraysSort	random	262144	9139584
+JavaArraysSort	random	524288	18945542
+JavaArraysSort	random	1048576	39769416
+JavaArraysSort	random	2097152	85940208
+JavaArraysSort	random	4194304	178154666
+JavaArraysSort	random	8388608	371000000
+JavaArraysSort	random	16777216	780187584
+JavaArraysSort	random	33554432	1630908375
+JavaArraysSort	random	67108864	3410959291
+JavaArraysSort	random	134217728	7040558834
+JavaArraysSort	random	268435456	14552455875
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1024	25625
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2048	59375
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4096	119417
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8192	231417
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16384	497666
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	32768	1037667
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	65536	2220458
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	131072	4826125
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	262144	10262500
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	524288	21007084
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1048576	45482584
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2097152	94812959
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4194304	199727042
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8388608	415742167
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16777216	860205417
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	33554432	1784282166
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	67108864	3759619000
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	134217728	7743644583
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	268435456	16174928500
+RadixSortWithArraysAndCustomBase(256)	random	1024	23125
+RadixSortWithArraysAndCustomBase(256)	random	2048	29250
+RadixSortWithArraysAndCustomBase(256)	random	4096	45125
+RadixSortWithArraysAndCustomBase(256)	random	8192	78541
+RadixSortWithArraysAndCustomBase(256)	random	16384	96500
+RadixSortWithArraysAndCustomBase(256)	random	32768	168416
+RadixSortWithArraysAndCustomBase(256)	random	65536	311542
+RadixSortWithArraysAndCustomBase(256)	random	131072	990250
+RadixSortWithArraysAndCustomBase(256)	random	262144	1679625
+RadixSortWithArraysAndCustomBase(256)	random	524288	3305500
+RadixSortWithArraysAndCustomBase(256)	random	1048576	6781042
+RadixSortWithArraysAndCustomBase(256)	random	2097152	13521459
+RadixSortWithArraysAndCustomBase(256)	random	4194304	27713209
+RadixSortWithArraysAndCustomBase(256)	random	8388608	53705709
+RadixSortWithArraysAndCustomBase(256)	random	16777216	106604750
+RadixSortWithArraysAndCustomBase(256)	random	33554432	331286833
+RadixSortWithArraysAndCustomBase(256)	random	67108864	696855458
+RadixSortWithArraysAndCustomBase(256)	random	134217728	1493510167
+RadixSortWithArraysAndCustomBase(256)	random	268435456	4449204125
+RadixSortWithArraysAndCustomBase(256)	random	536870912	8204776667
+JavaArraysSort	random	1024	27417
+JavaArraysSort	random	2048	59750
+JavaArraysSort	random	4096	108750
+JavaArraysSort	random	8192	225959
+JavaArraysSort	random	16384	457000
+JavaArraysSort	random	32768	953833
+JavaArraysSort	random	65536	1973209
+JavaArraysSort	random	131072	4151625
+JavaArraysSort	random	262144	9060791
+JavaArraysSort	random	524288	19046208
+JavaArraysSort	random	1048576	40445708
+JavaArraysSort	random	2097152	84801292
+JavaArraysSort	random	4194304	180036250
+JavaArraysSort	random	8388608	372851250
+JavaArraysSort	random	16777216	785480166
+JavaArraysSort	random	33554432	1622037334
+JavaArraysSort	random	67108864	3375939000
+JavaArraysSort	random	134217728	7056517375
+JavaArraysSort	random	268435456	14617433791
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1024	27333
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2048	58167
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4096	113084
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8192	241000
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16384	511667
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	32768	1027000
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	65536	2217250
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	131072	4818667
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	262144	10101541
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	524288	21469125
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1048576	45064542
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2097152	95658417
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4194304	200373709
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8388608	411913625
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16777216	867581458
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	33554432	1798899042
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	67108864	3779176709
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	134217728	7745923000
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	268435456	16306306000
+RadixSortWithArraysAndCustomBase(256)	random	1024	20833
+RadixSortWithArraysAndCustomBase(256)	random	2048	32250
+RadixSortWithArraysAndCustomBase(256)	random	4096	42500
+RadixSortWithArraysAndCustomBase(256)	random	8192	61958
+RadixSortWithArraysAndCustomBase(256)	random	16384	109375
+RadixSortWithArraysAndCustomBase(256)	random	32768	177375
+RadixSortWithArraysAndCustomBase(256)	random	65536	326083
+RadixSortWithArraysAndCustomBase(256)	random	131072	1000833
+RadixSortWithArraysAndCustomBase(256)	random	262144	1720458
+RadixSortWithArraysAndCustomBase(256)	random	524288	3306625
+RadixSortWithArraysAndCustomBase(256)	random	1048576	6688209
+RadixSortWithArraysAndCustomBase(256)	random	2097152	13610333
+RadixSortWithArraysAndCustomBase(256)	random	4194304	27284791
+RadixSortWithArraysAndCustomBase(256)	random	8388608	53071666
+RadixSortWithArraysAndCustomBase(256)	random	16777216	105993500
+RadixSortWithArraysAndCustomBase(256)	random	33554432	328099458
+RadixSortWithArraysAndCustomBase(256)	random	67108864	690747416
+RadixSortWithArraysAndCustomBase(256)	random	134217728	1502969416
+RadixSortWithArraysAndCustomBase(256)	random	268435456	4427517292
+RadixSortWithArraysAndCustomBase(256)	random	536870912	8211918875
+JavaArraysSort	random	1024	27208
+JavaArraysSort	random	2048	60666
+JavaArraysSort	random	4096	111916
+JavaArraysSort	random	8192	222833
+JavaArraysSort	random	16384	460167
+JavaArraysSort	random	32768	956791
+JavaArraysSort	random	65536	2019166
+JavaArraysSort	random	131072	4270959
+JavaArraysSort	random	262144	8959208
+JavaArraysSort	random	524288	19107542
+JavaArraysSort	random	1048576	40677875
+JavaArraysSort	random	2097152	85017958
+JavaArraysSort	random	4194304	179852125
+JavaArraysSort	random	8388608	370681917
+JavaArraysSort	random	16777216	779474584
+JavaArraysSort	random	33554432	1651405916
+JavaArraysSort	random	67108864	3348160375
+JavaArraysSort	random	134217728	7053110500
+JavaArraysSort	random	268435456	14719211333
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1024	34042
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2048	60542
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4096	117667
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8192	230084
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16384	497542
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	32768	1034000
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	65536	2292416
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	131072	4834000
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	262144	10094875
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	524288	21403042
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	1048576	44099875
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	2097152	94948083
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	4194304	199934292
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	8388608	411923917
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	16777216	877107250
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	33554432	1800167292
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	67108864	3733234084
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	134217728	7893690084
+DualPivotQuicksortImproved(threshold: 64, pivot: THIRDS)	random	268435456	16298085916
+RadixSortWithArraysAndCustomBase(256)	random	1024	20792
+RadixSortWithArraysAndCustomBase(256)	random	2048	35375
+RadixSortWithArraysAndCustomBase(256)	random	4096	43250
+RadixSortWithArraysAndCustomBase(256)	random	8192	64458
+RadixSortWithArraysAndCustomBase(256)	random	16384	91875
+RadixSortWithArraysAndCustomBase(256)	random	32768	177458
+RadixSortWithArraysAndCustomBase(256)	random	65536	323417
+RadixSortWithArraysAndCustomBase(256)	random	131072	963583
+RadixSortWithArraysAndCustomBase(256)	random	262144	1731958
+RadixSortWithArraysAndCustomBase(256)	random	524288	3323125
+RadixSortWithArraysAndCustomBase(256)	random	1048576	6762333
+RadixSortWithArraysAndCustomBase(256)	random	2097152	13605042
+RadixSortWithArraysAndCustomBase(256)	random	4194304	27310750
+RadixSortWithArraysAndCustomBase(256)	random	8388608	53279875
+RadixSortWithArraysAndCustomBase(256)	random	16777216	106481000
+RadixSortWithArraysAndCustomBase(256)	random	33554432	327694625
+RadixSortWithArraysAndCustomBase(256)	random	67108864	690468542
+RadixSortWithArraysAndCustomBase(256)	random	134217728	1524309583
+RadixSortWithArraysAndCustomBase(256)	random	268435456	4396111500
+RadixSortWithArraysAndCustomBase(256)	random	536870912	8232735792

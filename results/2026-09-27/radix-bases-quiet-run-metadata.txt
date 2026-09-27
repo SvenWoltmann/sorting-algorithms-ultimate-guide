@@ -1,0 +1,8 @@
+# radix-bases-quiet
+# date:    2026-09-27T05:35:38Z
+# machine: apple-m5-pro-arm64
+# java:    openjdk version "27" 2026-09-15
+# sorting-repo commit: 0f3ce5e
+# program: RadixBaseComparison.java 3 10
+# runs:    10 iterations after 3 warm-up passes
+# finished: 2026-09-27T05:38:27Z
