@@ -66,3 +66,44 @@ scripts.
 | `radix*-quiet.tsv` | one line per measurement: algorithm, input order (not in `radix-bases-quiet`), size, nanoseconds |
 | `radix*-quiet.log` | the same run as printed while it ran (per sort, in milliseconds) |
 | `radix*-quiet-run-metadata.txt` | date, machine, JDK, commit of this repository, program, iteration counts |
+
+## Heapsort
+
+The three runs behind the numbers in the Heapsort article
+(https://www.happycoders.eu/algorithms/heapsort/). They replace
+`UltimateTest_Heapsort.log` in `../2020-08-13/`; the article keeps the 2020
+numbers beside the new ones where they differ.
+
+| | 2020-08-13 | 2026-09-26/27 |
+| --- | --- | --- |
+| Machine | Dell XPS 15 9570, Intel Core i7-8750H, 6 cores, x86 | Apple M5 Pro, 18 cores, arm64, macOS |
+| JDK | 14 | 27 (GA build of 2026-09-15) |
+| Program | `UltimateTest`, Heapsort block of the run | size ladder for the algorithms of the 2020 log, and for Mergesort and Quicksort |
+| Runs | 2 warmups + 50 iterations | 2 warmups + 10 iterations |
+
+| Run | Content |
+| --- | --- |
+| `heapsort` | Heapsort and Bottom-Up Heapsort, random input up to 2^26, ascending and descending input up to 2^28; started on 2026-09-26 at 23:23 local time, before the `dasd` task |
+| `heapsort-slow-comparisons-quiet-isb4` | `HeapsortSlowComparisons` and `BottomUpHeapsortSlowComparisons`, random input up to 2^23, with `-XX:+UnlockDiagnosticVMOptions -XX:OnSpinWaitInst=isb -XX:OnSpinWaitInstCount=4` |
+| `mergesort-vs-quicksort-quiet` | `MergeSort` and `QuicksortVariant1` with the pivot in the middle, as in 2020, random, ascending and descending input up to 2^28 (Quicksort presorted: 2^29) - for the comparison with Heapsort |
+| `i7-12700h/heapsort-slow-comparisons` | the slow-comparison variants as above, on a Dell XPS 17 (Intel Core i7-12700H, x86, WSL2) with JDK 27 and without further JVM options |
+
+The slow-comparison variants delay each comparison with
+`Thread.onSpinWait()`. On x86, HotSpot compiles that to `PAUSE`, the delay
+of the 2020 run. On arm64, JDK 27 compiles it to one `YIELD` by default,
+which costs next to nothing on the M5 Pro: in `heapsort.tsv`, the two
+slow-comparison variants run as fast as the plain ones, and their lines are
+not used. The `-isb4` run makes each call four `ISB` instructions instead;
+the i7-12700H run is the cross-check with `PAUSE`. Both give Bottom-Up
+Heapsort the same lead as 2020 - 1.74 to 1.79 (M5 Pro) and 1.77 to 1.82
+(i7-12700H) times as fast from 2^14 to 2^22, against 1.76 to 1.80 in 2020.
+
+The size ladders measure like `UltimateTest` - `System.gc()` before each sort,
+the 20-second rule. The program lives in the website repository next to the
+evaluation scripts.
+
+| File | Content |
+| --- | --- |
+| `heapsort*.tsv`, `mergesort-vs-quicksort-quiet.tsv` | one line per measurement: algorithm, input order, size, nanoseconds |
+| `heapsort*.log`, `mergesort-vs-quicksort-quiet.log` | the same run as printed while it ran (per sort, in milliseconds) |
+| `*-run-metadata.txt` | date, machine, JDK, commit of this repository, program, iteration counts, JVM options where set |

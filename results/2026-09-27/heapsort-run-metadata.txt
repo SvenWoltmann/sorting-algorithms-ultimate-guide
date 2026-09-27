@@ -1,0 +1,8 @@
+# heapsort
+# date:    2026-09-26T21:23:06Z
+# machine: apple-m5-pro-arm64
+# java:    openjdk version "27" 2026-09-15
+# sorting-repo commit: 0f3ce5e
+# program: SortLadder.java heapsort 10
+# runs:    10 iterations, 2 warm-up passes up to 2^22
+# finished: 2026-09-26T22:02:09Z

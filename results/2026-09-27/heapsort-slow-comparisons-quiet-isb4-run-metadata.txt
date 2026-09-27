@@ -1,0 +1,9 @@
+# heapsort-slow-comparisons-quiet-isb4
+# date:    2026-09-27T05:51:52Z
+# machine: apple-m5-pro-arm64
+# java:    openjdk version "27" 2026-09-15
+# sorting-repo commit: 0f3ce5e
+# program: SortLadder.java heapsort-slow-comparisons 10
+# runs:    10 iterations, 2 warm-up passes up to 2^22
+# jvm:     -XX:+UnlockDiagnosticVMOptions -XX:OnSpinWaitInst=isb -XX:OnSpinWaitInstCount=4
+# finished: 2026-09-27T05:58:18Z
