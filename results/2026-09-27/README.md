@@ -67,6 +67,39 @@ scripts.
 | `radix*-quiet.log` | the same run as printed while it ran (per sort, in milliseconds) |
 | `radix*-quiet-run-metadata.txt` | date, machine, JDK, commit of this repository, program, iteration counts |
 
+## Mergesort
+
+The run behind the numbers in the Mergesort article
+(https://www.happycoders.eu/algorithms/merge-sort/): the runtime table, the
+Mergesort runtime chart and the Mergesort-vs-Quicksort chart. It replaces
+`Test_Results_Mergesort.txt` in `../2020-05-30/` and, for the Quicksort side
+of the comparison, the `QuicksortVariant1(pivot: MIDDLE)` lines of
+`../2020-07-18/UltimateTest_Quicksort.log`; the article keeps the 2020 machine
+and the 2020 ratios in its info box and in the comparison paragraph. The same
+run feeds the Heapsort-vs-Quicksort-vs-Mergesort chart of the Heapsort
+article (see below).
+
+| | 2020-05-30 / 2020-07-18 | 2026-09-27 |
+| --- | --- | --- |
+| Machine | Dell XPS 15 9570, Intel Core i7-8750H, 6 cores, x86 | Apple M5 Pro, 18 cores, arm64, macOS |
+| JDK | 14 | 27 (GA build of 2026-09-15) |
+| Program | `UltimateTest`, `MergeSort` block and `QuicksortVariant1(pivot: MIDDLE)` block of the runs | size ladder for `MergeSort` and `QuicksortVariant1(pivot: MIDDLE)` |
+| Runs | 2 warmups + 50 iterations | 2 warmups + 10 iterations |
+
+The ladder measures like `UltimateTest` - the same three input orders,
+`System.gc()` before each sort, the 20-second rule - and stops Mergesort at
+2^28 for every input order and Quicksort at 2^28 for random and 2^29 for
+presorted input, the sizes the 2020 runs reached. It started at 07:03 local
+time on a quiet machine; a first run of the same profile on 2026-09-26 at
+00:02 local time overlapped the `dasd` background task and is not kept here
+(Mergesort within 1 %, Quicksort on presorted input up to 10 % slower).
+
+| File | Content |
+| --- | --- |
+| `mergesort-vs-quicksort-quiet.tsv` | one line per measurement: algorithm, input order, size, nanoseconds |
+| `mergesort-vs-quicksort-quiet.log` | the same run as printed while it ran (per sort, in milliseconds) |
+| `mergesort-vs-quicksort-quiet-run-metadata.txt` | date, machine, JDK, commit of this repository, program, iteration counts |
+
 ## Heapsort
 
 The three runs behind the numbers in the Heapsort article
