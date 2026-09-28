@@ -80,3 +80,10 @@ the ladder, and the ratio between the variants agrees within 4 %.
 | `heapsort-counters.tsv` | one line per measurement: algorithm, input order, size, arrays in the batch, iteration, nanoseconds, then the deltas of FIXED_CYCLES, FIXED_INSTRUCTIONS, INST_BRANCH_COND, BRANCH_COND_MISPRED_NONSPEC, INST_INT_LD, L1D_CACHE_MISS_LD_NONSPEC, LDST_UNIT_WAITING_OLD_L1D_CACHE_MISS and L1D_TLB_MISS_NONSPEC |
 | `heapsort-counters.log` | the same run as printed while it ran |
 | `heapsort-counters-run-metadata.txt` | date, machine, JDK, commit of this repository, program, iteration counts |
+| `heapsort-jit-assembly/` | the final C2 compilations of `Heapsort.heapify()`, `BottomUpHeapsort.findLeaf()` and `Heapsort.sort()` with both variants inlined, printed with `-XX:+PrintAssembly` (capstone hsdis) from the same program, run once without counters |
+
+The machine code shows why the counters differ: `Heapsort.heapify()` picks the
+larger child with a branch (`cmp` / `b.le`), `BottomUpHeapsort.findLeaf()`
+with a conditional select (`cmp` / `csel`), followed directly by the `lsl`
+that computes the index of the next level - so the next load waits for the
+previous one.

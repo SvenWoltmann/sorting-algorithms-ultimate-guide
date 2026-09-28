@@ -1,0 +1,136 @@
+Compiled method (c2) 467 2440       4       eu.happycoders.sort.method.heapsort.BottomUpHeapsort::findLeaf (79 bytes)
+ total in heap  [0x00000001229aa6c8,0x00000001229aa920] = 600
+ main code      [0x00000001229aa7c0,0x00000001229aa910] = 336
+ stub code      [0x00000001229aa910,0x00000001229aa918] = 8
+ oops           [0x00000001229aa918,0x00000001229aa920] = 8
+ mutable data [0x000000791d854f90,0x000000791d854fb8] = 40
+ relocation     [0x000000791d854f90,0x000000791d854fb0] = 32
+ metadata       [0x000000791d854fb0,0x000000791d854fb8] = 8
+ immutable data [0x000000791d871c00,0x000000791d871cec] = 236
+ dependencies   [0x000000791d871c00,0x000000791d871c08] = 8
+ nul chk table  [0x000000791d871c08,0x000000791d871c18] = 16
+ scopes pcs     [0x000000791d871c18,0x000000791d871c78] = 96
+ scopes data    [0x000000791d871c78,0x000000791d871ce8] = 112
+
+[Disassembly]
+--------------------------------------------------------------------------------
+[Constant Pool (empty)]
+
+--------------------------------------------------------------------------------
+
+[Instructions begin]
+  0x00000001229aa7c0:   nop		
+  0x00000001229aa7c4:   nop		
+[Entry Point]
+  # {method} {0x0000000140af44f8} 'findLeaf' '([III)I' in 'eu/happycoders/sort/method/heapsort/BottomUpHeapsort'
+  # this:     c_rarg1:c_rarg1 
+                        = 'eu/happycoders/sort/method/heapsort/BottomUpHeapsort'
+  # parm0:    c_rarg2:c_rarg2 
+                        = '[I'
+  # parm1:    c_rarg3   = int
+  # parm2:    c_rarg4   = int
+  #           [sp+0x40]  (sp of caller)
+  0x00000001229aa7c8:   ldr		x8, [x1]
+  0x00000001229aa7cc:   lsr		x8, x8, #0x2a
+  0x00000001229aa7d0:   ldr		w10, [x9, #8]
+  0x00000001229aa7d4:   cmp		w8, w10
+  0x00000001229aa7d8:   b.eq		#0x1229aa7e0
+  0x00000001229aa7dc:   b		#0x122253640        ;   {runtime_call ic_miss_blob (shared runtime)}
+[Verified Entry Point]
+  0x00000001229aa7e0:   sub		x9, sp, #0x14, lsl #12
+  0x00000001229aa7e4:   str		xzr, [x9]
+  0x00000001229aa7e8:   sub		sp, sp, #0x40
+  0x00000001229aa7ec:   stp		x29, x30, [sp, #0x30]
+  0x00000001229aa7f0:   ldr		w8, #0x1229aa90c
+  0x00000001229aa7f4:   ldr		w9, [x28, #0x20]
+  0x00000001229aa7f8:   cmp		x8, x9
+  0x00000001229aa7fc:   b.ne		#0x1229aa8f8
+  0x00000001229aa800:   lsl		w11, w4, #1
+  0x00000001229aa804:   add		w12, w11, #2
+  0x00000001229aa808:   add		w0, w11, #1
+  0x00000001229aa80c:   cmp		w12, w3
+  0x00000001229aa810:   b.ge		#0x1229aa864
+  0x00000001229aa814:   ldr		w10, [x2, #8]       ; implicit exception: dispatches to 0x00000001229aa8c8
+  0x00000001229aa818:   nop		
+  0x00000001229aa81c:   nop		
+  0x00000001229aa820:   add		x11, x2, w12, sxtw #2
+  0x00000001229aa824:   cmp		w12, w10
+  0x00000001229aa828:   b.hs		#0x1229aa888
+  0x00000001229aa82c:   ldr		w29, [x11, #0xc]
+  0x00000001229aa830:   cmp		w0, w10
+  0x00000001229aa834:   b.hs		#0x1229aa8a8
+  0x00000001229aa838:   add		x11, x2, w0, sxtw #2
+  0x00000001229aa83c:   ldr		w13, [x11, #0xc]
+  0x00000001229aa840:   cmp		w29, w13
+  0x00000001229aa844:   csel		w4, w0, w12, le
+  0x00000001229aa848:   lsl		w14, w4, #1
+  0x00000001229aa84c:   ldr		x11, [x28, #0x30]
+  0x00000001229aa850:   add		w12, w14, #2
+  0x00000001229aa854:   add		w0, w14, #1         ; ImmutableOopMap {c_rarg2=Oop }
+                                                            ;*goto {reexecute=1 rethrow=0 return_oop=0}
+                                                            ; - (reexecute) eu.happycoders.sort.method.heapsort.BottomUpHeapsort::findLeaf@63 (line 54)
+  0x00000001229aa858:   ldr		wzr, [x11]          ;   {poll}
+  0x00000001229aa85c:   cmp		w12, w3
+  0x00000001229aa860:   b.lt		#0x1229aa820
+  0x00000001229aa864:   cmp		w0, w3
+  0x00000001229aa868:   b.lt		#0x1229aa870
+  0x00000001229aa86c:   mov		w0, w4
+  0x00000001229aa870:   ldp		x29, x30, [sp, #0x30]
+  0x00000001229aa874:   add		sp, sp, #0x40
+  0x00000001229aa878:   ldr		x8, [x28, #0x28]    ;   {poll_return}
+  0x00000001229aa87c:   cmp		sp, x8
+  0x00000001229aa880:   b.hi		#0x1229aa8ec
+  0x00000001229aa884:   ret		
+  0x00000001229aa888:   mov		w1, #-0x1c
+  0x00000001229aa88c:   str		w0, [sp]
+  0x00000001229aa890:   str		x2, [sp, #8]
+  0x00000001229aa894:   stp		w12, w3, [sp, #0x10]
+  0x00000001229aa898:   bl		#0x12232be80        ; ImmutableOopMap {[8]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::findLeaf@28 (line 48)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x00000001229aa89c:   nop		                    ;   {post_call_nop}
+  0x00000001229aa8a0:   movk		xzr, #0x1d4
+  0x00000001229aa8a4:   movk		xzr, #0x100
+  0x00000001229aa8a8:   mov		w1, #-0x1c
+  0x00000001229aa8ac:   str		w12, [sp, #0xc]
+  0x00000001229aa8b0:   str		x2, [sp, #0x10]
+  0x00000001229aa8b4:   stp		w0, w3, [sp, #0x18]
+  0x00000001229aa8b8:   bl		#0x12232be80        ; ImmutableOopMap {[16]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::findLeaf@32 (line 48)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x00000001229aa8bc:   nop		                    ;   {post_call_nop}
+  0x00000001229aa8c0:   movk		xzr, #0x1f4
+  0x00000001229aa8c4:   movk		xzr, #0x200
+  0x00000001229aa8c8:   mov		w1, #-0x92
+  0x00000001229aa8cc:   mov		x29, x2
+  0x00000001229aa8d0:   str		w0, [sp]
+  0x00000001229aa8d4:   stp		w12, w4, [sp, #8]
+  0x00000001229aa8d8:   str		w3, [sp, #0x10]
+  0x00000001229aa8dc:   bl		#0x12232be80        ; ImmutableOopMap {rfp=Oop }
+                                                            ;*if_icmpge {reexecute=1 rethrow=0 return_oop=0}
+                                                            ; - (reexecute) eu.happycoders.sort.method.heapsort.BottomUpHeapsort::findLeaf@22 (line 47)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x00000001229aa8e0:   nop		                    ;   {post_call_nop}
+  0x00000001229aa8e4:   movk		xzr, #0x218
+  0x00000001229aa8e8:   movk		xzr, #0x300
+  0x00000001229aa8ec:   adr		x8, #0x1229aa878    ;   {internal_word}
+  0x00000001229aa8f0:   str		x8, [x28, #0x498]
+  0x00000001229aa8f4:   b		#0x122254ec0        ;   {runtime_call polling_page_return_handler_blob (shared runtime)}
+  0x00000001229aa8f8:   mov		x8, #0xc5c0         ;   {runtime_call Stub::method_entry_barrier_stub (stub gen)}
+  0x00000001229aa8fc:   movk		x8, #0x2225, lsl #16
+  0x00000001229aa900:   movk		x8, #1, lsl #32
+  0x00000001229aa904:   blr		x8
+  0x00000001229aa908:   b		#0x1229aa800
+  0x00000001229aa90c:   udf		#3                  ;   {entry_guard}
+[Stub Code]
+  0x00000001229aa910:   bl		#0x1222550c0        ;   {runtime_call DeoptimizationBlob}
+[Deopt Handler Entry Point]
+  0x00000001229aa914:   b		#0x1229aa910
+--------------------------------------------------------------------------------
+[/Disassembly]
+
+============================= C2-compiled nmethod ==============================
+----------------------------------- Assembly -----------------------------------
+

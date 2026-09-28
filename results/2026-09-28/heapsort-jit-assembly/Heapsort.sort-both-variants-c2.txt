@@ -1,0 +1,1315 @@
+Compiled method (c2) 666 2452       4       eu.happycoders.sort.method.heapsort.Heapsort::sort (34 bytes)
+ total in heap  [0x00000001229933c8,0x0000000122993e48] = 2688
+ main code      [0x00000001229934c0,0x0000000122993e38] = 2424
+ stub code      [0x0000000122993e38,0x0000000122993e40] = 8
+ oops           [0x0000000122993e40,0x0000000122993e48] = 8
+ mutable data [0x000000791d871a00,0x000000791d871af0] = 240
+ relocation     [0x000000791d871a00,0x000000791d871aa0] = 160
+ metadata       [0x000000791d871aa0,0x000000791d871af0] = 80
+ immutable data [0x000000791ac29400,0x000000791ac29d64] = 2404
+ dependencies   [0x000000791ac29400,0x000000791ac29428] = 40
+ nul chk table  [0x000000791ac29428,0x000000791ac29438] = 16
+ scopes pcs     [0x000000791ac29438,0x000000791ac296a8] = 624
+ scopes data    [0x000000791ac296a8,0x000000791ac29d60] = 1720
+
+[Disassembly]
+--------------------------------------------------------------------------------
+[Constant Pool (empty)]
+
+--------------------------------------------------------------------------------
+
+[Instructions begin]
+  0x00000001229934c0:   nop		
+  0x00000001229934c4:   nop		
+[Entry Point]
+  # {method} {0x0000000140aefa40} 'sort' '([I)V' in 'eu/happycoders/sort/method/heapsort/Heapsort'
+  # this:     c_rarg1:c_rarg1 
+                        = 'eu/happycoders/sort/method/heapsort/Heapsort'
+  # parm0:    c_rarg2:c_rarg2 
+                        = '[I'
+  #           [sp+0x80]  (sp of caller)
+  0x00000001229934c8:   ldr		x8, [x1]
+  0x00000001229934cc:   lsr		x8, x8, #0x2a
+  0x00000001229934d0:   ldr		w10, [x9, #8]
+  0x00000001229934d4:   cmp		w8, w10
+  0x00000001229934d8:   b.eq		#0x1229934e0
+  0x00000001229934dc:   b		#0x122253640        ;   {runtime_call ic_miss_blob (shared runtime)}
+[Verified Entry Point]
+  0x00000001229934e0:   sub		x9, sp, #0x14, lsl #12
+  0x00000001229934e4:   str		xzr, [x9]
+  0x00000001229934e8:   sub		sp, sp, #0x80
+  0x00000001229934ec:   stp		x29, x30, [sp, #0x70]
+  0x00000001229934f0:   ldr		w8, #0x122993e30
+  0x00000001229934f4:   ldr		w9, [x28, #0x20]
+  0x00000001229934f8:   cmp		x8, x9
+  0x00000001229934fc:   b.ne		#0x122993e1c
+  0x0000000122993500:   mov		x4, x1
+  0x0000000122993504:   ldr		w14, [x2, #8]       ; implicit exception: dispatches to 0x0000000122993dfc
+  0x0000000122993508:   asr		w11, w14, #1
+  0x000000012299350c:   sub		w10, w11, #1
+  0x0000000122993510:   ldr		w0, [x1, #4]
+  0x0000000122993514:   lsr		w0, w0, #0xa
+  0x0000000122993518:   movz		x17, #0, lsl #16    ;   {metadata('eu/happycoders/sort/method/heapsort/BottomUpHeapsort')}
+  0x000000012299351c:   movk		x17, #0x48be
+  0x0000000122993520:   movz		x3, #0, lsl #16     ;   {metadata('eu/happycoders/sort/method/heapsort/Heapsort')}
+  0x0000000122993524:   movk		x3, #0x48bd
+  0x0000000122993528:   tbz		w10, #0x1f, #0x1229935cc
+  0x000000012299352c:   sub		w15, w14, #1
+  0x0000000122993530:   cmp		w15, #0
+  0x0000000122993534:   b.le		#0x1229939a0
+  0x0000000122993538:   cbz		w14, #0x12299354c
+  0x000000012299353c:   cmp		w14, #1
+  0x0000000122993540:   b.ls		#0x12299354c
+  0x0000000122993544:   cmp		w15, w14
+  0x0000000122993548:   b.lo		#0x1229937dc
+  0x000000012299354c:   mov		w1, #-0x92
+  0x0000000122993550:   mov		x29, x4
+  0x0000000122993554:   str		x2, [sp]
+  0x0000000122993558:   str		w15, [sp, #0xc]
+  0x000000012299355c:   bl		#0x12232be80        ; ImmutableOopMap {rfp=Oop [0]=Oop }
+                                                            ;*ifle {reexecute=1 rethrow=0 return_oop=0}
+                                                            ; - (reexecute) eu.happycoders.sort.method.heapsort.Heapsort::sort@11 (line 20)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993560:   nop		                    ;   {post_call_nop}
+  0x0000000122993564:   movk		xzr, #0x198
+  0x0000000122993568:   movk		xzr, #0
+  0x000000012299356c:   mov		w13, w12
+  0x0000000122993570:   b		#0x122993664
+  0x0000000122993574:   nop		
+  0x0000000122993578:   nop		
+  0x000000012299357c:   nop		
+  0x0000000122993580:   mov		w13, w16
+  0x0000000122993584:   sub		w12, w11, #1
+  0x0000000122993588:   add		w12, w11, w12, lsr #31
+  0x000000012299358c:   sub		w11, w12, #1
+  0x0000000122993590:   asr		w11, w11, #1
+  0x0000000122993594:   cmp		w11, w14
+  0x0000000122993598:   b.hs		#0x122993cbc
+  0x000000012299359c:   add		x12, x2, w11, sxtw #2
+  0x00000001229935a0:   ldr		w16, [x12, #0xc]
+  0x00000001229935a4:   str		w13, [x12, #0xc]
+  0x00000001229935a8:   ldr		x15, [x28, #0x30]   ; ImmutableOopMap {c_rarg2=Oop c_rarg4=Oop c_rarg6=Oop }
+                                                            ;*goto {reexecute=1 rethrow=0 return_oop=0}
+                                                            ; - (reexecute) eu.happycoders.sort.method.heapsort.BottomUpHeapsort::heapify@73 (line 38)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::buildHeap@18 (line 40)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@2 (line 17)
+  0x00000001229935ac:   ldr		wzr, [x15]          ;   {poll}
+  0x00000001229935b0:   cmp		w11, w10
+  0x00000001229935b4:   b.gt		#0x122993580
+  0x00000001229935b8:   ldr		x12, [x28, #0x30]
+  0x00000001229935bc:   sub		w10, w10, #1        ; ImmutableOopMap {c_rarg2=Oop c_rarg4=Oop }
+                                                            ;*goto {reexecute=1 rethrow=0 return_oop=0}
+                                                            ; - (reexecute) eu.happycoders.sort.method.heapsort.Heapsort::buildHeap@24 (line 39)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@2 (line 17)
+  0x00000001229935c0:   ldr		wzr, [x12]          ;   {poll}
+  0x00000001229935c4:   cmn		w10, #1
+  0x00000001229935c8:   b.le		#0x12299352c
+  0x00000001229935cc:   cmp		w0, w3
+  0x00000001229935d0:   b.ne		#0x12299369c
+  0x00000001229935d4:   mov		x15, x4
+  0x00000001229935d8:   mov		w12, w10
+  0x00000001229935dc:   b		#0x122993628
+  0x00000001229935e0:   mov		w13, w16
+  0x00000001229935e4:   nop		
+  0x00000001229935e8:   nop		
+  0x00000001229935ec:   nop		
+  0x00000001229935f0:   cmp		w13, w12
+  0x00000001229935f4:   b.eq		#0x1229935b8
+  0x00000001229935f8:   cmp		w12, w14
+  0x00000001229935fc:   b.hs		#0x122993b90
+  0x0000000122993600:   ldr		w16, [x1, #0xc]
+  0x0000000122993604:   cmp		w13, w14
+  0x0000000122993608:   b.hs		#0x122993bb8
+  0x000000012299360c:   add		x11, x2, w13, sxtw #2
+  0x0000000122993610:   ldr		w5, [x11, #0xc]
+  0x0000000122993614:   str		w5, [x1, #0xc]
+  0x0000000122993618:   str		w16, [x11, #0xc]
+  0x000000012299361c:   ldr		x12, [x28, #0x30]   ; ImmutableOopMap {r15=Oop c_rarg2=Oop c_rarg4=Oop }
+                                                            ;*goto {reexecute=1 rethrow=0 return_oop=0}
+                                                            ; - (reexecute) eu.happycoders.sort.method.heapsort.Heapsort::heapify@78 (line 76)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::buildHeap@18 (line 40)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@2 (line 17)
+  0x0000000122993620:   ldr		wzr, [x12]          ;   {poll}
+  0x0000000122993624:   mov		w12, w13
+  0x0000000122993628:   lsl		w16, w12, #1
+  0x000000012299362c:   add		x5, x2, w16, sxtw #2
+  0x0000000122993630:   add		w13, w16, #1
+  0x0000000122993634:   add		x1, x2, w12, sxtw #2
+  0x0000000122993638:   add		w16, w16, #2
+  0x000000012299363c:   cmp		w13, w14
+  0x0000000122993640:   b.ge		#0x122993694
+  0x0000000122993644:   cmp		w13, w14
+  0x0000000122993648:   b.hs		#0x122993ad8
+  0x000000012299364c:   ldr		w11, [x5, #0x10]
+  0x0000000122993650:   cmp		w12, w14
+  0x0000000122993654:   b.hs		#0x122993b04
+  0x0000000122993658:   ldr		w7, [x1, #0xc]
+  0x000000012299365c:   cmp		w11, w7
+  0x0000000122993660:   b.le		#0x12299356c
+  0x0000000122993664:   cmp		w16, w14
+  0x0000000122993668:   b.ge		#0x1229935f0
+  0x000000012299366c:   cmp		w16, w14
+  0x0000000122993670:   b.hs		#0x122993b34
+  0x0000000122993674:   ldr		w11, [x5, #0x14]
+  0x0000000122993678:   cmp		w13, w14
+  0x000000012299367c:   b.hs		#0x122993b60
+  0x0000000122993680:   add		x5, x2, w13, sxtw #2
+  0x0000000122993684:   ldr		w5, [x5, #0xc]
+  0x0000000122993688:   cmp		w11, w5
+  0x000000012299368c:   b.gt		#0x1229935e0
+  0x0000000122993690:   b		#0x1229935f0
+  0x0000000122993694:   mov		w13, w12
+  0x0000000122993698:   b		#0x122993664
+  0x000000012299369c:   lsl		w12, w10, #1
+  0x00000001229936a0:   cmp		w0, w17
+  0x00000001229936a4:   add		x15, x2, w10, sxtw #2
+  0x00000001229936a8:   add		w16, w12, #1
+  0x00000001229936ac:   add		w5, w12, #2
+  0x00000001229936b0:   b.ne		#0x122993dac
+  0x00000001229936b4:   mov		x6, x4
+  0x00000001229936b8:   cmp		w5, w14
+  0x00000001229936bc:   b.ge		#0x122993780
+  0x00000001229936c0:   add		x11, x2, w5, sxtw #2
+  0x00000001229936c4:   cmp		w5, w14
+  0x00000001229936c8:   b.hs		#0x122993c5c
+  0x00000001229936cc:   ldr		w29, [x11, #0xc]
+  0x00000001229936d0:   cmp		w16, w14
+  0x00000001229936d4:   b.hs		#0x122993c8c
+  0x00000001229936d8:   add		x11, x2, w16, sxtw #2
+  0x00000001229936dc:   ldr		w12, [x11, #0xc]
+  0x00000001229936e0:   cmp		w29, w12
+  0x00000001229936e4:   csel		w11, w16, w5, le
+  0x00000001229936e8:   lsl		w12, w11, #1
+  0x00000001229936ec:   ldr		x1, [x28, #0x30]
+  0x00000001229936f0:   add		w5, w12, #2
+  0x00000001229936f4:   add		w16, w12, #1        ; ImmutableOopMap {c_rarg2=Oop r15=Derived_oop_c_rarg2 c_rarg4=Oop c_rarg6=Oop }
+                                                            ;*goto {reexecute=1 rethrow=0 return_oop=0}
+                                                            ; - (reexecute) eu.happycoders.sort.method.heapsort.BottomUpHeapsort::findLeaf@63 (line 54)
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::heapify@4 (line 21)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::buildHeap@18 (line 40)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@2 (line 17)
+  0x00000001229936f8:   ldr		wzr, [x1]           ;   {poll}
+  0x00000001229936fc:   cmp		w5, w14
+  0x0000000122993700:   b.lt		#0x1229936c0
+  0x0000000122993704:   cmp		w16, w14
+  0x0000000122993708:   b.lt		#0x1229939c0
+  0x000000012299370c:   cmp		w10, w14
+  0x0000000122993710:   b.hs		#0x122993d7c
+  0x0000000122993714:   ldr		w1, [x15, #0xc]
+  0x0000000122993718:   cmp		w11, w10
+  0x000000012299371c:   b.eq		#0x122993758
+  0x0000000122993720:   cmp		w11, w14
+  0x0000000122993724:   b.hs		#0x122993d4c
+  0x0000000122993728:   add		x12, x2, w11, sxtw #2
+  0x000000012299372c:   ldr		w13, [x12, #0xc]
+  0x0000000122993730:   cmp		w13, w1
+  0x0000000122993734:   b.ge		#0x122993758
+  0x0000000122993738:   sub		w13, w11, #1
+  0x000000012299373c:   add		w11, w11, w13, lsr #31
+  0x0000000122993740:   sub		w11, w11, #1
+  0x0000000122993744:   ldr		x16, [x28, #0x30]
+  0x0000000122993748:   asr		w11, w11, #1        ; ImmutableOopMap {c_rarg2=Oop c_rarg4=Oop c_rarg6=Oop }
+                                                            ;*goto {reexecute=1 rethrow=0 return_oop=0}
+                                                            ; - (reexecute) eu.happycoders.sort.method.heapsort.BottomUpHeapsort::findTargetNodeBottomUp@24 (line 68)
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::heapify@14 (line 22)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::buildHeap@18 (line 40)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@2 (line 17)
+  0x000000012299374c:   ldr		wzr, [x16]          ;   {poll}
+  0x0000000122993750:   cmp		w11, w10
+  0x0000000122993754:   b.ne		#0x122993720
+  0x0000000122993758:   cmp		w10, w11
+  0x000000012299375c:   b.eq		#0x1229935b8
+  0x0000000122993760:   add		x12, x2, w11, sxtw #2
+  0x0000000122993764:   cmp		w11, w14
+  0x0000000122993768:   b.hs		#0x122993dd0
+  0x000000012299376c:   ldr		w13, [x12, #0xc]
+  0x0000000122993770:   str		w1, [x12, #0xc]
+  0x0000000122993774:   cmp		w11, w10
+  0x0000000122993778:   b.gt		#0x122993584
+  0x000000012299377c:   b		#0x1229935b8
+  0x0000000122993780:   mov		w11, w10
+  0x0000000122993784:   b		#0x122993704
+  0x0000000122993788:   mov		w12, w10
+  0x000000012299378c:   b		#0x122993884
+  0x0000000122993790:   mov		w11, w1
+  0x0000000122993794:   sub		w13, w10, #1
+  0x0000000122993798:   add		w13, w10, w13, lsr #31
+  0x000000012299379c:   sub		w10, w13, #1
+  0x00000001229937a0:   asr		w10, w10, #1
+  0x00000001229937a4:   cmp		w10, w14
+  0x00000001229937a8:   b.hs		#0x122993c38
+  0x00000001229937ac:   add		x13, x2, w10, sxtw #2
+  0x00000001229937b0:   ldr		w1, [x13, #0xc]
+  0x00000001229937b4:   str		w11, [x13, #0xc]
+  0x00000001229937b8:   ldr		x16, [x28, #0x30]   ; ImmutableOopMap {r12=Oop c_rarg2=Oop c_rarg4=Oop }
+                                                            ;*goto {reexecute=1 rethrow=0 return_oop=0}
+                                                            ; - (reexecute) eu.happycoders.sort.method.heapsort.BottomUpHeapsort::heapify@73 (line 38)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@24 (line 25)
+  0x00000001229937bc:   ldr		wzr, [x16]          ;   {poll}
+  0x00000001229937c0:   cmp		w10, #0
+  0x00000001229937c4:   b.gt		#0x122993790
+  0x00000001229937c8:   ldr		x10, [x28, #0x30]
+  0x00000001229937cc:   sub		w15, w15, #1        ; ImmutableOopMap {c_rarg2=Oop c_rarg4=Oop }
+                                                            ;*goto {reexecute=1 rethrow=0 return_oop=0}
+                                                            ; - (reexecute) eu.happycoders.sort.method.heapsort.Heapsort::sort@30 (line 20)
+  0x00000001229937d0:   ldr		wzr, [x10]          ;   {poll}
+  0x00000001229937d4:   cmp		w15, #0
+  0x00000001229937d8:   b.le		#0x1229939a0
+  0x00000001229937dc:   add		x10, x2, w15, sxtw #2
+  0x00000001229937e0:   ldr		w11, [x10, #0xc]
+  0x00000001229937e4:   ldr		w13, [x2, #0xc]
+  0x00000001229937e8:   str		w11, [x2, #0xc]
+  0x00000001229937ec:   cmp		w0, w3
+  0x00000001229937f0:   str		w13, [x10, #0xc]
+  0x00000001229937f4:   b.ne		#0x1229938bc
+  0x00000001229937f8:   mov		x5, x4
+  0x00000001229937fc:   mov		w10, wzr
+  0x0000000122993800:   b		#0x122993848
+  0x0000000122993804:   mov		w12, w11
+  0x0000000122993808:   nop		
+  0x000000012299380c:   nop		
+  0x0000000122993810:   cmp		w12, w10
+  0x0000000122993814:   b.eq		#0x1229937c8
+  0x0000000122993818:   cmp		w10, w14
+  0x000000012299381c:   b.hs		#0x122993a80
+  0x0000000122993820:   ldr		w13, [x16, #0xc]
+  0x0000000122993824:   cmp		w12, w14
+  0x0000000122993828:   b.hs		#0x122993aa8
+  0x000000012299382c:   add		x10, x2, w12, sxtw #2
+  0x0000000122993830:   ldr		w1, [x10, #0xc]
+  0x0000000122993834:   str		w1, [x16, #0xc]
+  0x0000000122993838:   str		w13, [x10, #0xc]
+  0x000000012299383c:   ldr		x11, [x28, #0x30]   ; ImmutableOopMap {c_rarg2=Oop c_rarg4=Oop c_rarg5=Oop }
+                                                            ;*goto {reexecute=1 rethrow=0 return_oop=0}
+                                                            ; - (reexecute) eu.happycoders.sort.method.heapsort.Heapsort::heapify@78 (line 76)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@24 (line 25)
+  0x0000000122993840:   ldr		wzr, [x11]          ;   {poll}
+  0x0000000122993844:   mov		w10, w12
+  0x0000000122993848:   lsl		w13, w10, #1
+  0x000000012299384c:   add		w12, w13, #1
+  0x0000000122993850:   add		x16, x2, w10, sxtw #2
+  0x0000000122993854:   add		x1, x2, w13, sxtw #2
+  0x0000000122993858:   add		w11, w13, #2
+  0x000000012299385c:   cmp		w12, w15
+  0x0000000122993860:   b.ge		#0x1229938b4
+  0x0000000122993864:   cmp		w12, w14
+  0x0000000122993868:   b.hs		#0x1229939c8
+  0x000000012299386c:   ldr		w13, [x1, #0x10]
+  0x0000000122993870:   cmp		w10, w14
+  0x0000000122993874:   b.hs		#0x1229939f4
+  0x0000000122993878:   ldr		w6, [x16, #0xc]
+  0x000000012299387c:   cmp		w13, w6
+  0x0000000122993880:   b.le		#0x122993788
+  0x0000000122993884:   cmp		w11, w15
+  0x0000000122993888:   b.ge		#0x122993810
+  0x000000012299388c:   cmp		w11, w14
+  0x0000000122993890:   b.hs		#0x122993a24
+  0x0000000122993894:   ldr		w13, [x1, #0x14]
+  0x0000000122993898:   cmp		w12, w14
+  0x000000012299389c:   b.hs		#0x122993a50
+  0x00000001229938a0:   add		x1, x2, w12, sxtw #2
+  0x00000001229938a4:   ldr		w1, [x1, #0xc]
+  0x00000001229938a8:   cmp		w13, w1
+  0x00000001229938ac:   b.gt		#0x122993804
+  0x00000001229938b0:   b		#0x122993810
+  0x00000001229938b4:   mov		w12, w10
+  0x00000001229938b8:   b		#0x122993884
+  0x00000001229938bc:   cmp		w0, w17
+  0x00000001229938c0:   ldr		w29, [x2, #0xc]
+  0x00000001229938c4:   b.ne		#0x122993d0c
+  0x00000001229938c8:   mov		x12, x4
+  0x00000001229938cc:   cmp		w15, #2
+  0x00000001229938d0:   b.le		#0x12299398c
+  0x00000001229938d4:   mov		w11, #2
+  0x00000001229938d8:   mov		w13, #1
+  0x00000001229938dc:   nop		
+  0x00000001229938e0:   add		x10, x2, w11, sxtw #2
+  0x00000001229938e4:   cmp		w11, w14
+  0x00000001229938e8:   b.hs		#0x122993be8
+  0x00000001229938ec:   ldr		w10, [x10, #0xc]
+  0x00000001229938f0:   cmp		w13, w14
+  0x00000001229938f4:   b.hs		#0x122993c10
+  0x00000001229938f8:   add		x16, x2, w13, sxtw #2
+  0x00000001229938fc:   ldr		w1, [x16, #0xc]
+  0x0000000122993900:   cmp		w10, w1
+  0x0000000122993904:   csel		w10, w13, w11, le
+  0x0000000122993908:   lsl		w1, w10, #1
+  0x000000012299390c:   ldr		x16, [x28, #0x30]
+  0x0000000122993910:   add		w11, w1, #2
+  0x0000000122993914:   add		w13, w1, #1         ; ImmutableOopMap {r12=Oop c_rarg2=Oop c_rarg4=Oop }
+                                                            ;*goto {reexecute=1 rethrow=0 return_oop=0}
+                                                            ; - (reexecute) eu.happycoders.sort.method.heapsort.BottomUpHeapsort::findLeaf@63 (line 54)
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::heapify@4 (line 21)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@24 (line 25)
+  0x0000000122993918:   ldr		wzr, [x16]          ;   {poll}
+  0x000000012299391c:   cmp		w11, w15
+  0x0000000122993920:   b.lt		#0x1229938e0
+  0x0000000122993924:   cmp		w13, w15
+  0x0000000122993928:   b.lt		#0x1229939b8
+  0x000000012299392c:   cbz		w10, #0x122993998
+  0x0000000122993930:   cmp		w10, w14
+  0x0000000122993934:   b.hs		#0x122993ce8
+  0x0000000122993938:   add		x11, x2, w10, sxtw #2
+  0x000000012299393c:   ldr		w11, [x11, #0xc]
+  0x0000000122993940:   cmp		w11, w29
+  0x0000000122993944:   b.ge		#0x122993968
+  0x0000000122993948:   sub		w11, w10, #1
+  0x000000012299394c:   add		w11, w10, w11, lsr #31
+  0x0000000122993950:   sub		w10, w11, #1
+  0x0000000122993954:   ldr		x11, [x28, #0x30]
+  0x0000000122993958:   asr		w10, w10, #1        ; ImmutableOopMap {r12=Oop c_rarg2=Oop c_rarg4=Oop }
+                                                            ;*goto {reexecute=1 rethrow=0 return_oop=0}
+                                                            ; - (reexecute) eu.happycoders.sort.method.heapsort.BottomUpHeapsort::findTargetNodeBottomUp@24 (line 68)
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::heapify@14 (line 22)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@24 (line 25)
+  0x000000012299395c:   ldr		wzr, [x11]          ;   {poll}
+  0x0000000122993960:   cbnz		w10, #0x122993930
+  0x0000000122993964:   mov		w10, wzr
+  0x0000000122993968:   cbz		w10, #0x1229937c8
+  0x000000012299396c:   add		x13, x2, w10, sxtw #2
+  0x0000000122993970:   cmp		w10, w14
+  0x0000000122993974:   b.hs		#0x122993d28
+  0x0000000122993978:   ldr		w11, [x13, #0xc]
+  0x000000012299397c:   str		w29, [x13, #0xc]
+  0x0000000122993980:   cmp		w10, #0
+  0x0000000122993984:   b.gt		#0x122993794
+  0x0000000122993988:   b		#0x1229937c8
+  0x000000012299398c:   mov		w13, #1
+  0x0000000122993990:   mov		w10, wzr
+  0x0000000122993994:   b		#0x122993924
+  0x0000000122993998:   mov		w10, wzr
+  0x000000012299399c:   b		#0x122993968
+  0x00000001229939a0:   ldp		x29, x30, [sp, #0x70]
+  0x00000001229939a4:   add		sp, sp, #0x80
+  0x00000001229939a8:   ldr		x8, [x28, #0x28]    ;   {poll_return}
+  0x00000001229939ac:   cmp		sp, x8
+  0x00000001229939b0:   b.hi		#0x122993e10
+  0x00000001229939b4:   ret		
+  0x00000001229939b8:   mov		w10, w13
+  0x00000001229939bc:   b		#0x12299392c
+  0x00000001229939c0:   mov		w11, w16
+  0x00000001229939c4:   b		#0x12299370c
+  0x00000001229939c8:   mov		w1, #-0x1c
+  0x00000001229939cc:   mov		x29, x5
+  0x00000001229939d0:   str		w15, [sp, #0xc]
+  0x00000001229939d4:   str		x2, [sp, #0x10]
+  0x00000001229939d8:   stp		w11, w10, [sp, #0x20]
+  0x00000001229939dc:   str		x2, [sp, #0x28]
+  0x00000001229939e0:   str		w12, [sp, #0x30]
+  0x00000001229939e4:   bl		#0x12232be80        ; ImmutableOopMap {rfp=Oop [16]=Oop [40]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::heapify@26 (line 58)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@24 (line 25)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x00000001229939e8:   nop		                    ;   {post_call_nop}
+  0x00000001229939ec:   movk		xzr, #0x620
+  0x00000001229939f0:   movk		xzr, #0xb00
+  0x00000001229939f4:   mov		w1, #-0x1c
+  0x00000001229939f8:   mov		x29, x5
+  0x00000001229939fc:   str		w15, [sp, #0xc]
+  0x0000000122993a00:   str		x2, [sp, #0x10]
+  0x0000000122993a04:   stp		w12, w11, [sp, #0x1c]
+  0x0000000122993a08:   stp		w10, w13, [sp, #0x24]
+  0x0000000122993a0c:   str		w10, [sp, #0x2c]
+  0x0000000122993a10:   str		x2, [sp, #0x30]
+  0x0000000122993a14:   bl		#0x12232be80        ; ImmutableOopMap {rfp=Oop [16]=Oop [48]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::heapify@30 (line 58)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@24 (line 25)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993a18:   nop		                    ;   {post_call_nop}
+  0x0000000122993a1c:   movk		xzr, #0x650
+  0x0000000122993a20:   movk		xzr, #0xc00
+  0x0000000122993a24:   mov		w1, #-0x1c
+  0x0000000122993a28:   mov		x29, x5
+  0x0000000122993a2c:   str		w15, [sp, #0xc]
+  0x0000000122993a30:   str		x2, [sp, #0x10]
+  0x0000000122993a34:   str		w10, [sp, #0x18]
+  0x0000000122993a38:   stp		w12, w11, [sp, #0x20]
+  0x0000000122993a3c:   str		x2, [sp, #0x28]
+  0x0000000122993a40:   bl		#0x12232be80        ; ImmutableOopMap {rfp=Oop [16]=Oop [40]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::heapify@47 (line 61)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@24 (line 25)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993a44:   nop		                    ;   {post_call_nop}
+  0x0000000122993a48:   movk		xzr, #0x67c
+  0x0000000122993a4c:   movk		xzr, #0xd00
+  0x0000000122993a50:   mov		w1, #-0x1c
+  0x0000000122993a54:   mov		x29, x5
+  0x0000000122993a58:   str		w15, [sp, #0xc]
+  0x0000000122993a5c:   str		x2, [sp, #0x10]
+  0x0000000122993a60:   stp		w10, w11, [sp, #0x18]
+  0x0000000122993a64:   str		w13, [sp, #0x24]
+  0x0000000122993a68:   str		x2, [sp, #0x28]
+  0x0000000122993a6c:   str		w12, [sp, #0x30]
+  0x0000000122993a70:   bl		#0x12232be80        ; ImmutableOopMap {rfp=Oop [16]=Oop [40]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::heapify@51 (line 61)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@24 (line 25)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993a74:   nop		                    ;   {post_call_nop}
+  0x0000000122993a78:   movk		xzr, #0x6ac
+  0x0000000122993a7c:   movk		xzr, #0xe00
+  0x0000000122993a80:   mov		w1, #-0x1c
+  0x0000000122993a84:   mov		x29, x5
+  0x0000000122993a88:   str		w15, [sp, #0xc]
+  0x0000000122993a8c:   str		x2, [sp, #0x10]
+  0x0000000122993a90:   str		x2, [sp, #0x20]
+  0x0000000122993a94:   stp		w12, w10, [sp, #0x28]
+  0x0000000122993a98:   bl		#0x12232be80        ; ImmutableOopMap {rfp=Oop [16]=Oop [32]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.utils.ArrayUtils::swap@2 (line 123)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::heapify@72 (line 72)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@24 (line 25)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993a9c:   nop		                    ;   {post_call_nop}
+  0x0000000122993aa0:   movk		xzr, #0x6d4
+  0x0000000122993aa4:   movk		xzr, #0xf00
+  0x0000000122993aa8:   mov		w1, #-0x1c
+  0x0000000122993aac:   mov		x29, x5
+  0x0000000122993ab0:   str		w15, [sp, #0xc]
+  0x0000000122993ab4:   str		x2, [sp, #0x10]
+  0x0000000122993ab8:   str		w12, [sp, #0x1c]
+  0x0000000122993abc:   str		x2, [sp, #0x20]
+  0x0000000122993ac0:   stp		w13, w10, [sp, #0x28]
+  0x0000000122993ac4:   str		w12, [sp, #0x40]
+  0x0000000122993ac8:   bl		#0x12232be80        ; ImmutableOopMap {rfp=Oop [16]=Oop [32]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.utils.ArrayUtils::swap@8 (line 124)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::heapify@72 (line 72)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@24 (line 25)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993acc:   nop		                    ;   {post_call_nop}
+  0x0000000122993ad0:   movk		xzr, #0x704
+  0x0000000122993ad4:   movk		xzr, #0x1000
+  0x0000000122993ad8:   mov		w1, #-0x1c
+  0x0000000122993adc:   mov		x29, x4
+  0x0000000122993ae0:   stp		x15, x2, [sp, #8]
+  0x0000000122993ae4:   stp		w10, w14, [sp, #0x18]
+  0x0000000122993ae8:   str		x2, [sp, #0x20]
+  0x0000000122993aec:   stp		w16, w12, [sp, #0x30]
+  0x0000000122993af0:   str		w13, [sp, #0x40]
+  0x0000000122993af4:   bl		#0x12232be80        ; ImmutableOopMap {rfp=Oop [8]=Oop [16]=Oop [32]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::heapify@26 (line 58)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::buildHeap@18 (line 40)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@2 (line 17)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993af8:   nop		                    ;   {post_call_nop}
+  0x0000000122993afc:   movk		xzr, #0x730
+  0x0000000122993b00:   movk		xzr, #0x1100
+  0x0000000122993b04:   mov		w1, #-0x1c
+  0x0000000122993b08:   mov		x29, x4
+  0x0000000122993b0c:   stp		x15, x2, [sp, #8]
+  0x0000000122993b10:   stp		w10, w14, [sp, #0x18]
+  0x0000000122993b14:   str		x2, [sp, #0x20]
+  0x0000000122993b18:   stp		w13, w16, [sp, #0x2c]
+  0x0000000122993b1c:   stp		w12, w11, [sp, #0x34]
+  0x0000000122993b20:   str		w12, [sp, #0x3c]
+  0x0000000122993b24:   bl		#0x12232be80        ; ImmutableOopMap {rfp=Oop [8]=Oop [16]=Oop [32]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::heapify@30 (line 58)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::buildHeap@18 (line 40)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@2 (line 17)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993b28:   nop		                    ;   {post_call_nop}
+  0x0000000122993b2c:   movk		xzr, #0x760
+  0x0000000122993b30:   movk		xzr, #0x1200
+  0x0000000122993b34:   mov		w1, #-0x1c
+  0x0000000122993b38:   mov		x29, x4
+  0x0000000122993b3c:   stp		x15, x2, [sp, #8]
+  0x0000000122993b40:   stp		w10, w14, [sp, #0x18]
+  0x0000000122993b44:   str		x2, [sp, #0x20]
+  0x0000000122993b48:   str		w12, [sp, #0x28]
+  0x0000000122993b4c:   stp		w13, w16, [sp, #0x30]
+  0x0000000122993b50:   bl		#0x12232be80        ; ImmutableOopMap {rfp=Oop [8]=Oop [16]=Oop [32]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::heapify@47 (line 61)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::buildHeap@18 (line 40)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@2 (line 17)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993b54:   nop		                    ;   {post_call_nop}
+  0x0000000122993b58:   movk		xzr, #0x78c
+  0x0000000122993b5c:   movk		xzr, #0x1300
+  0x0000000122993b60:   mov		w1, #-0x1c
+  0x0000000122993b64:   mov		x29, x4
+  0x0000000122993b68:   stp		x15, x2, [sp, #8]
+  0x0000000122993b6c:   stp		w10, w14, [sp, #0x18]
+  0x0000000122993b70:   str		x2, [sp, #0x20]
+  0x0000000122993b74:   stp		w12, w16, [sp, #0x28]
+  0x0000000122993b78:   str		w11, [sp, #0x34]
+  0x0000000122993b7c:   str		w13, [sp, #0x40]
+  0x0000000122993b80:   bl		#0x12232be80        ; ImmutableOopMap {rfp=Oop [8]=Oop [16]=Oop [32]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::heapify@51 (line 61)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::buildHeap@18 (line 40)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@2 (line 17)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993b84:   nop		                    ;   {post_call_nop}
+  0x0000000122993b88:   movk		xzr, #0x7bc
+  0x0000000122993b8c:   movk		xzr, #0x1400
+  0x0000000122993b90:   mov		w1, #-0x1c
+  0x0000000122993b94:   mov		x29, x4
+  0x0000000122993b98:   stp		x15, x2, [sp, #8]
+  0x0000000122993b9c:   stp		w10, w14, [sp, #0x18]
+  0x0000000122993ba0:   str		x2, [sp, #0x20]
+  0x0000000122993ba4:   stp		w13, w12, [sp, #0x38]
+  0x0000000122993ba8:   bl		#0x12232be80        ; ImmutableOopMap {rfp=Oop [8]=Oop [16]=Oop [32]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.utils.ArrayUtils::swap@2 (line 123)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::heapify@72 (line 72)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::buildHeap@18 (line 40)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@2 (line 17)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993bac:   nop		                    ;   {post_call_nop}
+  0x0000000122993bb0:   movk		xzr, #0x7e4
+  0x0000000122993bb4:   movk		xzr, #0x1500
+  0x0000000122993bb8:   mov		w1, #-0x1c
+  0x0000000122993bbc:   mov		x29, x4
+  0x0000000122993bc0:   stp		x15, x2, [sp, #8]
+  0x0000000122993bc4:   stp		w10, w14, [sp, #0x18]
+  0x0000000122993bc8:   str		x2, [sp, #0x20]
+  0x0000000122993bcc:   str		w13, [sp, #0x2c]
+  0x0000000122993bd0:   stp		w16, w12, [sp, #0x38]
+  0x0000000122993bd4:   str		w13, [sp, #0x50]
+  0x0000000122993bd8:   bl		#0x12232be80        ; ImmutableOopMap {rfp=Oop [8]=Oop [16]=Oop [32]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.utils.ArrayUtils::swap@8 (line 124)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::heapify@72 (line 72)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::buildHeap@18 (line 40)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@2 (line 17)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993bdc:   nop		                    ;   {post_call_nop}
+  0x0000000122993be0:   movk		xzr, #0x814
+  0x0000000122993be4:   movk		xzr, #0x1600
+  0x0000000122993be8:   mov		w1, #-0x1c
+  0x0000000122993bec:   str		w15, [sp, #0xc]
+  0x0000000122993bf0:   stp		x12, x2, [sp, #0x10]
+  0x0000000122993bf4:   str		x2, [sp, #0x20]
+  0x0000000122993bf8:   str		w13, [sp, #0x28]
+  0x0000000122993bfc:   str		w11, [sp, #0x38]
+  0x0000000122993c00:   bl		#0x12232be80        ; ImmutableOopMap {[16]=Oop [24]=Oop [32]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::findLeaf@28 (line 48)
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::heapify@4 (line 21)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@24 (line 25)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993c04:   nop		                    ;   {post_call_nop}
+  0x0000000122993c08:   movk		xzr, #0x83c
+  0x0000000122993c0c:   movk		xzr, #0x1700
+  0x0000000122993c10:   mov		w1, #-0x1c
+  0x0000000122993c14:   str		w15, [sp, #0xc]
+  0x0000000122993c18:   stp		x12, x2, [sp, #0x10]
+  0x0000000122993c1c:   str		x2, [sp, #0x20]
+  0x0000000122993c20:   stp		w11, w10, [sp, #0x2c]
+  0x0000000122993c24:   str		w13, [sp, #0x34]
+  0x0000000122993c28:   bl		#0x12232be80        ; ImmutableOopMap {[16]=Oop [24]=Oop [32]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::findLeaf@32 (line 48)
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::heapify@4 (line 21)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@24 (line 25)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993c2c:   nop		                    ;   {post_call_nop}
+  0x0000000122993c30:   movk		xzr, #0x864
+  0x0000000122993c34:   movk		xzr, #0x1800
+  0x0000000122993c38:   mov		w1, #-0x1c
+  0x0000000122993c3c:   stp		w15, w11, [sp, #8]
+  0x0000000122993c40:   stp		x12, x2, [sp, #0x10]
+  0x0000000122993c44:   str		w10, [sp, #0x24]
+  0x0000000122993c48:   str		x2, [sp, #0x28]
+  0x0000000122993c4c:   bl		#0x12232be80        ; ImmutableOopMap {[16]=Oop [24]=Oop [40]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::heapify@56 (line 34)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@24 (line 25)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993c50:   nop		                    ;   {post_call_nop}
+  0x0000000122993c54:   movk		xzr, #0x888
+  0x0000000122993c58:   movk		xzr, #0x1900
+  0x0000000122993c5c:   mov		w1, #-0x1c
+  0x0000000122993c60:   mov		x29, x4
+  0x0000000122993c64:   str		x2, [sp, #8]
+  0x0000000122993c68:   str		w10, [sp, #0x14]
+  0x0000000122993c6c:   str		x2, [sp, #0x18]
+  0x0000000122993c70:   stp		w14, w16, [sp, #0x28]
+  0x0000000122993c74:   str		w5, [sp, #0x38]
+  0x0000000122993c78:   str		x6, [sp, #0x40]
+  0x0000000122993c7c:   bl		#0x12232be80        ; ImmutableOopMap {rfp=Oop [8]=Oop [24]=Oop [64]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::findLeaf@28 (line 48)
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::heapify@4 (line 21)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::buildHeap@18 (line 40)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@2 (line 17)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993c80:   nop		                    ;   {post_call_nop}
+  0x0000000122993c84:   movk		xzr, #0x8b8
+  0x0000000122993c88:   movk		xzr, #0x1a00
+  0x0000000122993c8c:   mov		w1, #-0x1c
+  0x0000000122993c90:   str		x4, [sp]
+  0x0000000122993c94:   str		x2, [sp, #0x10]
+  0x0000000122993c98:   str		w10, [sp, #0x1c]
+  0x0000000122993c9c:   str		x2, [sp, #0x20]
+  0x0000000122993ca0:   stp		w14, w16, [sp, #0x30]
+  0x0000000122993ca4:   str		w5, [sp, #0x40]
+  0x0000000122993ca8:   str		x6, [sp, #0x48]
+  0x0000000122993cac:   bl		#0x12232be80        ; ImmutableOopMap {[0]=Oop [16]=Oop [32]=Oop [72]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::findLeaf@32 (line 48)
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::heapify@4 (line 21)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::buildHeap@18 (line 40)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@2 (line 17)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993cb0:   nop		                    ;   {post_call_nop}
+  0x0000000122993cb4:   movk		xzr, #0x8e8
+  0x0000000122993cb8:   movk		xzr, #0x1b00
+  0x0000000122993cbc:   mov		w1, #-0x1c
+  0x0000000122993cc0:   mov		x29, x4
+  0x0000000122993cc4:   str		x2, [sp, #8]
+  0x0000000122993cc8:   str		w10, [sp, #0x14]
+  0x0000000122993ccc:   str		x2, [sp, #0x18]
+  0x0000000122993cd0:   str		x6, [sp, #0x28]
+  0x0000000122993cd4:   stp		w11, w13, [sp, #0x30]
+  0x0000000122993cd8:   bl		#0x12232be80        ; ImmutableOopMap {rfp=Oop [8]=Oop [24]=Oop [40]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::heapify@56 (line 34)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::buildHeap@18 (line 40)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@2 (line 17)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993cdc:   nop		                    ;   {post_call_nop}
+  0x0000000122993ce0:   movk		xzr, #0x914
+  0x0000000122993ce4:   movk		xzr, #0x1c00
+  0x0000000122993ce8:   mov		w1, #-0x1c
+  0x0000000122993cec:   str		w15, [sp, #0x10]
+  0x0000000122993cf0:   stp		x12, x2, [sp, #0x18]
+  0x0000000122993cf4:   stp		x12, x2, [sp, #0x28]
+  0x0000000122993cf8:   str		w10, [sp, #0x40]
+  0x0000000122993cfc:   bl		#0x12232be80        ; ImmutableOopMap {[24]=Oop [32]=Oop [40]=Oop [48]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::findTargetNodeBottomUp@12 (line 67)
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::heapify@14 (line 22)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@24 (line 25)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993d00:   nop		                    ;   {post_call_nop}
+  0x0000000122993d04:   movk		xzr, #0x938
+  0x0000000122993d08:   movk		xzr, #0x1d00
+  0x0000000122993d0c:   mov		w1, #-0x3a
+  0x0000000122993d10:   str		w15, [sp, #0xc]
+  0x0000000122993d14:   stp		x4, x2, [sp, #0x10]
+  0x0000000122993d18:   bl		#0x12232be80        ; ImmutableOopMap {[16]=Oop [24]=Oop }
+                                                            ;*invokevirtual heapify {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@24 (line 25)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993d1c:   nop		                    ;   {post_call_nop}
+  0x0000000122993d20:   movk		xzr, #0x954
+  0x0000000122993d24:   movk		xzr, #0x1e00
+  0x0000000122993d28:   mov		w1, #-0x1c
+  0x0000000122993d2c:   str		w15, [sp, #8]
+  0x0000000122993d30:   stp		x12, x2, [sp, #0x10]
+  0x0000000122993d34:   str		x2, [sp, #0x20]
+  0x0000000122993d38:   str		w10, [sp, #0x28]
+  0x0000000122993d3c:   bl		#0x12232be80        ; ImmutableOopMap {[16]=Oop [24]=Oop [32]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::heapify@29 (line 29)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@24 (line 25)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993d40:   nop		                    ;   {post_call_nop}
+  0x0000000122993d44:   movk		xzr, #0x978
+  0x0000000122993d48:   movk		xzr, #0x1f00
+  0x0000000122993d4c:   str		w1, [sp, #0x40]
+  0x0000000122993d50:   mov		w1, #-0x1c
+  0x0000000122993d54:   mov		x29, x4
+  0x0000000122993d58:   str		x2, [sp, #8]
+  0x0000000122993d5c:   str		w10, [sp, #0x14]
+  0x0000000122993d60:   str		x2, [sp, #0x18]
+  0x0000000122993d64:   stp		w10, w11, [sp, #0x28]
+  0x0000000122993d68:   str		x6, [sp, #0x38]
+  0x0000000122993d6c:   bl		#0x12232be80        ; ImmutableOopMap {rfp=Oop [8]=Oop [24]=Oop [56]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::findTargetNodeBottomUp@12 (line 67)
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::heapify@14 (line 22)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::buildHeap@18 (line 40)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@2 (line 17)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993d70:   nop		                    ;   {post_call_nop}
+  0x0000000122993d74:   movk		xzr, #0x9a8
+  0x0000000122993d78:   movk		xzr, #0x2000
+  0x0000000122993d7c:   mov		w1, #-0x1c
+  0x0000000122993d80:   mov		x29, x4
+  0x0000000122993d84:   str		x2, [sp, #8]
+  0x0000000122993d88:   str		w10, [sp, #0x14]
+  0x0000000122993d8c:   str		x2, [sp, #0x18]
+  0x0000000122993d90:   str		w10, [sp, #0x28]
+  0x0000000122993d94:   str		x6, [sp, #0x38]
+  0x0000000122993d98:   str		w11, [sp, #0x40]
+  0x0000000122993d9c:   bl		#0x12232be80        ; ImmutableOopMap {rfp=Oop [8]=Oop [24]=Oop [56]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::findTargetNodeBottomUp@2 (line 66)
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::heapify@14 (line 22)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::buildHeap@18 (line 40)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@2 (line 17)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993da0:   nop		                    ;   {post_call_nop}
+  0x0000000122993da4:   movk		xzr, #0x9d8
+  0x0000000122993da8:   movk		xzr, #0x2100
+  0x0000000122993dac:   mov		w1, #-0x3a
+  0x0000000122993db0:   stp		x4, x2, [sp, #8]
+  0x0000000122993db4:   str		w14, [sp, #0x1c]
+  0x0000000122993db8:   stp		x4, x2, [sp, #0x20]
+  0x0000000122993dbc:   str		w10, [sp, #0x30]
+  0x0000000122993dc0:   bl		#0x12232be80        ; ImmutableOopMap {[8]=Oop [16]=Oop [32]=Oop [40]=Oop }
+                                                            ;*invokevirtual heapify {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::buildHeap@18 (line 40)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@2 (line 17)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993dc4:   nop		                    ;   {post_call_nop}
+  0x0000000122993dc8:   movk		xzr, #0x9fc
+  0x0000000122993dcc:   movk		xzr, #0x2200
+  0x0000000122993dd0:   mov		w1, #-0x1c
+  0x0000000122993dd4:   mov		x29, x4
+  0x0000000122993dd8:   str		x2, [sp, #8]
+  0x0000000122993ddc:   str		w10, [sp, #0x14]
+  0x0000000122993de0:   str		x2, [sp, #0x18]
+  0x0000000122993de4:   str		x6, [sp, #0x28]
+  0x0000000122993de8:   str		w11, [sp, #0x30]
+  0x0000000122993dec:   bl		#0x12232be80        ; ImmutableOopMap {rfp=Oop [8]=Oop [24]=Oop [40]=Oop }
+                                                            ;*iaload {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.BottomUpHeapsort::heapify@29 (line 29)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::buildHeap@18 (line 40)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@2 (line 17)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993df0:   nop		                    ;   {post_call_nop}
+  0x0000000122993df4:   movk		xzr, #0xa28
+  0x0000000122993df8:   movk		xzr, #0x2300
+  0x0000000122993dfc:   mov		w1, #-0xa
+  0x0000000122993e00:   bl		#0x12232be80        ; ImmutableOopMap {}
+                                                            ;*arraylength {reexecute=0 rethrow=0 return_oop=0}
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::buildHeap@1 (line 36)
+                                                            ; - eu.happycoders.sort.method.heapsort.Heapsort::sort@2 (line 17)
+                                                            ;   {runtime_call UncommonTrapBlob}
+  0x0000000122993e04:   nop		                    ;   {post_call_nop}
+  0x0000000122993e08:   movk		xzr, #0xa3c
+  0x0000000122993e0c:   movk		xzr, #0x2400
+  0x0000000122993e10:   adr		x8, #0x1229939a8    ;   {internal_word}
+  0x0000000122993e14:   str		x8, [x28, #0x498]
+  0x0000000122993e18:   b		#0x122254ec0        ;   {runtime_call polling_page_return_handler_blob (shared runtime)}
+  0x0000000122993e1c:   mov		x8, #0xc5c0         ;   {runtime_call Stub::method_entry_barrier_stub (stub gen)}
+  0x0000000122993e20:   movk		x8, #0x2225, lsl #16
+  0x0000000122993e24:   movk		x8, #1, lsl #32
+  0x0000000122993e28:   blr		x8
+  0x0000000122993e2c:   b		#0x122993500
+  0x0000000122993e30:   udf		#4                  ;   {entry_guard}
+  0x0000000122993e34:   udf		#0
+[Stub Code]
+  0x0000000122993e38:   bl		#0x1222550c0        ;   {runtime_call DeoptimizationBlob}
+[Deopt Handler Entry Point]
+  0x0000000122993e3c:   b		#0x122993e38
+--------------------------------------------------------------------------------
+[/Disassembly]
+[0.696s] Heapsort (ascending) size=1,024 x 4096 -> 0.019 ms per array
+[0.850s] BottomUpHeapsort (ascending) size=1,024 x 4096 -> 0.036 ms per array
+[0.905s] Heapsort (descending) size=1,024 x 4096 -> 0.011 ms per array
+[1.052s] BottomUpHeapsort (descending) size=1,024 x 4096 -> 0.034 ms per array
+[1.245s] Heapsort (random) size=4,096 x 1024 -> 0.179 ms per array
+[1.440s] BottomUpHeapsort (random) size=4,096 x 1024 -> 0.181 ms per array
+[1.527s] Heapsort (ascending) size=4,096 x 1024 -> 0.078 ms per array
+[1.704s] BottomUpHeapsort (ascending) size=4,096 x 1024 -> 0.166 ms per array
+[1.791s] Heapsort (descending) size=4,096 x 1024 -> 0.076 ms per array
+[1.980s] BottomUpHeapsort (descending) size=4,096 x 1024 -> 0.177 ms per array
+[2.209s] Heapsort (random) size=16,384 x 256 -> 0.859 ms per array
+[2.428s] BottomUpHeapsort (random) size=16,384 x 256 -> 0.823 ms per array
+[2.549s] Heapsort (ascending) size=16,384 x 256 -> 0.444 ms per array
+[2.754s] BottomUpHeapsort (ascending) size=16,384 x 256 -> 0.777 ms per array
+[2.883s] Heapsort (descending) size=16,384 x 256 -> 0.476 ms per array
+[3.084s] BottomUpHeapsort (descending) size=16,384 x 256 -> 0.759 ms per array
+[3.329s] Heapsort (random) size=65,536 x 64 -> 3.691 ms per array
+[3.578s] BottomUpHeapsort (random) size=65,536 x 64 -> 3.755 ms per array
+[3.715s] Heapsort (ascending) size=65,536 x 64 -> 2.035 ms per array
+[3.949s] BottomUpHeapsort (ascending) size=65,536 x 64 -> 3.552 ms per array
+[4.099s] Heapsort (descending) size=65,536 x 64 -> 2.239 ms per array
+[4.330s] BottomUpHeapsort (descending) size=65,536 x 64 -> 3.507 ms per array
+[4.609s] Heapsort (random) size=262,144 x 16 -> 16.864 ms per array
+[4.909s] BottomUpHeapsort (random) size=262,144 x 16 -> 18.189 ms per array
+[5.057s] Heapsort (ascending) size=262,144 x 16 -> 8.827 ms per array
+[5.320s] BottomUpHeapsort (ascending) size=262,144 x 16 -> 15.988 ms per array
+[5.480s] Heapsort (descending) size=262,144 x 16 -> 9.544 ms per array
+[5.740s] BottomUpHeapsort (descending) size=262,144 x 16 -> 15.830 ms per array
+[6.062s] Heapsort (random) size=1,048,576 x 4 -> 78.001 ms per array
+[6.436s] BottomUpHeapsort (random) size=1,048,576 x 4 -> 91.398 ms per array
+[6.593s] Heapsort (ascending) size=1,048,576 x 4 -> 37.210 ms per array
+[6.885s] BottomUpHeapsort (ascending) size=1,048,576 x 4 -> 71.017 ms per array
+[7.055s] Heapsort (descending) size=1,048,576 x 4 -> 40.422 ms per array
+[7.345s] BottomUpHeapsort (descending) size=1,048,576 x 4 -> 70.629 ms per array
+--- warm up 2 of 2 ---
+[7.501s] Heapsort (random) size=1,024 x 4096 -> 0.036 ms per array
+[7.661s] BottomUpHeapsort (random) size=1,024 x 4096 -> 0.037 ms per array
+[7.716s] Heapsort (ascending) size=1,024 x 4096 -> 0.012 ms per array
+[7.863s] BottomUpHeapsort (ascending) size=1,024 x 4096 -> 0.034 ms per array
+[7.912s] Heapsort (descending) size=1,024 x 4096 -> 0.010 ms per array
+[8.054s] BottomUpHeapsort (descending) size=1,024 x 4096 -> 0.033 ms per array
+[8.238s] Heapsort (random) size=4,096 x 1024 -> 0.172 ms per array
+[8.426s] BottomUpHeapsort (random) size=4,096 x 1024 -> 0.174 ms per array
+[8.514s] Heapsort (ascending) size=4,096 x 1024 -> 0.080 ms per array
+[8.690s] BottomUpHeapsort (ascending) size=4,096 x 1024 -> 0.165 ms per array
+[8.772s] Heapsort (descending) size=4,096 x 1024 -> 0.073 ms per array
+[8.943s] BottomUpHeapsort (descending) size=4,096 x 1024 -> 0.161 ms per array
+[9.158s] Heapsort (random) size=16,384 x 256 -> 0.807 ms per array
+[9.374s] BottomUpHeapsort (random) size=16,384 x 256 -> 0.809 ms per array
+[9.490s] Heapsort (ascending) size=16,384 x 256 -> 0.429 ms per array
+[9.695s] BottomUpHeapsort (ascending) size=16,384 x 256 -> 0.777 ms per array
+[9.824s] Heapsort (descending) size=16,384 x 256 -> 0.479 ms per array
+[10.025s] BottomUpHeapsort (descending) size=16,384 x 256 -> 0.759 ms per array
+[10.270s] Heapsort (random) size=65,536 x 64 -> 3.686 ms per array
+[10.527s] BottomUpHeapsort (random) size=65,536 x 64 -> 3.883 ms per array
+[10.667s] Heapsort (ascending) size=65,536 x 64 -> 2.080 ms per array
+[10.913s] BottomUpHeapsort (ascending) size=65,536 x 64 -> 3.718 ms per array
+[11.069s] Heapsort (descending) size=65,536 x 64 -> 2.321 ms per array
+[11.303s] BottomUpHeapsort (descending) size=65,536 x 64 -> 3.563 ms per array
+[11.587s] Heapsort (random) size=262,144 x 16 -> 17.138 ms per array
+[11.893s] BottomUpHeapsort (random) size=262,144 x 16 -> 18.512 ms per array
+[12.044s] Heapsort (ascending) size=262,144 x 16 -> 9.012 ms per array
+[12.336s] BottomUpHeapsort (ascending) size=262,144 x 16 -> 17.727 ms per array
+[12.516s] Heapsort (descending) size=262,144 x 16 -> 10.793 ms per array
+[12.783s] BottomUpHeapsort (descending) size=262,144 x 16 -> 16.178 ms per array
+[13.112s] Heapsort (random) size=1,048,576 x 4 -> 79.797 ms per array
+[13.496s] BottomUpHeapsort (random) size=1,048,576 x 4 -> 93.777 ms per array
+[13.653s] Heapsort (ascending) size=1,048,576 x 4 -> 37.330 ms per array
+[13.945s] BottomUpHeapsort (ascending) size=1,048,576 x 4 -> 70.977 ms per array
+[14.114s] Heapsort (descending) size=1,048,576 x 4 -> 40.259 ms per array
+[14.404s] BottomUpHeapsort (descending) size=1,048,576 x 4 -> 70.476 ms per array
+--- iteration 1 of 1 ---
+Heapsort	random	1024	4096	1	145312792
+[14.559s] Heapsort (random) size=1,024 x 4096 -> 0.035 ms per array
+BottomUpHeapsort	random	1024	4096	1	150627917
+[14.719s] BottomUpHeapsort (random) size=1,024 x 4096 -> 0.037 ms per array
+Heapsort	ascending	1024	4096	1	46446125
+[14.772s] Heapsort (ascending) size=1,024 x 4096 -> 0.011 ms per array
+BottomUpHeapsort	ascending	1024	4096	1	141065666
+[14.920s] BottomUpHeapsort (ascending) size=1,024 x 4096 -> 0.034 ms per array
+Heapsort	descending	1024	4096	1	42061375
+[14.969s] Heapsort (descending) size=1,024 x 4096 -> 0.010 ms per array
+BottomUpHeapsort	descending	1024	4096	1	144162708
+[15.121s] BottomUpHeapsort (descending) size=1,024 x 4096 -> 0.035 ms per array
+Heapsort	random	4096	1024	1	179441958
+[15.309s] Heapsort (random) size=4,096 x 1024 -> 0.175 ms per array
+BottomUpHeapsort	random	4096	1024	1	185014083
+[15.504s] BottomUpHeapsort (random) size=4,096 x 1024 -> 0.181 ms per array
+Heapsort	ascending	4096	1024	1	80452917
+[15.592s] Heapsort (ascending) size=4,096 x 1024 -> 0.079 ms per array
+BottomUpHeapsort	ascending	4096	1024	1	174308375
+[15.773s] BottomUpHeapsort (ascending) size=4,096 x 1024 -> 0.170 ms per array
+Heapsort	descending	4096	1024	1	73916541
+[15.854s] Heapsort (descending) size=4,096 x 1024 -> 0.072 ms per array
+BottomUpHeapsort	descending	4096	1024	1	166108000
+[16.027s] BottomUpHeapsort (descending) size=4,096 x 1024 -> 0.162 ms per array
+Heapsort	random	16384	256	1	207742917
+[16.244s] Heapsort (random) size=16,384 x 256 -> 0.811 ms per array
+BottomUpHeapsort	random	16384	256	1	207902292
+[16.463s] BottomUpHeapsort (random) size=16,384 x 256 -> 0.812 ms per array
+Heapsort	ascending	16384	256	1	115702916
+[16.585s] Heapsort (ascending) size=16,384 x 256 -> 0.452 ms per array
+BottomUpHeapsort	ascending	16384	256	1	199661708
+[16.792s] BottomUpHeapsort (ascending) size=16,384 x 256 -> 0.780 ms per array
+Heapsort	descending	16384	256	1	121808916
+[16.921s] Heapsort (descending) size=16,384 x 256 -> 0.476 ms per array
+BottomUpHeapsort	descending	16384	256	1	194123125
+[17.122s] BottomUpHeapsort (descending) size=16,384 x 256 -> 0.758 ms per array
+Heapsort	random	65536	64	1	238387542
+[17.369s] Heapsort (random) size=65,536 x 64 -> 3.725 ms per array
+BottomUpHeapsort	random	65536	64	1	247722083
+[17.626s] BottomUpHeapsort (random) size=65,536 x 64 -> 3.871 ms per array
+Heapsort	ascending	65536	64	1	134500792
+[17.768s] Heapsort (ascending) size=65,536 x 64 -> 2.102 ms per array
+BottomUpHeapsort	ascending	65536	64	1	234204791
+[18.009s] BottomUpHeapsort (ascending) size=65,536 x 64 -> 3.659 ms per array
+Heapsort	descending	65536	64	1	148797084
+[18.165s] Heapsort (descending) size=65,536 x 64 -> 2.325 ms per array
+BottomUpHeapsort	descending	65536	64	1	225608708
+[18.398s] BottomUpHeapsort (descending) size=65,536 x 64 -> 3.525 ms per array
+Heapsort	random	262144	16	1	270178500
+[18.677s] Heapsort (random) size=262,144 x 16 -> 16.886 ms per array
+BottomUpHeapsort	random	262144	16	1	292209584
+[18.978s] BottomUpHeapsort (random) size=262,144 x 16 -> 18.263 ms per array
+Heapsort	ascending	262144	16	1	141332542
+[19.126s] Heapsort (ascending) size=262,144 x 16 -> 8.833 ms per array
+BottomUpHeapsort	ascending	262144	16	1	260123875
+[19.393s] BottomUpHeapsort (ascending) size=262,144 x 16 -> 16.258 ms per array
+Heapsort	descending	262144	16	1	156530292
+[19.557s] Heapsort (descending) size=262,144 x 16 -> 9.783 ms per array
+BottomUpHeapsort	descending	262144	16	1	256537208
+[19.821s] BottomUpHeapsort (descending) size=262,144 x 16 -> 16.034 ms per array
+Heapsort	random	1048576	4	1	313750542
+[20.144s] Heapsort (random) size=1,048,576 x 4 -> 78.438 ms per array
+BottomUpHeapsort	random	1048576	4	1	370638666
+[20.525s] BottomUpHeapsort (random) size=1,048,576 x 4 -> 92.660 ms per array
+Heapsort	ascending	1048576	4	1	148794041
+[20.682s] Heapsort (ascending) size=1,048,576 x 4 -> 37.199 ms per array
+BottomUpHeapsort	ascending	1048576	4	1	283476584
+[20.973s] BottomUpHeapsort (ascending) size=1,048,576 x 4 -> 70.869 ms per array
+Heapsort	descending	1048576	4	1	161076791
+[21.142s] Heapsort (descending) size=1,048,576 x 4 -> 40.269 ms per array
+BottomUpHeapsort	descending	1048576	4	1	282022459
+[21.432s] BottomUpHeapsort (descending) size=1,048,576 x 4 -> 70.506 ms per array
+Heapsort	random	4194304	1	1	378207041
+[21.820s] Heapsort (random) size=4,194,304 x 1 -> 378.207 ms per array
+BottomUpHeapsort	random	4194304	1	1	508782833
+[22.338s] BottomUpHeapsort (random) size=4,194,304 x 1 -> 508.783 ms per array
+Heapsort	ascending	4194304	1	1	159008959
+[22.505s] Heapsort (ascending) size=4,194,304 x 1 -> 159.009 ms per array
+BottomUpHeapsort	ascending	4194304	1	1	342261792
+[22.855s] BottomUpHeapsort (ascending) size=4,194,304 x 1 -> 342.262 ms per array
+Heapsort	descending	4194304	1	1	180997334
+[23.047s] Heapsort (descending) size=4,194,304 x 1 -> 180.997 ms per array
+BottomUpHeapsort	descending	4194304	1	1	313709000
+[23.369s] BottomUpHeapsort (descending) size=4,194,304 x 1 -> 313.709 ms per array
+Heapsort	random	16777216	1	1	2471496125
+[25.863s] Heapsort (random) size=16,777,216 x 1 -> 2471.496 ms per array
+BottomUpHeapsort	random	16777216	1	1	4454770125
+[30.338s] BottomUpHeapsort (random) size=16,777,216 x 1 -> 4454.770 ms per array
+Heapsort	ascending	16777216	1	1	674143500
+[31.021s] Heapsort (ascending) size=16,777,216 x 1 -> 674.144 ms per array
+BottomUpHeapsort	ascending	16777216	1	1	1365288334
+[32.396s] BottomUpHeapsort (ascending) size=16,777,216 x 1 -> 1365.288 ms per array
+Heapsort	descending	16777216	1	1	746263250
+[33.151s] Heapsort (descending) size=16,777,216 x 1 -> 746.263 ms per array
+BottomUpHeapsort	descending	16777216	1	1	1407796583
+[34.568s] BottomUpHeapsort (descending) size=16,777,216 x 1 -> 1407.797 ms per array
+Heapsort	random	67108864	1	1	13899837959
+[48.532s] Heapsort (random) size=67,108,864 x 1 -> 13899.838 ms per array
+BottomUpHeapsort	random	67108864	1	1	43864052625
+[92.462s] BottomUpHeapsort (random) size=67,108,864 x 1 -> 43864.053 ms per array
+Heapsort	ascending	67108864	1	1	2954357125
+[95.439s] Heapsort (ascending) size=67,108,864 x 1 -> 2954.357 ms per array
+BottomUpHeapsort	ascending	67108864	1	1	6094746959
+[101.558s] BottomUpHeapsort (ascending) size=67,108,864 x 1 -> 6094.747 ms per array
+Heapsort	descending	67108864	1	1	3194503042
+[104.794s] Heapsort (descending) size=67,108,864 x 1 -> 3194.503 ms per array
+BottomUpHeapsort	descending	67108864	1	1	6213366917
+[111.030s] BottomUpHeapsort (descending) size=67,108,864 x 1 -> 6213.367 ms per array
+------------------------------------------------------------------------
+eu.happycoders.sort.method.heapsort.BottomUpHeapsort::getParentPos(I)I
+  interpreter_invocation_count:     1328994
+  invocation_counter:               1328994
+  backedge_counter:                       0
+  decompile_count:                        0
+  mdo size: 200 bytes
+
+   0 iload_1
+   1 iconst_1
+   2 isub
+   3 iconst_2
+   4 idiv
+   5 ireturn
+------------------------------------------------------------------------
+eu.happycoders.sort.method.heapsort.BottomUpHeapsort::heapify([III)V
+  interpreter_invocation_count:      233320
+  invocation_counter:                233320
+  backedge_counter:                 1263114
+  decompile_count:                        0
+  mdo size: 488 bytes
+
+   0 fast_aload_0
+   1 aload_1
+   2 iload_2
+   3 iload_3
+   4 invokevirtual 7 <eu/happycoders/sort/method/heapsort/BottomUpHeapsort.findLeaf([III)I> 
+  0    bci: 4    VirtualCallData    count(0) entries(1)
+                                    'eu/happycoders/sort/method/heapsort/BottomUpHeapsort'(233064 1.00)
+   7 istore #4
+   9 fast_aload_0
+  10 aload_1
+  11 iload_3
+  12 fast_iload #4
+  14 invokevirtual 13 <eu/happycoders/sort/method/heapsort/BottomUpHeapsort.findTargetNodeBottomUp([III)I> 
+  48   bci: 14   VirtualCallData    count(0) entries(1)
+                                    'eu/happycoders/sort/method/heapsort/BottomUpHeapsort'(233064 1.00)
+  17 istore #5
+  19 iload_3
+  20 fast_iload #5
+  22 if_icmpne 26
+  96   bci: 22   BranchData         taken(216318) displacement(32)
+                                    not taken(16746)
+  25 return
+  26 aload_1
+  27 fast_iload #5
+  29 iaload
+  30 istore #6
+  32 aload_1
+  33 fast_iload #5
+  35 aload_1
+  36 iload_3
+  37 iaload
+  38 iastore
+  39 fast_iload #5
+  41 iload_3
+  42 if_icmple 76
+  128  bci: 42   BranchData         taken(216318) displacement(104)
+                                    not taken(1262954)
+  45 fast_aload_0
+  46 fast_iload #5
+  48 invokevirtual 16 <eu/happycoders/sort/method/heapsort/BottomUpHeapsort.getParentPos(I)I> 
+  160  bci: 48   VirtualCallData    count(0) entries(1)
+                                    'eu/happycoders/sort/method/heapsort/BottomUpHeapsort'(1262954 1.00)
+  51 istore #7
+  53 aload_1
+  54 fast_iload #7
+  56 iaload
+  57 istore #8
+  59 aload_1
+  60 fast_iload2 #7
+  62 fast_iload #6
+  64 iastore
+  65 fast_iload #7
+  67 istore #5
+  69 fast_iload #8
+  71 istore #6
+  73 goto 39
+  208  bci: 73   JumpData           taken(1262954) displacement(-80)
+  76 return
+------------------------------------------------------------------------
+eu.happycoders.sort.method.heapsort.BottomUpHeapsort::findLeaf([III)I
+  interpreter_invocation_count:      233320
+  invocation_counter:                233320
+  backedge_counter:                 1327234
+  decompile_count:                        0
+  mdo size: 368 bytes
+
+   0 iload_3
+   1 istore #4
+   3 fast_iload #4
+   5 iconst_2
+   6 imul
+   7 iconst_1
+   8 iadd
+   9 istore #5
+  11 fast_iload #4
+  13 iconst_2
+  14 imul
+  15 iconst_2
+  16 iadd
+  17 istore #6
+  19 fast_iload #6
+  21 iload_2
+  22 if_icmpge 66
+  0    bci: 22   BranchData         taken(233064) displacement(112)
+                                    not taken(1326979)
+  25 aload_1
+  26 fast_iload #6
+  28 iaload
+  29 aload_1
+  30 fast_iload #5
+  32 iaload
+  33 if_icmple 43
+  32   bci: 33   BranchData         taken(682113) displacement(56)
+                                    not taken(644866)
+  36 fast_iload #6
+  38 istore #4
+  40 goto 47
+  64   bci: 40   JumpData           taken(644866) displacement(24)
+  43 fast_iload #5
+  45 istore #4
+  47 fast_iload #4
+  49 iconst_2
+  50 imul
+  51 iconst_1
+  52 iadd
+  53 istore #5
+  55 fast_iload #4
+  57 iconst_2
+  58 imul
+  59 iconst_2
+  60 iadd
+  61 istore #6
+  63 goto 19
+  88   bci: 63   JumpData           taken(1326979) displacement(-88)
+  66 fast_iload #5
+  68 iload_2
+  69 if_icmpge 76
+  112  bci: 69   BranchData         taken(231305) displacement(32)
+                                    not taken(1759)
+  72 fast_iload #5
+  74 istore #4
+  76 fast_iload #4
+  78 ireturn
+------------------------------------------------------------------------
+eu.happycoders.sort.method.heapsort.BottomUpHeapsort::findTargetNodeBottomUp([III)I
+  interpreter_invocation_count:      233320
+  invocation_counter:                233320
+  backedge_counter:                   65880
+  decompile_count:                        0
+  mdo size: 392 bytes
+
+   0 aload_1
+   1 iload_2
+   2 iaload
+   3 istore #4
+   5 iload_3
+   6 iload_2
+   7 if_icmpeq 27
+  0    bci: 7    BranchData         taken(16737) displacement(136)
+                                    not taken(282044)
+  10 aload_1
+  11 iload_3
+  12 iaload
+  13 fast_iload #4
+  15 if_icmpge 27
+  32   bci: 15   BranchData         taken(216288) displacement(104)
+                                    not taken(65756)
+  18 fast_aload_0
+  19 iload_3
+  20 invokevirtual 16 <eu/happycoders/sort/method/heapsort/BottomUpHeapsort.getParentPos(I)I> 
+  64   bci: 20   VirtualCallData    count(0) entries(1)
+                                    'eu/happycoders/sort/method/heapsort/BottomUpHeapsort'(65756 1.00)
+  23 istore_3
+  24 goto 5
+  112  bci: 24   JumpData           taken(65756) displacement(-112)
+  27 iload_3
+  28 ireturn
+------------------------------------------------------------------------
+eu.happycoders.sort.method.heapsort.Heapsort::heapify([III)V
+  interpreter_invocation_count:      180389
+  invocation_counter:                180389
+  backedge_counter:                  974665
+  decompile_count:                        0
+  mdo size: 480 bytes
+
+   0 iload_3
+   1 iconst_2
+   2 imul
+   3 iconst_1
+   4 iadd
+   5 istore #4
+   7 iload_3
+   8 iconst_2
+   9 imul
+  10 iconst_2
+  11 iadd
+  12 istore #5
+  14 iload_3
+  15 istore #6
+  17 fast_iload #4
+  19 iload_2
+  20 if_icmpge 38
+  0    bci: 20   BranchData         taken(137903) displacement(64)
+                                    not taken(1016585)
+  23 aload_1
+  24 fast_iload #4
+  26 iaload
+  27 aload_1
+  28 fast_iload #6
+  30 iaload
+  31 if_icmple 38
+  32   bci: 31   BranchData         taken(78615) displacement(32)
+                                    not taken(937970)
+  34 fast_iload #4
+  36 istore #6
+  38 fast_iload #5
+  40 iload_2
+  41 if_icmpge 59
+  64   bci: 41   BranchData         taken(139128) displacement(64)
+                                    not taken(1015360)
+  44 aload_1
+  45 fast_iload #5
+  47 iaload
+  48 aload_1
+  49 fast_iload #6
+  51 iaload
+  52 if_icmple 59
+  96   bci: 52   BranchData         taken(542528) displacement(32)
+                                    not taken(472832)
+  55 fast_iload #5
+  57 istore #6
+  59 fast_iload #6
+  61 iload_3
+  62 if_icmpne 68
+  128  bci: 62   BranchData         taken(974409) displacement(56)
+                                    not taken(180079)
+  65 goto 81
+  160  bci: 65   JumpData           taken(180079) displacement(64)
+  68 aload_1
+  69 iload_3
+  70 fast_iload #6
+  72 invokestatic 13 <eu/happycoders/sort/utils/ArrayUtils.swap([III)V> 
+  184  bci: 72   CounterData        count(974409)
+  75 fast_iload #6
+  77 istore_3
+  78 goto 0
+  200  bci: 78   JumpData           taken(974409) displacement(-200)
+  81 return
+------------------------------------------------------------------------
+eu.happycoders.sort.method.heapsort.Heapsort::sort([I)V
+  interpreter_invocation_count:        2441
+  invocation_counter:                  2441
+  backedge_counter:                 1679640
+  decompile_count:                        4
+  mdo size: 408 bytes
+
+   0 fast_aload_0
+   1 aload_1
+   2 invokevirtual 7 <eu/happycoders/sort/method/heapsort/Heapsort.buildHeap([I)V> 
+  0    bci: 2    VirtualCallData    count(0) entries(2)
+                                    'eu/happycoders/sort/method/heapsort/Heapsort'(2230 0.94)
+                                    'eu/happycoders/sort/method/heapsort/BottomUpHeapsort'(151 0.06)
+   5 aload_1
+   6 arraylength
+   7 iconst_1
+   8 isub
+   9 istore_2
+  10 iload_2
+  168  bci: 10   BitData            trap(profile_predicate recompiled) 
+  11 ifle 33
+  48   bci: 11   BranchData         trap(profile_predicate recompiled) taken(1581) displacement(120)
+                                    not taken(1618236)
+  14 aload_1
+  15 iconst_0
+  16 iload_2
+  17 invokestatic 13 <eu/happycoders/sort/utils/ArrayUtils.swap([III)V> 
+  80   bci: 17   CounterData        count(1618236)
+  20 fast_aload_0
+  21 aload_1
+  22 iload_2
+  23 iconst_0
+  24 invokevirtual 19 <eu/happycoders/sort/method/heapsort/Heapsort.heapify([III)V> 
+  96   bci: 24   VirtualCallData    count(0) entries(2)
+                                    'eu/happycoders/sort/method/heapsort/Heapsort'(1462740 0.90)
+                                    'eu/happycoders/sort/method/heapsort/BottomUpHeapsort'(155496 0.10)
+  27 iinc #2 -1
+  30 goto 10
+  144  bci: 30   JumpData           taken(1618236) displacement(-96)
+  33 return
+------------------------------------------------------------------------
+eu.happycoders.sort.method.heapsort.Heapsort::buildHeap([I)V
+  interpreter_invocation_count:        1937
+  invocation_counter:                  1937
+  backedge_counter:                  994304
+  decompile_count:                        3
+  mdo size: 344 bytes
+
+   0 aload_1
+   1 arraylength
+   2 iconst_2
+   3 idiv
+   4 iconst_1
+   5 isub
+   6 istore_2
+   7 iload_2
+   8 istore_3
+   9 iload_3
+  104  bci: 9    BitData            trap(profile_predicate recompiled) 
+  10 iflt 27
+  0    bci: 10   BranchData         trap(profile_predicate recompiled) taken(1446) displacement(104)
+                                    not taken(963571)
+  13 fast_aload_0
+  14 aload_1
+  15 aload_1
+  16 arraylength
+  17 iload_3
+  18 invokevirtual 19 <eu/happycoders/sort/method/heapsort/Heapsort.heapify([III)V> 
+  32   bci: 18   VirtualCallData    count(0) entries(2)
+                                    'eu/happycoders/sort/method/heapsort/Heapsort'(885747 0.92)
+                                    'eu/happycoders/sort/method/heapsort/BottomUpHeapsort'(77824 0.08)
+  21 iinc #3 -1
+  24 goto 9
+  80   bci: 24   JumpData           taken(963571) displacement(-80)
+  27 return
+------------------------------------------------------------------------
+Total MDO size: 2680 bytes
