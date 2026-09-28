@@ -1,0 +1,9 @@
+# heapsort-counters
+# date:    2026-09-28T17:20:49Z
+# machine: apple-m5-pro-arm64
+# java:    openjdk version "27" 2026-09-15
+# sorting-repo commit: d3a8c1c
+# program: HeapsortCounters.java 5 counters
+# runs:    5 iterations, 2 warm-up passes up to 2^20, batches of 2^22 elements, kperf counters
+# power:   Now drawing from 'AC Power'
+# finished: 2026-09-28T17:27:48Z
