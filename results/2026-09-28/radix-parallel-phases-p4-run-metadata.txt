@@ -1,0 +1,10 @@
+# radix-parallel-phases-p4
+# date:    2026-09-28T07:09:34Z
+# machine: apple-m5-pro-arm64
+# java:    openjdk version "27" 2026-09-15
+# sorting-repo commit: a0d3229
+# program: RadixParallelPhases.java 10 19 26
+# runs:    10 iterations at 2^19 and 2^26, 2 warm-up passes at 2^22
+# jvm:     -XX:ActiveProcessorCount=4
+# power:   Now drawing from 'AC Power'
+# finished: 2026-09-28T07:09:50Z

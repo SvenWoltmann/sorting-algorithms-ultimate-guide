@@ -1,0 +1,57 @@
+processors=8 commonPoolParallelism=7 iterations=10 sizes=[19, 26]
+--- warm up 1 of 2 ---
+lsd size=4,194,304 -> 64.085 ms
+msd size=4,194,304 -> 66.640 ms
+--- warm up 2 of 2 ---
+lsd size=4,194,304 -> 17.177 ms
+msd size=4,194,304 -> 33.116 ms
+--- iteration 1 of 10 ---
+lsd size=524,288 -> 2.364 ms
+msd size=524,288 -> 5.367 ms
+lsd size=67,108,864 -> 416.112 ms
+msd size=67,108,864 -> 598.328 ms
+--- iteration 2 of 10 ---
+lsd size=524,288 -> 3.458 ms
+msd size=524,288 -> 4.163 ms
+lsd size=67,108,864 -> 345.131 ms
+msd size=67,108,864 -> 623.949 ms
+--- iteration 3 of 10 ---
+lsd size=524,288 -> 3.222 ms
+msd size=524,288 -> 4.147 ms
+lsd size=67,108,864 -> 344.599 ms
+msd size=67,108,864 -> 538.127 ms
+--- iteration 4 of 10 ---
+lsd size=524,288 -> 3.421 ms
+msd size=524,288 -> 4.204 ms
+lsd size=67,108,864 -> 325.773 ms
+msd size=67,108,864 -> 523.357 ms
+--- iteration 5 of 10 ---
+lsd size=524,288 -> 3.063 ms
+msd size=524,288 -> 4.142 ms
+lsd size=67,108,864 -> 333.738 ms
+msd size=67,108,864 -> 533.629 ms
+--- iteration 6 of 10 ---
+lsd size=524,288 -> 3.085 ms
+msd size=524,288 -> 4.189 ms
+lsd size=67,108,864 -> 327.527 ms
+msd size=67,108,864 -> 532.833 ms
+--- iteration 7 of 10 ---
+lsd size=524,288 -> 3.244 ms
+msd size=524,288 -> 4.222 ms
+lsd size=67,108,864 -> 328.414 ms
+msd size=67,108,864 -> 525.219 ms
+--- iteration 8 of 10 ---
+lsd size=524,288 -> 3.183 ms
+msd size=524,288 -> 4.183 ms
+lsd size=67,108,864 -> 325.480 ms
+msd size=67,108,864 -> 530.852 ms
+--- iteration 9 of 10 ---
+lsd size=524,288 -> 2.642 ms
+msd size=524,288 -> 4.128 ms
+lsd size=67,108,864 -> 331.120 ms
+msd size=67,108,864 -> 532.377 ms
+--- iteration 10 of 10 ---
+lsd size=524,288 -> 2.298 ms
+msd size=524,288 -> 4.003 ms
+lsd size=67,108,864 -> 327.828 ms
+msd size=67,108,864 -> 534.991 ms
