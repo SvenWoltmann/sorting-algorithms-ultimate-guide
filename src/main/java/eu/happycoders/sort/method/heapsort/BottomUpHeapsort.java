@@ -33,7 +33,7 @@ public class BottomUpHeapsort extends Heapsort {
       int parentPos = getParentPos(nodePos);
       int parentValue = heap[parentPos];
       heap[parentPos] = nodeValue;
-      nodePos = getParentPos(nodePos);
+      nodePos = parentPos;
       nodeValue = parentValue;
     }
   }
