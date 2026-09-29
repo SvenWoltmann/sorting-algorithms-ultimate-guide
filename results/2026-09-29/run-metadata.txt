@@ -1,0 +1,13 @@
+# Quicksort benchmark series
+# date:    2026-09-28T22:29:47Z
+# machine: apple-m5-pro-arm64
+# java:    openjdk version "27" 2026-09-15
+# sorting-repo commit: 8839949
+# iterations: Compare*=50, ladder=10 (max size 2^28)
+# power:   Now drawing from 'AC Power'
+# follow-ups (same machine, same JDK, right after the main series):
+#   quicksort-ladder-tuned.tsv        ladder for QuicksortImproved() and
+#                                     DualPivotQuicksortImproved(), the optima
+#                                     of the two threshold sweeps of this run
+#   compare-quicksorts-run2/3.log     two repeats of the variant comparison
+# finished: 2026-09-29T00:01:12Z

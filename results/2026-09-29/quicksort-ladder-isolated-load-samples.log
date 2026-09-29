@@ -1,0 +1,62 @@
+09:18:45 load=2.15 idle=90% top=86.3 java            ;7.6  sysmond         ;5.2  top             
+09:19:18 load=1.98 idle=87% top=96.6 duetexpertd     ;83.8 java            ;5.3  top             
+09:19:51 load=2.08 idle=87% top=84.2 java            ;40.2 duetexpertd     ;5.2  top             
+09:20:23 load=1.75 idle=93% top=85.3 java            ;5.3  top             ;2.2  Creative Cloud U
+09:20:56 load=1.72 idle=92% top=84.4 java            ;5.3  top             ;2.4  Creative Cloud U
+09:21:29 load=1.45 idle=93% top=83.8 java            ;5.5  jetbrains-toolbo;5.3  top             
+09:22:01 load=1.40 idle=92% top=83.6 java            ;5.3  top             ;2.4  Creative Cloud U
+09:22:34 load=1.81 idle=93% top=83.8 java            ;5.3  top             ;2.2  Creative Cloud U
+09:23:07 load=1.69 idle=87% top=117.9 spotlightknowled;83.7  java            ;20.0  cfprefsd        
+09:23:39 load=2.16 idle=88% top=83.5 java            ;78.0 spotlightknowled;11.9 cfprefsd        
+09:24:12 load=2.29 idle=78% top=83.3 java            ;16.4 com.apple.Virtua;5.2  top             
+09:24:45 load=1.85 idle=92% top=83.0 java            ;5.3  top             ;1.6  Creative Cloud U
+09:25:17 load=1.69 idle=93% top=84.0 java            ;5.3  top             ;1.9  kernel_task     
+09:25:50 load=1.55 idle=93% top=83.7 java            ;5.2  top             ;2.1  kernel_task     
+09:26:23 load=1.87 idle=87% top=83.3 java            ;72.9 mediaanalysisd  ;17.7 textunderstandin
+09:26:55 load=1.97 idle=87% top=84.3 java            ;53.0 mediaanalysisd  ;47.1 textunderstandin
+09:27:28 load=1.93 idle=88% top=83.0 java            ;63.4 mediaanalysisd  ;26.3 textunderstandin
+09:28:01 load=2.15 idle=87% top=82.8 java            ;58.9 mediaanalysisd  ;19.7 textunderstandin
+09:28:34 load=2.41 idle=88% top=84.0 java            ;62.7 mediaanalysisd  ;17.9 textunderstandin
+09:29:06 load=2.47 idle=86% top=83.4 java            ;44.0 textunderstandin;42.1 mediaanalysisd  
+09:29:39 load=3.05 idle=87% top=84.2 java            ;45.0 mediaanalysisd  ;35.0 textunderstandin
+09:30:12 load=2.62 idle=78% top=82.6 java            ;52.0 textunderstandin;37.3 mediaanalysisd  
+09:30:44 load=2.60 idle=87% top=83.5 java            ;57.9 mediaanalysisd  ;28.7 textunderstandin
+09:31:17 load=2.41 idle=87% top=83.4 java            ;56.1 mediaanalysisd  ;35.4 textunderstandin
+09:31:50 load=2.44 idle=93% top=83.3 java            ;5.3  top             ;1.7  Creative Cloud U
+09:32:23 load=2.25 idle=92% top=83.2 java            ;5.3  top             ;3.2  jetbrains-toolbo
+09:32:55 load=1.93 idle=93% top=83.4 java            ;5.4  top             ;1.6  Creative Cloud U
+09:33:28 load=1.57 idle=93% top=83.1 java            ;5.3  top             ;1.8  Creative Cloud U
+09:34:01 load=1.52 idle=93% top=83.4 java            ;8.4  launchd         ;5.4  top             
+09:34:33 load=1.29 idle=93% top=83.5 java            ;5.3  top             ;1.7  Creative Cloud U
+09:35:06 load=1.32 idle=93% top=83.3 java            ;5.3  top             ;1.6  Creative Cloud U
+09:35:39 load=1.24 idle=93% top=83.8 java            ;5.3  top             ;1.6  Creative Cloud U
+09:36:11 load=1.29 idle=93% top=83.4 java            ;5.2  top             ;2.6  com.docker.backe
+09:36:44 load=1.45 idle=93% top=89.7 java            ;5.2  top             ;2.4  kernel_task     
+09:37:17 load=1.40 idle=92% top=83.8 java            ;5.4  jetbrains-toolbo;5.3  top             
+09:37:50 load=1.27 idle=93% top=82.9 java            ;5.2  top             ;2.0  kernel_task     
+09:38:22 load=1.53 idle=91% top=84.3 java            ;7.1  WindowServer    ;6.6  jetbrains-toolbo
+09:38:55 load=1.93 idle=90% top=84.5 java            ;7.5  WindowServer    ;5.3  top             
+09:39:28 load=1.63 idle=92% top=83.6 java            ;6.8  WindowServer    ;5.6  WallpaperAerials
+09:40:00 load=1.80 idle=91% top=84.9 java            ;8.8  launchd         ;7.3  WindowServer    
+09:40:33 load=1.94 idle=91% top=83.9 java            ;6.8  WindowServer    ;6.0  WallpaperAerials
+09:41:06 load=1.97 idle=92% top=85.3 java            ;6.8  WindowServer    ;6.8  WallpaperAerials
+09:41:38 load=2.72 idle=92% top=83.9 java            ;7.0  WindowServer    ;6.8  WallpaperAerials
+09:42:11 load=2.73 idle=92% top=83.7 java            ;7.1  WindowServer    ;5.3  top             
+09:42:44 load=2.58 idle=92% top=83.6 java            ;6.7  WindowServer    ;5.4  top             
+09:43:17 load=2.15 idle=92% top=89.9 java            ;7.5  WindowServer    ;5.3  top             
+09:43:49 load=2.29 idle=92% top=83.7 java            ;6.9  WindowServer    ;5.3  top             
+09:44:22 load=2.28 idle=92% top=82.9 java            ;6.9  jetbrains-toolbo;6.8  WindowServer    
+09:44:55 load=2.19 idle=92% top=82.8 java            ;6.9  WindowServer    ;5.8  WallpaperAerials
+09:45:27 load=2.03 idle=91% top=83.4 java            ;7.0  WindowServer    ;5.8  WallpaperAerials
+09:46:00 load=2.11 idle=91% top=90.2 java            ;8.5  launchd         ;7.4  WindowServer    
+09:46:33 load=1.92 idle=87% top=96.7 duetexpertd     ;83.1 java            ;7.9  WindowServer    
+09:47:05 load=2.09 idle=92% top=83.3 java            ;6.8  WindowServer    ;5.3  top             
+09:47:38 load=2.04 idle=90% top=84.9 java            ;7.1  WindowServer    ;5.2  top             
+09:48:11 load=2.16 idle=92% top=83.6 java            ;7.0  WindowServer    ;5.3  top             
+09:48:44 load=2.34 idle=92% top=83.2 java            ;6.9  WindowServer    ;5.3  top             
+09:49:16 load=2.44 idle=92% top=83.3 java            ;7.2  WindowServer    ;5.5  WallpaperAerials
+09:49:49 load=2.24 idle=92% top=84.5 java            ;7.3  WindowServer    ;5.4  WallpaperAerials
+09:50:22 load=2.27 idle=92% top=83.7 java            ;6.9  WindowServer    ;5.9  WallpaperAerials
+09:50:54 load=2.06 idle=86% top=83.6 java            ;7.0  WindowServer    ;6.8  WallpaperAerials
+09:51:27 load=1.86 idle=92% top=83.3 java            ;7.1  WindowServer    ;6.7  WallpaperAerials
+09:52:00 load=1.72 idle=91% top=83.8 java            ;8.6  WindowServer    ;8.4  launchd         

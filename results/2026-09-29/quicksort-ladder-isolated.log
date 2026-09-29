@@ -1,0 +1,70 @@
+=== middle  ===
+iterations=10 maxSize=268.435.456
+--- warm up 1 of 2 ---
+--- warm up 2 of 2 ---
+--- iteration 1 of 10 ---
+--- iteration 2 of 10 ---
+--- iteration 3 of 10 ---
+--- iteration 4 of 10 ---
+--- iteration 5 of 10 ---
+--- iteration 6 of 10 ---
+--- iteration 7 of 10 ---
+--- iteration 8 of 10 ---
+--- iteration 9 of 10 ---
+--- iteration 10 of 10 ---
+=== quicksort-improved 64 ===
+iterations=10 maxSize=268.435.456
+--- warm up 1 of 2 ---
+--- warm up 2 of 2 ---
+--- iteration 1 of 10 ---
+--- iteration 2 of 10 ---
+--- iteration 3 of 10 ---
+--- iteration 4 of 10 ---
+--- iteration 5 of 10 ---
+--- iteration 6 of 10 ---
+--- iteration 7 of 10 ---
+--- iteration 8 of 10 ---
+--- iteration 9 of 10 ---
+--- iteration 10 of 10 ---
+=== dual-pivot  ===
+iterations=10 maxSize=268.435.456
+--- warm up 1 of 2 ---
+--- warm up 2 of 2 ---
+--- iteration 1 of 10 ---
+--- iteration 2 of 10 ---
+--- iteration 3 of 10 ---
+--- iteration 4 of 10 ---
+--- iteration 5 of 10 ---
+--- iteration 6 of 10 ---
+--- iteration 7 of 10 ---
+--- iteration 8 of 10 ---
+--- iteration 9 of 10 ---
+--- iteration 10 of 10 ---
+=== dual-pivot-improved 48 ===
+iterations=10 maxSize=268.435.456
+--- warm up 1 of 2 ---
+--- warm up 2 of 2 ---
+--- iteration 1 of 10 ---
+--- iteration 2 of 10 ---
+--- iteration 3 of 10 ---
+--- iteration 4 of 10 ---
+--- iteration 5 of 10 ---
+--- iteration 6 of 10 ---
+--- iteration 7 of 10 ---
+--- iteration 8 of 10 ---
+--- iteration 9 of 10 ---
+--- iteration 10 of 10 ---
+=== arrays-sort  ===
+iterations=10 maxSize=268.435.456
+--- warm up 1 of 2 ---
+--- warm up 2 of 2 ---
+--- iteration 1 of 10 ---
+--- iteration 2 of 10 ---
+--- iteration 3 of 10 ---
+--- iteration 4 of 10 ---
+--- iteration 5 of 10 ---
+--- iteration 6 of 10 ---
+--- iteration 7 of 10 ---
+--- iteration 8 of 10 ---
+--- iteration 9 of 10 ---
+--- iteration 10 of 10 ---

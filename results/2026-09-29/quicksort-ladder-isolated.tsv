@@ -1,0 +1,2851 @@
+# algorithm	order	size	timeNs
+QuicksortVariant1(pivot: MIDDLE)	random	1024	38792
+QuicksortVariant1(pivot: MIDDLE)	random	2048	77667
+QuicksortVariant1(pivot: MIDDLE)	random	4096	143958
+QuicksortVariant1(pivot: MIDDLE)	random	8192	288792
+QuicksortVariant1(pivot: MIDDLE)	random	16384	599084
+QuicksortVariant1(pivot: MIDDLE)	random	32768	1243916
+QuicksortVariant1(pivot: MIDDLE)	random	65536	2674041
+QuicksortVariant1(pivot: MIDDLE)	random	131072	5586125
+QuicksortVariant1(pivot: MIDDLE)	random	262144	11752292
+QuicksortVariant1(pivot: MIDDLE)	random	524288	24096459
+QuicksortVariant1(pivot: MIDDLE)	random	1048576	50733000
+QuicksortVariant1(pivot: MIDDLE)	random	2097152	106030125
+QuicksortVariant1(pivot: MIDDLE)	random	4194304	220924334
+QuicksortVariant1(pivot: MIDDLE)	random	8388608	466062708
+QuicksortVariant1(pivot: MIDDLE)	random	16777216	965479541
+QuicksortVariant1(pivot: MIDDLE)	random	33554432	1990937417
+QuicksortVariant1(pivot: MIDDLE)	random	67108864	4108745375
+QuicksortVariant1(pivot: MIDDLE)	random	134217728	8507247792
+QuicksortVariant1(pivot: MIDDLE)	random	268435456	17616016208
+QuicksortVariant1(pivot: MIDDLE)	ascending	1024	10208
+QuicksortVariant1(pivot: MIDDLE)	ascending	2048	16250
+QuicksortVariant1(pivot: MIDDLE)	ascending	4096	29750
+QuicksortVariant1(pivot: MIDDLE)	ascending	8192	55416
+QuicksortVariant1(pivot: MIDDLE)	ascending	16384	102459
+QuicksortVariant1(pivot: MIDDLE)	ascending	32768	193292
+QuicksortVariant1(pivot: MIDDLE)	ascending	65536	389167
+QuicksortVariant1(pivot: MIDDLE)	ascending	131072	818833
+QuicksortVariant1(pivot: MIDDLE)	ascending	262144	1786583
+QuicksortVariant1(pivot: MIDDLE)	ascending	524288	3489667
+QuicksortVariant1(pivot: MIDDLE)	ascending	1048576	7053666
+QuicksortVariant1(pivot: MIDDLE)	ascending	2097152	16702584
+QuicksortVariant1(pivot: MIDDLE)	ascending	4194304	32017750
+QuicksortVariant1(pivot: MIDDLE)	ascending	8388608	69305959
+QuicksortVariant1(pivot: MIDDLE)	ascending	16777216	139024500
+QuicksortVariant1(pivot: MIDDLE)	ascending	33554432	288246125
+QuicksortVariant1(pivot: MIDDLE)	ascending	67108864	587755708
+QuicksortVariant1(pivot: MIDDLE)	ascending	134217728	1241688667
+QuicksortVariant1(pivot: MIDDLE)	ascending	268435456	2533034291
+QuicksortVariant1(pivot: MIDDLE)	descending	1024	10000
+QuicksortVariant1(pivot: MIDDLE)	descending	2048	19209
+QuicksortVariant1(pivot: MIDDLE)	descending	4096	32917
+QuicksortVariant1(pivot: MIDDLE)	descending	8192	57875
+QuicksortVariant1(pivot: MIDDLE)	descending	16384	109125
+QuicksortVariant1(pivot: MIDDLE)	descending	32768	207916
+QuicksortVariant1(pivot: MIDDLE)	descending	65536	441708
+QuicksortVariant1(pivot: MIDDLE)	descending	131072	951583
+QuicksortVariant1(pivot: MIDDLE)	descending	262144	1892083
+QuicksortVariant1(pivot: MIDDLE)	descending	524288	4218833
+QuicksortVariant1(pivot: MIDDLE)	descending	1048576	8073750
+QuicksortVariant1(pivot: MIDDLE)	descending	2097152	16380500
+QuicksortVariant1(pivot: MIDDLE)	descending	4194304	36306458
+QuicksortVariant1(pivot: MIDDLE)	descending	8388608	73766917
+QuicksortVariant1(pivot: MIDDLE)	descending	16777216	154262958
+QuicksortVariant1(pivot: MIDDLE)	descending	33554432	314345542
+QuicksortVariant1(pivot: MIDDLE)	descending	67108864	656778625
+QuicksortVariant1(pivot: MIDDLE)	descending	134217728	1333379541
+QuicksortVariant1(pivot: MIDDLE)	descending	268435456	2780675334
+QuicksortVariant1(pivot: MIDDLE)	random	1024	39791
+QuicksortVariant1(pivot: MIDDLE)	random	2048	77250
+QuicksortVariant1(pivot: MIDDLE)	random	4096	145292
+QuicksortVariant1(pivot: MIDDLE)	random	8192	295000
+QuicksortVariant1(pivot: MIDDLE)	random	16384	629042
+QuicksortVariant1(pivot: MIDDLE)	random	32768	1267958
+QuicksortVariant1(pivot: MIDDLE)	random	65536	2616000
+QuicksortVariant1(pivot: MIDDLE)	random	131072	5722792
+QuicksortVariant1(pivot: MIDDLE)	random	262144	11487208
+QuicksortVariant1(pivot: MIDDLE)	random	524288	24387625
+QuicksortVariant1(pivot: MIDDLE)	random	1048576	50221792
+QuicksortVariant1(pivot: MIDDLE)	random	2097152	106940583
+QuicksortVariant1(pivot: MIDDLE)	random	4194304	224734667
+QuicksortVariant1(pivot: MIDDLE)	random	8388608	458409375
+QuicksortVariant1(pivot: MIDDLE)	random	16777216	965160875
+QuicksortVariant1(pivot: MIDDLE)	random	33554432	2005116583
+QuicksortVariant1(pivot: MIDDLE)	random	67108864	4127326416
+QuicksortVariant1(pivot: MIDDLE)	random	134217728	8394387208
+QuicksortVariant1(pivot: MIDDLE)	random	268435456	17703208792
+QuicksortVariant1(pivot: MIDDLE)	ascending	1024	9167
+QuicksortVariant1(pivot: MIDDLE)	ascending	2048	15458
+QuicksortVariant1(pivot: MIDDLE)	ascending	4096	23125
+QuicksortVariant1(pivot: MIDDLE)	ascending	8192	43667
+QuicksortVariant1(pivot: MIDDLE)	ascending	16384	96167
+QuicksortVariant1(pivot: MIDDLE)	ascending	32768	218375
+QuicksortVariant1(pivot: MIDDLE)	ascending	65536	383541
+QuicksortVariant1(pivot: MIDDLE)	ascending	131072	799875
+QuicksortVariant1(pivot: MIDDLE)	ascending	262144	1787541
+QuicksortVariant1(pivot: MIDDLE)	ascending	524288	3465125
+QuicksortVariant1(pivot: MIDDLE)	ascending	1048576	7140792
+QuicksortVariant1(pivot: MIDDLE)	ascending	2097152	14930584
+QuicksortVariant1(pivot: MIDDLE)	ascending	4194304	31773625
+QuicksortVariant1(pivot: MIDDLE)	ascending	8388608	65754917
+QuicksortVariant1(pivot: MIDDLE)	ascending	16777216	136682667
+QuicksortVariant1(pivot: MIDDLE)	ascending	33554432	284280334
+QuicksortVariant1(pivot: MIDDLE)	ascending	67108864	578309834
+QuicksortVariant1(pivot: MIDDLE)	ascending	134217728	1213923291
+QuicksortVariant1(pivot: MIDDLE)	ascending	268435456	2465765708
+QuicksortVariant1(pivot: MIDDLE)	descending	1024	9375
+QuicksortVariant1(pivot: MIDDLE)	descending	2048	18042
+QuicksortVariant1(pivot: MIDDLE)	descending	4096	26416
+QuicksortVariant1(pivot: MIDDLE)	descending	8192	56625
+QuicksortVariant1(pivot: MIDDLE)	descending	16384	114709
+QuicksortVariant1(pivot: MIDDLE)	descending	32768	205917
+QuicksortVariant1(pivot: MIDDLE)	descending	65536	429958
+QuicksortVariant1(pivot: MIDDLE)	descending	131072	879625
+QuicksortVariant1(pivot: MIDDLE)	descending	262144	1896041
+QuicksortVariant1(pivot: MIDDLE)	descending	524288	3803292
+QuicksortVariant1(pivot: MIDDLE)	descending	1048576	8116208
+QuicksortVariant1(pivot: MIDDLE)	descending	2097152	17054666
+QuicksortVariant1(pivot: MIDDLE)	descending	4194304	34868000
+QuicksortVariant1(pivot: MIDDLE)	descending	8388608	71845459
+QuicksortVariant1(pivot: MIDDLE)	descending	16777216	151926125
+QuicksortVariant1(pivot: MIDDLE)	descending	33554432	304825750
+QuicksortVariant1(pivot: MIDDLE)	descending	67108864	644089167
+QuicksortVariant1(pivot: MIDDLE)	descending	134217728	1299117708
+QuicksortVariant1(pivot: MIDDLE)	descending	268435456	2734715291
+QuicksortVariant1(pivot: MIDDLE)	random	1024	39875
+QuicksortVariant1(pivot: MIDDLE)	random	2048	74709
+QuicksortVariant1(pivot: MIDDLE)	random	4096	144541
+QuicksortVariant1(pivot: MIDDLE)	random	8192	291625
+QuicksortVariant1(pivot: MIDDLE)	random	16384	630292
+QuicksortVariant1(pivot: MIDDLE)	random	32768	1278333
+QuicksortVariant1(pivot: MIDDLE)	random	65536	2660709
+QuicksortVariant1(pivot: MIDDLE)	random	131072	5538125
+QuicksortVariant1(pivot: MIDDLE)	random	262144	11687667
+QuicksortVariant1(pivot: MIDDLE)	random	524288	24457042
+QuicksortVariant1(pivot: MIDDLE)	random	1048576	50982583
+QuicksortVariant1(pivot: MIDDLE)	random	2097152	107412708
+QuicksortVariant1(pivot: MIDDLE)	random	4194304	221803584
+QuicksortVariant1(pivot: MIDDLE)	random	8388608	466181167
+QuicksortVariant1(pivot: MIDDLE)	random	16777216	955882875
+QuicksortVariant1(pivot: MIDDLE)	random	33554432	1982043834
+QuicksortVariant1(pivot: MIDDLE)	random	67108864	4150073584
+QuicksortVariant1(pivot: MIDDLE)	random	134217728	8614131209
+QuicksortVariant1(pivot: MIDDLE)	random	268435456	17491256125
+QuicksortVariant1(pivot: MIDDLE)	ascending	1024	9375
+QuicksortVariant1(pivot: MIDDLE)	ascending	2048	14959
+QuicksortVariant1(pivot: MIDDLE)	ascending	4096	25042
+QuicksortVariant1(pivot: MIDDLE)	ascending	8192	46541
+QuicksortVariant1(pivot: MIDDLE)	ascending	16384	86292
+QuicksortVariant1(pivot: MIDDLE)	ascending	32768	180292
+QuicksortVariant1(pivot: MIDDLE)	ascending	65536	356333
+QuicksortVariant1(pivot: MIDDLE)	ascending	131072	763125
+QuicksortVariant1(pivot: MIDDLE)	ascending	262144	1576125
+QuicksortVariant1(pivot: MIDDLE)	ascending	524288	3488334
+QuicksortVariant1(pivot: MIDDLE)	ascending	1048576	6770584
+QuicksortVariant1(pivot: MIDDLE)	ascending	2097152	14885000
+QuicksortVariant1(pivot: MIDDLE)	ascending	4194304	29707042
+QuicksortVariant1(pivot: MIDDLE)	ascending	8388608	65700500
+QuicksortVariant1(pivot: MIDDLE)	ascending	16777216	132532500
+QuicksortVariant1(pivot: MIDDLE)	ascending	33554432	280343584
+QuicksortVariant1(pivot: MIDDLE)	ascending	67108864	569259250
+QuicksortVariant1(pivot: MIDDLE)	ascending	134217728	1189649750
+QuicksortVariant1(pivot: MIDDLE)	ascending	268435456	2446055417
+QuicksortVariant1(pivot: MIDDLE)	descending	1024	10334
+QuicksortVariant1(pivot: MIDDLE)	descending	2048	16709
+QuicksortVariant1(pivot: MIDDLE)	descending	4096	26500
+QuicksortVariant1(pivot: MIDDLE)	descending	8192	50083
+QuicksortVariant1(pivot: MIDDLE)	descending	16384	106209
+QuicksortVariant1(pivot: MIDDLE)	descending	32768	204583
+QuicksortVariant1(pivot: MIDDLE)	descending	65536	436542
+QuicksortVariant1(pivot: MIDDLE)	descending	131072	804625
+QuicksortVariant1(pivot: MIDDLE)	descending	262144	1805667
+QuicksortVariant1(pivot: MIDDLE)	descending	524288	4129042
+QuicksortVariant1(pivot: MIDDLE)	descending	1048576	8656209
+QuicksortVariant1(pivot: MIDDLE)	descending	2097152	15517791
+QuicksortVariant1(pivot: MIDDLE)	descending	4194304	35020958
+QuicksortVariant1(pivot: MIDDLE)	descending	8388608	70221500
+QuicksortVariant1(pivot: MIDDLE)	descending	16777216	147109209
+QuicksortVariant1(pivot: MIDDLE)	descending	33554432	326026791
+QuicksortVariant1(pivot: MIDDLE)	descending	67108864	627320041
+QuicksortVariant1(pivot: MIDDLE)	descending	134217728	1279457833
+QuicksortVariant1(pivot: MIDDLE)	descending	268435456	2642474500
+QuicksortVariant1(pivot: MIDDLE)	random	1024	42833
+QuicksortVariant1(pivot: MIDDLE)	random	2048	65916
+QuicksortVariant1(pivot: MIDDLE)	random	4096	138583
+QuicksortVariant1(pivot: MIDDLE)	random	8192	293833
+QuicksortVariant1(pivot: MIDDLE)	random	16384	600291
+QuicksortVariant1(pivot: MIDDLE)	random	32768	1315500
+QuicksortVariant1(pivot: MIDDLE)	random	65536	2665375
+QuicksortVariant1(pivot: MIDDLE)	random	131072	5488916
+QuicksortVariant1(pivot: MIDDLE)	random	262144	11837666
+QuicksortVariant1(pivot: MIDDLE)	random	524288	24285625
+QuicksortVariant1(pivot: MIDDLE)	random	1048576	51297708
+QuicksortVariant1(pivot: MIDDLE)	random	2097152	105751958
+QuicksortVariant1(pivot: MIDDLE)	random	4194304	225633292
+QuicksortVariant1(pivot: MIDDLE)	random	8388608	465358500
+QuicksortVariant1(pivot: MIDDLE)	random	16777216	959145167
+QuicksortVariant1(pivot: MIDDLE)	random	33554432	2018465541
+QuicksortVariant1(pivot: MIDDLE)	random	67108864	4100316916
+QuicksortVariant1(pivot: MIDDLE)	random	134217728	8636590208
+QuicksortVariant1(pivot: MIDDLE)	random	268435456	17551128625
+QuicksortVariant1(pivot: MIDDLE)	ascending	1024	8833
+QuicksortVariant1(pivot: MIDDLE)	ascending	2048	13708
+QuicksortVariant1(pivot: MIDDLE)	ascending	4096	26208
+QuicksortVariant1(pivot: MIDDLE)	ascending	8192	42541
+QuicksortVariant1(pivot: MIDDLE)	ascending	16384	84958
+QuicksortVariant1(pivot: MIDDLE)	ascending	32768	174459
+QuicksortVariant1(pivot: MIDDLE)	ascending	65536	368209
+QuicksortVariant1(pivot: MIDDLE)	ascending	131072	867375
+QuicksortVariant1(pivot: MIDDLE)	ascending	262144	1796750
+QuicksortVariant1(pivot: MIDDLE)	ascending	524288	3499083
+QuicksortVariant1(pivot: MIDDLE)	ascending	1048576	7962875
+QuicksortVariant1(pivot: MIDDLE)	ascending	2097152	16539833
+QuicksortVariant1(pivot: MIDDLE)	ascending	4194304	31427208
+QuicksortVariant1(pivot: MIDDLE)	ascending	8388608	69663792
+QuicksortVariant1(pivot: MIDDLE)	ascending	16777216	140166000
+QuicksortVariant1(pivot: MIDDLE)	ascending	33554432	293465208
+QuicksortVariant1(pivot: MIDDLE)	ascending	67108864	608372458
+QuicksortVariant1(pivot: MIDDLE)	ascending	134217728	1279640792
+QuicksortVariant1(pivot: MIDDLE)	ascending	268435456	2599380667
+QuicksortVariant1(pivot: MIDDLE)	descending	1024	9666
+QuicksortVariant1(pivot: MIDDLE)	descending	2048	15500
+QuicksortVariant1(pivot: MIDDLE)	descending	4096	26209
+QuicksortVariant1(pivot: MIDDLE)	descending	8192	50583
+QuicksortVariant1(pivot: MIDDLE)	descending	16384	109958
+QuicksortVariant1(pivot: MIDDLE)	descending	32768	222334
+QuicksortVariant1(pivot: MIDDLE)	descending	65536	414625
+QuicksortVariant1(pivot: MIDDLE)	descending	131072	939125
+QuicksortVariant1(pivot: MIDDLE)	descending	262144	1901958
+QuicksortVariant1(pivot: MIDDLE)	descending	524288	3724125
+QuicksortVariant1(pivot: MIDDLE)	descending	1048576	8652916
+QuicksortVariant1(pivot: MIDDLE)	descending	2097152	18024542
+QuicksortVariant1(pivot: MIDDLE)	descending	4194304	35340208
+QuicksortVariant1(pivot: MIDDLE)	descending	8388608	74220334
+QuicksortVariant1(pivot: MIDDLE)	descending	16777216	155308042
+QuicksortVariant1(pivot: MIDDLE)	descending	33554432	319381666
+QuicksortVariant1(pivot: MIDDLE)	descending	67108864	665255750
+QuicksortVariant1(pivot: MIDDLE)	descending	134217728	1322445791
+QuicksortVariant1(pivot: MIDDLE)	descending	268435456	2643322084
+QuicksortVariant1(pivot: MIDDLE)	random	1024	39583
+QuicksortVariant1(pivot: MIDDLE)	random	2048	78042
+QuicksortVariant1(pivot: MIDDLE)	random	4096	139459
+QuicksortVariant1(pivot: MIDDLE)	random	8192	301834
+QuicksortVariant1(pivot: MIDDLE)	random	16384	597625
+QuicksortVariant1(pivot: MIDDLE)	random	32768	1237500
+QuicksortVariant1(pivot: MIDDLE)	random	65536	2637542
+QuicksortVariant1(pivot: MIDDLE)	random	131072	5643167
+QuicksortVariant1(pivot: MIDDLE)	random	262144	11573750
+QuicksortVariant1(pivot: MIDDLE)	random	524288	24335000
+QuicksortVariant1(pivot: MIDDLE)	random	1048576	51852291
+QuicksortVariant1(pivot: MIDDLE)	random	2097152	106198666
+QuicksortVariant1(pivot: MIDDLE)	random	4194304	224054083
+QuicksortVariant1(pivot: MIDDLE)	random	8388608	460950667
+QuicksortVariant1(pivot: MIDDLE)	random	16777216	968176041
+QuicksortVariant1(pivot: MIDDLE)	random	33554432	1967377292
+QuicksortVariant1(pivot: MIDDLE)	random	67108864	4109491083
+QuicksortVariant1(pivot: MIDDLE)	random	134217728	8454441333
+QuicksortVariant1(pivot: MIDDLE)	random	268435456	17592176667
+QuicksortVariant1(pivot: MIDDLE)	ascending	1024	8375
+QuicksortVariant1(pivot: MIDDLE)	ascending	2048	15917
+QuicksortVariant1(pivot: MIDDLE)	ascending	4096	28959
+QuicksortVariant1(pivot: MIDDLE)	ascending	8192	49708
+QuicksortVariant1(pivot: MIDDLE)	ascending	16384	95791
+QuicksortVariant1(pivot: MIDDLE)	ascending	32768	183416
+QuicksortVariant1(pivot: MIDDLE)	ascending	65536	410041
+QuicksortVariant1(pivot: MIDDLE)	ascending	131072	805667
+QuicksortVariant1(pivot: MIDDLE)	ascending	262144	1793250
+QuicksortVariant1(pivot: MIDDLE)	ascending	524288	3498125
+QuicksortVariant1(pivot: MIDDLE)	ascending	1048576	7765917
+QuicksortVariant1(pivot: MIDDLE)	ascending	2097152	15740000
+QuicksortVariant1(pivot: MIDDLE)	ascending	4194304	33142208
+QuicksortVariant1(pivot: MIDDLE)	ascending	8388608	69129292
+QuicksortVariant1(pivot: MIDDLE)	ascending	16777216	144055083
+QuicksortVariant1(pivot: MIDDLE)	ascending	33554432	301086083
+QuicksortVariant1(pivot: MIDDLE)	ascending	67108864	614732417
+QuicksortVariant1(pivot: MIDDLE)	ascending	134217728	1291989208
+QuicksortVariant1(pivot: MIDDLE)	ascending	268435456	2617540667
+QuicksortVariant1(pivot: MIDDLE)	descending	1024	9292
+QuicksortVariant1(pivot: MIDDLE)	descending	2048	16709
+QuicksortVariant1(pivot: MIDDLE)	descending	4096	31375
+QuicksortVariant1(pivot: MIDDLE)	descending	8192	49459
+QuicksortVariant1(pivot: MIDDLE)	descending	16384	108417
+QuicksortVariant1(pivot: MIDDLE)	descending	32768	231000
+QuicksortVariant1(pivot: MIDDLE)	descending	65536	460416
+QuicksortVariant1(pivot: MIDDLE)	descending	131072	951542
+QuicksortVariant1(pivot: MIDDLE)	descending	262144	1893041
+QuicksortVariant1(pivot: MIDDLE)	descending	524288	4153209
+QuicksortVariant1(pivot: MIDDLE)	descending	1048576	8599875
+QuicksortVariant1(pivot: MIDDLE)	descending	2097152	17899583
+QuicksortVariant1(pivot: MIDDLE)	descending	4194304	36103083
+QuicksortVariant1(pivot: MIDDLE)	descending	8388608	74116833
+QuicksortVariant1(pivot: MIDDLE)	descending	16777216	157804250
+QuicksortVariant1(pivot: MIDDLE)	descending	33554432	323301375
+QuicksortVariant1(pivot: MIDDLE)	descending	67108864	660798833
+QuicksortVariant1(pivot: MIDDLE)	descending	134217728	1344112500
+QuicksortVariant1(pivot: MIDDLE)	descending	268435456	2819108042
+QuicksortVariant1(pivot: MIDDLE)	random	1024	40625
+QuicksortVariant1(pivot: MIDDLE)	random	2048	79792
+QuicksortVariant1(pivot: MIDDLE)	random	4096	150958
+QuicksortVariant1(pivot: MIDDLE)	random	8192	301292
+QuicksortVariant1(pivot: MIDDLE)	random	16384	603292
+QuicksortVariant1(pivot: MIDDLE)	random	32768	1277083
+QuicksortVariant1(pivot: MIDDLE)	random	65536	2601917
+QuicksortVariant1(pivot: MIDDLE)	random	131072	5636833
+QuicksortVariant1(pivot: MIDDLE)	random	262144	11950500
+QuicksortVariant1(pivot: MIDDLE)	random	524288	24398042
+QuicksortVariant1(pivot: MIDDLE)	random	1048576	51014750
+QuicksortVariant1(pivot: MIDDLE)	random	2097152	106089916
+QuicksortVariant1(pivot: MIDDLE)	random	4194304	224301458
+QuicksortVariant1(pivot: MIDDLE)	random	8388608	458941458
+QuicksortVariant1(pivot: MIDDLE)	random	16777216	960371750
+QuicksortVariant1(pivot: MIDDLE)	random	33554432	1998319208
+QuicksortVariant1(pivot: MIDDLE)	random	67108864	4126182625
+QuicksortVariant1(pivot: MIDDLE)	random	134217728	8503064250
+QuicksortVariant1(pivot: MIDDLE)	random	268435456	17617597459
+QuicksortVariant1(pivot: MIDDLE)	ascending	1024	8583
+QuicksortVariant1(pivot: MIDDLE)	ascending	2048	15208
+QuicksortVariant1(pivot: MIDDLE)	ascending	4096	24500
+QuicksortVariant1(pivot: MIDDLE)	ascending	8192	45084
+QuicksortVariant1(pivot: MIDDLE)	ascending	16384	94709
+QuicksortVariant1(pivot: MIDDLE)	ascending	32768	209583
+QuicksortVariant1(pivot: MIDDLE)	ascending	65536	375667
+QuicksortVariant1(pivot: MIDDLE)	ascending	131072	821000
+QuicksortVariant1(pivot: MIDDLE)	ascending	262144	1639292
+QuicksortVariant1(pivot: MIDDLE)	ascending	524288	3498958
+QuicksortVariant1(pivot: MIDDLE)	ascending	1048576	7805000
+QuicksortVariant1(pivot: MIDDLE)	ascending	2097152	15204792
+QuicksortVariant1(pivot: MIDDLE)	ascending	4194304	31953791
+QuicksortVariant1(pivot: MIDDLE)	ascending	8388608	68588542
+QuicksortVariant1(pivot: MIDDLE)	ascending	16777216	137740916
+QuicksortVariant1(pivot: MIDDLE)	ascending	33554432	300290250
+QuicksortVariant1(pivot: MIDDLE)	ascending	67108864	608148208
+QuicksortVariant1(pivot: MIDDLE)	ascending	134217728	1254538250
+QuicksortVariant1(pivot: MIDDLE)	ascending	268435456	2539088458
+QuicksortVariant1(pivot: MIDDLE)	descending	1024	9917
+QuicksortVariant1(pivot: MIDDLE)	descending	2048	17000
+QuicksortVariant1(pivot: MIDDLE)	descending	4096	31416
+QuicksortVariant1(pivot: MIDDLE)	descending	8192	55625
+QuicksortVariant1(pivot: MIDDLE)	descending	16384	102625
+QuicksortVariant1(pivot: MIDDLE)	descending	32768	209459
+QuicksortVariant1(pivot: MIDDLE)	descending	65536	452625
+QuicksortVariant1(pivot: MIDDLE)	descending	131072	965500
+QuicksortVariant1(pivot: MIDDLE)	descending	262144	2001500
+QuicksortVariant1(pivot: MIDDLE)	descending	524288	3787250
+QuicksortVariant1(pivot: MIDDLE)	descending	1048576	8128500
+QuicksortVariant1(pivot: MIDDLE)	descending	2097152	16444708
+QuicksortVariant1(pivot: MIDDLE)	descending	4194304	36626083
+QuicksortVariant1(pivot: MIDDLE)	descending	8388608	73621750
+QuicksortVariant1(pivot: MIDDLE)	descending	16777216	156012917
+QuicksortVariant1(pivot: MIDDLE)	descending	33554432	313525625
+QuicksortVariant1(pivot: MIDDLE)	descending	67108864	658180375
+QuicksortVariant1(pivot: MIDDLE)	descending	134217728	1336369791
+QuicksortVariant1(pivot: MIDDLE)	descending	268435456	2811903125
+QuicksortVariant1(pivot: MIDDLE)	random	1024	41625
+QuicksortVariant1(pivot: MIDDLE)	random	2048	72417
+QuicksortVariant1(pivot: MIDDLE)	random	4096	150167
+QuicksortVariant1(pivot: MIDDLE)	random	8192	289083
+QuicksortVariant1(pivot: MIDDLE)	random	16384	607792
+QuicksortVariant1(pivot: MIDDLE)	random	32768	1290291
+QuicksortVariant1(pivot: MIDDLE)	random	65536	2699875
+QuicksortVariant1(pivot: MIDDLE)	random	131072	5487292
+QuicksortVariant1(pivot: MIDDLE)	random	262144	11833625
+QuicksortVariant1(pivot: MIDDLE)	random	524288	24961208
+QuicksortVariant1(pivot: MIDDLE)	random	1048576	51782709
+QuicksortVariant1(pivot: MIDDLE)	random	2097152	108320292
+QuicksortVariant1(pivot: MIDDLE)	random	4194304	220764375
+QuicksortVariant1(pivot: MIDDLE)	random	8388608	463125334
+QuicksortVariant1(pivot: MIDDLE)	random	16777216	963334750
+QuicksortVariant1(pivot: MIDDLE)	random	33554432	2008539583
+QuicksortVariant1(pivot: MIDDLE)	random	67108864	4100953500
+QuicksortVariant1(pivot: MIDDLE)	random	134217728	8493481833
+QuicksortVariant1(pivot: MIDDLE)	random	268435456	17784287334
+QuicksortVariant1(pivot: MIDDLE)	ascending	1024	9250
+QuicksortVariant1(pivot: MIDDLE)	ascending	2048	16041
+QuicksortVariant1(pivot: MIDDLE)	ascending	4096	28709
+QuicksortVariant1(pivot: MIDDLE)	ascending	8192	50875
+QuicksortVariant1(pivot: MIDDLE)	ascending	16384	107292
+QuicksortVariant1(pivot: MIDDLE)	ascending	32768	195084
+QuicksortVariant1(pivot: MIDDLE)	ascending	65536	421625
+QuicksortVariant1(pivot: MIDDLE)	ascending	131072	824958
+QuicksortVariant1(pivot: MIDDLE)	ascending	262144	1810542
+QuicksortVariant1(pivot: MIDDLE)	ascending	524288	3675958
+QuicksortVariant1(pivot: MIDDLE)	ascending	1048576	7246250
+QuicksortVariant1(pivot: MIDDLE)	ascending	2097152	16834166
+QuicksortVariant1(pivot: MIDDLE)	ascending	4194304	32282416
+QuicksortVariant1(pivot: MIDDLE)	ascending	8388608	69716250
+QuicksortVariant1(pivot: MIDDLE)	ascending	16777216	140722959
+QuicksortVariant1(pivot: MIDDLE)	ascending	33554432	284248625
+QuicksortVariant1(pivot: MIDDLE)	ascending	67108864	576408334
+QuicksortVariant1(pivot: MIDDLE)	ascending	134217728	1225771584
+QuicksortVariant1(pivot: MIDDLE)	ascending	268435456	2500018416
+QuicksortVariant1(pivot: MIDDLE)	descending	1024	9416
+QuicksortVariant1(pivot: MIDDLE)	descending	2048	18000
+QuicksortVariant1(pivot: MIDDLE)	descending	4096	35542
+QuicksortVariant1(pivot: MIDDLE)	descending	8192	57625
+QuicksortVariant1(pivot: MIDDLE)	descending	16384	111125
+QuicksortVariant1(pivot: MIDDLE)	descending	32768	212625
+QuicksortVariant1(pivot: MIDDLE)	descending	65536	464959
+QuicksortVariant1(pivot: MIDDLE)	descending	131072	958792
+QuicksortVariant1(pivot: MIDDLE)	descending	262144	2022959
+QuicksortVariant1(pivot: MIDDLE)	descending	524288	4112416
+QuicksortVariant1(pivot: MIDDLE)	descending	1048576	8129166
+QuicksortVariant1(pivot: MIDDLE)	descending	2097152	17942625
+QuicksortVariant1(pivot: MIDDLE)	descending	4194304	34798959
+QuicksortVariant1(pivot: MIDDLE)	descending	8388608	71588084
+QuicksortVariant1(pivot: MIDDLE)	descending	16777216	152315500
+QuicksortVariant1(pivot: MIDDLE)	descending	33554432	311717250
+QuicksortVariant1(pivot: MIDDLE)	descending	67108864	647586500
+QuicksortVariant1(pivot: MIDDLE)	descending	134217728	1329819417
+QuicksortVariant1(pivot: MIDDLE)	descending	268435456	2756779417
+QuicksortVariant1(pivot: MIDDLE)	random	1024	43333
+QuicksortVariant1(pivot: MIDDLE)	random	2048	74958
+QuicksortVariant1(pivot: MIDDLE)	random	4096	142375
+QuicksortVariant1(pivot: MIDDLE)	random	8192	290667
+QuicksortVariant1(pivot: MIDDLE)	random	16384	615291
+QuicksortVariant1(pivot: MIDDLE)	random	32768	1259625
+QuicksortVariant1(pivot: MIDDLE)	random	65536	2698458
+QuicksortVariant1(pivot: MIDDLE)	random	131072	5438250
+QuicksortVariant1(pivot: MIDDLE)	random	262144	11702125
+QuicksortVariant1(pivot: MIDDLE)	random	524288	24012958
+QuicksortVariant1(pivot: MIDDLE)	random	1048576	50840916
+QuicksortVariant1(pivot: MIDDLE)	random	2097152	106166916
+QuicksortVariant1(pivot: MIDDLE)	random	4194304	222180083
+QuicksortVariant1(pivot: MIDDLE)	random	8388608	465179375
+QuicksortVariant1(pivot: MIDDLE)	random	16777216	958970833
+QuicksortVariant1(pivot: MIDDLE)	random	33554432	1979553833
+QuicksortVariant1(pivot: MIDDLE)	random	67108864	4053187208
+QuicksortVariant1(pivot: MIDDLE)	random	134217728	8720282125
+QuicksortVariant1(pivot: MIDDLE)	random	268435456	17408720375
+QuicksortVariant1(pivot: MIDDLE)	ascending	1024	8208
+QuicksortVariant1(pivot: MIDDLE)	ascending	2048	14875
+QuicksortVariant1(pivot: MIDDLE)	ascending	4096	31625
+QuicksortVariant1(pivot: MIDDLE)	ascending	8192	55583
+QuicksortVariant1(pivot: MIDDLE)	ascending	16384	101500
+QuicksortVariant1(pivot: MIDDLE)	ascending	32768	187750
+QuicksortVariant1(pivot: MIDDLE)	ascending	65536	403667
+QuicksortVariant1(pivot: MIDDLE)	ascending	131072	811042
+QuicksortVariant1(pivot: MIDDLE)	ascending	262144	1859209
+QuicksortVariant1(pivot: MIDDLE)	ascending	524288	3879167
+QuicksortVariant1(pivot: MIDDLE)	ascending	1048576	7217458
+QuicksortVariant1(pivot: MIDDLE)	ascending	2097152	16136292
+QuicksortVariant1(pivot: MIDDLE)	ascending	4194304	33168084
+QuicksortVariant1(pivot: MIDDLE)	ascending	8388608	69044709
+QuicksortVariant1(pivot: MIDDLE)	ascending	16777216	141254292
+QuicksortVariant1(pivot: MIDDLE)	ascending	33554432	298313375
+QuicksortVariant1(pivot: MIDDLE)	ascending	67108864	602202250
+QuicksortVariant1(pivot: MIDDLE)	ascending	134217728	1238803292
+QuicksortVariant1(pivot: MIDDLE)	ascending	268435456	2503358542
+QuicksortVariant1(pivot: MIDDLE)	descending	1024	9541
+QuicksortVariant1(pivot: MIDDLE)	descending	2048	16708
+QuicksortVariant1(pivot: MIDDLE)	descending	4096	31542
+QuicksortVariant1(pivot: MIDDLE)	descending	8192	52292
+QuicksortVariant1(pivot: MIDDLE)	descending	16384	103834
+QuicksortVariant1(pivot: MIDDLE)	descending	32768	217875
+QuicksortVariant1(pivot: MIDDLE)	descending	65536	437167
+QuicksortVariant1(pivot: MIDDLE)	descending	131072	880000
+QuicksortVariant1(pivot: MIDDLE)	descending	262144	1880208
+QuicksortVariant1(pivot: MIDDLE)	descending	524288	4172583
+QuicksortVariant1(pivot: MIDDLE)	descending	1048576	8648208
+QuicksortVariant1(pivot: MIDDLE)	descending	2097152	16406375
+QuicksortVariant1(pivot: MIDDLE)	descending	4194304	35021333
+QuicksortVariant1(pivot: MIDDLE)	descending	8388608	72384958
+QuicksortVariant1(pivot: MIDDLE)	descending	16777216	153552458
+QuicksortVariant1(pivot: MIDDLE)	descending	33554432	311006833
+QuicksortVariant1(pivot: MIDDLE)	descending	67108864	647717708
+QuicksortVariant1(pivot: MIDDLE)	descending	134217728	1344999500
+QuicksortVariant1(pivot: MIDDLE)	descending	268435456	2840457792
+QuicksortVariant1(pivot: MIDDLE)	random	1024	40667
+QuicksortVariant1(pivot: MIDDLE)	random	2048	77458
+QuicksortVariant1(pivot: MIDDLE)	random	4096	139959
+QuicksortVariant1(pivot: MIDDLE)	random	8192	313292
+QuicksortVariant1(pivot: MIDDLE)	random	16384	602167
+QuicksortVariant1(pivot: MIDDLE)	random	32768	1239500
+QuicksortVariant1(pivot: MIDDLE)	random	65536	2653334
+QuicksortVariant1(pivot: MIDDLE)	random	131072	5606125
+QuicksortVariant1(pivot: MIDDLE)	random	262144	11730750
+QuicksortVariant1(pivot: MIDDLE)	random	524288	23934375
+QuicksortVariant1(pivot: MIDDLE)	random	1048576	51670333
+QuicksortVariant1(pivot: MIDDLE)	random	2097152	106526542
+QuicksortVariant1(pivot: MIDDLE)	random	4194304	220928833
+QuicksortVariant1(pivot: MIDDLE)	random	8388608	460197750
+QuicksortVariant1(pivot: MIDDLE)	random	16777216	969235791
+QuicksortVariant1(pivot: MIDDLE)	random	33554432	1964321125
+QuicksortVariant1(pivot: MIDDLE)	random	67108864	4111097792
+QuicksortVariant1(pivot: MIDDLE)	random	134217728	8589677750
+QuicksortVariant1(pivot: MIDDLE)	random	268435456	17643855084
+QuicksortVariant1(pivot: MIDDLE)	ascending	1024	8500
+QuicksortVariant1(pivot: MIDDLE)	ascending	2048	14625
+QuicksortVariant1(pivot: MIDDLE)	ascending	4096	26583
+QuicksortVariant1(pivot: MIDDLE)	ascending	8192	50459
+QuicksortVariant1(pivot: MIDDLE)	ascending	16384	92417
+QuicksortVariant1(pivot: MIDDLE)	ascending	32768	205666
+QuicksortVariant1(pivot: MIDDLE)	ascending	65536	417000
+QuicksortVariant1(pivot: MIDDLE)	ascending	131072	887708
+QuicksortVariant1(pivot: MIDDLE)	ascending	262144	1567166
+QuicksortVariant1(pivot: MIDDLE)	ascending	524288	3856333
+QuicksortVariant1(pivot: MIDDLE)	ascending	1048576	6787583
+QuicksortVariant1(pivot: MIDDLE)	ascending	2097152	15066208
+QuicksortVariant1(pivot: MIDDLE)	ascending	4194304	31080542
+QuicksortVariant1(pivot: MIDDLE)	ascending	8388608	66198375
+QuicksortVariant1(pivot: MIDDLE)	ascending	16777216	134365083
+QuicksortVariant1(pivot: MIDDLE)	ascending	33554432	284901042
+QuicksortVariant1(pivot: MIDDLE)	ascending	67108864	579270667
+QuicksortVariant1(pivot: MIDDLE)	ascending	134217728	1205874708
+QuicksortVariant1(pivot: MIDDLE)	ascending	268435456	2395356875
+QuicksortVariant1(pivot: MIDDLE)	descending	1024	9208
+QuicksortVariant1(pivot: MIDDLE)	descending	2048	14959
+QuicksortVariant1(pivot: MIDDLE)	descending	4096	30750
+QuicksortVariant1(pivot: MIDDLE)	descending	8192	51542
+QuicksortVariant1(pivot: MIDDLE)	descending	16384	115875
+QuicksortVariant1(pivot: MIDDLE)	descending	32768	217167
+QuicksortVariant1(pivot: MIDDLE)	descending	65536	440625
+QuicksortVariant1(pivot: MIDDLE)	descending	131072	952458
+QuicksortVariant1(pivot: MIDDLE)	descending	262144	1803792
+QuicksortVariant1(pivot: MIDDLE)	descending	524288	3635375
+QuicksortVariant1(pivot: MIDDLE)	descending	1048576	8670958
+QuicksortVariant1(pivot: MIDDLE)	descending	2097152	15891792
+QuicksortVariant1(pivot: MIDDLE)	descending	4194304	34418958
+QuicksortVariant1(pivot: MIDDLE)	descending	8388608	70935875
+QuicksortVariant1(pivot: MIDDLE)	descending	16777216	149517500
+QuicksortVariant1(pivot: MIDDLE)	descending	33554432	301312667
+QuicksortVariant1(pivot: MIDDLE)	descending	67108864	631807792
+QuicksortVariant1(pivot: MIDDLE)	descending	134217728	1259933209
+QuicksortVariant1(pivot: MIDDLE)	descending	268435456	2623839292
+QuicksortVariant1(pivot: MIDDLE)	random	1024	33917
+QuicksortVariant1(pivot: MIDDLE)	random	2048	76334
+QuicksortVariant1(pivot: MIDDLE)	random	4096	139125
+QuicksortVariant1(pivot: MIDDLE)	random	8192	288084
+QuicksortVariant1(pivot: MIDDLE)	random	16384	606417
+QuicksortVariant1(pivot: MIDDLE)	random	32768	1268500
+QuicksortVariant1(pivot: MIDDLE)	random	65536	2656125
+QuicksortVariant1(pivot: MIDDLE)	random	131072	5492750
+QuicksortVariant1(pivot: MIDDLE)	random	262144	11682125
+QuicksortVariant1(pivot: MIDDLE)	random	524288	24360708
+QuicksortVariant1(pivot: MIDDLE)	random	1048576	50878375
+QuicksortVariant1(pivot: MIDDLE)	random	2097152	105940917
+QuicksortVariant1(pivot: MIDDLE)	random	4194304	219204666
+QuicksortVariant1(pivot: MIDDLE)	random	8388608	459497375
+QuicksortVariant1(pivot: MIDDLE)	random	16777216	965749625
+QuicksortVariant1(pivot: MIDDLE)	random	33554432	2015035292
+QuicksortVariant1(pivot: MIDDLE)	random	67108864	4144805041
+QuicksortVariant1(pivot: MIDDLE)	random	134217728	8578582250
+QuicksortVariant1(pivot: MIDDLE)	random	268435456	17670726458
+QuicksortVariant1(pivot: MIDDLE)	ascending	1024	6833
+QuicksortVariant1(pivot: MIDDLE)	ascending	2048	12625
+QuicksortVariant1(pivot: MIDDLE)	ascending	4096	24250
+QuicksortVariant1(pivot: MIDDLE)	ascending	8192	52208
+QuicksortVariant1(pivot: MIDDLE)	ascending	16384	93750
+QuicksortVariant1(pivot: MIDDLE)	ascending	32768	201833
+QuicksortVariant1(pivot: MIDDLE)	ascending	65536	371958
+QuicksortVariant1(pivot: MIDDLE)	ascending	131072	889625
+QuicksortVariant1(pivot: MIDDLE)	ascending	262144	1608750
+QuicksortVariant1(pivot: MIDDLE)	ascending	524288	3502542
+QuicksortVariant1(pivot: MIDDLE)	ascending	1048576	7389667
+QuicksortVariant1(pivot: MIDDLE)	ascending	2097152	15389875
+QuicksortVariant1(pivot: MIDDLE)	ascending	4194304	33350958
+QuicksortVariant1(pivot: MIDDLE)	ascending	8388608	69253167
+QuicksortVariant1(pivot: MIDDLE)	ascending	16777216	142796042
+QuicksortVariant1(pivot: MIDDLE)	ascending	33554432	301008125
+QuicksortVariant1(pivot: MIDDLE)	ascending	67108864	609019583
+QuicksortVariant1(pivot: MIDDLE)	ascending	134217728	1253748917
+QuicksortVariant1(pivot: MIDDLE)	ascending	268435456	2558246750
+QuicksortVariant1(pivot: MIDDLE)	descending	1024	9916
+QuicksortVariant1(pivot: MIDDLE)	descending	2048	17542
+QuicksortVariant1(pivot: MIDDLE)	descending	4096	36375
+QuicksortVariant1(pivot: MIDDLE)	descending	8192	58041
+QuicksortVariant1(pivot: MIDDLE)	descending	16384	109000
+QuicksortVariant1(pivot: MIDDLE)	descending	32768	204291
+QuicksortVariant1(pivot: MIDDLE)	descending	65536	438625
+QuicksortVariant1(pivot: MIDDLE)	descending	131072	885333
+QuicksortVariant1(pivot: MIDDLE)	descending	262144	1877833
+QuicksortVariant1(pivot: MIDDLE)	descending	524288	3831833
+QuicksortVariant1(pivot: MIDDLE)	descending	1048576	8593375
+QuicksortVariant1(pivot: MIDDLE)	descending	2097152	17248167
+QuicksortVariant1(pivot: MIDDLE)	descending	4194304	34955583
+QuicksortVariant1(pivot: MIDDLE)	descending	8388608	73622458
+QuicksortVariant1(pivot: MIDDLE)	descending	16777216	154722458
+QuicksortVariant1(pivot: MIDDLE)	descending	33554432	323292041
+QuicksortVariant1(pivot: MIDDLE)	descending	67108864	673345000
+QuicksortVariant1(pivot: MIDDLE)	descending	134217728	1360601584
+QuicksortVariant1(pivot: MIDDLE)	descending	268435456	2903772417
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1024	28625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2048	51791
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4096	105375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8192	220500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16384	476542
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	32768	1114792
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	65536	2285833
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	131072	4627625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	262144	10225375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	524288	20965833
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1048576	45925709
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2097152	97558583
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4194304	196930083
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8388608	413089416
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16777216	847547000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	33554432	1813733125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	67108864	3735195250
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	134217728	7682079583
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	268435456	15964657750
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1024	5750
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2048	9334
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4096	18500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8192	35208
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16384	60208
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	32768	141000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	65536	296250
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	131072	618333
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	262144	1171917
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	524288	2701792
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1048576	5176416
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2097152	11378792
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4194304	24641584
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8388608	51701708
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16777216	108788333
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	33554432	226740292
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	67108864	470999625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	134217728	973386583
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	268435456	2010894084
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1024	7292
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2048	10667
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4096	19417
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8192	29959
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16384	71791
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	32768	145458
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	65536	301375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	131072	663167
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	262144	1434958
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	524288	2646167
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1048576	6343542
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2097152	13207833
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4194304	26020250
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8388608	54291792
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16777216	114157833
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	33554432	237391209
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	67108864	508246125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	134217728	1030155917
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	268435456	2176027959
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1024	30667
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2048	56583
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4096	105958
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8192	217667
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16384	494250
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	32768	1026750
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	65536	2148958
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	131072	4660667
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	262144	9563459
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	524288	20303542
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1048576	43696625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2097152	95466041
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4194304	192761625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8388608	400450584
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16777216	847644958
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	33554432	1809938458
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	67108864	3723093000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	134217728	7709179875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	268435456	16197125042
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1024	5917
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2048	9000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4096	14875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8192	35500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16384	55167
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	32768	135333
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	65536	275833
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	131072	525542
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	262144	1141417
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	524288	2293875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1048576	5521000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2097152	11792042
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4194304	23743084
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8388608	52620792
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16777216	104377417
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	33554432	225438542
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	67108864	464195209
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	134217728	984249334
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	268435456	2029634625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1024	4959
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2048	8541
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4096	16333
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8192	31458
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16384	66875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	32768	125792
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	65536	288709
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	131072	599042
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	262144	1336250
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	524288	2994208
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1048576	6020916
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2097152	11576792
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4194304	27092333
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8388608	54435291
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16777216	116257834
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	33554432	240739083
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	67108864	501212875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	134217728	1026439500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	268435456	2143302583
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1024	28875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2048	49709
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4096	114292
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8192	239167
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16384	489291
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	32768	1011709
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	65536	2115084
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	131072	4444375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	262144	9635334
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	524288	20994500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1048576	42921250
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2097152	96032000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4194304	192236959
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8388608	407205750
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16777216	854441042
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	33554432	1749051375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	67108864	3670095125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	134217728	7633681875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	268435456	16139591709
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1024	5625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2048	9000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4096	15584
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8192	27500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16384	67875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	32768	127083
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	65536	265167
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	131072	593334
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	262144	1249708
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	524288	2645583
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1048576	4854834
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2097152	11215583
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4194304	24092958
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8388608	49443833
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16777216	106258500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	33554432	223148209
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	67108864	466055792
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	134217728	973036291
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	268435456	2025468416
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1024	4458
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2048	9792
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4096	14084
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8192	29625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16384	59875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	32768	123875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	65536	290167
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	131072	669959
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	262144	1336459
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	524288	2997500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1048576	5413458
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2097152	12179125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4194304	25607333
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8388608	53714459
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16777216	113574458
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	33554432	236221833
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	67108864	488727125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	134217728	1023232417
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	268435456	2139946834
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1024	28875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2048	53125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4096	105375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8192	240958
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16384	505625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	32768	1065208
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	65536	2260875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	131072	4632166
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	262144	10350083
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	524288	20668375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1048576	42973500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2097152	90068917
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4194304	199369375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8388608	413817375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16777216	866285917
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	33554432	1790890167
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	67108864	3685377625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	134217728	7693435375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	268435456	16153809000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1024	5625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2048	8708
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4096	17375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8192	26959
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16384	70667
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	32768	131458
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	65536	256584
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	131072	545375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	262144	1204375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	524288	2478209
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1048576	5146708
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2097152	12456458
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4194304	24289291
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8388608	51849166
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16777216	106416375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	33554432	220361791
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	67108864	465764875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	134217728	966123334
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	268435456	2002270750
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1024	4958
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2048	8209
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4096	15750
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8192	31416
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16384	68750
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	32768	136125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	65536	313084
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	131072	664333
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	262144	1326791
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	524288	2494167
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1048576	5907208
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2097152	11712041
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4194304	26516083
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8388608	52286000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16777216	113337333
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	33554432	236881875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	67108864	503919167
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	134217728	1050015792
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	268435456	2173716459
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1024	23917
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2048	58083
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4096	103500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8192	247125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16384	471917
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	32768	1070834
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	65536	2278292
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	131072	4499042
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	262144	10178375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	524288	20500708
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1048576	44117083
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2097152	94383584
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4194304	195036500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8388608	401238458
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16777216	844439875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	33554432	1799424042
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	67108864	3687921292
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	134217728	7712424291
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	268435456	15928735833
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1024	5833
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2048	9625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4096	14125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8192	30250
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16384	67042
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	32768	133000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	65536	258709
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	131072	543500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	262144	1142125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	524288	2511583
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1048576	5597667
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2097152	12039333
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4194304	24674042
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8388608	51988334
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16777216	107085541
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	33554432	226480375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	67108864	462856833
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	134217728	985310583
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	268435456	2027090792
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1024	5834
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2048	10625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4096	17291
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8192	36125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16384	67584
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	32768	140042
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	65536	293042
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	131072	619125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	262144	1323042
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	524288	2499209
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1048576	6018666
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2097152	12980209
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4194304	26685042
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8388608	54316458
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16777216	113542125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	33554432	238760416
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	67108864	499895208
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	134217728	1043793375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	268435456	2155058292
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1024	29916
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2048	58209
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4096	107084
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8192	228333
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16384	469291
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	32768	999708
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	65536	2178125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	131072	4555917
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	262144	9593750
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	524288	20160709
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1048576	44449958
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2097152	91603500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4194304	193585500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8388608	412529916
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16777216	873658500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	33554432	1798655875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	67108864	3698741084
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	134217728	7766196958
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	268435456	16029741625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1024	5292
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2048	9709
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4096	17625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8192	35833
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16384	60208
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	32768	125542
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	65536	250416
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	131072	542375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	262144	1214125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	524288	2580000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1048576	5500792
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2097152	12047292
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4194304	24152625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8388608	52223042
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16777216	108263958
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	33554432	230888209
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	67108864	490987583
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	134217728	1012525958
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	268435456	2053929833
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1024	4750
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2048	9583
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4096	16291
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8192	39041
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16384	68041
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	32768	147583
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	65536	312042
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	131072	663125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	262144	1405083
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	524288	2648500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1048576	6245667
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2097152	12376666
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4194304	26885542
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8388608	54953000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16777216	116647250
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	33554432	242776542
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	67108864	506778000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	134217728	1086721250
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	268435456	2257836959
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1024	26125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2048	60291
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4096	112083
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8192	213625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16384	469250
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	32768	1044666
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	65536	2072083
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	131072	4908209
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	262144	9981792
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	524288	21174833
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1048576	44800250
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2097152	95537834
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4194304	191691375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8388608	405845375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16777216	864841208
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	33554432	1795160625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	67108864	3769224875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	134217728	7759556500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	268435456	16072518541
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1024	4708
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2048	8000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4096	15125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8192	31167
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16384	65834
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	32768	139792
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	65536	289625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	131072	626375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	262144	1212375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	524288	2771542
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1048576	5870666
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2097152	12825334
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4194304	26319500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8388608	53066125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16777216	113224791
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	33554432	235994291
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	67108864	501511167
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	134217728	1033711416
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	268435456	2140264875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1024	5667
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2048	8708
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4096	16459
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8192	31750
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16384	66708
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	32768	147375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	65536	312000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	131072	614375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	262144	1493833
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	524288	2489334
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1048576	6573708
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2097152	13277167
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4194304	26504209
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8388608	57386000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16777216	117577083
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	33554432	250392666
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	67108864	523098667
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	134217728	1078644292
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	268435456	2259220209
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1024	25250
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2048	50083
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4096	108875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8192	238167
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16384	483333
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	32768	1065875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	65536	2105083
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	131072	4869708
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	262144	9866292
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	524288	20572625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1048576	43117125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2097152	93695000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4194304	193905167
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8388608	406049250
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16777216	837751750
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	33554432	1761188667
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	67108864	3736829667
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	134217728	7764881959
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	268435456	16001300792
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1024	5917
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2048	10125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4096	14375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8192	29583
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16384	67417
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	32768	130250
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	65536	274083
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	131072	536875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	262144	1164458
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	524288	2549750
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1048576	5536500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2097152	11304208
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4194304	24392958
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8388608	53147917
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16777216	108814209
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	33554432	226833042
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	67108864	471001959
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	134217728	993915292
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	268435456	2044847666
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1024	6541
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2048	10334
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4096	15792
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8192	31041
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16384	66084
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	32768	141708
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	65536	298541
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	131072	622750
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	262144	1357125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	524288	2693500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1048576	5886042
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2097152	12674292
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4194304	26792625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8388608	55752875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16777216	115735333
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	33554432	240837958
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	67108864	507341584
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	134217728	1054984000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	268435456	2193395625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1024	30791
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2048	59583
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4096	107417
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8192	244791
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16384	480375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	32768	1112334
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	65536	2318209
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	131072	4518208
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	262144	10112875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	524288	21425917
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1048576	43355875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2097152	90979167
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4194304	190173875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8388608	411135042
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16777216	853970667
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	33554432	1789396958
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	67108864	3581833667
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	134217728	7703601250
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	268435456	15884787833
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1024	5334
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2048	9125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4096	15875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8192	36042
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16384	64917
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	32768	130125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	65536	269000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	131072	574334
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	262144	1224250
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	524288	2630125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1048576	5257833
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2097152	11784417
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4194304	23603333
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8388608	51755875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16777216	105841625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	33554432	220265458
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	67108864	459780625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	134217728	966154875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	268435456	1999946209
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1024	6125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2048	10500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4096	16834
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8192	31875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16384	70917
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	32768	140416
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	65536	282458
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	131072	613416
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	262144	1246708
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	524288	2721291
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1048576	5301583
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2097152	12720125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4194304	26089417
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8388608	53731541
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16777216	113674125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	33554432	239864083
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	67108864	496373250
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	134217728	1047176667
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	268435456	2123877042
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1024	30416
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2048	51208
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4096	108417
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8192	222875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16384	481667
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	32768	964083
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	65536	2107333
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	131072	4690875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	262144	9626292
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	524288	20528792
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	1048576	43104542
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	2097152	91121416
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	4194304	193994458
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	8388608	405519208
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	16777216	849388958
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	33554432	1761448291
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	67108864	3674453875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	134217728	7659619917
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	random	268435456	15837582542
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1024	5333
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2048	9708
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4096	17625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8192	27833
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16384	66000
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	32768	131833
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	65536	265459
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	131072	583500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	262144	1224250
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	524288	2572750
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	1048576	5146125
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	2097152	11326625
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	4194304	24906459
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	8388608	51715875
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	16777216	108758333
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	33554432	229605833
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	67108864	458964584
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	134217728	979596208
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	ascending	268435456	2026849750
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1024	6083
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2048	10500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4096	20416
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8192	32208
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16384	77750
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	32768	136708
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	65536	277375
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	131072	616083
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	262144	1318500
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	524288	2808458
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	1048576	6147208
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	2097152	11879250
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	4194304	25765959
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	8388608	54690291
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	16777216	113223292
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	33554432	239183834
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	67108864	503945458
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	134217728	1025543583
+QuicksortImproved(threshold: 64, partitioning: QuicksortVariant1(pivot: MIDDLE))	descending	268435456	2168511334
+DualPivotQuicksort(pivot: THIRDS)	random	1024	30250
+DualPivotQuicksort(pivot: THIRDS)	random	2048	66250
+DualPivotQuicksort(pivot: THIRDS)	random	4096	131042
+DualPivotQuicksort(pivot: THIRDS)	random	8192	273458
+DualPivotQuicksort(pivot: THIRDS)	random	16384	564333
+DualPivotQuicksort(pivot: THIRDS)	random	32768	1214875
+DualPivotQuicksort(pivot: THIRDS)	random	65536	2555125
+DualPivotQuicksort(pivot: THIRDS)	random	131072	5243250
+DualPivotQuicksort(pivot: THIRDS)	random	262144	11422291
+DualPivotQuicksort(pivot: THIRDS)	random	524288	23177042
+DualPivotQuicksort(pivot: THIRDS)	random	1048576	48909000
+DualPivotQuicksort(pivot: THIRDS)	random	2097152	102210375
+DualPivotQuicksort(pivot: THIRDS)	random	4194304	215185708
+DualPivotQuicksort(pivot: THIRDS)	random	8388608	448076292
+DualPivotQuicksort(pivot: THIRDS)	random	16777216	924932959
+DualPivotQuicksort(pivot: THIRDS)	random	33554432	1926884292
+DualPivotQuicksort(pivot: THIRDS)	random	67108864	3975654333
+DualPivotQuicksort(pivot: THIRDS)	random	134217728	8246555333
+DualPivotQuicksort(pivot: THIRDS)	random	268435456	17138439167
+DualPivotQuicksort(pivot: THIRDS)	ascending	1024	9417
+DualPivotQuicksort(pivot: THIRDS)	ascending	2048	17083
+DualPivotQuicksort(pivot: THIRDS)	ascending	4096	28000
+DualPivotQuicksort(pivot: THIRDS)	ascending	8192	56208
+DualPivotQuicksort(pivot: THIRDS)	ascending	16384	107542
+DualPivotQuicksort(pivot: THIRDS)	ascending	32768	192250
+DualPivotQuicksort(pivot: THIRDS)	ascending	65536	441250
+DualPivotQuicksort(pivot: THIRDS)	ascending	131072	878167
+DualPivotQuicksort(pivot: THIRDS)	ascending	262144	1767666
+DualPivotQuicksort(pivot: THIRDS)	ascending	524288	4222125
+DualPivotQuicksort(pivot: THIRDS)	ascending	1048576	8086167
+DualPivotQuicksort(pivot: THIRDS)	ascending	2097152	16988458
+DualPivotQuicksort(pivot: THIRDS)	ascending	4194304	38586917
+DualPivotQuicksort(pivot: THIRDS)	ascending	8388608	77523791
+DualPivotQuicksort(pivot: THIRDS)	ascending	16777216	157682750
+DualPivotQuicksort(pivot: THIRDS)	ascending	33554432	331120208
+DualPivotQuicksort(pivot: THIRDS)	ascending	67108864	702129250
+DualPivotQuicksort(pivot: THIRDS)	ascending	134217728	1436539666
+DualPivotQuicksort(pivot: THIRDS)	ascending	268435456	2879213541
+DualPivotQuicksort(pivot: THIRDS)	descending	1024	10375
+DualPivotQuicksort(pivot: THIRDS)	descending	2048	17416
+DualPivotQuicksort(pivot: THIRDS)	descending	4096	33000
+DualPivotQuicksort(pivot: THIRDS)	descending	8192	52291
+DualPivotQuicksort(pivot: THIRDS)	descending	16384	99792
+DualPivotQuicksort(pivot: THIRDS)	descending	32768	189000
+DualPivotQuicksort(pivot: THIRDS)	descending	65536	440666
+DualPivotQuicksort(pivot: THIRDS)	descending	131072	880291
+DualPivotQuicksort(pivot: THIRDS)	descending	262144	1751750
+DualPivotQuicksort(pivot: THIRDS)	descending	524288	4150791
+DualPivotQuicksort(pivot: THIRDS)	descending	1048576	8382750
+DualPivotQuicksort(pivot: THIRDS)	descending	2097152	16774708
+DualPivotQuicksort(pivot: THIRDS)	descending	4194304	38362917
+DualPivotQuicksort(pivot: THIRDS)	descending	8388608	76260417
+DualPivotQuicksort(pivot: THIRDS)	descending	16777216	154851667
+DualPivotQuicksort(pivot: THIRDS)	descending	33554432	327073250
+DualPivotQuicksort(pivot: THIRDS)	descending	67108864	699329875
+DualPivotQuicksort(pivot: THIRDS)	descending	134217728	1419160917
+DualPivotQuicksort(pivot: THIRDS)	descending	268435456	2919806667
+DualPivotQuicksort(pivot: THIRDS)	random	1024	36834
+DualPivotQuicksort(pivot: THIRDS)	random	2048	68875
+DualPivotQuicksort(pivot: THIRDS)	random	4096	136709
+DualPivotQuicksort(pivot: THIRDS)	random	8192	276125
+DualPivotQuicksort(pivot: THIRDS)	random	16384	603209
+DualPivotQuicksort(pivot: THIRDS)	random	32768	1207500
+DualPivotQuicksort(pivot: THIRDS)	random	65536	2504292
+DualPivotQuicksort(pivot: THIRDS)	random	131072	5282333
+DualPivotQuicksort(pivot: THIRDS)	random	262144	10945666
+DualPivotQuicksort(pivot: THIRDS)	random	524288	23216334
+DualPivotQuicksort(pivot: THIRDS)	random	1048576	49373500
+DualPivotQuicksort(pivot: THIRDS)	random	2097152	101174916
+DualPivotQuicksort(pivot: THIRDS)	random	4194304	215224334
+DualPivotQuicksort(pivot: THIRDS)	random	8388608	442801500
+DualPivotQuicksort(pivot: THIRDS)	random	16777216	927225041
+DualPivotQuicksort(pivot: THIRDS)	random	33554432	1915751208
+DualPivotQuicksort(pivot: THIRDS)	random	67108864	3989073292
+DualPivotQuicksort(pivot: THIRDS)	random	134217728	8265930500
+DualPivotQuicksort(pivot: THIRDS)	random	268435456	17147419583
+DualPivotQuicksort(pivot: THIRDS)	ascending	1024	10167
+DualPivotQuicksort(pivot: THIRDS)	ascending	2048	16000
+DualPivotQuicksort(pivot: THIRDS)	ascending	4096	23042
+DualPivotQuicksort(pivot: THIRDS)	ascending	8192	65875
+DualPivotQuicksort(pivot: THIRDS)	ascending	16384	102458
+DualPivotQuicksort(pivot: THIRDS)	ascending	32768	197917
+DualPivotQuicksort(pivot: THIRDS)	ascending	65536	458542
+DualPivotQuicksort(pivot: THIRDS)	ascending	131072	827708
+DualPivotQuicksort(pivot: THIRDS)	ascending	262144	1699583
+DualPivotQuicksort(pivot: THIRDS)	ascending	524288	4230416
+DualPivotQuicksort(pivot: THIRDS)	ascending	1048576	8291333
+DualPivotQuicksort(pivot: THIRDS)	ascending	2097152	17005333
+DualPivotQuicksort(pivot: THIRDS)	ascending	4194304	38349792
+DualPivotQuicksort(pivot: THIRDS)	ascending	8388608	77548458
+DualPivotQuicksort(pivot: THIRDS)	ascending	16777216	155596750
+DualPivotQuicksort(pivot: THIRDS)	ascending	33554432	330677834
+DualPivotQuicksort(pivot: THIRDS)	ascending	67108864	701345125
+DualPivotQuicksort(pivot: THIRDS)	ascending	134217728	1439355208
+DualPivotQuicksort(pivot: THIRDS)	ascending	268435456	2857753708
+DualPivotQuicksort(pivot: THIRDS)	descending	1024	11042
+DualPivotQuicksort(pivot: THIRDS)	descending	2048	16833
+DualPivotQuicksort(pivot: THIRDS)	descending	4096	26166
+DualPivotQuicksort(pivot: THIRDS)	descending	8192	55208
+DualPivotQuicksort(pivot: THIRDS)	descending	16384	107292
+DualPivotQuicksort(pivot: THIRDS)	descending	32768	180125
+DualPivotQuicksort(pivot: THIRDS)	descending	65536	427166
+DualPivotQuicksort(pivot: THIRDS)	descending	131072	817875
+DualPivotQuicksort(pivot: THIRDS)	descending	262144	1743875
+DualPivotQuicksort(pivot: THIRDS)	descending	524288	4089666
+DualPivotQuicksort(pivot: THIRDS)	descending	1048576	8305334
+DualPivotQuicksort(pivot: THIRDS)	descending	2097152	16759208
+DualPivotQuicksort(pivot: THIRDS)	descending	4194304	37647250
+DualPivotQuicksort(pivot: THIRDS)	descending	8388608	76679750
+DualPivotQuicksort(pivot: THIRDS)	descending	16777216	155690333
+DualPivotQuicksort(pivot: THIRDS)	descending	33554432	328425041
+DualPivotQuicksort(pivot: THIRDS)	descending	67108864	704142834
+DualPivotQuicksort(pivot: THIRDS)	descending	134217728	1420586708
+DualPivotQuicksort(pivot: THIRDS)	descending	268435456	2924359167
+DualPivotQuicksort(pivot: THIRDS)	random	1024	33959
+DualPivotQuicksort(pivot: THIRDS)	random	2048	68583
+DualPivotQuicksort(pivot: THIRDS)	random	4096	140708
+DualPivotQuicksort(pivot: THIRDS)	random	8192	289458
+DualPivotQuicksort(pivot: THIRDS)	random	16384	576000
+DualPivotQuicksort(pivot: THIRDS)	random	32768	1226417
+DualPivotQuicksort(pivot: THIRDS)	random	65536	2474000
+DualPivotQuicksort(pivot: THIRDS)	random	131072	5348334
+DualPivotQuicksort(pivot: THIRDS)	random	262144	10931375
+DualPivotQuicksort(pivot: THIRDS)	random	524288	23449292
+DualPivotQuicksort(pivot: THIRDS)	random	1048576	49273750
+DualPivotQuicksort(pivot: THIRDS)	random	2097152	102053584
+DualPivotQuicksort(pivot: THIRDS)	random	4194304	211838792
+DualPivotQuicksort(pivot: THIRDS)	random	8388608	449305375
+DualPivotQuicksort(pivot: THIRDS)	random	16777216	931383792
+DualPivotQuicksort(pivot: THIRDS)	random	33554432	1922286333
+DualPivotQuicksort(pivot: THIRDS)	random	67108864	4021296042
+DualPivotQuicksort(pivot: THIRDS)	random	134217728	8227538416
+DualPivotQuicksort(pivot: THIRDS)	random	268435456	17091091166
+DualPivotQuicksort(pivot: THIRDS)	ascending	1024	9583
+DualPivotQuicksort(pivot: THIRDS)	ascending	2048	15708
+DualPivotQuicksort(pivot: THIRDS)	ascending	4096	28042
+DualPivotQuicksort(pivot: THIRDS)	ascending	8192	53708
+DualPivotQuicksort(pivot: THIRDS)	ascending	16384	108792
+DualPivotQuicksort(pivot: THIRDS)	ascending	32768	184833
+DualPivotQuicksort(pivot: THIRDS)	ascending	65536	447625
+DualPivotQuicksort(pivot: THIRDS)	ascending	131072	832250
+DualPivotQuicksort(pivot: THIRDS)	ascending	262144	1756875
+DualPivotQuicksort(pivot: THIRDS)	ascending	524288	4246375
+DualPivotQuicksort(pivot: THIRDS)	ascending	1048576	8270208
+DualPivotQuicksort(pivot: THIRDS)	ascending	2097152	17069708
+DualPivotQuicksort(pivot: THIRDS)	ascending	4194304	37442584
+DualPivotQuicksort(pivot: THIRDS)	ascending	8388608	74358666
+DualPivotQuicksort(pivot: THIRDS)	ascending	16777216	156283583
+DualPivotQuicksort(pivot: THIRDS)	ascending	33554432	329228250
+DualPivotQuicksort(pivot: THIRDS)	ascending	67108864	698877083
+DualPivotQuicksort(pivot: THIRDS)	ascending	134217728	1441886375
+DualPivotQuicksort(pivot: THIRDS)	ascending	268435456	2859607750
+DualPivotQuicksort(pivot: THIRDS)	descending	1024	9750
+DualPivotQuicksort(pivot: THIRDS)	descending	2048	13666
+DualPivotQuicksort(pivot: THIRDS)	descending	4096	26084
+DualPivotQuicksort(pivot: THIRDS)	descending	8192	48625
+DualPivotQuicksort(pivot: THIRDS)	descending	16384	93583
+DualPivotQuicksort(pivot: THIRDS)	descending	32768	182750
+DualPivotQuicksort(pivot: THIRDS)	descending	65536	444917
+DualPivotQuicksort(pivot: THIRDS)	descending	131072	819709
+DualPivotQuicksort(pivot: THIRDS)	descending	262144	1766959
+DualPivotQuicksort(pivot: THIRDS)	descending	524288	4121542
+DualPivotQuicksort(pivot: THIRDS)	descending	1048576	8224209
+DualPivotQuicksort(pivot: THIRDS)	descending	2097152	16646125
+DualPivotQuicksort(pivot: THIRDS)	descending	4194304	37244583
+DualPivotQuicksort(pivot: THIRDS)	descending	8388608	76454834
+DualPivotQuicksort(pivot: THIRDS)	descending	16777216	154364333
+DualPivotQuicksort(pivot: THIRDS)	descending	33554432	324071667
+DualPivotQuicksort(pivot: THIRDS)	descending	67108864	698888625
+DualPivotQuicksort(pivot: THIRDS)	descending	134217728	1418199541
+DualPivotQuicksort(pivot: THIRDS)	descending	268435456	2920902625
+DualPivotQuicksort(pivot: THIRDS)	random	1024	37042
+DualPivotQuicksort(pivot: THIRDS)	random	2048	69292
+DualPivotQuicksort(pivot: THIRDS)	random	4096	139459
+DualPivotQuicksort(pivot: THIRDS)	random	8192	268291
+DualPivotQuicksort(pivot: THIRDS)	random	16384	576667
+DualPivotQuicksort(pivot: THIRDS)	random	32768	1221083
+DualPivotQuicksort(pivot: THIRDS)	random	65536	2471208
+DualPivotQuicksort(pivot: THIRDS)	random	131072	5415250
+DualPivotQuicksort(pivot: THIRDS)	random	262144	11163500
+DualPivotQuicksort(pivot: THIRDS)	random	524288	23940042
+DualPivotQuicksort(pivot: THIRDS)	random	1048576	49876667
+DualPivotQuicksort(pivot: THIRDS)	random	2097152	104336958
+DualPivotQuicksort(pivot: THIRDS)	random	4194304	214837958
+DualPivotQuicksort(pivot: THIRDS)	random	8388608	445067667
+DualPivotQuicksort(pivot: THIRDS)	random	16777216	929573375
+DualPivotQuicksort(pivot: THIRDS)	random	33554432	1896318458
+DualPivotQuicksort(pivot: THIRDS)	random	67108864	4013207167
+DualPivotQuicksort(pivot: THIRDS)	random	134217728	8172930959
+DualPivotQuicksort(pivot: THIRDS)	random	268435456	17037358792
+DualPivotQuicksort(pivot: THIRDS)	ascending	1024	9292
+DualPivotQuicksort(pivot: THIRDS)	ascending	2048	16875
+DualPivotQuicksort(pivot: THIRDS)	ascending	4096	28625
+DualPivotQuicksort(pivot: THIRDS)	ascending	8192	47042
+DualPivotQuicksort(pivot: THIRDS)	ascending	16384	102208
+DualPivotQuicksort(pivot: THIRDS)	ascending	32768	184875
+DualPivotQuicksort(pivot: THIRDS)	ascending	65536	449208
+DualPivotQuicksort(pivot: THIRDS)	ascending	131072	911750
+DualPivotQuicksort(pivot: THIRDS)	ascending	262144	1763375
+DualPivotQuicksort(pivot: THIRDS)	ascending	524288	4217208
+DualPivotQuicksort(pivot: THIRDS)	ascending	1048576	8294583
+DualPivotQuicksort(pivot: THIRDS)	ascending	2097152	17089041
+DualPivotQuicksort(pivot: THIRDS)	ascending	4194304	38025000
+DualPivotQuicksort(pivot: THIRDS)	ascending	8388608	75588958
+DualPivotQuicksort(pivot: THIRDS)	ascending	16777216	156255000
+DualPivotQuicksort(pivot: THIRDS)	ascending	33554432	328810959
+DualPivotQuicksort(pivot: THIRDS)	ascending	67108864	700236458
+DualPivotQuicksort(pivot: THIRDS)	ascending	134217728	1432868500
+DualPivotQuicksort(pivot: THIRDS)	ascending	268435456	2856336208
+DualPivotQuicksort(pivot: THIRDS)	descending	1024	11500
+DualPivotQuicksort(pivot: THIRDS)	descending	2048	16958
+DualPivotQuicksort(pivot: THIRDS)	descending	4096	30625
+DualPivotQuicksort(pivot: THIRDS)	descending	8192	58000
+DualPivotQuicksort(pivot: THIRDS)	descending	16384	96042
+DualPivotQuicksort(pivot: THIRDS)	descending	32768	178416
+DualPivotQuicksort(pivot: THIRDS)	descending	65536	426375
+DualPivotQuicksort(pivot: THIRDS)	descending	131072	816583
+DualPivotQuicksort(pivot: THIRDS)	descending	262144	1749250
+DualPivotQuicksort(pivot: THIRDS)	descending	524288	4115667
+DualPivotQuicksort(pivot: THIRDS)	descending	1048576	8229250
+DualPivotQuicksort(pivot: THIRDS)	descending	2097152	16556917
+DualPivotQuicksort(pivot: THIRDS)	descending	4194304	37364750
+DualPivotQuicksort(pivot: THIRDS)	descending	8388608	75824250
+DualPivotQuicksort(pivot: THIRDS)	descending	16777216	154491833
+DualPivotQuicksort(pivot: THIRDS)	descending	33554432	325118333
+DualPivotQuicksort(pivot: THIRDS)	descending	67108864	695555875
+DualPivotQuicksort(pivot: THIRDS)	descending	134217728	1412682834
+DualPivotQuicksort(pivot: THIRDS)	descending	268435456	2900319708
+DualPivotQuicksort(pivot: THIRDS)	random	1024	36708
+DualPivotQuicksort(pivot: THIRDS)	random	2048	67625
+DualPivotQuicksort(pivot: THIRDS)	random	4096	140167
+DualPivotQuicksort(pivot: THIRDS)	random	8192	281167
+DualPivotQuicksort(pivot: THIRDS)	random	16384	569375
+DualPivotQuicksort(pivot: THIRDS)	random	32768	1207250
+DualPivotQuicksort(pivot: THIRDS)	random	65536	2539959
+DualPivotQuicksort(pivot: THIRDS)	random	131072	5401167
+DualPivotQuicksort(pivot: THIRDS)	random	262144	11105750
+DualPivotQuicksort(pivot: THIRDS)	random	524288	23431833
+DualPivotQuicksort(pivot: THIRDS)	random	1048576	48552958
+DualPivotQuicksort(pivot: THIRDS)	random	2097152	102389625
+DualPivotQuicksort(pivot: THIRDS)	random	4194304	214647250
+DualPivotQuicksort(pivot: THIRDS)	random	8388608	449531917
+DualPivotQuicksort(pivot: THIRDS)	random	16777216	928010375
+DualPivotQuicksort(pivot: THIRDS)	random	33554432	1928924333
+DualPivotQuicksort(pivot: THIRDS)	random	67108864	3935204916
+DualPivotQuicksort(pivot: THIRDS)	random	134217728	8232122750
+DualPivotQuicksort(pivot: THIRDS)	random	268435456	17104723250
+DualPivotQuicksort(pivot: THIRDS)	ascending	1024	9125
+DualPivotQuicksort(pivot: THIRDS)	ascending	2048	17167
+DualPivotQuicksort(pivot: THIRDS)	ascending	4096	28542
+DualPivotQuicksort(pivot: THIRDS)	ascending	8192	48708
+DualPivotQuicksort(pivot: THIRDS)	ascending	16384	105042
+DualPivotQuicksort(pivot: THIRDS)	ascending	32768	183375
+DualPivotQuicksort(pivot: THIRDS)	ascending	65536	439459
+DualPivotQuicksort(pivot: THIRDS)	ascending	131072	833208
+DualPivotQuicksort(pivot: THIRDS)	ascending	262144	1759167
+DualPivotQuicksort(pivot: THIRDS)	ascending	524288	4280292
+DualPivotQuicksort(pivot: THIRDS)	ascending	1048576	8082750
+DualPivotQuicksort(pivot: THIRDS)	ascending	2097152	17035959
+DualPivotQuicksort(pivot: THIRDS)	ascending	4194304	37514209
+DualPivotQuicksort(pivot: THIRDS)	ascending	8388608	77071291
+DualPivotQuicksort(pivot: THIRDS)	ascending	16777216	157327375
+DualPivotQuicksort(pivot: THIRDS)	ascending	33554432	328818250
+DualPivotQuicksort(pivot: THIRDS)	ascending	67108864	697204791
+DualPivotQuicksort(pivot: THIRDS)	ascending	134217728	1428506667
+DualPivotQuicksort(pivot: THIRDS)	ascending	268435456	2845539583
+DualPivotQuicksort(pivot: THIRDS)	descending	1024	11584
+DualPivotQuicksort(pivot: THIRDS)	descending	2048	15583
+DualPivotQuicksort(pivot: THIRDS)	descending	4096	30583
+DualPivotQuicksort(pivot: THIRDS)	descending	8192	47958
+DualPivotQuicksort(pivot: THIRDS)	descending	16384	100042
+DualPivotQuicksort(pivot: THIRDS)	descending	32768	189958
+DualPivotQuicksort(pivot: THIRDS)	descending	65536	437875
+DualPivotQuicksort(pivot: THIRDS)	descending	131072	845542
+DualPivotQuicksort(pivot: THIRDS)	descending	262144	1750000
+DualPivotQuicksort(pivot: THIRDS)	descending	524288	4160166
+DualPivotQuicksort(pivot: THIRDS)	descending	1048576	8262583
+DualPivotQuicksort(pivot: THIRDS)	descending	2097152	16734667
+DualPivotQuicksort(pivot: THIRDS)	descending	4194304	38267333
+DualPivotQuicksort(pivot: THIRDS)	descending	8388608	76128416
+DualPivotQuicksort(pivot: THIRDS)	descending	16777216	154767333
+DualPivotQuicksort(pivot: THIRDS)	descending	33554432	323909875
+DualPivotQuicksort(pivot: THIRDS)	descending	67108864	691608209
+DualPivotQuicksort(pivot: THIRDS)	descending	134217728	1410625709
+DualPivotQuicksort(pivot: THIRDS)	descending	268435456	2931392542
+DualPivotQuicksort(pivot: THIRDS)	random	1024	35750
+DualPivotQuicksort(pivot: THIRDS)	random	2048	71000
+DualPivotQuicksort(pivot: THIRDS)	random	4096	138125
+DualPivotQuicksort(pivot: THIRDS)	random	8192	286208
+DualPivotQuicksort(pivot: THIRDS)	random	16384	584000
+DualPivotQuicksort(pivot: THIRDS)	random	32768	1210250
+DualPivotQuicksort(pivot: THIRDS)	random	65536	2459208
+DualPivotQuicksort(pivot: THIRDS)	random	131072	5375125
+DualPivotQuicksort(pivot: THIRDS)	random	262144	11233041
+DualPivotQuicksort(pivot: THIRDS)	random	524288	23554709
+DualPivotQuicksort(pivot: THIRDS)	random	1048576	49409292
+DualPivotQuicksort(pivot: THIRDS)	random	2097152	102236375
+DualPivotQuicksort(pivot: THIRDS)	random	4194304	210280417
+DualPivotQuicksort(pivot: THIRDS)	random	8388608	442430458
+DualPivotQuicksort(pivot: THIRDS)	random	16777216	929748083
+DualPivotQuicksort(pivot: THIRDS)	random	33554432	1900280667
+DualPivotQuicksort(pivot: THIRDS)	random	67108864	4002383875
+DualPivotQuicksort(pivot: THIRDS)	random	134217728	8284117375
+DualPivotQuicksort(pivot: THIRDS)	random	268435456	17102322666
+DualPivotQuicksort(pivot: THIRDS)	ascending	1024	8542
+DualPivotQuicksort(pivot: THIRDS)	ascending	2048	16834
+DualPivotQuicksort(pivot: THIRDS)	ascending	4096	29792
+DualPivotQuicksort(pivot: THIRDS)	ascending	8192	57334
+DualPivotQuicksort(pivot: THIRDS)	ascending	16384	104167
+DualPivotQuicksort(pivot: THIRDS)	ascending	32768	188500
+DualPivotQuicksort(pivot: THIRDS)	ascending	65536	445125
+DualPivotQuicksort(pivot: THIRDS)	ascending	131072	841834
+DualPivotQuicksort(pivot: THIRDS)	ascending	262144	1760084
+DualPivotQuicksort(pivot: THIRDS)	ascending	524288	4199542
+DualPivotQuicksort(pivot: THIRDS)	ascending	1048576	8207333
+DualPivotQuicksort(pivot: THIRDS)	ascending	2097152	17084625
+DualPivotQuicksort(pivot: THIRDS)	ascending	4194304	38140708
+DualPivotQuicksort(pivot: THIRDS)	ascending	8388608	75523000
+DualPivotQuicksort(pivot: THIRDS)	ascending	16777216	155864292
+DualPivotQuicksort(pivot: THIRDS)	ascending	33554432	329275250
+DualPivotQuicksort(pivot: THIRDS)	ascending	67108864	697620083
+DualPivotQuicksort(pivot: THIRDS)	ascending	134217728	1430133208
+DualPivotQuicksort(pivot: THIRDS)	ascending	268435456	2848994250
+DualPivotQuicksort(pivot: THIRDS)	descending	1024	10209
+DualPivotQuicksort(pivot: THIRDS)	descending	2048	17834
+DualPivotQuicksort(pivot: THIRDS)	descending	4096	31125
+DualPivotQuicksort(pivot: THIRDS)	descending	8192	51042
+DualPivotQuicksort(pivot: THIRDS)	descending	16384	94833
+DualPivotQuicksort(pivot: THIRDS)	descending	32768	176250
+DualPivotQuicksort(pivot: THIRDS)	descending	65536	427542
+DualPivotQuicksort(pivot: THIRDS)	descending	131072	822792
+DualPivotQuicksort(pivot: THIRDS)	descending	262144	1755583
+DualPivotQuicksort(pivot: THIRDS)	descending	524288	4113167
+DualPivotQuicksort(pivot: THIRDS)	descending	1048576	8229875
+DualPivotQuicksort(pivot: THIRDS)	descending	2097152	16643375
+DualPivotQuicksort(pivot: THIRDS)	descending	4194304	37459916
+DualPivotQuicksort(pivot: THIRDS)	descending	8388608	75607958
+DualPivotQuicksort(pivot: THIRDS)	descending	16777216	154963291
+DualPivotQuicksort(pivot: THIRDS)	descending	33554432	324986708
+DualPivotQuicksort(pivot: THIRDS)	descending	67108864	696364042
+DualPivotQuicksort(pivot: THIRDS)	descending	134217728	1415066583
+DualPivotQuicksort(pivot: THIRDS)	descending	268435456	2903898625
+DualPivotQuicksort(pivot: THIRDS)	random	1024	37709
+DualPivotQuicksort(pivot: THIRDS)	random	2048	70000
+DualPivotQuicksort(pivot: THIRDS)	random	4096	133334
+DualPivotQuicksort(pivot: THIRDS)	random	8192	277125
+DualPivotQuicksort(pivot: THIRDS)	random	16384	569042
+DualPivotQuicksort(pivot: THIRDS)	random	32768	1189541
+DualPivotQuicksort(pivot: THIRDS)	random	65536	2511834
+DualPivotQuicksort(pivot: THIRDS)	random	131072	5326583
+DualPivotQuicksort(pivot: THIRDS)	random	262144	11312917
+DualPivotQuicksort(pivot: THIRDS)	random	524288	23532917
+DualPivotQuicksort(pivot: THIRDS)	random	1048576	48483667
+DualPivotQuicksort(pivot: THIRDS)	random	2097152	103398375
+DualPivotQuicksort(pivot: THIRDS)	random	4194304	215110833
+DualPivotQuicksort(pivot: THIRDS)	random	8388608	445225208
+DualPivotQuicksort(pivot: THIRDS)	random	16777216	924981833
+DualPivotQuicksort(pivot: THIRDS)	random	33554432	1925208625
+DualPivotQuicksort(pivot: THIRDS)	random	67108864	3992618458
+DualPivotQuicksort(pivot: THIRDS)	random	134217728	8255389750
+DualPivotQuicksort(pivot: THIRDS)	random	268435456	17152603541
+DualPivotQuicksort(pivot: THIRDS)	ascending	1024	8708
+DualPivotQuicksort(pivot: THIRDS)	ascending	2048	15875
+DualPivotQuicksort(pivot: THIRDS)	ascending	4096	23917
+DualPivotQuicksort(pivot: THIRDS)	ascending	8192	53875
+DualPivotQuicksort(pivot: THIRDS)	ascending	16384	95042
+DualPivotQuicksort(pivot: THIRDS)	ascending	32768	182000
+DualPivotQuicksort(pivot: THIRDS)	ascending	65536	433375
+DualPivotQuicksort(pivot: THIRDS)	ascending	131072	838375
+DualPivotQuicksort(pivot: THIRDS)	ascending	262144	1758375
+DualPivotQuicksort(pivot: THIRDS)	ascending	524288	4249917
+DualPivotQuicksort(pivot: THIRDS)	ascending	1048576	8332500
+DualPivotQuicksort(pivot: THIRDS)	ascending	2097152	16890708
+DualPivotQuicksort(pivot: THIRDS)	ascending	4194304	38259250
+DualPivotQuicksort(pivot: THIRDS)	ascending	8388608	75135458
+DualPivotQuicksort(pivot: THIRDS)	ascending	16777216	155880667
+DualPivotQuicksort(pivot: THIRDS)	ascending	33554432	348350333
+DualPivotQuicksort(pivot: THIRDS)	ascending	67108864	706352208
+DualPivotQuicksort(pivot: THIRDS)	ascending	134217728	1432247750
+DualPivotQuicksort(pivot: THIRDS)	ascending	268435456	2812690584
+DualPivotQuicksort(pivot: THIRDS)	descending	1024	11041
+DualPivotQuicksort(pivot: THIRDS)	descending	2048	17042
+DualPivotQuicksort(pivot: THIRDS)	descending	4096	25750
+DualPivotQuicksort(pivot: THIRDS)	descending	8192	55125
+DualPivotQuicksort(pivot: THIRDS)	descending	16384	97375
+DualPivotQuicksort(pivot: THIRDS)	descending	32768	181625
+DualPivotQuicksort(pivot: THIRDS)	descending	65536	438125
+DualPivotQuicksort(pivot: THIRDS)	descending	131072	815959
+DualPivotQuicksort(pivot: THIRDS)	descending	262144	1757791
+DualPivotQuicksort(pivot: THIRDS)	descending	524288	4121542
+DualPivotQuicksort(pivot: THIRDS)	descending	1048576	8023542
+DualPivotQuicksort(pivot: THIRDS)	descending	2097152	16612709
+DualPivotQuicksort(pivot: THIRDS)	descending	4194304	37728667
+DualPivotQuicksort(pivot: THIRDS)	descending	8388608	74472875
+DualPivotQuicksort(pivot: THIRDS)	descending	16777216	154882917
+DualPivotQuicksort(pivot: THIRDS)	descending	33554432	323322667
+DualPivotQuicksort(pivot: THIRDS)	descending	67108864	693392208
+DualPivotQuicksort(pivot: THIRDS)	descending	134217728	1416967459
+DualPivotQuicksort(pivot: THIRDS)	descending	268435456	2901844791
+DualPivotQuicksort(pivot: THIRDS)	random	1024	38209
+DualPivotQuicksort(pivot: THIRDS)	random	2048	68833
+DualPivotQuicksort(pivot: THIRDS)	random	4096	129875
+DualPivotQuicksort(pivot: THIRDS)	random	8192	291833
+DualPivotQuicksort(pivot: THIRDS)	random	16384	557583
+DualPivotQuicksort(pivot: THIRDS)	random	32768	1209375
+DualPivotQuicksort(pivot: THIRDS)	random	65536	2491958
+DualPivotQuicksort(pivot: THIRDS)	random	131072	5325875
+DualPivotQuicksort(pivot: THIRDS)	random	262144	11052292
+DualPivotQuicksort(pivot: THIRDS)	random	524288	23620458
+DualPivotQuicksort(pivot: THIRDS)	random	1048576	48983708
+DualPivotQuicksort(pivot: THIRDS)	random	2097152	103970375
+DualPivotQuicksort(pivot: THIRDS)	random	4194304	212018875
+DualPivotQuicksort(pivot: THIRDS)	random	8388608	444821416
+DualPivotQuicksort(pivot: THIRDS)	random	16777216	921575791
+DualPivotQuicksort(pivot: THIRDS)	random	33554432	1893848708
+DualPivotQuicksort(pivot: THIRDS)	random	67108864	4028131625
+DualPivotQuicksort(pivot: THIRDS)	random	134217728	8201491000
+DualPivotQuicksort(pivot: THIRDS)	random	268435456	17102348000
+DualPivotQuicksort(pivot: THIRDS)	ascending	1024	8500
+DualPivotQuicksort(pivot: THIRDS)	ascending	2048	16417
+DualPivotQuicksort(pivot: THIRDS)	ascending	4096	29209
+DualPivotQuicksort(pivot: THIRDS)	ascending	8192	52625
+DualPivotQuicksort(pivot: THIRDS)	ascending	16384	101208
+DualPivotQuicksort(pivot: THIRDS)	ascending	32768	185959
+DualPivotQuicksort(pivot: THIRDS)	ascending	65536	437625
+DualPivotQuicksort(pivot: THIRDS)	ascending	131072	836417
+DualPivotQuicksort(pivot: THIRDS)	ascending	262144	1769125
+DualPivotQuicksort(pivot: THIRDS)	ascending	524288	4255958
+DualPivotQuicksort(pivot: THIRDS)	ascending	1048576	8159542
+DualPivotQuicksort(pivot: THIRDS)	ascending	2097152	17038959
+DualPivotQuicksort(pivot: THIRDS)	ascending	4194304	38565542
+DualPivotQuicksort(pivot: THIRDS)	ascending	8388608	76932584
+DualPivotQuicksort(pivot: THIRDS)	ascending	16777216	157036500
+DualPivotQuicksort(pivot: THIRDS)	ascending	33554432	329062000
+DualPivotQuicksort(pivot: THIRDS)	ascending	67108864	699936333
+DualPivotQuicksort(pivot: THIRDS)	ascending	134217728	1427646959
+DualPivotQuicksort(pivot: THIRDS)	ascending	268435456	2867047917
+DualPivotQuicksort(pivot: THIRDS)	descending	1024	11167
+DualPivotQuicksort(pivot: THIRDS)	descending	2048	17459
+DualPivotQuicksort(pivot: THIRDS)	descending	4096	30958
+DualPivotQuicksort(pivot: THIRDS)	descending	8192	48458
+DualPivotQuicksort(pivot: THIRDS)	descending	16384	104416
+DualPivotQuicksort(pivot: THIRDS)	descending	32768	177000
+DualPivotQuicksort(pivot: THIRDS)	descending	65536	454000
+DualPivotQuicksort(pivot: THIRDS)	descending	131072	827666
+DualPivotQuicksort(pivot: THIRDS)	descending	262144	1769375
+DualPivotQuicksort(pivot: THIRDS)	descending	524288	4119459
+DualPivotQuicksort(pivot: THIRDS)	descending	1048576	8330625
+DualPivotQuicksort(pivot: THIRDS)	descending	2097152	16734541
+DualPivotQuicksort(pivot: THIRDS)	descending	4194304	37478500
+DualPivotQuicksort(pivot: THIRDS)	descending	8388608	75686541
+DualPivotQuicksort(pivot: THIRDS)	descending	16777216	156779333
+DualPivotQuicksort(pivot: THIRDS)	descending	33554432	341341167
+DualPivotQuicksort(pivot: THIRDS)	descending	67108864	700628500
+DualPivotQuicksort(pivot: THIRDS)	descending	134217728	1421095875
+DualPivotQuicksort(pivot: THIRDS)	descending	268435456	2900002458
+DualPivotQuicksort(pivot: THIRDS)	random	1024	37250
+DualPivotQuicksort(pivot: THIRDS)	random	2048	74792
+DualPivotQuicksort(pivot: THIRDS)	random	4096	133250
+DualPivotQuicksort(pivot: THIRDS)	random	8192	280333
+DualPivotQuicksort(pivot: THIRDS)	random	16384	579708
+DualPivotQuicksort(pivot: THIRDS)	random	32768	1198583
+DualPivotQuicksort(pivot: THIRDS)	random	65536	2576792
+DualPivotQuicksort(pivot: THIRDS)	random	131072	5288625
+DualPivotQuicksort(pivot: THIRDS)	random	262144	11055875
+DualPivotQuicksort(pivot: THIRDS)	random	524288	23347666
+DualPivotQuicksort(pivot: THIRDS)	random	1048576	49419250
+DualPivotQuicksort(pivot: THIRDS)	random	2097152	101988167
+DualPivotQuicksort(pivot: THIRDS)	random	4194304	211443125
+DualPivotQuicksort(pivot: THIRDS)	random	8388608	444945542
+DualPivotQuicksort(pivot: THIRDS)	random	16777216	913752666
+DualPivotQuicksort(pivot: THIRDS)	random	33554432	1925010500
+DualPivotQuicksort(pivot: THIRDS)	random	67108864	3978090750
+DualPivotQuicksort(pivot: THIRDS)	random	134217728	8160895000
+DualPivotQuicksort(pivot: THIRDS)	random	268435456	17014796375
+DualPivotQuicksort(pivot: THIRDS)	ascending	1024	9333
+DualPivotQuicksort(pivot: THIRDS)	ascending	2048	15958
+DualPivotQuicksort(pivot: THIRDS)	ascending	4096	28333
+DualPivotQuicksort(pivot: THIRDS)	ascending	8192	49000
+DualPivotQuicksort(pivot: THIRDS)	ascending	16384	102042
+DualPivotQuicksort(pivot: THIRDS)	ascending	32768	203292
+DualPivotQuicksort(pivot: THIRDS)	ascending	65536	442750
+DualPivotQuicksort(pivot: THIRDS)	ascending	131072	833875
+DualPivotQuicksort(pivot: THIRDS)	ascending	262144	1764875
+DualPivotQuicksort(pivot: THIRDS)	ascending	524288	4240875
+DualPivotQuicksort(pivot: THIRDS)	ascending	1048576	8227291
+DualPivotQuicksort(pivot: THIRDS)	ascending	2097152	17122875
+DualPivotQuicksort(pivot: THIRDS)	ascending	4194304	38367875
+DualPivotQuicksort(pivot: THIRDS)	ascending	8388608	77189083
+DualPivotQuicksort(pivot: THIRDS)	ascending	16777216	156706000
+DualPivotQuicksort(pivot: THIRDS)	ascending	33554432	329701125
+DualPivotQuicksort(pivot: THIRDS)	ascending	67108864	702536208
+DualPivotQuicksort(pivot: THIRDS)	ascending	134217728	1433836792
+DualPivotQuicksort(pivot: THIRDS)	ascending	268435456	2869217916
+DualPivotQuicksort(pivot: THIRDS)	descending	1024	10000
+DualPivotQuicksort(pivot: THIRDS)	descending	2048	17333
+DualPivotQuicksort(pivot: THIRDS)	descending	4096	25000
+DualPivotQuicksort(pivot: THIRDS)	descending	8192	50000
+DualPivotQuicksort(pivot: THIRDS)	descending	16384	102958
+DualPivotQuicksort(pivot: THIRDS)	descending	32768	176167
+DualPivotQuicksort(pivot: THIRDS)	descending	65536	446792
+DualPivotQuicksort(pivot: THIRDS)	descending	131072	830833
+DualPivotQuicksort(pivot: THIRDS)	descending	262144	1748709
+DualPivotQuicksort(pivot: THIRDS)	descending	524288	4096958
+DualPivotQuicksort(pivot: THIRDS)	descending	1048576	8452750
+DualPivotQuicksort(pivot: THIRDS)	descending	2097152	16792334
+DualPivotQuicksort(pivot: THIRDS)	descending	4194304	37757334
+DualPivotQuicksort(pivot: THIRDS)	descending	8388608	76393958
+DualPivotQuicksort(pivot: THIRDS)	descending	16777216	155401666
+DualPivotQuicksort(pivot: THIRDS)	descending	33554432	329201250
+DualPivotQuicksort(pivot: THIRDS)	descending	67108864	697195125
+DualPivotQuicksort(pivot: THIRDS)	descending	134217728	1424143792
+DualPivotQuicksort(pivot: THIRDS)	descending	268435456	2923648000
+DualPivotQuicksort(pivot: THIRDS)	random	1024	37500
+DualPivotQuicksort(pivot: THIRDS)	random	2048	69333
+DualPivotQuicksort(pivot: THIRDS)	random	4096	130666
+DualPivotQuicksort(pivot: THIRDS)	random	8192	266791
+DualPivotQuicksort(pivot: THIRDS)	random	16384	566458
+DualPivotQuicksort(pivot: THIRDS)	random	32768	1212333
+DualPivotQuicksort(pivot: THIRDS)	random	65536	2539584
+DualPivotQuicksort(pivot: THIRDS)	random	131072	5380375
+DualPivotQuicksort(pivot: THIRDS)	random	262144	11155667
+DualPivotQuicksort(pivot: THIRDS)	random	524288	23678834
+DualPivotQuicksort(pivot: THIRDS)	random	1048576	49029292
+DualPivotQuicksort(pivot: THIRDS)	random	2097152	103550250
+DualPivotQuicksort(pivot: THIRDS)	random	4194304	216374125
+DualPivotQuicksort(pivot: THIRDS)	random	8388608	437688875
+DualPivotQuicksort(pivot: THIRDS)	random	16777216	926662917
+DualPivotQuicksort(pivot: THIRDS)	random	33554432	1920717250
+DualPivotQuicksort(pivot: THIRDS)	random	67108864	3957094541
+DualPivotQuicksort(pivot: THIRDS)	random	134217728	8284500750
+DualPivotQuicksort(pivot: THIRDS)	random	268435456	17060936541
+DualPivotQuicksort(pivot: THIRDS)	ascending	1024	9208
+DualPivotQuicksort(pivot: THIRDS)	ascending	2048	14708
+DualPivotQuicksort(pivot: THIRDS)	ascending	4096	22458
+DualPivotQuicksort(pivot: THIRDS)	ascending	8192	53708
+DualPivotQuicksort(pivot: THIRDS)	ascending	16384	103416
+DualPivotQuicksort(pivot: THIRDS)	ascending	32768	197250
+DualPivotQuicksort(pivot: THIRDS)	ascending	65536	450375
+DualPivotQuicksort(pivot: THIRDS)	ascending	131072	839416
+DualPivotQuicksort(pivot: THIRDS)	ascending	262144	1766625
+DualPivotQuicksort(pivot: THIRDS)	ascending	524288	4297333
+DualPivotQuicksort(pivot: THIRDS)	ascending	1048576	8228625
+DualPivotQuicksort(pivot: THIRDS)	ascending	2097152	16657000
+DualPivotQuicksort(pivot: THIRDS)	ascending	4194304	37646500
+DualPivotQuicksort(pivot: THIRDS)	ascending	8388608	76520875
+DualPivotQuicksort(pivot: THIRDS)	ascending	16777216	156587625
+DualPivotQuicksort(pivot: THIRDS)	ascending	33554432	325630500
+DualPivotQuicksort(pivot: THIRDS)	ascending	67108864	699010125
+DualPivotQuicksort(pivot: THIRDS)	ascending	134217728	1429612208
+DualPivotQuicksort(pivot: THIRDS)	ascending	268435456	2850724584
+DualPivotQuicksort(pivot: THIRDS)	descending	1024	11000
+DualPivotQuicksort(pivot: THIRDS)	descending	2048	18166
+DualPivotQuicksort(pivot: THIRDS)	descending	4096	29458
+DualPivotQuicksort(pivot: THIRDS)	descending	8192	50916
+DualPivotQuicksort(pivot: THIRDS)	descending	16384	101250
+DualPivotQuicksort(pivot: THIRDS)	descending	32768	200041
+DualPivotQuicksort(pivot: THIRDS)	descending	65536	435667
+DualPivotQuicksort(pivot: THIRDS)	descending	131072	835125
+DualPivotQuicksort(pivot: THIRDS)	descending	262144	1745166
+DualPivotQuicksort(pivot: THIRDS)	descending	524288	4015250
+DualPivotQuicksort(pivot: THIRDS)	descending	1048576	8284542
+DualPivotQuicksort(pivot: THIRDS)	descending	2097152	16875916
+DualPivotQuicksort(pivot: THIRDS)	descending	4194304	37714041
+DualPivotQuicksort(pivot: THIRDS)	descending	8388608	76115667
+DualPivotQuicksort(pivot: THIRDS)	descending	16777216	154469209
+DualPivotQuicksort(pivot: THIRDS)	descending	33554432	322104708
+DualPivotQuicksort(pivot: THIRDS)	descending	67108864	696789500
+DualPivotQuicksort(pivot: THIRDS)	descending	134217728	1414905291
+DualPivotQuicksort(pivot: THIRDS)	descending	268435456	2904521000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1024	25208
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2048	51291
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4096	115084
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8192	235458
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16384	533958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	32768	1049333
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	65536	2208875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	131072	4816250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	262144	10350333
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	524288	21465083
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1048576	44722833
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2097152	97063292
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4194304	201588834
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8388608	424279500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16777216	896301125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	33554432	1821223458
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	67108864	3820495375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	134217728	7933963792
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	268435456	16431596791
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1024	6792
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2048	11083
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4096	23750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8192	41208
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16384	79042
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	32768	143458
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	65536	338500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	131072	679042
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	262144	1362416
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	524288	3349625
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1048576	6811791
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2097152	13683667
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4194304	30527000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8388608	62337333
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16777216	133218750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	33554432	287000250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	67108864	568434084
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	134217728	1219206709
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	268435456	2631592041
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1024	9084
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2048	11041
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4096	25500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8192	45166
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16384	82250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	32768	155500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	65536	357000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	131072	775291
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	262144	1445250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	524288	3299792
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1048576	7010750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2097152	14103750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4194304	31910583
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8388608	62797083
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16777216	133344167
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	33554432	290470875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	67108864	582011292
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	134217728	1228164958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	268435456	2644999833
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1024	32667
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2048	54083
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4096	110750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8192	226375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16384	536875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	32768	1081166
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	65536	2275541
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	131072	4867625
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	262144	10249375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	524288	21220708
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1048576	45236375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2097152	95048083
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4194304	202879333
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8388608	423089334
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16777216	862740750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	33554432	1803836959
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	67108864	3837894542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	134217728	7863420875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	268435456	16678703417
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1024	6917
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2048	12041
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4096	23250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8192	37958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16384	76959
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	32768	151875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	65536	333166
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	131072	723542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	262144	1372250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	524288	3286208
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1048576	7132958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2097152	13882334
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4194304	31280875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8388608	62097041
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16777216	131743042
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	33554432	288441792
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	67108864	574179333
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	134217728	1213439708
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	268435456	2614926917
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1024	8875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2048	13083
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4096	21792
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8192	36416
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16384	78250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	32768	147792
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	65536	339834
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	131072	688667
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	262144	1458875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	524288	3326459
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1048576	7136917
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2097152	13542750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4194304	31525750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8388608	62201708
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16777216	132315834
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	33554432	287570750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	67108864	575925125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	134217728	1218067250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	268435456	2640221000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1024	29375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2048	59541
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4096	115042
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8192	249583
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16384	536250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	32768	1059209
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	65536	2297708
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	131072	4781916
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	262144	10165917
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	524288	21809541
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1048576	44708166
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2097152	94687125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4194304	197924208
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8388608	420655875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16777216	862132583
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	33554432	1834288667
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	67108864	3847748583
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	134217728	7956015500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	268435456	16383073917
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1024	7166
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2048	11917
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4096	22834
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8192	44292
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16384	80583
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	32768	136292
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	65536	342875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	131072	687375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	262144	1411084
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	524288	3121292
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1048576	6840417
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2097152	13837833
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4194304	31489167
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8388608	61618083
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16777216	130457166
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	33554432	287687917
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	67108864	571503708
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	134217728	1214246959
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	268435456	2634952084
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1024	8167
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2048	10834
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4096	26084
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8192	39292
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16384	77584
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	32768	137750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	65536	323958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	131072	706666
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	262144	1476250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	524288	3253583
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1048576	7234958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2097152	14114416
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4194304	31952084
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8388608	62713750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16777216	133882667
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	33554432	289264042
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	67108864	583571042
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	134217728	1234796375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	268435456	2678968625
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1024	29458
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2048	61125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4096	110708
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8192	246542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16384	519875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	32768	1070541
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	65536	2295875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	131072	4720666
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	262144	10352959
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	524288	21645167
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1048576	46092667
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2097152	95321125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4194304	200958709
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8388608	422024667
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16777216	876251916
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	33554432	1862614000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	67108864	3770808459
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	134217728	7892698792
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	268435456	16364945875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1024	5666
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2048	11625
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4096	24125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8192	35083
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16384	73125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	32768	145500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	65536	327750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	131072	691375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	262144	1377125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	524288	3155166
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1048576	7062375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2097152	13955625
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4194304	31037458
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8388608	61820125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16777216	131554333
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	33554432	287763833
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	67108864	574616083
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	134217728	1222336041
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	268435456	2641748958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1024	7666
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2048	13125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4096	22209
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8192	42750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16384	78541
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	32768	145250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	65536	351875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	131072	737167
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	262144	1420375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	524288	3336000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1048576	7073666
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2097152	13979459
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4194304	31902458
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8388608	62845708
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16777216	134502292
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	33554432	291374750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	67108864	583233083
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	134217728	1230167166
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	268435456	2673815500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1024	32125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2048	60500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4096	117375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8192	231417
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16384	489292
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	32768	1088208
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	65536	2256875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	131072	4772208
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	262144	10161292
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	524288	21226000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1048576	45870209
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2097152	95192000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4194304	202467667
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8388608	415590041
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16777216	867788042
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	33554432	1802680125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	67108864	3790353167
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	134217728	7873659750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	268435456	16405713500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1024	6750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2048	11375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4096	19583
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8192	34500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16384	81916
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	32768	142166
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	65536	330583
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	131072	706292
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	262144	1381541
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	524288	3304500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1048576	7122792
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2097152	13853875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4194304	31636250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8388608	62032750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16777216	132120834
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	33554432	289729667
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	67108864	575684625
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	134217728	1222261083
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	268435456	2631502459
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1024	8167
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2048	12750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4096	27416
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8192	39500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16384	80791
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	32768	139417
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	65536	344000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	131072	709458
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	262144	1451542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	524288	3284542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1048576	7154292
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2097152	13914750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4194304	31966291
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8388608	62391334
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16777216	134048000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	33554432	289626458
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	67108864	582249917
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	134217728	1227966250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	268435456	2664693417
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1024	30666
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2048	54708
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4096	117625
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8192	230958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16384	510208
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	32768	1110709
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	65536	2261542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	131072	4824875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	262144	10319375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	524288	21546000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1048576	44828750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2097152	95080125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4194304	199814500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8388608	415905750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16777216	877409042
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	33554432	1805600833
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	67108864	3850188333
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	134217728	7859672166
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	268435456	16301940167
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1024	6208
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2048	11791
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4096	22917
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8192	35708
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16384	75292
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	32768	146958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	65536	318583
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	131072	716542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	262144	1352167
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	524288	3241458
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1048576	7189916
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2097152	13802541
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4194304	31579958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8388608	61890291
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16777216	131956917
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	33554432	287286375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	67108864	576387209
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	134217728	1217682334
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	268435456	2638037917
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1024	8000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2048	12000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4096	23167
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8192	45417
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16384	76208
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	32768	142458
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	65536	331583
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	131072	733083
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	262144	1452833
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	524288	3269250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1048576	7145250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2097152	14115500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4194304	31809042
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8388608	62424875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16777216	134320125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	33554432	289644084
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	67108864	582420583
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	134217728	1227591667
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	268435456	2673449125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1024	24542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2048	56667
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4096	118166
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8192	237167
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16384	496083
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	32768	1074125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	65536	2212875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	131072	4985750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	262144	10849625
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	524288	22675916
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1048576	47000250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2097152	95425833
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4194304	199709292
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8388608	417835708
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16777216	885247750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	33554432	1849184125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	67108864	3850883333
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	134217728	8070411125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	268435456	16195117125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1024	6666
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2048	12334
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4096	24125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8192	44125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16384	78958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	32768	157250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	65536	326542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	131072	730500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	262144	1390042
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	524288	3320125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1048576	7209291
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2097152	13930541
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4194304	31015542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8388608	61319000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16777216	130381541
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	33554432	287757291
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	67108864	569923208
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	134217728	1216651167
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	268435456	2583435958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1024	7458
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2048	13167
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4096	25375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8192	36375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16384	88500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	32768	155333
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	65536	348167
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	131072	712458
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	262144	1406542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	524288	3289250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1048576	7230416
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2097152	14124334
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4194304	31716375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8388608	62479500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16777216	132801625
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	33554432	287581042
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	67108864	575571334
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	134217728	1244344333
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	268435456	2698084375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1024	32958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2048	55667
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4096	136042
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8192	235792
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16384	491125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	32768	1084042
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	65536	2278667
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	131072	4814541
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	262144	9974583
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	524288	21585459
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1048576	45098500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2097152	96138000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4194304	199539125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8388608	416610416
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16777216	892614208
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	33554432	1830856958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	67108864	3751509209
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	134217728	7792752417
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	268435456	16539276958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1024	6042
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2048	12042
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4096	23333
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8192	42917
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16384	80834
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	32768	138916
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	65536	323542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	131072	697709
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	262144	1389416
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	524288	3242000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1048576	7038958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2097152	14103083
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4194304	32049084
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8388608	62364541
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16777216	131879167
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	33554432	289193958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	67108864	576326459
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	134217728	1222954625
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	268435456	2648108584
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1024	8084
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2048	12791
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4096	26459
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8192	44833
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16384	79000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	32768	143875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	65536	347625
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	131072	700875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	262144	1442125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	524288	3353333
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1048576	7351542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2097152	14009459
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4194304	32140584
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8388608	62811875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16777216	134582500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	33554432	292043250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	67108864	584713667
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	134217728	1232903000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	268435456	2682834167
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1024	30208
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2048	58209
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4096	116416
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8192	234542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16384	533250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	32768	1077542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	65536	2249542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	131072	4735625
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	262144	10211125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	524288	21596875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1048576	44503625
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2097152	94485000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4194304	202697250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8388608	424770500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16777216	877835542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	33554432	1834791583
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	67108864	3771657875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	134217728	7813202167
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	268435456	16267365708
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1024	6250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2048	11625
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4096	19583
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8192	44834
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16384	72292
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	32768	146250
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	65536	327083
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	131072	696958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	262144	1442625
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	524288	3300917
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1048576	7058791
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2097152	13808375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4194304	31586291
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8388608	62171166
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16777216	132559959
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	33554432	289758750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	67108864	578638125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	134217728	1226907375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	268435456	2651480458
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1024	8417
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2048	12500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4096	26875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8192	40625
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16384	79708
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	32768	146750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	65536	331375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	131072	706792
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	262144	1412583
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	524288	3268500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1048576	7178875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2097152	13549833
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4194304	31999500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8388608	62720958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16777216	133287292
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	33554432	289072834
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	67108864	579118958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	134217728	1209727083
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	268435456	2631363750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1024	30916
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2048	61542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4096	106375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8192	245375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16384	484709
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	32768	1076084
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	65536	2257167
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	131072	4762000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	262144	10299500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	524288	21589000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	1048576	45252459
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	2097152	98006333
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	4194304	199283875
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	8388608	418759333
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	16777216	882218042
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	33554432	1825275000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	67108864	3824031625
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	134217728	7990287042
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	random	268435456	16317703541
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1024	6542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2048	10625
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4096	20375
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8192	35083
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16384	79042
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	32768	144000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	65536	325209
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	131072	721167
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	262144	1391083
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	524288	3231041
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	1048576	7045959
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	2097152	13823750
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	4194304	31214291
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	8388608	62181000
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	16777216	132153959
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	33554432	289953708
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	67108864	577105084
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	134217728	1223948125
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	ascending	268435456	2648271667
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1024	7916
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2048	12500
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4096	27334
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8192	38541
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16384	81917
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	32768	144292
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	65536	330542
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	131072	717958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	262144	1491834
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	524288	3247292
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	1048576	7277958
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	2097152	13975333
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	4194304	32151459
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	8388608	63121458
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	16777216	136127042
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	33554432	291961333
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	67108864	584745459
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	134217728	1234865833
+DualPivotQuicksortImproved(threshold: 48, pivot: THIRDS)	descending	268435456	2686547125
+JavaArraysSort	random	1024	29584
+JavaArraysSort	random	2048	49917
+JavaArraysSort	random	4096	102416
+JavaArraysSort	random	8192	216084
+JavaArraysSort	random	16384	439209
+JavaArraysSort	random	32768	949667
+JavaArraysSort	random	65536	2023000
+JavaArraysSort	random	131072	4342416
+JavaArraysSort	random	262144	8875625
+JavaArraysSort	random	524288	19399459
+JavaArraysSort	random	1048576	39868750
+JavaArraysSort	random	2097152	84058666
+JavaArraysSort	random	4194304	175369458
+JavaArraysSort	random	8388608	393599917
+JavaArraysSort	random	16777216	783179917
+JavaArraysSort	random	33554432	1634559792
+JavaArraysSort	random	67108864	3446227750
+JavaArraysSort	random	134217728	7044178458
+JavaArraysSort	random	268435456	14796932542
+JavaArraysSort	ascending	1024	3250
+JavaArraysSort	ascending	2048	3208
+JavaArraysSort	ascending	4096	2709
+JavaArraysSort	ascending	8192	3125
+JavaArraysSort	ascending	16384	4375
+JavaArraysSort	ascending	32768	6625
+JavaArraysSort	ascending	65536	11458
+JavaArraysSort	ascending	131072	26417
+JavaArraysSort	ascending	262144	48334
+JavaArraysSort	ascending	524288	85625
+JavaArraysSort	ascending	1048576	136917
+JavaArraysSort	ascending	2097152	305958
+JavaArraysSort	ascending	4194304	605625
+JavaArraysSort	ascending	8388608	950417
+JavaArraysSort	ascending	16777216	2130333
+JavaArraysSort	ascending	33554432	4728458
+JavaArraysSort	ascending	67108864	9482875
+JavaArraysSort	ascending	134217728	19082208
+JavaArraysSort	ascending	268435456	33933708
+JavaArraysSort	descending	1024	3000
+JavaArraysSort	descending	2048	3292
+JavaArraysSort	descending	4096	3917
+JavaArraysSort	descending	8192	5042
+JavaArraysSort	descending	16384	9250
+JavaArraysSort	descending	32768	17292
+JavaArraysSort	descending	65536	29625
+JavaArraysSort	descending	131072	57875
+JavaArraysSort	descending	262144	107875
+JavaArraysSort	descending	524288	204083
+JavaArraysSort	descending	1048576	360458
+JavaArraysSort	descending	2097152	771500
+JavaArraysSort	descending	4194304	1550959
+JavaArraysSort	descending	8388608	2934833
+JavaArraysSort	descending	16777216	6346833
+JavaArraysSort	descending	33554432	12827250
+JavaArraysSort	descending	67108864	25115333
+JavaArraysSort	descending	134217728	48509625
+JavaArraysSort	descending	268435456	101111125
+JavaArraysSort	random	1024	29917
+JavaArraysSort	random	2048	55042
+JavaArraysSort	random	4096	104000
+JavaArraysSort	random	8192	213708
+JavaArraysSort	random	16384	452958
+JavaArraysSort	random	32768	1001750
+JavaArraysSort	random	65536	1994166
+JavaArraysSort	random	131072	4229709
+JavaArraysSort	random	262144	9070041
+JavaArraysSort	random	524288	19010750
+JavaArraysSort	random	1048576	39827917
+JavaArraysSort	random	2097152	84128625
+JavaArraysSort	random	4194304	177916458
+JavaArraysSort	random	8388608	368799958
+JavaArraysSort	random	16777216	789552750
+JavaArraysSort	random	33554432	1639318167
+JavaArraysSort	random	67108864	3475996417
+JavaArraysSort	random	134217728	7063354000
+JavaArraysSort	random	268435456	14641873875
+JavaArraysSort	ascending	1024	3250
+JavaArraysSort	ascending	2048	2250
+JavaArraysSort	ascending	4096	2750
+JavaArraysSort	ascending	8192	2875
+JavaArraysSort	ascending	16384	5000
+JavaArraysSort	ascending	32768	8125
+JavaArraysSort	ascending	65536	14209
+JavaArraysSort	ascending	131072	21166
+JavaArraysSort	ascending	262144	46667
+JavaArraysSort	ascending	524288	80541
+JavaArraysSort	ascending	1048576	156208
+JavaArraysSort	ascending	2097152	296708
+JavaArraysSort	ascending	4194304	589417
+JavaArraysSort	ascending	8388608	1178000
+JavaArraysSort	ascending	16777216	2347000
+JavaArraysSort	ascending	33554432	4776042
+JavaArraysSort	ascending	67108864	9570583
+JavaArraysSort	ascending	134217728	19282416
+JavaArraysSort	ascending	268435456	38060959
+JavaArraysSort	descending	1024	2417
+JavaArraysSort	descending	2048	3083
+JavaArraysSort	descending	4096	3084
+JavaArraysSort	descending	8192	4625
+JavaArraysSort	descending	16384	9959
+JavaArraysSort	descending	32768	14125
+JavaArraysSort	descending	65536	27333
+JavaArraysSort	descending	131072	54333
+JavaArraysSort	descending	262144	97250
+JavaArraysSort	descending	524288	206875
+JavaArraysSort	descending	1048576	419000
+JavaArraysSort	descending	2097152	762417
+JavaArraysSort	descending	4194304	1532209
+JavaArraysSort	descending	8388608	3169042
+JavaArraysSort	descending	16777216	7035708
+JavaArraysSort	descending	33554432	12583875
+JavaArraysSort	descending	67108864	25512708
+JavaArraysSort	descending	134217728	50445791
+JavaArraysSort	descending	268435456	98987917
+JavaArraysSort	random	1024	30500
+JavaArraysSort	random	2048	53500
+JavaArraysSort	random	4096	96750
+JavaArraysSort	random	8192	206083
+JavaArraysSort	random	16384	448500
+JavaArraysSort	random	32768	984125
+JavaArraysSort	random	65536	1965708
+JavaArraysSort	random	131072	4152666
+JavaArraysSort	random	262144	9089417
+JavaArraysSort	random	524288	18847375
+JavaArraysSort	random	1048576	39889500
+JavaArraysSort	random	2097152	84138875
+JavaArraysSort	random	4194304	177187750
+JavaArraysSort	random	8388608	376775417
+JavaArraysSort	random	16777216	786295333
+JavaArraysSort	random	33554432	1613722375
+JavaArraysSort	random	67108864	3425024834
+JavaArraysSort	random	134217728	7181114500
+JavaArraysSort	random	268435456	14830865542
+JavaArraysSort	ascending	1024	5083
+JavaArraysSort	ascending	2048	2666
+JavaArraysSort	ascending	4096	3333
+JavaArraysSort	ascending	8192	3458
+JavaArraysSort	ascending	16384	4500
+JavaArraysSort	ascending	32768	8125
+JavaArraysSort	ascending	65536	11417
+JavaArraysSort	ascending	131072	21167
+JavaArraysSort	ascending	262144	39875
+JavaArraysSort	ascending	524288	87459
+JavaArraysSort	ascending	1048576	152833
+JavaArraysSort	ascending	2097152	296750
+JavaArraysSort	ascending	4194304	589500
+JavaArraysSort	ascending	8388608	1179250
+JavaArraysSort	ascending	16777216	2353042
+JavaArraysSort	ascending	33554432	4750750
+JavaArraysSort	ascending	67108864	9539541
+JavaArraysSort	ascending	134217728	19040917
+JavaArraysSort	ascending	268435456	38156750
+JavaArraysSort	descending	1024	2416
+JavaArraysSort	descending	2048	2375
+JavaArraysSort	descending	4096	3875
+JavaArraysSort	descending	8192	4500
+JavaArraysSort	descending	16384	7833
+JavaArraysSort	descending	32768	14125
+JavaArraysSort	descending	65536	27208
+JavaArraysSort	descending	131072	50708
+JavaArraysSort	descending	262144	98416
+JavaArraysSort	descending	524288	194458
+JavaArraysSort	descending	1048576	380625
+JavaArraysSort	descending	2097152	775709
+JavaArraysSort	descending	4194304	1554834
+JavaArraysSort	descending	8388608	3161792
+JavaArraysSort	descending	16777216	6431750
+JavaArraysSort	descending	33554432	12855375
+JavaArraysSort	descending	67108864	25258958
+JavaArraysSort	descending	134217728	50700458
+JavaArraysSort	descending	268435456	101345000
+JavaArraysSort	random	1024	30917
+JavaArraysSort	random	2048	49083
+JavaArraysSort	random	4096	101375
+JavaArraysSort	random	8192	231500
+JavaArraysSort	random	16384	447750
+JavaArraysSort	random	32768	978375
+JavaArraysSort	random	65536	2018625
+JavaArraysSort	random	131072	4282958
+JavaArraysSort	random	262144	9033792
+JavaArraysSort	random	524288	19254917
+JavaArraysSort	random	1048576	40605708
+JavaArraysSort	random	2097152	85083958
+JavaArraysSort	random	4194304	180844375
+JavaArraysSort	random	8388608	378807083
+JavaArraysSort	random	16777216	771510209
+JavaArraysSort	random	33554432	1648971542
+JavaArraysSort	random	67108864	3427404375
+JavaArraysSort	random	134217728	7217185083
+JavaArraysSort	random	268435456	14656838959
+JavaArraysSort	ascending	1024	1667
+JavaArraysSort	ascending	2048	2125
+JavaArraysSort	ascending	4096	2000
+JavaArraysSort	ascending	8192	3291
+JavaArraysSort	ascending	16384	4042
+JavaArraysSort	ascending	32768	6250
+JavaArraysSort	ascending	65536	11417
+JavaArraysSort	ascending	131072	21500
+JavaArraysSort	ascending	262144	40458
+JavaArraysSort	ascending	524288	76292
+JavaArraysSort	ascending	1048576	171000
+JavaArraysSort	ascending	2097152	310667
+JavaArraysSort	ascending	4194304	604042
+JavaArraysSort	ascending	8388608	1176417
+JavaArraysSort	ascending	16777216	2370042
+JavaArraysSort	ascending	33554432	4801208
+JavaArraysSort	ascending	67108864	9539000
+JavaArraysSort	ascending	134217728	19063334
+JavaArraysSort	ascending	268435456	38462542
+JavaArraysSort	descending	1024	2375
+JavaArraysSort	descending	2048	2167
+JavaArraysSort	descending	4096	3208
+JavaArraysSort	descending	8192	4792
+JavaArraysSort	descending	16384	8083
+JavaArraysSort	descending	32768	14750
+JavaArraysSort	descending	65536	26750
+JavaArraysSort	descending	131072	51000
+JavaArraysSort	descending	262144	97917
+JavaArraysSort	descending	524288	198500
+JavaArraysSort	descending	1048576	393375
+JavaArraysSort	descending	2097152	764333
+JavaArraysSort	descending	4194304	1553083
+JavaArraysSort	descending	8388608	3177000
+JavaArraysSort	descending	16777216	6558875
+JavaArraysSort	descending	33554432	12782042
+JavaArraysSort	descending	67108864	25260208
+JavaArraysSort	descending	134217728	50760250
+JavaArraysSort	descending	268435456	101967750
+JavaArraysSort	random	1024	32958
+JavaArraysSort	random	2048	59041
+JavaArraysSort	random	4096	100833
+JavaArraysSort	random	8192	222709
+JavaArraysSort	random	16384	437708
+JavaArraysSort	random	32768	922792
+JavaArraysSort	random	65536	2063542
+JavaArraysSort	random	131072	4234041
+JavaArraysSort	random	262144	8949834
+JavaArraysSort	random	524288	19438625
+JavaArraysSort	random	1048576	40124750
+JavaArraysSort	random	2097152	84244708
+JavaArraysSort	random	4194304	177118541
+JavaArraysSort	random	8388608	374397916
+JavaArraysSort	random	16777216	788445459
+JavaArraysSort	random	33554432	1628058083
+JavaArraysSort	random	67108864	3418120750
+JavaArraysSort	random	134217728	7249815042
+JavaArraysSort	random	268435456	14843735209
+JavaArraysSort	ascending	1024	2083
+JavaArraysSort	ascending	2048	1667
+JavaArraysSort	ascending	4096	2334
+JavaArraysSort	ascending	8192	3125
+JavaArraysSort	ascending	16384	5500
+JavaArraysSort	ascending	32768	7875
+JavaArraysSort	ascending	65536	11166
+JavaArraysSort	ascending	131072	21875
+JavaArraysSort	ascending	262144	44125
+JavaArraysSort	ascending	524288	77416
+JavaArraysSort	ascending	1048576	152625
+JavaArraysSort	ascending	2097152	300000
+JavaArraysSort	ascending	4194304	601708
+JavaArraysSort	ascending	8388608	1174125
+JavaArraysSort	ascending	16777216	2365667
+JavaArraysSort	ascending	33554432	4707500
+JavaArraysSort	ascending	67108864	9496292
+JavaArraysSort	ascending	134217728	19204125
+JavaArraysSort	ascending	268435456	38171917
+JavaArraysSort	descending	1024	2333
+JavaArraysSort	descending	2048	2750
+JavaArraysSort	descending	4096	3708
+JavaArraysSort	descending	8192	5334
+JavaArraysSort	descending	16384	10209
+JavaArraysSort	descending	32768	16542
+JavaArraysSort	descending	65536	26750
+JavaArraysSort	descending	131072	50500
+JavaArraysSort	descending	262144	100542
+JavaArraysSort	descending	524288	194750
+JavaArraysSort	descending	1048576	397708
+JavaArraysSort	descending	2097152	762833
+JavaArraysSort	descending	4194304	1553583
+JavaArraysSort	descending	8388608	3108125
+JavaArraysSort	descending	16777216	6402792
+JavaArraysSort	descending	33554432	12804667
+JavaArraysSort	descending	67108864	25085541
+JavaArraysSort	descending	134217728	50484208
+JavaArraysSort	descending	268435456	101110250
+JavaArraysSort	random	1024	28542
+JavaArraysSort	random	2048	46250
+JavaArraysSort	random	4096	100792
+JavaArraysSort	random	8192	207792
+JavaArraysSort	random	16384	433959
+JavaArraysSort	random	32768	959458
+JavaArraysSort	random	65536	1992500
+JavaArraysSort	random	131072	4187542
+JavaArraysSort	random	262144	9113500
+JavaArraysSort	random	524288	18936291
+JavaArraysSort	random	1048576	40025541
+JavaArraysSort	random	2097152	85998334
+JavaArraysSort	random	4194304	176672208
+JavaArraysSort	random	8388608	371853208
+JavaArraysSort	random	16777216	790839875
+JavaArraysSort	random	33554432	1647142417
+JavaArraysSort	random	67108864	3384644792
+JavaArraysSort	random	134217728	7078277041
+JavaArraysSort	random	268435456	14803596917
+JavaArraysSort	ascending	1024	2375
+JavaArraysSort	ascending	2048	2292
+JavaArraysSort	ascending	4096	1917
+JavaArraysSort	ascending	8192	3042
+JavaArraysSort	ascending	16384	4791
+JavaArraysSort	ascending	32768	7791
+JavaArraysSort	ascending	65536	14083
+JavaArraysSort	ascending	131072	26083
+JavaArraysSort	ascending	262144	43417
+JavaArraysSort	ascending	524288	86125
+JavaArraysSort	ascending	1048576	155041
+JavaArraysSort	ascending	2097152	296417
+JavaArraysSort	ascending	4194304	640667
+JavaArraysSort	ascending	8388608	1177917
+JavaArraysSort	ascending	16777216	2357625
+JavaArraysSort	ascending	33554432	4740125
+JavaArraysSort	ascending	67108864	9583542
+JavaArraysSort	ascending	134217728	19171459
+JavaArraysSort	ascending	268435456	37969417
+JavaArraysSort	descending	1024	2208
+JavaArraysSort	descending	2048	2667
+JavaArraysSort	descending	4096	2959
+JavaArraysSort	descending	8192	5542
+JavaArraysSort	descending	16384	9708
+JavaArraysSort	descending	32768	14000
+JavaArraysSort	descending	65536	26417
+JavaArraysSort	descending	131072	54500
+JavaArraysSort	descending	262144	99583
+JavaArraysSort	descending	524288	193083
+JavaArraysSort	descending	1048576	385417
+JavaArraysSort	descending	2097152	782750
+JavaArraysSort	descending	4194304	1552541
+JavaArraysSort	descending	8388608	3138000
+JavaArraysSort	descending	16777216	6595333
+JavaArraysSort	descending	33554432	12644667
+JavaArraysSort	descending	67108864	25237917
+JavaArraysSort	descending	134217728	50807625
+JavaArraysSort	descending	268435456	101278541
+JavaArraysSort	random	1024	31917
+JavaArraysSort	random	2048	52083
+JavaArraysSort	random	4096	97625
+JavaArraysSort	random	8192	206042
+JavaArraysSort	random	16384	451458
+JavaArraysSort	random	32768	935458
+JavaArraysSort	random	65536	2025792
+JavaArraysSort	random	131072	4220833
+JavaArraysSort	random	262144	9171875
+JavaArraysSort	random	524288	19412708
+JavaArraysSort	random	1048576	41287333
+JavaArraysSort	random	2097152	86789292
+JavaArraysSort	random	4194304	179294375
+JavaArraysSort	random	8388608	376882083
+JavaArraysSort	random	16777216	789861667
+JavaArraysSort	random	33554432	1649917334
+JavaArraysSort	random	67108864	3378984042
+JavaArraysSort	random	134217728	7182500292
+JavaArraysSort	random	268435456	15075237292
+JavaArraysSort	ascending	1024	1666
+JavaArraysSort	ascending	2048	2250
+JavaArraysSort	ascending	4096	2833
+JavaArraysSort	ascending	8192	3167
+JavaArraysSort	ascending	16384	4959
+JavaArraysSort	ascending	32768	6292
+JavaArraysSort	ascending	65536	12584
+JavaArraysSort	ascending	131072	26250
+JavaArraysSort	ascending	262144	45958
+JavaArraysSort	ascending	524288	77208
+JavaArraysSort	ascending	1048576	154875
+JavaArraysSort	ascending	2097152	303125
+JavaArraysSort	ascending	4194304	609333
+JavaArraysSort	ascending	8388608	1182292
+JavaArraysSort	ascending	16777216	2356583
+JavaArraysSort	ascending	33554432	4703750
+JavaArraysSort	ascending	67108864	9800042
+JavaArraysSort	ascending	134217728	18981125
+JavaArraysSort	ascending	268435456	38115958
+JavaArraysSort	descending	1024	2167
+JavaArraysSort	descending	2048	2541
+JavaArraysSort	descending	4096	3458
+JavaArraysSort	descending	8192	5667
+JavaArraysSort	descending	16384	8000
+JavaArraysSort	descending	32768	14583
+JavaArraysSort	descending	65536	26959
+JavaArraysSort	descending	131072	57458
+JavaArraysSort	descending	262144	102583
+JavaArraysSort	descending	524288	199125
+JavaArraysSort	descending	1048576	388667
+JavaArraysSort	descending	2097152	772292
+JavaArraysSort	descending	4194304	1583166
+JavaArraysSort	descending	8388608	3165667
+JavaArraysSort	descending	16777216	6411667
+JavaArraysSort	descending	33554432	12655084
+JavaArraysSort	descending	67108864	25253209
+JavaArraysSort	descending	134217728	50506083
+JavaArraysSort	descending	268435456	101740583
+JavaArraysSort	random	1024	28625
+JavaArraysSort	random	2048	52334
+JavaArraysSort	random	4096	94625
+JavaArraysSort	random	8192	224041
+JavaArraysSort	random	16384	429625
+JavaArraysSort	random	32768	945166
+JavaArraysSort	random	65536	2027875
+JavaArraysSort	random	131072	4393209
+JavaArraysSort	random	262144	8848083
+JavaArraysSort	random	524288	19101625
+JavaArraysSort	random	1048576	40297833
+JavaArraysSort	random	2097152	83811333
+JavaArraysSort	random	4194304	179752166
+JavaArraysSort	random	8388608	373593084
+JavaArraysSort	random	16777216	780101792
+JavaArraysSort	random	33554432	1635343250
+JavaArraysSort	random	67108864	3393456333
+JavaArraysSort	random	134217728	7116747625
+JavaArraysSort	random	268435456	14858802500
+JavaArraysSort	ascending	1024	1875
+JavaArraysSort	ascending	2048	2167
+JavaArraysSort	ascending	4096	2834
+JavaArraysSort	ascending	8192	3500
+JavaArraysSort	ascending	16384	4958
+JavaArraysSort	ascending	32768	6167
+JavaArraysSort	ascending	65536	12833
+JavaArraysSort	ascending	131072	25416
+JavaArraysSort	ascending	262144	40125
+JavaArraysSort	ascending	524288	84250
+JavaArraysSort	ascending	1048576	155834
+JavaArraysSort	ascending	2097152	295958
+JavaArraysSort	ascending	4194304	597291
+JavaArraysSort	ascending	8388608	1179542
+JavaArraysSort	ascending	16777216	2354916
+JavaArraysSort	ascending	33554432	4719375
+JavaArraysSort	ascending	67108864	9619542
+JavaArraysSort	ascending	134217728	18951875
+JavaArraysSort	ascending	268435456	38110917
+JavaArraysSort	descending	1024	2042
+JavaArraysSort	descending	2048	2792
+JavaArraysSort	descending	4096	3708
+JavaArraysSort	descending	8192	4708
+JavaArraysSort	descending	16384	9625
+JavaArraysSort	descending	32768	14000
+JavaArraysSort	descending	65536	26459
+JavaArraysSort	descending	131072	60625
+JavaArraysSort	descending	262144	98166
+JavaArraysSort	descending	524288	201000
+JavaArraysSort	descending	1048576	391583
+JavaArraysSort	descending	2097152	769958
+JavaArraysSort	descending	4194304	1549792
+JavaArraysSort	descending	8388608	3124334
+JavaArraysSort	descending	16777216	6388458
+JavaArraysSort	descending	33554432	12717750
+JavaArraysSort	descending	67108864	25206167
+JavaArraysSort	descending	134217728	50626167
+JavaArraysSort	descending	268435456	101162250
+JavaArraysSort	random	1024	28709
+JavaArraysSort	random	2048	44875
+JavaArraysSort	random	4096	100541
+JavaArraysSort	random	8192	208917
+JavaArraysSort	random	16384	448042
+JavaArraysSort	random	32768	945792
+JavaArraysSort	random	65536	2050667
+JavaArraysSort	random	131072	4252041
+JavaArraysSort	random	262144	9074333
+JavaArraysSort	random	524288	19239333
+JavaArraysSort	random	1048576	40114625
+JavaArraysSort	random	2097152	84878917
+JavaArraysSort	random	4194304	177737750
+JavaArraysSort	random	8388608	376010792
+JavaArraysSort	random	16777216	779298833
+JavaArraysSort	random	33554432	1669694417
+JavaArraysSort	random	67108864	3433858333
+JavaArraysSort	random	134217728	7032774750
+JavaArraysSort	random	268435456	14692395000
+JavaArraysSort	ascending	1024	2208
+JavaArraysSort	ascending	2048	2250
+JavaArraysSort	ascending	4096	2625
+JavaArraysSort	ascending	8192	4167
+JavaArraysSort	ascending	16384	4833
+JavaArraysSort	ascending	32768	7875
+JavaArraysSort	ascending	65536	11583
+JavaArraysSort	ascending	131072	21208
+JavaArraysSort	ascending	262144	44208
+JavaArraysSort	ascending	524288	83750
+JavaArraysSort	ascending	1048576	152667
+JavaArraysSort	ascending	2097152	297084
+JavaArraysSort	ascending	4194304	589583
+JavaArraysSort	ascending	8388608	1200417
+JavaArraysSort	ascending	16777216	2462208
+JavaArraysSort	ascending	33554432	4735000
+JavaArraysSort	ascending	67108864	9496542
+JavaArraysSort	ascending	134217728	18985375
+JavaArraysSort	ascending	268435456	38145709
+JavaArraysSort	descending	1024	2083
+JavaArraysSort	descending	2048	2583
+JavaArraysSort	descending	4096	3000
+JavaArraysSort	descending	8192	4667
+JavaArraysSort	descending	16384	7958
+JavaArraysSort	descending	32768	18458
+JavaArraysSort	descending	65536	27250
+JavaArraysSort	descending	131072	50584
+JavaArraysSort	descending	262144	97541
+JavaArraysSort	descending	524288	198292
+JavaArraysSort	descending	1048576	389750
+JavaArraysSort	descending	2097152	769125
+JavaArraysSort	descending	4194304	1667084
+JavaArraysSort	descending	8388608	3198041
+JavaArraysSort	descending	16777216	6453542
+JavaArraysSort	descending	33554432	12843875
+JavaArraysSort	descending	67108864	25724500
+JavaArraysSort	descending	134217728	51826041
+JavaArraysSort	descending	268435456	102486916
+JavaArraysSort	random	1024	36042
+JavaArraysSort	random	2048	49208
+JavaArraysSort	random	4096	108125
+JavaArraysSort	random	8192	203792
+JavaArraysSort	random	16384	444417
+JavaArraysSort	random	32768	985416
+JavaArraysSort	random	65536	2033250
+JavaArraysSort	random	131072	4247208
+JavaArraysSort	random	262144	9036459
+JavaArraysSort	random	524288	18940459
+JavaArraysSort	random	1048576	41178833
+JavaArraysSort	random	2097152	85747458
+JavaArraysSort	random	4194304	179743917
+JavaArraysSort	random	8388608	379563709
+JavaArraysSort	random	16777216	790942667
+JavaArraysSort	random	33554432	1666601000
+JavaArraysSort	random	67108864	3457020542
+JavaArraysSort	random	134217728	7049427125
+JavaArraysSort	random	268435456	14668215542
+JavaArraysSort	ascending	1024	2167
+JavaArraysSort	ascending	2048	2083
+JavaArraysSort	ascending	4096	2458
+JavaArraysSort	ascending	8192	3459
+JavaArraysSort	ascending	16384	4792
+JavaArraysSort	ascending	32768	7834
+JavaArraysSort	ascending	65536	14000
+JavaArraysSort	ascending	131072	21750
+JavaArraysSort	ascending	262144	44542
+JavaArraysSort	ascending	524288	81916
+JavaArraysSort	ascending	1048576	155000
+JavaArraysSort	ascending	2097152	297084
+JavaArraysSort	ascending	4194304	596542
+JavaArraysSort	ascending	8388608	1192250
+JavaArraysSort	ascending	16777216	2351709
+JavaArraysSort	ascending	33554432	4784792
+JavaArraysSort	ascending	67108864	9502208
+JavaArraysSort	ascending	134217728	19092167
+JavaArraysSort	ascending	268435456	38025500
+JavaArraysSort	descending	1024	2375
+JavaArraysSort	descending	2048	2666
+JavaArraysSort	descending	4096	3042
+JavaArraysSort	descending	8192	5584
+JavaArraysSort	descending	16384	8208
+JavaArraysSort	descending	32768	14125
+JavaArraysSort	descending	65536	27084
+JavaArraysSort	descending	131072	57084
+JavaArraysSort	descending	262144	105875
+JavaArraysSort	descending	524288	194167
+JavaArraysSort	descending	1048576	403167
+JavaArraysSort	descending	2097152	779958
+JavaArraysSort	descending	4194304	1554333
+JavaArraysSort	descending	8388608	3198250
+JavaArraysSort	descending	16777216	6888417
+JavaArraysSort	descending	33554432	12657708
+JavaArraysSort	descending	67108864	25504917
+JavaArraysSort	descending	134217728	50729208
+JavaArraysSort	descending	268435456	99183875

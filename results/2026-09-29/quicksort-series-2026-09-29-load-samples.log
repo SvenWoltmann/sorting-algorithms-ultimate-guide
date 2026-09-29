@@ -1,0 +1,169 @@
+00:29:47 load=2.34 idle=88% top=89.3 java            ;19.5 WindowServer    ;11.7 mds_stores      
+00:30:20 load=2.57 idle=91% top=85.3 java            ;18.4 WindowServer    ;5.0  top             
+00:30:52 load=2.81 idle=92% top=85.1 java            ;17.9 WindowServer    ;4.9  top             
+00:31:25 load=3.22 idle=86% top=98.2 mds_stores      ;85.7 java            ;20.6 WindowServer    
+00:31:57 load=3.27 idle=86% top=95.1 mds_stores      ;91.2 java            ;22.0 WindowServer    
+00:32:30 load=3.47 idle=86% top=97.6 mds_stores      ;85.8 java            ;20.6 WindowServer    
+00:33:03 load=3.81 idle=86% top=99.4 mds_stores      ;85.7 java            ;21.1 WindowServer    
+00:33:35 load=3.59 idle=86% top=97.8 mds_stores      ;84.7 java            ;21.0 WindowServer    
+00:34:08 load=3.35 idle=87% top=96.8 mds_stores      ;86.1 java            ;4.9  top             
+00:34:40 load=2.87 idle=88% top=98.4 mds_stores      ;85.5 java            ;5.0  top             
+00:35:13 load=2.69 idle=88% top=97.9 mds_stores      ;85.5 java            ;4.8  top             
+00:35:46 load=2.38 idle=88% top=95.9 mds_stores      ;86.3 java            ;5.0  top             
+00:36:18 load=2.51 idle=93% top=86.4 java            ;4.9  top             ;1.9  kernel_task     
+00:36:51 load=2.33 idle=87% top=84.9 java            ;47.7 textunderstandin;39.8 mediaanalysisd  
+00:37:23 load=2.40 idle=87% top=85.2 java            ;53.1 mediaanalysisd  ;36.1 textunderstandin
+00:37:56 load=2.92 idle=88% top=85.6 java            ;61.1 mediaanalysisd  ;13.5 textunderstandin
+00:38:29 load=2.62 idle=88% top=85.0 java            ;54.9 textunderstandin;37.1 mediaanalysisd  
+00:39:01 load=2.98 idle=87% top=86.6 java            ;73.8 mediaanalysisd  ;7.4  kernel_task     
+00:39:34 load=3.42 idle=92% top=85.2 java            ;5.0  top             ;1.7  Creative Cloud U
+00:40:07 load=2.35 idle=93% top=85.0 java            ;4.9  top             ;1.7  kernel_task     
+00:40:39 load=1.90 idle=93% top=85.0 java            ;5.0  jetbrains-toolbo;4.9  top             
+00:41:12 load=1.50 idle=93% top=85.8 java            ;4.9  top             ;1.5  Creative Cloud U
+00:41:44 load=1.37 idle=93% top=93.9 java            ;5.0  top             ;1.6  kernel_task     
+00:42:17 load=1.47 idle=93% top=85.1 java            ;4.9  top             ;1.4  Creative Cloud U
+00:42:50 load=1.28 idle=93% top=84.7 java            ;5.0  top             ;2.4  com.docker.backe
+00:43:22 load=1.49 idle=93% top=86.3 java            ;5.0  top             ;1.6  Creative Cloud U
+00:43:55 load=1.41 idle=93% top=85.0 java            ;10.0 launchd         ;5.0  top             
+00:44:27 load=1.23 idle=93% top=86.9 java            ;4.9  top             ;1.8  kernel_task     
+00:45:00 load=1.46 idle=93% top=86.5 java            ;4.9  top             ;1.7  kernel_task     
+00:45:33 load=1.44 idle=93% top=85.3 java            ;4.9  top             ;1.5  Creative Cloud U
+00:46:05 load=1.39 idle=93% top=84.9 java            ;4.9  top             ;1.5  Creative Cloud U
+00:46:38 load=1.40 idle=93% top=85.3 java            ;4.9  top             ;1.4  Creative Cloud U
+00:47:11 load=1.24 idle=92% top=85.9 java            ;5.0  top             ;1.6  kernel_task     
+00:47:43 load=1.15 idle=93% top=86.0 java            ;5.0  top             ;1.8  kernel_task     
+00:48:16 load=1.24 idle=93% top=84.5 java            ;4.9  top             ;1.8  kernel_task     
+00:48:48 load=1.21 idle=93% top=85.1 java            ;4.9  top             ;2.5  kernel_task     
+00:49:21 load=1.41 idle=92% top=85.2 java            ;6.6  WindowServer    ;5.0  top             
+00:49:54 load=1.51 idle=92% top=85.1 java            ;6.7  WindowServer    ;4.9  top             
+00:50:26 load=1.95 idle=91% top=85.1 java            ;6.8  WindowServer    ;5.4  WallpaperAerials
+00:50:59 load=1.63 idle=91% top=86.0 java            ;11.4 WindowServer    ;9.5  loginwindow     
+00:51:32 load=1.92 idle=92% top=85.9 java            ;6.6  WindowServer    ;6.0  WallpaperAerials
+00:52:04 load=1.94 idle=91% top=85.1 java            ;7.0  WindowServer    ;6.2  WallpaperAerials
+00:52:37 load=2.27 idle=92% top=84.9 java            ;6.8  WallpaperAerials;6.7  WindowServer    
+00:53:09 load=2.46 idle=92% top=84.9 java            ;7.7  WindowServer    ;6.4  WallpaperAerials
+00:53:42 load=1.99 idle=92% top=85.2 java            ;6.8  WindowServer    ;5.0  top             
+00:54:15 load=1.87 idle=92% top=84.8 java            ;6.8  WindowServer    ;5.0  top             
+00:54:47 load=2.38 idle=92% top=85.0 java            ;6.7  WindowServer    ;5.0  top             
+00:55:20 load=2.43 idle=92% top=85.5 java            ;6.5  WindowServer    ;4.9  top             
+00:55:53 load=2.74 idle=92% top=85.2 java            ;6.7  WindowServer    ;5.8  WallpaperAerials
+00:56:25 load=2.49 idle=92% top=85.2 java            ;8.6  launchd         ;7.1  WindowServer    
+00:56:58 load=2.49 idle=92% top=85.3 java            ;9.9  WindowServer    ;8.5  loginwindow     
+00:57:30 load=1.83 idle=92% top=86.1 java            ;6.6  WallpaperAerials;6.5  WindowServer    
+00:58:03 load=1.86 idle=92% top=84.9 java            ;7.1  WallpaperAerials;6.8  WindowServer    
+00:58:36 load=3.66 idle=68% top=175.8 mds_stores      ;127.1 mds             ;84.1  java            
+00:59:08 load=4.11 idle=65% top=231.6 mds_stores      ;145.1 mds             ;84.4  java            
+00:59:41 load=5.54 idle=80% top=211.0 mds_stores      ;167.0 mds             ;86.0  java            
+01:00:14 load=6.75 idle=92% top=85.7 java            ;6.5  WindowServer    ;5.1  top             
+01:00:46 load=5.09 idle=92% top=86.0 java            ;6.6  WindowServer    ;5.8  WallpaperAerials
+01:01:19 load=3.90 idle=92% top=85.7 java            ;6.5  WindowServer    ;5.6  WallpaperAerials
+01:01:51 load=3.06 idle=92% top=85.3 java            ;6.5  WindowServer    ;6.1  WallpaperAerials
+01:02:24 load=2.81 idle=92% top=87.6 java            ;8.9  launchd         ;6.8  WindowServer    
+01:02:57 load=2.52 idle=92% top=85.1 java            ;6.6  WallpaperAerials;6.5  WindowServer    
+01:03:29 load=2.52 idle=92% top=85.2 java            ;6.5  WindowServer    ;5.0  top             
+01:04:02 load=2.49 idle=92% top=86.7 java            ;6.6  WindowServer    ;5.0  top             
+01:04:35 load=2.15 idle=92% top=87.0 java            ;6.6  WindowServer    ;5.0  top             
+01:05:07 load=2.11 idle=92% top=85.4 java            ;6.7  WindowServer    ;5.2  WallpaperAerials
+01:05:40 load=1.98 idle=92% top=85.4 java            ;6.7  WindowServer    ;5.8  WallpaperAerials
+01:06:12 load=2.08 idle=92% top=85.3 java            ;6.5  WindowServer    ;6.2  WallpaperAerials
+01:06:45 load=1.85 idle=92% top=85.4 java            ;6.7  WindowServer    ;5.9  WallpaperAerials
+01:07:18 load=2.13 idle=92% top=87.0 java            ;6.7  WindowServer    ;6.4  WallpaperAerials
+01:07:50 load=1.94 idle=92% top=86.0 java            ;7.2  WindowServer    ;6.7  WallpaperAerials
+01:08:23 load=2.13 idle=92% top=85.3 java            ;6.8  WindowServer    ;5.1  kernel_task     
+01:08:56 load=2.73 idle=92% top=85.6 java            ;6.7  WindowServer    ;5.0  top             
+01:09:28 load=2.38 idle=92% top=86.7 java            ;6.6  WindowServer    ;4.9  top             
+01:10:01 load=2.51 idle=92% top=84.9 java            ;6.7  WindowServer    ;5.3  WallpaperAerials
+01:10:33 load=2.34 idle=92% top=85.0 java            ;6.7  WindowServer    ;5.4  WallpaperAerials
+01:11:06 load=2.33 idle=92% top=85.4 java            ;7.0  WindowServer    ;5.7  WallpaperAerials
+01:11:39 load=2.28 idle=92% top=84.8 java            ;6.6  WindowServer    ;5.9  WallpaperAerials
+01:12:11 load=2.27 idle=92% top=87.1 java            ;6.5  WindowServer    ;6.3  WallpaperAerials
+01:12:44 load=2.05 idle=92% top=85.6 java            ;6.5  WallpaperAerials;6.5  WindowServer    
+01:13:17 load=2.40 idle=92% top=85.0 java            ;6.6  WindowServer    ;5.0  top             
+01:13:49 load=2.34 idle=92% top=85.0 java            ;6.5  WindowServer    ;5.0  top             
+01:14:22 load=2.07 idle=92% top=85.8 java            ;6.6  WindowServer    ;5.3  top             
+01:14:54 load=2.05 idle=92% top=85.1 java            ;8.8  launchd         ;7.1  WindowServer    
+01:15:27 load=1.70 idle=92% top=85.1 java            ;6.9  WindowServer    ;5.3  WallpaperAerials
+01:16:00 load=1.72 idle=91% top=85.5 java            ;8.3  WindowServer    ;5.6  WallpaperAerials
+01:16:32 load=1.84 idle=92% top=85.1 java            ;6.7  WindowServer    ;5.8  WallpaperAerials
+01:17:05 load=1.75 idle=92% top=86.4 java            ;6.7  WindowServer    ;6.4  WallpaperAerials
+01:17:38 load=2.26 idle=92% top=85.3 java            ;6.9  WallpaperAerials;6.7  WindowServer    
+01:18:10 load=2.06 idle=92% top=84.8 java            ;7.5  WindowServer    ;5.0  top             
+01:18:43 load=1.82 idle=92% top=86.9 java            ;6.5  WindowServer    ;5.0  top             
+01:19:15 load=1.86 idle=92% top=84.9 java            ;6.5  WindowServer    ;5.0  top             
+01:19:48 load=1.88 idle=92% top=85.2 java            ;6.6  WindowServer    ;4.9  top             
+01:20:21 load=1.72 idle=92% top=84.9 java            ;7.0  WindowServer    ;5.2  WallpaperAerials
+01:20:53 load=1.84 idle=92% top=86.3 java            ;6.8  WindowServer    ;5.4  WallpaperAerials
+01:21:26 load=2.02 idle=91% top=85.6 java            ;6.9  WindowServer    ;5.8  WallpaperAerials
+01:21:59 load=2.18 idle=92% top=85.4 java            ;11.0 WindowServer    ;9.1  loginwindow     
+01:22:31 load=2.31 idle=92% top=85.5 java            ;7.2  WallpaperAerials;6.4  WindowServer    
+01:23:04 load=2.26 idle=92% top=85.8 java            ;6.7  WallpaperAerials;6.7  WindowServer    
+01:23:36 load=2.31 idle=92% top=85.8 java            ;6.6  WindowServer    ;4.9  top             
+01:24:09 load=2.15 idle=91% top=85.7 java            ;6.7  WindowServer    ;5.0  top             
+01:24:42 load=2.37 idle=91% top=86.9 java            ;6.8  WindowServer    ;4.9  top             
+01:25:14 load=2.03 idle=92% top=86.4 java            ;6.9  WindowServer    ;4.9  top             
+01:25:47 load=2.09 idle=92% top=86.0 java            ;7.0  WindowServer    ;5.2  WallpaperAerials
+01:26:19 load=2.16 idle=92% top=86.1 java            ;6.5  WindowServer    ;5.6  WallpaperAerials
+01:26:52 load=1.87 idle=92% top=86.1 java            ;7.0  WindowServer    ;6.9  WallpaperAerials
+01:27:25 load=1.75 idle=92% top=85.7 java            ;9.2  launchd         ;7.2  WindowServer    
+01:27:57 load=1.80 idle=92% top=86.1 java            ;8.2  WindowServer    ;6.8  WallpaperAerials
+01:28:30 load=1.89 idle=92% top=85.8 java            ;6.7  WindowServer    ;5.0  top             
+01:29:03 load=1.73 idle=92% top=85.8 java            ;6.7  WindowServer    ;4.9  top             
+01:29:35 load=1.88 idle=92% top=86.1 java            ;6.4  WindowServer    ;4.9  top             
+01:30:08 load=1.98 idle=92% top=86.8 java            ;6.8  WindowServer    ;5.9  kernel_task     
+01:30:40 load=2.27 idle=92% top=86.3 java            ;6.7  WindowServer    ;5.1  WallpaperAerials
+01:31:13 load=2.20 idle=92% top=86.2 java            ;6.6  WindowServer    ;5.6  WallpaperAerials
+01:31:46 load=2.32 idle=91% top=86.4 java            ;6.8  WindowServer    ;5.9  WallpaperAerials
+01:32:18 load=2.38 idle=91% top=86.1 java            ;7.1  WallpaperAerials;6.8  WindowServer    
+01:32:51 load=2.51 idle=92% top=86.5 java            ;6.7  WindowServer    ;6.6  WallpaperAerials
+01:33:24 load=2.22 idle=92% top=85.7 java            ;6.7  WindowServer    ;4.9  top             
+01:33:56 load=2.00 idle=91% top=86.1 java            ;6.7  WindowServer    ;4.9  top             
+01:34:29 load=1.72 idle=92% top=85.8 java            ;6.7  WindowServer    ;4.9  top             
+01:35:01 load=2.14 idle=92% top=86.6 java            ;6.7  WindowServer    ;4.9  WallpaperAerials
+01:35:34 load=1.99 idle=92% top=85.9 java            ;6.5  WindowServer    ;5.1  WallpaperAerials
+01:36:07 load=2.28 idle=92% top=86.6 java            ;6.8  WindowServer    ;5.6  WallpaperAerials
+01:36:39 load=2.08 idle=92% top=86.5 java            ;6.6  WindowServer    ;5.8  WallpaperAerials
+01:37:12 load=1.94 idle=92% top=86.1 java            ;6.7  WallpaperAerials;6.7  WindowServer    
+01:37:44 load=1.98 idle=92% top=86.2 java            ;7.2  WallpaperAerials;6.8  WindowServer    
+01:38:17 load=2.17 idle=92% top=86.3 java            ;6.7  WindowServer    ;4.9  top             
+01:38:50 load=2.58 idle=92% top=85.6 java            ;6.7  WindowServer    ;4.9  top             
+01:39:22 load=2.36 idle=92% top=85.2 java            ;6.5  WindowServer    ;4.8  top             
+01:39:55 load=2.30 idle=92% top=86.7 java            ;9.0  launchd         ;7.0  WindowServer    
+01:40:28 load=2.14 idle=92% top=87.0 java            ;6.6  WindowServer    ;5.0  WallpaperAerials
+01:41:00 load=2.19 idle=91% top=86.0 java            ;6.7  WindowServer    ;5.5  WallpaperAerials
+01:41:33 load=2.23 idle=92% top=86.1 java            ;7.0  WindowServer    ;6.1  WallpaperAerials
+01:42:05 load=1.93 idle=92% top=86.0 java            ;6.5  WindowServer    ;6.5  WallpaperAerials
+01:42:38 load=1.84 idle=92% top=86.1 java            ;6.9  WallpaperAerials;6.5  WindowServer    
+01:43:11 load=1.83 idle=92% top=86.8 java            ;6.9  WindowServer    ;4.9  top             
+01:43:43 load=2.00 idle=92% top=86.8 java            ;6.5  WindowServer    ;4.9  top             
+01:44:16 load=1.93 idle=92% top=85.5 java            ;6.6  WindowServer    ;4.9  top             
+01:44:48 load=1.83 idle=92% top=86.8 java            ;6.6  WindowServer    ;4.9  top             
+01:45:21 load=2.36 idle=92% top=86.2 java            ;6.7  WindowServer    ;4.9  WallpaperAerials
+01:45:54 load=2.06 idle=92% top=86.1 java            ;6.9  WindowServer    ;5.3  WallpaperAerials
+01:46:26 load=2.01 idle=92% top=85.6 java            ;6.7  WindowServer    ;5.7  WallpaperAerials
+01:46:59 load=2.03 idle=91% top=86.1 java            ;10.8 WindowServer    ;8.6  loginwindow     
+01:47:32 load=2.10 idle=92% top=86.0 java            ;7.1  WallpaperAerials;6.5  WindowServer    
+01:48:04 load=2.21 idle=92% top=86.7 java            ;6.8  WindowServer    ;6.8  WallpaperAerials
+01:48:37 load=2.25 idle=92% top=85.8 java            ;6.6  WindowServer    ;4.9  top             
+01:49:09 load=2.27 idle=92% top=85.8 java            ;6.7  WindowServer    ;4.9  top             
+01:49:42 load=2.17 idle=92% top=85.6 java            ;6.8  WindowServer    ;4.9  top             
+01:50:15 load=1.94 idle=92% top=85.6 java            ;6.5  WindowServer    ;5.2  jetbrains-toolbo
+01:50:47 load=1.87 idle=92% top=84.7 java            ;6.5  WindowServer    ;5.2  WallpaperAerials
+01:51:20 load=1.72 idle=92% top=85.7 java            ;6.5  WindowServer    ;6.2  WallpaperAerials
+01:51:53 load=1.75 idle=92% top=85.2 java            ;6.6  WindowServer    ;6.5  WallpaperAerials
+01:52:25 load=2.34 idle=92% top=85.6 java            ;8.5  launchd         ;6.9  WindowServer    
+01:52:58 load=2.12 idle=92% top=85.3 java            ;10.0 WindowServer    ;9.0  loginwindow     
+01:53:30 load=2.28 idle=92% top=86.3 java            ;6.6  WindowServer    ;4.9  top             
+01:54:03 load=2.07 idle=92% top=85.6 java            ;6.7  WindowServer    ;4.9  top             
+01:54:36 load=2.18 idle=92% top=86.5 java            ;6.7  WindowServer    ;4.9  top             
+01:55:08 load=2.03 idle=92% top=85.7 java            ;6.6  WindowServer    ;5.0  WallpaperAerials
+01:55:41 load=2.20 idle=92% top=85.9 java            ;6.5  WindowServer    ;5.3  WallpaperAerials
+01:56:14 load=2.10 idle=92% top=86.2 java            ;6.8  WindowServer    ;6.1  WallpaperAerials
+01:56:46 load=2.04 idle=92% top=85.1 java            ;6.4  WallpaperAerials;6.4  WindowServer    
+01:57:19 load=1.93 idle=92% top=85.4 java            ;6.5  WindowServer    ;6.3  WallpaperAerials
+01:57:51 load=1.83 idle=92% top=85.2 java            ;6.6  WallpaperAerials;6.5  WindowServer    
+01:58:24 load=2.05 idle=92% top=85.6 java            ;6.6  WindowServer    ;4.8  top             
+01:58:57 load=1.92 idle=92% top=86.0 java            ;6.6  WindowServer    ;5.0  top             
+01:59:29 load=4.86 idle=92% top=85.6 java            ;6.9  WindowServer    ;4.9  top             
+02:00:02 load=3.60 idle=92% top=86.0 java            ;6.7  WindowServer    ;5.0  WallpaperAerials
+02:00:35 load=3.12 idle=92% top=85.8 java            ;6.5  WindowServer    ;5.3  WallpaperAerials
+02:01:07 load=2.80 idle=92% top=86.1 java            ;6.5  WindowServer    ;5.8  WallpaperAerials

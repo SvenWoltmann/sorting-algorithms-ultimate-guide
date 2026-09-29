@@ -1,0 +1,1015 @@
+----- Warming up -----
+Iteration 1
+  QuicksortVariant3(pivot: RANDOM)  -> time =    351.809 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    324.254 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    298.541 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    343.686 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    320.513 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    340.852 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    327.338 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    330.011 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    297.179 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    329.278 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    302.901 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    372.713 ms
+  QuicksortSimple                   -> time =    370.862 ms
+Iteration 2
+  QuicksortVariant2(pivot: RANDOM)  -> time =    332.064 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    339.067 ms
+  QuicksortSimple                   -> time =    370.027 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    341.682 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    372.162 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    326.739 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    363.547 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    307.728 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    298.585 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    316.758 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    305.558 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    333.976 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    348.455 ms
+Iteration 3
+  QuicksortVariant2(pivot: RANDOM)  -> time =    329.850 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    325.184 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    368.451 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    363.023 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    301.670 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    318.742 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    334.520 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    307.786 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    331.741 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    351.813 ms
+  QuicksortSimple                   -> time =    376.194 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    312.658 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    339.353 ms
+Iteration 4
+  QuicksortSimple                   -> time =    369.206 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    300.701 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    335.763 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    325.507 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    367.832 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    319.338 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    336.502 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    306.989 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    346.515 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    380.146 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    314.176 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    330.336 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    348.493 ms
+Iteration 5
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    369.081 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    324.247 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    306.897 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    332.947 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    301.606 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    330.675 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    342.470 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    346.063 ms
+  QuicksortSimple                   -> time =    375.880 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    364.054 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    307.714 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    313.381 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    337.400 ms
+Iteration 6
+  QuicksortVariant2(pivot: RANDOM)  -> time =    328.256 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    341.777 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    362.565 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    372.932 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    342.730 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    303.796 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    331.978 ms
+  QuicksortSimple                   -> time =    375.843 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    310.514 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    301.025 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    330.840 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    310.837 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    324.682 ms
+Iteration 7
+  QuicksortVariant2(pivot: RANDOM)  -> time =    331.741 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    315.270 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    305.177 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    334.018 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    297.898 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    310.152 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    372.401 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    371.319 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    329.054 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    335.830 ms
+  QuicksortSimple                   -> time =    367.875 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    326.527 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    340.753 ms
+Iteration 8
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    328.861 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    304.290 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    362.125 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    318.236 ms
+  QuicksortSimple                   -> time =    372.306 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    330.330 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    336.707 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    335.502 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    309.679 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    374.209 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    348.523 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    335.051 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    297.144 ms
+Iteration 9
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    320.066 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    348.377 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    303.501 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    327.598 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    312.727 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    333.390 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    322.000 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    332.384 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    362.507 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    313.395 ms
+  QuicksortSimple                   -> time =    377.284 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    368.733 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    349.847 ms
+Iteration 10
+  QuicksortVariant1(pivot: RANDOM)  -> time =    340.584 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    307.253 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    369.729 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    325.422 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    299.177 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    328.749 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    332.627 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    342.655 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    314.734 ms
+  QuicksortSimple                   -> time =    374.916 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    306.916 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    366.891 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    336.984 ms
+Iteration 11
+  QuicksortSimple                   -> time =    371.193 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    331.129 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    307.401 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    298.337 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    327.695 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    344.060 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    373.677 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    329.929 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    333.996 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    318.081 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    313.924 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    360.730 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    334.746 ms
+Iteration 12
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    322.153 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    342.602 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    300.859 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    349.794 ms
+  QuicksortSimple                   -> time =    376.968 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    330.247 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    369.604 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    327.012 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    309.267 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    339.241 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    341.156 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    366.880 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    307.173 ms
+Iteration 13
+  QuicksortVariant3(pivot: RANDOM)  -> time =    361.346 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    344.870 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    325.406 ms
+  QuicksortSimple                   -> time =    379.115 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    337.038 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    312.500 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    370.561 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    305.574 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    330.124 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    311.343 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    306.790 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    327.436 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    343.522 ms
+Iteration 14
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    314.978 ms
+  QuicksortSimple                   -> time =    374.566 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    299.022 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    333.989 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    340.169 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    336.104 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    375.176 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    327.648 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    306.018 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    369.924 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    326.137 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    305.543 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    343.684 ms
+Iteration 15
+  QuicksortVariant2(pivot: RANDOM)  -> time =    334.900 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    312.465 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    316.787 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    360.867 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    330.826 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    346.834 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    311.698 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    325.852 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    351.235 ms
+  QuicksortSimple                   -> time =    379.471 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    333.500 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    370.247 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    307.141 ms
+
+----- Measuring -----
+Iteration 1
+  QuicksortVariant1(pivot: RANDOM)  -> time =    339.365 ms <<< NEW RECORD :-)
+  QuicksortVariant1(pivot: RIGHT)   -> time =    308.650 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    370.396 ms <<< NEW RECORD :-)
+  QuicksortVariant2(pivot: RIGHT)   -> time =    301.893 ms <<< NEW RECORD :-)
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    314.835 ms <<< NEW RECORD :-)
+  QuicksortSimple                   -> time =    373.997 ms <<< NEW RECORD :-)
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    324.470 ms <<< NEW RECORD :-)
+  QuicksortVariant2(pivot: RANDOM)  -> time =    332.343 ms <<< NEW RECORD :-)
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    310.000 ms <<< NEW RECORD :-)
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    333.213 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: RANDOM)  -> time =    349.695 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: RIGHT)   -> time =    315.332 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    306.046 ms <<< NEW RECORD :-)
+Iteration 2
+  QuicksortVariant2(pivot: RIGHT)   -> time =    302.513 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    332.918 ms <<< NEW RECORD :-)
+  QuicksortVariant2(pivot: RANDOM)  -> time =    333.137 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    312.023 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    314.497 ms <<< NEW RECORD :-)
+  QuicksortVariant1(pivot: RIGHT)   -> time =    307.526 ms <<< NEW RECORD :-)
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    334.018 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    326.839 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    312.607 ms <<< NEW RECORD :-)
+  QuicksortSimple                   -> time =    372.948 ms <<< NEW RECORD :-)
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    304.187 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    344.916 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: RANDOM)  -> time =    332.393 ms <<< NEW RECORD :-)
+Iteration 3
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    317.059 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    314.195 ms <<< NEW RECORD :-)
+  QuicksortSimple                   -> time =    371.554 ms <<< NEW RECORD :-)
+  QuicksortVariant2(pivot: RANDOM)  -> time =    320.900 ms <<< NEW RECORD :-)
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    318.637 ms <<< NEW RECORD :-)
+  QuicksortVariant1(pivot: RIGHT)   -> time =    307.465 ms <<< NEW RECORD :-)
+  QuicksortVariant2(pivot: RIGHT)   -> time =    296.864 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: RANDOM)  -> time =    336.816 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    300.148 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    317.491 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    331.969 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    339.705 ms <<< NEW RECORD :-)
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    325.001 ms <<< NEW RECORD :-)
+Iteration 4
+  QuicksortVariant2(pivot: RIGHT)   -> time =    294.409 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    336.308 ms <<< NEW RECORD :-)
+  QuicksortVariant2(pivot: RANDOM)  -> time =    332.113 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    325.563 ms
+  QuicksortSimple                   -> time =    368.316 ms <<< NEW RECORD :-)
+  QuicksortVariant1(pivot: RANDOM)  -> time =    333.241 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    316.881 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    313.594 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    315.368 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    299.842 ms <<< NEW RECORD :-)
+  QuicksortVariant1(pivot: RIGHT)   -> time =    305.901 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: RANDOM)  -> time =    340.969 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    330.929 ms
+Iteration 5
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    331.199 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    310.252 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    313.434 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    313.176 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    335.974 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    307.666 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    324.588 ms
+  QuicksortSimple                   -> time =    373.228 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    297.087 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    341.177 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    304.232 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    333.967 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    322.670 ms
+Iteration 6
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    307.039 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    332.730 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    338.774 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    316.751 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    313.845 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    340.965 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    324.561 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    330.840 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    316.253 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    326.746 ms
+  QuicksortSimple                   -> time =    373.584 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    308.337 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    298.774 ms
+Iteration 7
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    310.923 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    327.054 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    302.323 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    314.011 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    312.719 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    332.083 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    302.596 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    340.681 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    331.343 ms
+  QuicksortSimple                   -> time =    377.253 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    314.531 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    333.084 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    322.476 ms
+Iteration 8
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    313.707 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    333.519 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    312.054 ms <<< NEW RECORD :-)
+  QuicksortSimple                   -> time =    378.560 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    304.252 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    330.459 ms <<< NEW RECORD :-)
+  QuicksortVariant1(pivot: RIGHT)   -> time =    307.958 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    309.988 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    340.280 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    323.023 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    297.917 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    341.464 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    325.724 ms
+Iteration 9
+  QuicksortVariant2(pivot: RIGHT)   -> time =    294.225 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    342.637 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    307.464 ms <<< NEW RECORD :-)
+  QuicksortSimple                   -> time =    369.362 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    341.244 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    336.272 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    323.731 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    315.656 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    306.121 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    305.119 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    316.325 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    331.095 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    321.867 ms
+Iteration 10
+  QuicksortVariant1(pivot: RANDOM)  -> time =    335.603 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    309.942 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    313.842 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    338.758 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    295.656 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    322.903 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    323.682 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    306.163 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    346.283 ms
+  QuicksortSimple                   -> time =    371.572 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    332.464 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    315.150 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    306.557 ms
+
+----- Results after 10 iterations-----
+QuicksortSimple                   -> fastest:    368.316 ms, median:    373.088 ms 
+QuicksortVariant1(pivot: RANDOM)  -> fastest:    330.459 ms, median:    333.079 ms 
+QuicksortVariant1(pivot: RIGHT)   -> fastest:    305.119 ms, median:    307.596 ms 
+QuicksortVariant1(pivot: MIDDLE)  -> fastest:    312.054 ms, median:    314.993 ms 
+QuicksortVariant1(pivot: MEDIAN3) -> fastest:    325.001 ms, median:    331.903 ms 
+QuicksortVariant2(pivot: RANDOM)  -> fastest:    320.900 ms, median:    325.156 ms 
+QuicksortVariant2(pivot: RIGHT)   -> fastest:    294.225 ms, median:    297.502 ms <<< FASTEST MEDIAN :-)
+QuicksortVariant2(pivot: MIDDLE)  -> fastest:    299.842 ms, median:    304.242 ms 
+QuicksortVariant2(pivot: MEDIAN3) -> fastest:    318.637 ms, median:    323.377 ms 
+QuicksortVariant3(pivot: RANDOM)  -> fastest:    332.393 ms, median:    338.766 ms 
+QuicksortVariant3(pivot: RIGHT)   -> fastest:    307.464 ms, median:    314.020 ms 
+QuicksortVariant3(pivot: MIDDLE)  -> fastest:    306.046 ms, median:    313.651 ms 
+QuicksortVariant3(pivot: MEDIAN3) -> fastest:    336.308 ms, median:    341.071 ms 
+
+Iteration 11
+  QuicksortSimple                   -> time =    373.324 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    324.208 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    309.246 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    299.883 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    343.631 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    310.738 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    332.555 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    323.973 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    312.625 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    331.958 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    303.434 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    346.659 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    311.536 ms <<< NEW RECORD :-)
+Iteration 12
+  QuicksortVariant2(pivot: RIGHT)   -> time =    300.636 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    319.338 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    346.670 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    310.575 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    309.990 ms
+  QuicksortSimple                   -> time =    382.588 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    326.255 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    331.135 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    334.349 ms <<< NEW RECORD :-)
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    304.168 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    315.546 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    341.583 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    322.327 ms
+Iteration 13
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    321.705 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    336.111 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    340.821 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    331.123 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    330.850 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    315.476 ms
+  QuicksortSimple                   -> time =    367.970 ms <<< NEW RECORD :-)
+  QuicksortVariant2(pivot: RIGHT)   -> time =    292.592 ms <<< NEW RECORD :-)
+  QuicksortVariant1(pivot: RANDOM)  -> time =    337.427 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    303.306 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    315.370 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    305.821 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    307.614 ms
+Iteration 14
+  QuicksortSimple                   -> time =    372.180 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    329.351 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    336.182 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    317.512 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    341.360 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    314.186 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    298.580 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    313.745 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    332.517 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    309.121 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    314.782 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    332.552 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    306.936 ms
+Iteration 15
+  QuicksortVariant1(pivot: RANDOM)  -> time =    338.007 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    327.573 ms
+  QuicksortSimple                   -> time =    377.541 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    335.662 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    297.543 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    314.834 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    306.137 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    317.351 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    318.233 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    343.384 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    343.553 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    319.046 ms <<< NEW RECORD :-)
+  QuicksortVariant1(pivot: RIGHT)   -> time =    307.787 ms
+Iteration 16
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    299.444 ms <<< NEW RECORD :-)
+  QuicksortVariant2(pivot: RIGHT)   -> time =    295.552 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    328.263 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    332.273 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    308.323 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    305.755 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    344.201 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    320.774 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    310.869 ms <<< NEW RECORD :-)
+  QuicksortVariant2(pivot: RANDOM)  -> time =    323.931 ms
+  QuicksortSimple                   -> time =    374.304 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    333.518 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    313.338 ms
+Iteration 17
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    306.777 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    345.670 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    323.389 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    296.565 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    311.017 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    333.425 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    305.551 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    333.449 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    327.916 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    337.713 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    309.970 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    312.802 ms
+  QuicksortSimple                   -> time =    373.220 ms
+Iteration 18
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    322.762 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    315.598 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    325.937 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    345.354 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    318.348 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    320.094 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    309.496 ms
+  QuicksortSimple                   -> time =    378.562 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    335.790 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    338.647 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    312.735 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    333.209 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    302.352 ms
+Iteration 19
+  QuicksortVariant1(pivot: RANDOM)  -> time =    336.150 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    314.370 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    297.245 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    318.843 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    324.324 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    313.380 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    315.715 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    337.670 ms
+  QuicksortSimple                   -> time =    373.577 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    322.720 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    328.002 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    336.608 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    343.549 ms
+Iteration 20
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    327.784 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    307.336 ms
+  QuicksortSimple                   -> time =    367.861 ms <<< NEW RECORD :-)
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    313.504 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    293.936 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    304.743 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    321.050 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    337.479 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    325.017 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    340.942 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    336.727 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    304.895 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    307.745 ms
+
+----- Results after 20 iterations-----
+QuicksortSimple                   -> fastest:    367.861 ms, median:    373.276 ms 
+QuicksortVariant1(pivot: RANDOM)  -> fastest:    330.459 ms, median:    333.472 ms 
+QuicksortVariant1(pivot: RIGHT)   -> fastest:    303.306 ms, median:    307.726 ms 
+QuicksortVariant1(pivot: MIDDLE)  -> fastest:    310.869 ms, median:    314.993 ms 
+QuicksortVariant1(pivot: MEDIAN3) -> fastest:    325.001 ms, median:    331.903 ms 
+QuicksortVariant2(pivot: RANDOM)  -> fastest:    319.046 ms, median:    325.831 ms 
+QuicksortVariant2(pivot: RIGHT)   -> fastest:    292.592 ms, median:    297.394 ms <<< FASTEST MEDIAN :-)
+QuicksortVariant2(pivot: MIDDLE)  -> fastest:    299.444 ms, median:    305.282 ms 
+QuicksortVariant2(pivot: MEDIAN3) -> fastest:    317.512 ms, median:    322.963 ms 
+QuicksortVariant3(pivot: RANDOM)  -> fastest:    332.273 ms, median:    338.180 ms 
+QuicksortVariant3(pivot: RIGHT)   -> fastest:    307.464 ms, median:    313.542 ms 
+QuicksortVariant3(pivot: MIDDLE)  -> fastest:    306.046 ms, median:    313.774 ms 
+QuicksortVariant3(pivot: MEDIAN3) -> fastest:    334.349 ms, median:    341.998 ms 
+
+Iteration 21
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    332.786 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    325.806 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    333.712 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    301.278 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    313.563 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    333.441 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    301.676 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    317.770 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    308.924 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    341.080 ms
+  QuicksortSimple                   -> time =    378.503 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    323.458 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    311.330 ms
+Iteration 22
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    311.795 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    333.360 ms
+  QuicksortSimple                   -> time =    370.762 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    342.534 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    334.270 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    323.043 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    305.921 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    300.273 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    295.837 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    331.877 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    308.177 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    311.316 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    328.053 ms
+Iteration 23
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    322.773 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    310.033 ms
+  QuicksortSimple                   -> time =    377.043 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    343.481 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    344.137 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    313.503 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    303.890 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    311.979 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    335.404 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    331.321 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    324.662 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    304.082 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    293.537 ms
+Iteration 24
+  QuicksortVariant1(pivot: RANDOM)  -> time =    336.846 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    316.867 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    331.932 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    310.236 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    295.913 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    343.105 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    338.260 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    305.425 ms
+  QuicksortSimple                   -> time =    374.498 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    324.650 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    307.602 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    328.790 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    320.373 ms
+Iteration 25
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    334.286 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    334.020 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    323.898 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    343.009 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    318.139 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    306.989 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    309.275 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    326.115 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    334.618 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    316.072 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    310.778 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    301.220 ms
+  QuicksortSimple                   -> time =    374.773 ms
+Iteration 26
+  QuicksortVariant2(pivot: RIGHT)   -> time =    299.452 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    309.052 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    305.318 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    313.008 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    329.278 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    328.863 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    340.350 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    322.705 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    313.855 ms
+  QuicksortSimple                   -> time =    378.165 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    332.070 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    335.177 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    320.275 ms
+Iteration 27
+  QuicksortVariant1(pivot: RIGHT)   -> time =    319.173 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    333.213 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    341.166 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    310.103 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    349.351 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    302.042 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    310.785 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    312.766 ms
+  QuicksortSimple                   -> time =    374.873 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    318.601 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    327.953 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    297.471 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    328.426 ms
+Iteration 28
+  QuicksortVariant1(pivot: RANDOM)  -> time =    333.632 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    301.308 ms <<< NEW RECORD :-)
+  QuicksortSimple                   -> time =    370.591 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    297.743 ms <<< NEW RECORD :-)
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    332.638 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    333.073 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    291.451 ms <<< NEW RECORD :-)
+  QuicksortVariant2(pivot: RANDOM)  -> time =    327.522 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    319.677 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    310.509 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    309.680 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    340.054 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    309.343 ms
+Iteration 29
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    313.498 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    302.934 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    343.088 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    310.822 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    332.900 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    333.956 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    317.621 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    299.697 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    315.744 ms
+  QuicksortSimple                   -> time =    378.046 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    340.133 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    322.814 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    322.095 ms
+Iteration 30
+  QuicksortVariant2(pivot: RANDOM)  -> time =    326.155 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    301.094 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    323.289 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    333.464 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    337.111 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    314.550 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    294.970 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    344.830 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    316.822 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    312.988 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    305.657 ms
+  QuicksortSimple                   -> time =    370.239 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    334.242 ms
+
+----- Results after 30 iterations-----
+QuicksortSimple                   -> fastest:    367.861 ms, median:    373.581 ms 
+QuicksortVariant1(pivot: RANDOM)  -> fastest:    330.459 ms, median:    333.672 ms 
+QuicksortVariant1(pivot: RIGHT)   -> fastest:    301.308 ms, median:    307.726 ms 
+QuicksortVariant1(pivot: MIDDLE)  -> fastest:    308.924 ms, median:    313.933 ms 
+QuicksortVariant1(pivot: MEDIAN3) -> fastest:    325.001 ms, median:    332.510 ms 
+QuicksortVariant2(pivot: RANDOM)  -> fastest:    319.046 ms, median:    326.046 ms 
+QuicksortVariant2(pivot: RIGHT)   -> fastest:    291.451 ms, median:    297.358 ms <<< FASTEST MEDIAN :-)
+QuicksortVariant2(pivot: MIDDLE)  -> fastest:    297.743 ms, median:    304.242 ms 
+QuicksortVariant2(pivot: MEDIAN3) -> fastest:    317.512 ms, median:    322.963 ms 
+QuicksortVariant3(pivot: RANDOM)  -> fastest:    332.273 ms, median:    337.596 ms 
+QuicksortVariant3(pivot: RIGHT)   -> fastest:    307.464 ms, median:    312.981 ms 
+QuicksortVariant3(pivot: MIDDLE)  -> fastest:    306.046 ms, median:    313.651 ms 
+QuicksortVariant3(pivot: MEDIAN3) -> fastest:    334.349 ms, median:    342.585 ms 
+
+Iteration 31
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    314.593 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    303.280 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    323.941 ms
+  QuicksortSimple                   -> time =    372.173 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    338.545 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    315.236 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    330.715 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    305.850 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    307.454 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: RANDOM)  -> time =    343.235 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    294.612 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    320.902 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    336.381 ms
+Iteration 32
+  QuicksortVariant3(pivot: RANDOM)  -> time =    331.061 ms <<< NEW RECORD :-)
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    323.183 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    313.489 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    333.743 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    308.424 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    298.129 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    312.707 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    327.203 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    302.261 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    332.248 ms
+  QuicksortSimple                   -> time =    375.220 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    344.591 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    312.061 ms
+Iteration 33
+  QuicksortVariant3(pivot: RIGHT)   -> time =    312.456 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    320.970 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    330.137 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    337.955 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    296.378 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    313.500 ms
+  QuicksortSimple                   -> time =    374.885 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    340.950 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    309.926 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    306.244 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    321.674 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    307.048 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    337.560 ms
+Iteration 34
+  QuicksortVariant1(pivot: RIGHT)   -> time =    306.190 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    337.660 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    327.667 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    295.991 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    341.218 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    315.888 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    334.154 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    310.768 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    353.117 ms
+  QuicksortSimple                   -> time =    373.120 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    321.212 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    302.408 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    327.591 ms
+Iteration 35
+  QuicksortVariant1(pivot: RIGHT)   -> time =    304.775 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    342.074 ms
+  QuicksortSimple                   -> time =    371.498 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    303.629 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    316.324 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    337.644 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    328.438 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    329.988 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    294.237 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    309.963 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    333.224 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    313.578 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    338.023 ms
+Iteration 36
+  QuicksortVariant2(pivot: RANDOM)  -> time =    330.787 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    316.186 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    326.759 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    300.104 ms
+  QuicksortSimple                   -> time =    376.655 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    305.237 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    311.110 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    344.031 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    316.445 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    335.135 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    312.639 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    338.823 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    335.677 ms
+Iteration 37
+  QuicksortVariant2(pivot: RIGHT)   -> time =    299.713 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    325.518 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    308.180 ms
+  QuicksortSimple                   -> time =    371.618 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    318.031 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    339.162 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    310.271 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    341.814 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    321.977 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    332.684 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    320.835 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    328.999 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: RIGHT)   -> time =    312.081 ms
+Iteration 38
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    325.831 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    315.640 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    306.383 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    340.182 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    311.755 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    316.316 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    335.581 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    345.020 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    303.030 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    332.509 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    330.625 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    291.805 ms
+  QuicksortSimple                   -> time =    372.983 ms
+Iteration 39
+  QuicksortVariant2(pivot: RANDOM)  -> time =    325.078 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    308.400 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    341.304 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    318.373 ms
+  QuicksortSimple                   -> time =    365.793 ms <<< NEW RECORD :-)
+  QuicksortVariant2(pivot: RIGHT)   -> time =    291.680 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    302.306 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    317.648 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    335.127 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    305.781 ms <<< NEW RECORD :-)
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    315.893 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    333.660 ms <<< NEW RECORD :-)
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    326.235 ms
+Iteration 40
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    336.311 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    302.903 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    311.406 ms
+  QuicksortSimple                   -> time =    370.990 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    316.488 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    305.676 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    317.795 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    295.115 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    325.894 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    333.839 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    338.751 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    312.201 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    328.358 ms
+
+----- Results after 40 iterations-----
+QuicksortSimple                   -> fastest:    365.793 ms, median:    373.276 ms 
+QuicksortVariant1(pivot: RANDOM)  -> fastest:    328.999 ms, median:    333.994 ms 
+QuicksortVariant1(pivot: RIGHT)   -> fastest:    301.308 ms, median:    307.495 ms 
+QuicksortVariant1(pivot: MIDDLE)  -> fastest:    308.924 ms, median:    314.993 ms 
+QuicksortVariant1(pivot: MEDIAN3) -> fastest:    325.001 ms, median:    332.487 ms 
+QuicksortVariant2(pivot: RANDOM)  -> fastest:    319.046 ms, median:    326.046 ms 
+QuicksortVariant2(pivot: RIGHT)   -> fastest:    291.451 ms, median:    296.976 ms <<< FASTEST MEDIAN :-)
+QuicksortVariant2(pivot: MIDDLE)  -> fastest:    297.743 ms, median:    304.242 ms 
+QuicksortVariant2(pivot: MEDIAN3) -> fastest:    317.512 ms, median:    322.963 ms 
+QuicksortVariant3(pivot: RANDOM)  -> fastest:    331.061 ms, median:    338.142 ms 
+QuicksortVariant3(pivot: RIGHT)   -> fastest:    305.781 ms, median:    311.908 ms 
+QuicksortVariant3(pivot: MIDDLE)  -> fastest:    306.046 ms, median:    313.774 ms 
+QuicksortVariant3(pivot: MEDIAN3) -> fastest:    333.660 ms, median:    342.304 ms 
+
+Iteration 41
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    321.759 ms
+  QuicksortSimple                   -> time =    370.856 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    309.634 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    301.069 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    307.103 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    296.314 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    314.536 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    332.846 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    312.040 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    336.540 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    336.970 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    330.750 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    329.150 ms
+Iteration 42
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    333.039 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    313.922 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    308.903 ms
+  QuicksortSimple                   -> time =    383.490 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    329.378 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    299.045 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    314.572 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    357.064 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    326.331 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    310.691 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    342.655 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    339.741 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    300.389 ms
+Iteration 43
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    317.987 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    317.752 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    324.013 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    332.976 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    312.730 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    346.310 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    336.062 ms
+  QuicksortSimple                   -> time =    371.762 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    308.312 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    306.888 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    325.039 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    298.359 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    332.343 ms
+Iteration 44
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    333.271 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    335.992 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    295.558 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    305.391 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    323.941 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    316.319 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    312.225 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    336.783 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    314.696 ms
+  QuicksortSimple                   -> time =    369.247 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    322.016 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    343.867 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    306.948 ms
+Iteration 45
+  QuicksortVariant2(pivot: RIGHT)   -> time =    298.749 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    305.038 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    321.639 ms
+  QuicksortSimple                   -> time =    378.336 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    314.854 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    340.520 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    340.641 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    315.152 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    324.400 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    330.945 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    335.351 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    310.710 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    313.436 ms
+Iteration 46
+  QuicksortVariant1(pivot: RIGHT)   -> time =    309.012 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    301.910 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    338.545 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    328.259 ms
+  QuicksortSimple                   -> time =    376.332 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    329.055 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    298.775 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    337.017 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    337.595 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    313.815 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    309.136 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    318.795 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    315.780 ms
+Iteration 47
+  QuicksortSimple                   -> time =    375.294 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    302.881 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    315.521 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    314.508 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    313.533 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    307.216 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    342.328 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    328.719 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    332.873 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    323.983 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    319.112 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    345.013 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    336.539 ms
+Iteration 48
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    323.245 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    323.500 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    302.067 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    332.419 ms
+  QuicksortSimple                   -> time =    375.393 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    303.674 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    338.241 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    335.061 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    331.748 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    312.684 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    314.983 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    294.254 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    313.096 ms
+Iteration 49
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    331.586 ms
+  QuicksortSimple                   -> time =    369.756 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    339.966 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    331.835 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    304.890 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    312.882 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    323.052 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    304.086 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    324.058 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    293.813 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    309.163 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    326.023 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    331.287 ms
+Iteration 50
+  QuicksortVariant1(pivot: RIGHT)   -> time =    304.207 ms
+  QuicksortVariant1(pivot: RANDOM)  -> time =    334.642 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    321.870 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    315.194 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    318.028 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    295.290 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    340.509 ms
+  QuicksortSimple                   -> time =    369.367 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    305.757 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    317.337 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    328.949 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    335.752 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    329.673 ms
+
+----- Results after 50 iterations-----
+QuicksortSimple                   -> fastest:    365.793 ms, median:    373.276 ms 
+QuicksortVariant1(pivot: RANDOM)  -> fastest:    328.999 ms, median:    334.131 ms 
+QuicksortVariant1(pivot: RIGHT)   -> fastest:    301.308 ms, median:    307.495 ms 
+QuicksortVariant1(pivot: MIDDLE)  -> fastest:    308.924 ms, median:    314.765 ms 
+QuicksortVariant1(pivot: MEDIAN3) -> fastest:    325.001 ms, median:    332.198 ms 
+QuicksortVariant2(pivot: RANDOM)  -> fastest:    319.046 ms, median:    326.046 ms 
+QuicksortVariant2(pivot: RIGHT)   -> fastest:    291.451 ms, median:    296.976 ms <<< FASTEST MEDIAN :-)
+QuicksortVariant2(pivot: MIDDLE)  -> fastest:    297.743 ms, median:    304.242 ms 
+QuicksortVariant2(pivot: MEDIAN3) -> fastest:    317.512 ms, median:    322.963 ms 
+QuicksortVariant3(pivot: RANDOM)  -> fastest:    331.061 ms, median:    337.989 ms 
+QuicksortVariant3(pivot: RIGHT)   -> fastest:    305.781 ms, median:    312.341 ms 
+QuicksortVariant3(pivot: MIDDLE)  -> fastest:    306.046 ms, median:    314.529 ms 
+QuicksortVariant3(pivot: MEDIAN3) -> fastest:    333.660 ms, median:    341.587 ms 
+
+Iteration 51
+  QuicksortVariant1(pivot: RANDOM)  -> time =    336.044 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    308.907 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    325.843 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    334.024 ms
+  QuicksortSimple                   -> time =    376.466 ms
+  QuicksortVariant2(pivot: MIDDLE)  -> time =    305.417 ms
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    317.715 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    342.737 ms
+  QuicksortVariant3(pivot: RANDOM)  -> time =    334.869 ms
+  QuicksortVariant3(pivot: RIGHT)   -> time =    310.054 ms
+  QuicksortVariant3(pivot: MIDDLE)  -> time =    317.298 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    319.687 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    299.314 ms
+Iteration 52
+  QuicksortVariant1(pivot: MIDDLE)  -> time =    312.434 ms
+  QuicksortVariant1(pivot: MEDIAN3) -> time =    327.532 ms
+  QuicksortVariant2(pivot: RANDOM)  -> time =    320.988 ms
+  QuicksortVariant2(pivot: MEDIAN3) -> time =    319.523 ms
+  QuicksortVariant2(pivot: RIGHT)   -> time =    297.329 ms
+  QuicksortVariant3(pivot: MEDIAN3) -> time =    339.175 ms
+  QuicksortVariant1(pivot: RIGHT)   -> time =    308.169 ms
