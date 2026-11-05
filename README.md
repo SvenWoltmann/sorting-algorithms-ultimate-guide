@@ -6,7 +6,7 @@
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=SvenWoltmann_sorting-in-java&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=SvenWoltmann_sorting-in-java)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=SvenWoltmann_sorting-in-java&metric=security_rating)](https://sonarcloud.io/dashboard?id=SvenWoltmann_sorting-in-java)
 
-Sorting algorithm source codes + ultimate test to compare the performance of all algorithms (package `eu.happycoders.sort`), plus demo code for sorting arrays and lists with the JDK (packages `eu.happycoders.sorting` and `eu.happycoders.sorting.list`).
+Sorting algorithm source codes + ultimate test to compare the performance of all algorithms (packages `eu.happycoders.sort.method` and `eu.happycoders.sort.demos`), plus demo code for sorting arrays and lists with the JDK (packages `eu.happycoders.sort.jdk.array` and `eu.happycoders.sort.jdk.list`).
 
 The demo classes have a `main()` method that prints the output shown in the article. They need Java 25, because they use the simplified `main()` method without `String[] args`.
 
@@ -23,8 +23,8 @@ The code belongs to this series of articles:
   * [Heapsort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/heapsort/)
   * [Counting Sort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/counting-sort/)
   * [Radix Sort – Algorithm, Source Code, Time Complexity](https://www.happycoders.eu/algorithms/radix-sort/)
-  * [Sorting in Java: How to Sort an Array](https://www.happycoders.eu/algorithms/sorting-in-java/) (package `eu.happycoders.sorting`)
-  * [How to Sort a List in Java](https://www.happycoders.eu/java/java-sort-list/) (package `eu.happycoders.sorting.list`)
+  * [Sorting in Java: How to Sort an Array](https://www.happycoders.eu/algorithms/sorting-in-java/) (package `eu.happycoders.sort.jdk.array`)
+  * [How to Sort a List in Java](https://www.happycoders.eu/java/java-sort-list/) (package `eu.happycoders.sort.jdk.list`)
 
 ### English YouTube Videos
   * [Insertion Sort](https://www.youtube.com/watch?v=rnEAv9hAfwA)
@@ -44,8 +44,8 @@ The code belongs to this series of articles:
   * [Heapsort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/heapsort/)
   * [Counting Sort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/counting-sort/)
   * [Radix Sort – Algorithmus, Quellcode, Zeitkomplexität](https://www.happycoders.eu/de/algorithmen/radix-sort/)
-  * [Sortieren in Java: Array sortieren](https://www.happycoders.eu/de/algorithmen/sortieren-in-java/) (Package `eu.happycoders.sorting`)
-  * [Liste sortieren in Java](https://www.happycoders.eu/de/java/java-liste-sortieren/) (Package `eu.happycoders.sorting.list`)
+  * [Sortieren in Java: Array sortieren](https://www.happycoders.eu/de/algorithmen/sortieren-in-java/) (Package `eu.happycoders.sort.jdk.array`)
+  * [Liste sortieren in Java](https://www.happycoders.eu/de/java/java-liste-sortieren/) (Package `eu.happycoders.sort.jdk.list`)
 
 ### German YouTube Videos
   * [Insertion Sort](https://www.youtube.com/watch?v=0hiSJFeUhj4)
