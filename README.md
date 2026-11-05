@@ -1,10 +1,10 @@
 # Sorting in Java
 
-[![Build](https://github.com/SvenWoltmann/sorting-algorithms-ultimate-guide/actions/workflows/build.yml/badge.svg)](https://github.com/SvenWoltmann/sorting-algorithms-ultimate-guide/actions/workflows/build.yml)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=SvenWoltmann_sorting-algorithms-ultimate-guide&metric=coverage)](https://sonarcloud.io/dashboard?id=SvenWoltmann_sorting-algorithms-ultimate-guide)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=SvenWoltmann_sorting-algorithms-ultimate-guide&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=SvenWoltmann_sorting-algorithms-ultimate-guide)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=SvenWoltmann_sorting-algorithms-ultimate-guide&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=SvenWoltmann_sorting-algorithms-ultimate-guide)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=SvenWoltmann_sorting-algorithms-ultimate-guide&metric=security_rating)](https://sonarcloud.io/dashboard?id=SvenWoltmann_sorting-algorithms-ultimate-guide)
+[![Build](https://github.com/SvenWoltmann/sorting-in-java/actions/workflows/build.yml/badge.svg)](https://github.com/SvenWoltmann/sorting-in-java/actions/workflows/build.yml)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=SvenWoltmann_sorting-in-java&metric=coverage)](https://sonarcloud.io/dashboard?id=SvenWoltmann_sorting-in-java)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=SvenWoltmann_sorting-in-java&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=SvenWoltmann_sorting-in-java)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=SvenWoltmann_sorting-in-java&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=SvenWoltmann_sorting-in-java)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=SvenWoltmann_sorting-in-java&metric=security_rating)](https://sonarcloud.io/dashboard?id=SvenWoltmann_sorting-in-java)
 
 Sorting algorithm source codes + ultimate test to compare the performance of all algorithms (package `eu.happycoders.sort`), plus demo code for sorting arrays and lists with the JDK (packages `eu.happycoders.sorting` and `eu.happycoders.sorting.list`).
 

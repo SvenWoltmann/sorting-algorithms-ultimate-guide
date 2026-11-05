@@ -21,12 +21,12 @@
         <jacoco.version>0.8.16</jacoco.version>
 
         <!-- SonarQube Cloud setup -->
-        <sonar.projectKey>SvenWoltmann_sorting-algorithms-ultimate-guide</sonar.projectKey>
+        <sonar.projectKey>SvenWoltmann_sorting-in-java</sonar.projectKey>
         <sonar.organization>svenwoltmann</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
         <sonar.coverage.jacoco.xmlReportPaths>${project.reporting.outputDirectory}/jacoco-ut/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
-        <sonar.coverage.exclusions>**/demos/**/*.java</sonar.coverage.exclusions>
+        <sonar.coverage.exclusions>**/demos/**/*.java,**/eu/happycoders/sorting/**/*.java</sonar.coverage.exclusions>
 
         <sonar.issue.ignore.multicriteria>e1,e2</sonar.issue.ignore.multicriteria>
         <!-- Ignore "Cognitive Complexity of methods should not be too high" warnings in "method" package -->
